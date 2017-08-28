@@ -11,9 +11,9 @@ exports.up = function(knex, Promise) {
     table.text('rarity').notNullable();
     table.text('effects');
     table.text('art').notNullable();
-    table.integer('power');
-    table.integer('toughness');
-    table.integer('loyalty');
+    table.text('power');
+    table.text('toughness');
+    table.text('loyalty');
     table.text('flavor');
   })
 };
