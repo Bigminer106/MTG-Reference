@@ -1,0 +1,216 @@
+
+exports.seed = function(knex, Promise) {
+  // Deletes ALL existing entries
+  return knex('card-list').del()
+    .then(function () {
+      // Inserts seed entries
+      return knex('card-list').insert([
+        {
+          name: 'Act of Heroism',
+          set: 'Hour of Devastation',
+          cost: '2 (1W)',
+          color: 'White',
+          supertype: 'Instant',
+          rarity: 'Common',
+          effects: 'Untap target creature.  It gets +2/+2 and can block an additional creature this turn.',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Act-of-Heroism-Hour-of-Devastation-Spoiler-216x302.png',
+          flavor: '"On every plane, there are those who run toward danger." --Gideon Jura'
+        },
+        {
+          name: 'Adorned Pouncer',
+          set: 'Hour of Devastation',
+          cost: '2 (1W)',
+          color: 'White',
+          supertype: 'Creature',
+          subtype: 'Cat',
+          rarity: 'Rare',
+          effects: 'Double strike\nEternalize (3WW) ((3WW), Exile this card from your graveyard: Create a token that\'s a copy of it, except it\'s a 4/4 black Zombie Cat with no mana cost.  Eternalize only as a sorcery.)',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Adorned-Pouncer-Hour-of-Devastation-Spoiler-216x302.png',
+          power: '1',
+          toughness: '1'
+        },
+        {
+          name: 'Angel of Condemnation',
+          set: 'Hour of Devastation',
+          cost: '4 (2WW)',
+          color: 'White',
+          supertype: 'Creature',
+          subtype: 'Angel',
+          rarity: 'Rare',
+          effects: 'Flying, vigilance\n(2W), (T): Exile another target creature.  Return that card to the battlefield under its owner\'s control at the beginning of the next end step.\n(2W), (T), Exert Angel of Condemnation: Exile another target creature until Angel of Condemnation leaves the battlefield. (An exerted creature won\'t untap during your next untap step.)',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Angel-of-Condemnation-216x302.png',
+          power: '3',
+          toughness: '3'
+        },
+        {
+          name: 'Angel of the God-Pharoah',
+          set: 'Hour of Devastation',
+          cost: '6 (4WW)',
+          color: 'White',
+          supertype: 'Creature',
+          subtype: 'Angel',
+          rarity: 'Uncommon',
+          effects: 'Flying\nCycling (2) ((2), Discard this card: Draw a card.)',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Angel-of-the-God-Pharaoh-Hour-of-Devastation-Spoiler-216x302.png',
+          flavor: 'The angels did not deceive.  From the start, they were clear their allegiance was to the God-Pharoah and to him alone.',
+          power: '4',
+          toughness: '4'
+        },
+        {
+          name: 'Aven of Enduring Hope',
+          set: 'Hour of Devastation',
+          cost: '5 (4W)',
+          color: 'White',
+          supertype: 'Creature',
+          subtype: 'Bird Cleric',
+          rarity: 'Common',
+          effects: 'Flying\nWhen Aven of Enduring Hope enters the battlefield, you gain 3 life.',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Aven-of-Enduring-Hope-Hour-of-Devastation-Spoiler-216x302.png',
+          flavor: '"This storm will calm.  We must believe that."',
+          power: '3',
+          toughness: '3'
+        },
+        {
+          name: 'Crested Sunmare',
+          set: 'Hour of Devastation',
+          cost: '5 (3WW)',
+          color: 'White',
+          supertype: 'Creature',
+          subtype: 'Horse',
+          rarity: 'Mythic',
+          effects: 'Other Horses you control have indestructible.\nAt the beginning of each end step, if you gained life this turn, create a 5/5 white Horse creature token.',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Crested-Sunmare-Hour-of-Devastation-Spoiler-216x302.png',
+          flavor: '"It is evidence that some pure corner of the world must still exist." --Djeru, former Tah-crop initiate',
+          power: '5',
+          toughness: '5'
+        },
+        {
+          name: 'Dauntless Aven',
+          set: 'Hour of Devastation',
+          cost: '3 (2W)',
+          color: 'White',
+          supertype: 'Creature',
+          subtype: 'Bird Warrior',
+          rarity: 'Common',
+          effects: 'Flying\nWhenever Dauntless Aven attacks, untap target creature you control.',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Dauntless-Aven-Hour-of-Devastation-Spoiler-216x302.png',
+          flavor: 'In the chaos brought by the new gods, swift-winged aven served as pathfinders, leading the last of the people away from the ruins of Naktamun.',
+          power: '2',
+          toughness: '1'
+        },
+        {
+          name: 'Desert\'s Hold',
+          set: 'Hour of Devastation',
+          cost: '3 (2W)',
+          color: 'White',
+          supertype: 'Enchantment',
+          subtype: 'Aura',
+          rarity: 'Uncommon',
+          effects: 'Enchant creature\nWhen Desert\'s Hold enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, you gain 3 life.\nEnchanted creature can\'t attack or block, and its activated abilities can\'t be activated.',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Deserts-Hold-216x302.png'
+        },
+        {
+          name: 'Disposal Mummy',
+          set: 'Hour of Devastation',
+          cost: '3 (2W)',
+          color: 'White',
+          supertype: 'Creature',
+          subtype: 'Zombie Jackal',
+          rarity: 'Common',
+          effects: 'When Disposal Mummy enters the battlefield, exile target card from an opponent\'s graveyard.',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Disposal-Mummy-Hour-of-Devastation-Spoiler-216x302.png',
+          flavor: 'Without the viziers to oversee their actions, some anointed went to extreme lengths to fulfill their directives.',
+          power: '2',
+          toughness: '3'
+        },
+        {
+          name: 'Djeru, With Eyes Open',
+          set: 'Hour of Devastation',
+          cost: '5 (3WW)',
+          color: 'White',
+          supertype: 'Legendary Creature',
+          subtype: 'Human Warrior',
+          rarity: 'Rare',
+          effects: 'Vigilance\nWhen Djeru, With Eyes Open enters the battlefield, you may search your library for a planeswalker card, reveal it, put it into your hand, then shuffle your library.\nIf a source would deal damage to a planeswalker you control, prevent 1 of that damage.',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Djeru-With-Eyes-Open-Hour-of-Devastation-Spoiler-216x302.png',
+          power: '4',
+          toughness: '3'
+        },
+        {
+          name: 'Djeru\'s Renunciation',
+          set: 'Hour of Devastation',
+          cost: '2 (1W)',
+          color: 'White',
+          supertype: 'Instant',
+          rarity: 'Common',
+          effects: 'Tap up to two target creatures.\nCycling (W) ((W), Discard this card: Draw a card.)',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Djeru%E2%80%99s-Renunciation-Hour-of-Devastation-Spoiler-216x302.png',
+          flavor: '"I was promised an afterlife, not this.  Samut was right.  The God-Pharoah lied." --Djeru, former Tah-crop initiate'
+        },
+        {
+          name: 'Dutiful Servants',
+          set: 'Hour of Devastation',
+          cost: '4 (3W)',
+          color: 'White',
+          supertype: 'Creature',
+          subtype: 'Zombie',
+          rarity: 'Rare',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Dutiful-Servants-216x302.jpg',
+          flavor: 'Buildings crumbled and monuments fell.  The river bled and the sky wept tears of fire.  All the while, servants silently continued their work, oblivious to it all.',
+          power: '2',
+          toughness: '5'
+        },
+        {
+          name: 'Gideon\'s Defeat',
+          set: 'Hour of Devastation',
+          cost: '1 (W)',
+          color: 'White',
+          supertype: 'Instant',
+          rarity: 'Uncommon',
+          effects: 'Exile target white creature that\'s attacking or blocking.  If it was a Gideon planeswalker, you gain 5 life.',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Gideon%E2%80%99s-Defeat-Hour-of-Devastation-Spoiler-216x302.png',
+          flavor: '"Gideon, how easy it must be to play the protector when you think yourself untouchable.  How wrong you are." --Nicol Bolas'
+        },
+        {
+          name: 'God-Pharaoh\'s Faithful',
+          set: 'Hour of Devastation',
+          cost: '1 (W)',
+          color: 'White',
+          supertype: 'Creature',
+          subtype: 'Human Wizard',
+          rarity: 'Common',
+          effects: 'Whenever you cast a blue, black, or red spell, you gain 1 life.',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/God-Pharaoh%E2%80%99s-Faithful-Hour-of-Devastation-Spoiler-216x302.png',
+          flavor: '"This is the final trial!  Rejoice, for the God-Pharaoh soars among us!"',
+          power: '0',
+          toughness: '4'
+        },
+        {
+          name: 'Hour of Revelation',
+          set: 'Hour of Devastation',
+          cost: '6 (3WWW)',
+          color: 'White',
+          supertype: 'Sorcery',
+          rarity: 'Rare',
+          effects: 'Hour of Revelation costs (3) less to cast if there are ten or more nonland permanents on the battlefield.\nDestroy all nonland permanents.',
+          art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Hour-of-Revelation-Hour-of-Devastation-Spoiler-216x302.png',
+          flavor: 'In the first moments, the gate to the afterlife opened, and the people were prostrate in the light of the God-Pharaoh.'
+        },
+        {
+          name: '',
+          set: 'Hour of Devastation',
+          cost: '',
+          color: '',
+          supertype: '',
+          subtype: '',
+          rarity: '',
+          effects: '',
+          art: '',
+          flavor: '',
+          power: '',
+          toughness: '',
+          loyalty: ''
+        },
+      ]);
+    });
+};

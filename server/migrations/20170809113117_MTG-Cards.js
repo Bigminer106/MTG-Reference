@@ -5,8 +5,7 @@ exports.up = function(knex, Promise) {
     table.text('set').notNullable();
     table.text('cost').notNullable();
     table.text('color').notNullable();
-    table.text('type').notNullable();
-    table.text('supertype');
+    table.text('supertype').notNullable();
     table.text('subtype');
     table.text('rarity').notNullable();
     table.text('effects');
