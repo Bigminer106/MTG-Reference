@@ -8,7 +8,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Angel of Sanctions',
           set: 'Amonkhet',
-          cost: '5 (3WW)',
+          cost: '5',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Angel',
@@ -21,7 +21,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Anointed Procession',
           set: 'Amonkhet',
-          cost: '4 (3W)',
+          cost: '4',
           color: 'White',
           supertype: 'Enchantment',
           rarity: 'Rare',
@@ -32,7 +32,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Anointer Priest',
           set: 'Amonkhet',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Cleric',
@@ -45,7 +45,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Approach of the Second Sun',
           set: 'Amonkhet',
-          cost: '7 (6W)',
+          cost: '7',
           color: 'White',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -55,7 +55,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Aven Mindcensor',
           set: 'Amonkhet',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Bird Wizard',
@@ -69,7 +69,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Binding Mummy',
           set: 'Amonkhet',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Zombie',
@@ -83,7 +83,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Cartouche of Solidarity',
           set: 'Amonkhet',
-          cost: '1 (W)',
+          cost: '1',
           color: 'White',
           supertype: 'Enchantment',
           subtype: 'Aura Cartouche',
@@ -94,7 +94,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Cast Out',
           set: 'Amonkhet',
-          cost: '4 (3W)',
+          cost: '4',
           color: 'White',
           supertype: 'Enchantment',
           rarity: 'Uncommon',
@@ -104,7 +104,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Compulsory Rest',
           set: 'Amonkhet',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Enchantment',
           subtype: 'Aura',
@@ -116,7 +116,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Devoted Crop-Mate',
           set: 'Amonkhet',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -129,7 +129,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Djeru\'s Resolve',
           set: 'Amonkhet',
-          cost: '1 (W)',
+          cost: '1',
           color: 'White',
           supertype: 'Instant',
           rarity: 'Common',
@@ -140,7 +140,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Fan Bearer',
           set: 'Amonkhet',
-          cost: '1 (W)',
+          cost: '1',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Zombie',
@@ -154,7 +154,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Forsake the Worldly',
           set: 'Amonkhet',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Instant',
           rarity: 'Common',
@@ -165,7 +165,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Gideon of the Trials',
           set: 'Amonkhet',
-          cost: '3 (1WW)',
+          cost: '3',
           color: 'White',
           supertype: 'Planeswalker',
           subtype: 'Gideon',
@@ -177,7 +177,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Gideon\'s Intervention',
           set: 'Amonkhet',
-          cost: '4 (2WW)',
+          cost: '4',
           color: 'White',
           supertype: 'Enchantment',
           rarity: 'Rare',
@@ -187,7 +187,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Glory-Bound Initiate',
           set: 'Amonkhet',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -201,7 +201,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Gust Walker',
           set: 'Amonkhet',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Wizard',
@@ -215,7 +215,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Impeccable Timing',
           set: 'Amonkhet',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Instant',
           rarity: 'Common',
@@ -226,7 +226,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'In Oketra\'s Name',
           set: 'Amonkhet',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Instant',
           rarity: 'Common',
@@ -237,7 +237,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Mighty Leap',
           set: 'Amonkhet',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Instant',
           rarity: 'Common',
@@ -248,7 +248,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Oketra the True',
           set: 'Amonkhet',
-          cost: '4 (3W)',
+          cost: '4',
           color: 'White',
           supertype: 'Legendary Creature',
           subtype: 'God',
@@ -261,7 +261,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Oketra\'s Attendant',
           set: 'Amonkhet',
-          cost: '5 (3WW)',
+          cost: '5',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Bird Soldier',
@@ -274,7 +274,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Protection of the Hekma',
           set: 'Amonkhet',
-          cost: '5 (4W)',
+          cost: '5',
           color: 'White',
           supertype: 'Enchantment',
           rarity: 'Uncommon',
@@ -285,7 +285,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Regal Caracal',
           set: 'Amonkhet',
-          cost: '5 (3WW)',
+          cost: '5',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Cat',
@@ -299,7 +299,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Renewed Faith',
           set: 'Amonkhet',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Instant',
           rarity: 'Uncommon',
@@ -310,7 +310,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Rhet-Crop Spearmaster',
           set: 'Amonkhet',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -324,7 +324,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Sacred Cat',
           set: 'Amonkhet',
-          cost: '1 (W)',
+          cost: '1',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Cat',
@@ -337,7 +337,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Seraph of the Suns',
           set: 'Amonkhet',
-          cost: '7 (5WW)',
+          cost: '7',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Angel',
@@ -351,7 +351,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Sparring Mummy',
           set: 'Amonkhet',
-          cost: '4 (3W)',
+          cost: '4',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Zombie',
@@ -365,7 +365,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Supply Caravan',
           set: 'Amonkhet',
-          cost: '5 (4W)',
+          cost: '5',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Camel',
@@ -379,7 +379,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Tah-Crop Elite',
           set: 'Amonkhet',
-          cost: '4 (3W)',
+          cost: '4',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Bird Warrior',
@@ -392,7 +392,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Those Who Serve',
           set: 'Amonkhet',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Zombie',
@@ -405,7 +405,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Time to Reflect',
           set: 'Amonkhet',
-          cost: '1 (W)',
+          cost: '1',
           color: 'White',
           supertype: 'Instant',
           rarity: 'Uncommon',
@@ -416,7 +416,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Trial of Solidarity',
           set: 'Amonkhet',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Enchantment',
           rarity: 'Uncommon',
@@ -427,7 +427,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Trueheart Duelist',
           set: 'Amonkhet',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -440,7 +440,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Unwavering Initiate',
           set: 'Amonkhet',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -453,7 +453,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Vizier of Deferment',
           set: 'Amonkhet',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Cleric',
@@ -466,7 +466,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Vizier of Remedies',
           set: 'Amonkhet',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Cleric',
@@ -480,7 +480,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Winged Shepherd',
           set: 'Amonkhet',
-          cost: '6 (5W)',
+          cost: '6',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Angel',
@@ -494,7 +494,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Ancient Crab',
           set: 'Amonkhet',
-          cost: '3 (1UU)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Crab',
@@ -507,7 +507,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Angler Drake',
           set: 'Amonkhet',
-          cost: '6 (4UU)',
+          cost: '6',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Drake',
@@ -521,7 +521,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'As Foretold',
           set: 'Amonkhet',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Enchantment',
           rarity: 'Mythic',
@@ -531,7 +531,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Aven Initiate',
           set: 'Amonkhet',
-          cost: '4 (3U)',
+          cost: '4',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Bird Warrior',
@@ -544,7 +544,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Cancel',
           set: 'Amonkhet',
-          cost: '3 (2UU)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Common',
@@ -555,7 +555,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Cartouche of Knowledge',
           set: 'Amonkhet',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Enchantment',
           subtype: 'Aura Cartouche',
@@ -567,7 +567,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Censor',
           set: 'Amonkhet',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Uncommon',
@@ -578,7 +578,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Compelling Argument',
           set: 'Amonkhet',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -589,7 +589,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Cryptic Serpent',
           set: 'Amonkhet',
-          cost: '7 (5UU)',
+          cost: '7',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Serpent',
@@ -603,7 +603,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Curator of Mysteries',
           set: 'Amonkhet',
-          cost: '4 (2UU)',
+          cost: '4',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Sphinx',
@@ -617,7 +617,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Decision Paralysis',
           set: 'Amonkhet',
-          cost: '4 (3U)',
+          cost: '4',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Common',
@@ -628,7 +628,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Drake Haven',
           set: 'Amonkhet',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Enchantment',
           rarity: 'Rare',
@@ -639,7 +639,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Essence Scatter',
           set: 'Amonkhet',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Common',
@@ -650,7 +650,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Floodwaters',
           set: 'Amonkhet',
-          cost: '6 (4UU)',
+          cost: '6',
           color: 'Blue',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -661,7 +661,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Galestrike',
           set: 'Amonkhet',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Uncommon',
@@ -672,7 +672,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Glyph Keeper',
           set: 'Amonkhet',
-          cost: '5 (3UU)',
+          cost: '5',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Sphinx',
@@ -685,7 +685,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hekma Sentinels',
           set: 'Amonkhet',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Human Cleric',
@@ -699,7 +699,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hieroglyphic Illumination',
           set: 'Amonkhet',
-          cost: '4 (3U)',
+          cost: '4',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Common',
@@ -710,7 +710,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Illusory Wrappings',
           set: 'Amonkhet',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Enchantment',
           subtype: 'Aura',
@@ -722,7 +722,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Kefnet the Mindful',
           set: 'Amonkhet',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Legendary Creature',
           subtype: 'God',
@@ -735,7 +735,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Labyrinth Guardian',
           set: 'Amonkhet',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Illusion Warrior',
@@ -748,7 +748,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Lay Claim',
           set: 'Amonkhet',
-          cost: '7 (5UU)',
+          cost: '7',
           color: 'Blue',
           supertype: 'Enchantment',
           subtype: 'Aura',
@@ -760,7 +760,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Naga Oracle',
           set: 'Amonkhet',
-          cost: '4 (3U)',
+          cost: '4',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Naga Cleric',
@@ -774,7 +774,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'New Perspectives',
           set: 'Amonkhet',
-          cost: '6 (5U)',
+          cost: '5',
           color: 'Blue',
           supertype: 'Enchantment',
           rarity: 'Rare',
@@ -785,7 +785,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Open into Wonder',
           set: 'Amonkhet',
-          cost: '3+ (XUU)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
@@ -796,7 +796,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Pull from Tomorrow',
           set: 'Amonkhet',
-          cost: '3+ (XUU)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Rare',
@@ -807,7 +807,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'River Serpent',
           set: 'Amonkhet',
-          cost: '6 (5U)',
+          cost: '6',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Serpent',
@@ -821,7 +821,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Sacred Excavation',
           set: 'Amonkhet',
-          cost: '4 (3U)',
+          cost: '4',
           color: 'Blue',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
@@ -832,7 +832,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Scribe of the Mindful',
           set: 'Amonkhet',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Human Cleric',
@@ -846,7 +846,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Seeker of Insight',
           set: 'Amonkhet',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Human Wizard',
@@ -860,7 +860,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Shimmerscale Drake',
           set: 'Amonkhet',
-          cost: '5 (4U)',
+          cost: '5',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Drake',
@@ -874,7 +874,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Slither Blade',
           set: 'Amonkhet',
-          cost: '1 (U)',
+          cost: '1',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Naga Rogue',
@@ -888,7 +888,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Tah-Crop Skirmisher',
           set: 'Amonkhet',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Naga Warrior',
@@ -902,7 +902,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Trial of Knowledge',
           set: 'Amonkhet',
-          cost: '4 (3U)',
+          cost: '4',
           color: 'Blue',
           supertype: 'Enchantment',
           rarity: 'Uncommon',
@@ -912,7 +912,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Vizier of Many Faces',
           set: 'Amonkhet',
-          cost: '4 (2UU)',
+          cost: '4',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Shapeshifter Cleric',
@@ -925,7 +925,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Vizier of Tumbling Sands',
           set: 'Amonkhet',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Human Cleric',
@@ -939,7 +939,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Winds of Rebuke',
           set: 'Amonkhet',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Common',
@@ -950,7 +950,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Zenith Seeker',
           set: 'Amonkhet',
-          cost: '4 (3U)',
+          cost: '4',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Bird Wizard',
@@ -964,7 +964,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Archfiend of Ifnir',
           set: 'Amonkhet',
-          cost: '5(3BB)',
+          cost: '5',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Demon',
@@ -977,7 +977,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Baleful Ammit',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Crocodile Demon',
@@ -991,7 +991,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Blighted Bat',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie Bat',
@@ -1005,7 +1005,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Bone Picker',
           set: 'Amonkhet',
-          cost: '4 (3B)',
+          cost: '4',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Bird',
@@ -1019,7 +1019,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Bontu the Glorified',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Legendary Creature',
           subtype: 'God',
@@ -1032,7 +1032,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Cartouche of Ambition',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Enchantment',
           subtype: 'Aura Cartouche',
@@ -1043,7 +1043,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Cruel Reality',
           set: 'Amonkhet',
-          cost: '7 (5BB)',
+          cost: '7',
           color: 'Black',
           supertype: 'Enchantment',
           subtype: 'Aura Curse',
@@ -1055,7 +1055,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Cursed Minotaur',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie Minotaur',
@@ -1069,7 +1069,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Dispossess',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -1079,7 +1079,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Doomed Dissenter',
           set: 'Amonkhet',
-          cost: '2 (1B)',
+          cost: '2',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Human',
@@ -1093,7 +1093,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Dread Wanderer',
           set: 'Amonkhet',
-          cost: '1 (B)',
+          cost: '1',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie Jackal',
@@ -1106,7 +1106,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Dune Beetle',
           set: 'Amonkhet',
-          cost: '2 (1B)',
+          cost: '2',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Insect',
@@ -1119,7 +1119,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Faith of the Devoted',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Enchantment',
           rarity: 'Uncommon',
@@ -1130,7 +1130,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Festering Mummy',
           set: 'Amonkhet',
-          cost: '1 (B)',
+          cost: '1',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie',
@@ -1144,7 +1144,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Final Reward',
           set: 'Amonkhet',
-          cost: '5 (4B)',
+          cost: '5',
           color: 'Black',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1155,7 +1155,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Gravedigger',
           set: 'Amonkhet',
-          cost: '4 (3B)',
+          cost: '4',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie',
@@ -1169,7 +1169,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Grim Strider',
           set: 'Amonkhet',
-          cost: '4 (3B)',
+          cost: '4',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Horror',
@@ -1183,7 +1183,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Horror of the Broken Lands',
           set: 'Amonkhet',
-          cost: '5 (4B)',
+          cost: '5',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Horror',
@@ -1197,7 +1197,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Lay Bare the Heart',
           set: 'Amonkhet',
-          cost: '2 (1B)',
+          cost: '2',
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
@@ -1208,7 +1208,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Liliana, Death\'s Majesty',
           set: 'Amonkhet',
-          cost: '5 (3BB)',
+          cost: '5',
           color: 'Black',
           supertype: 'Planeswalker',
           subtype: 'Liliana',
@@ -1220,7 +1220,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Liliana\'s Mastery',
           set: 'Amonkhet',
-          cost: '5 (3BB)',
+          cost: '5',
           color: 'Black',
           supertype: 'Enchantment',
           rarity: 'Rare',
@@ -1231,7 +1231,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Lord of the Accursed',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie',
@@ -1245,7 +1245,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Miasmic Mummy',
           set: 'Amonkhet',
-          cost: '2 (1B)',
+          cost: '2',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie Jackal',
@@ -1259,7 +1259,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Nest of Scarabs',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Enchantment',
           rarity: 'Uncommon',
@@ -1270,7 +1270,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Painful Lesson',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -1281,7 +1281,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Pitiless Vizier',
           set: 'Amonkhet',
-          cost: '4 (3B)',
+          cost: '4',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Minotaur Cleric',
@@ -1294,7 +1294,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Plague Belcher',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie Beast',
@@ -1307,7 +1307,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Ruthless Sniper',
           set: 'Amonkhet',
-          cost: '1 (B)',
+          cost: '1',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Human Archer',
@@ -1321,7 +1321,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Scarab Feast',
           set: 'Amonkhet',
-          cost: '1 (B)',
+          cost: '1',
           color: 'Black',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1332,7 +1332,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Shadow of the Grave',
           set: 'Amonkhet',
-          cost: '2 (1B)',
+          cost: '2',
           color: 'Black',
           supertype: 'Instant',
           rarity: 'Rare',
@@ -1343,7 +1343,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Soulstinger',
           set: 'Amonkhet',
-          cost: '4 (3B)',
+          cost: '4',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Scorpion Demon',
@@ -1356,7 +1356,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Splendid Agony',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1367,7 +1367,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Stir the Sands',
           set: 'Amonkhet',
-          cost: '6 (4BB)',
+          cost: '6',
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
@@ -1377,7 +1377,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Supernatural Stamina',
           set: 'Amonkhet',
-          cost: '1 (B)',
+          cost: '1',
           color: 'Black',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1388,7 +1388,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Trespasser\'s Curse',
           set: 'Amonkhet',
-          cost: '2 (1B)',
+          cost: '2',
           color: 'Black',
           supertype: 'Enchantment',
           subtype: 'Aura Curse',
@@ -1400,7 +1400,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Trial of Ambition',
           set: 'Amonkhet',
-          cost: '2 (1B)',
+          cost: '2',
           color: 'Black',
           supertype: 'Enchantment',
           rarity: 'Uncommon',
@@ -1410,7 +1410,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Unburden',
           set: 'Amonkhet',
-          cost: '3 (1BB)',
+          cost: '3',
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -1421,7 +1421,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Wander in Death',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -1432,7 +1432,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Wasteland Scorpion',
           set: 'Amonkhet',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Scorpion',
@@ -1446,7 +1446,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Ahn-Crop Crasher',
           set: 'Amonkhet',
-          cost: '3 (2R)',
+          cost: '3',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Minotaur Warrior',
@@ -1460,7 +1460,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Battlefield Scavenger',
           set: 'Amonkhet',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Jackal Rogue',
@@ -1473,7 +1473,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Blazing Volley',
           set: 'Amonkhet',
-          cost: '1 (R)',
+          cost: '1',
           color: 'Red',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -1484,7 +1484,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Bloodlust Inciter',
           set: 'Amonkhet',
-          cost: '1 (R)',
+          cost: '1',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -1498,7 +1498,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Bloodrage Brawler',
           set: 'Amonkhet',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Minotaur Warrior',
@@ -1512,7 +1512,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Brute Strength',
           set: 'Amonkhet',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1523,7 +1523,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'By Force',
           set: 'Amonkhet',
-          cost: '2+ (XR)',
+          cost: '2',
           color: 'Red',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
@@ -1534,7 +1534,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Cartouche of Zeal',
           set: 'Amonkhet',
-          cost: '1 (R)',
+          cost: '1',
           color: 'Red',
           supertype: 'Enchantment',
           subtype: 'Aura Cartouche',
@@ -1546,7 +1546,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Combat Celebrant',
           set: 'Amonkhet',
-          cost: '3 (2R)',
+          cost: '3',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -1559,7 +1559,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Consuming Fervor',
           set: 'Amonkhet',
-          cost: '1 (R)',
+          cost: '1',
           color: 'Red',
           supertype: 'Enchantment',
           subtype: 'Aura',
@@ -1571,7 +1571,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Deem Worthy',
           set: 'Amonkhet',
-          cost: '5 (4R)',
+          cost: '5',
           color: 'Red',
           supertype: 'Instant',
           rarity: 'Uncommon',
@@ -1581,7 +1581,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Desert Cerodon',
           set: 'Amonkhet',
-          cost: '6 (5R)',
+          cost: '6',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Beast',
@@ -1595,7 +1595,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Electrify',
           set: 'Amonkhet',
-          cost: '4 (3R)',
+          cost: '4',
           color: 'Red',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1606,7 +1606,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Emberhorn Minotaur',
           set: 'Amonkhet',
-          cost: '4 (3R)',
+          cost: '4',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Minotaur Warrior',
@@ -1620,7 +1620,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Flameblade Adept',
           set: 'Amonkhet',
-          cost: '1 (R)',
+          cost: '1',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Jackal Warrior',
@@ -1634,7 +1634,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Fling',
           set: 'Amonkhet',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1645,7 +1645,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Glorious End',
           set: 'Amonkhet',
-          cost: '3 (2R)',
+          cost: '3',
           color: 'Red',
           supertype: 'Instant',
           rarity: 'Mythic',
@@ -1655,7 +1655,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Glorybringer',
           set: 'Amonkhet',
-          cost: '5 (3RR)',
+          cost: '5',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Dragon',
@@ -1669,7 +1669,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Harsh Mentor',
           set: 'Amonkhet',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Human Cleric',
@@ -1683,7 +1683,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hazoret the Fervent',
           set: 'Amonkhet',
-          cost: '4 (3R)',
+          cost: '4',
           color: 'Red',
           supertype: 'Legendary Creature',
           subtype: 'God',
@@ -1696,7 +1696,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hazoret\'s Favor',
           set: 'Amonkhet',
-          cost: '3 (2R)',
+          cost: '3',
           color: 'Red',
           supertype: 'Enchantment',
           rarity: 'Rare',
@@ -1707,7 +1707,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Heart-Piercer Manticore',
           set: 'Amonkhet',
-          cost: '4 (2RR)',
+          cost: '4',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Manticore',
@@ -1720,7 +1720,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hyena Pack',
           set: 'Amonkhet',
-          cost: '4 (2RR)',
+          cost: '4',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Hyena',
@@ -1733,7 +1733,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Limits of Solidarity',
           set: 'Amonkhet',
-          cost: '4 (3R)',
+          cost: '4',
           color: 'Red',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
@@ -1744,7 +1744,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Magma Spray',
           set: 'Amonkhet',
-          cost: '1 (R)',
+          cost: '1',
           color: 'Red',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1755,7 +1755,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Manticore of the Gauntlet',
           set: 'Amonkhet',
-          cost: '5 (4R)',
+          cost: '5',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Manticore',
@@ -1769,7 +1769,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Minotaur Sureshot',
           set: 'Amonkhet',
-          cost: '3 (2R)',
+          cost: '3',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Minotaur Archer',
@@ -1783,7 +1783,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Nef-Crop Entangler',
           set: 'Amonkhet',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -1797,7 +1797,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Nimble-Blade Khenra',
           set: 'Amonkhet',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Jackal Warrior',
@@ -1811,7 +1811,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Pathmaker Initiate',
           set: 'Amonkhet',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Human Wizard',
@@ -1825,7 +1825,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Pursue Glory',
           set: 'Amonkhet',
-          cost: '4 (3R)',
+          cost: '4',
           color: 'Red',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1836,7 +1836,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Soul-Scar Mage',
           set: 'Amonkhet',
-          cost: '1 (R)',
+          cost: '1',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Human Wizard',
@@ -1849,7 +1849,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Sweltering Suns',
           set: 'Amonkhet',
-          cost: '3 (1RR)',
+          cost: '3',
           color: 'Red',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -1860,7 +1860,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Thresher Lizard',
           set: 'Amonkhet',
-          cost: '3 (2R)',
+          cost: '3',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Lizard',
@@ -1874,7 +1874,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Tormenting Voice',
           set: 'Amonkhet',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -1885,7 +1885,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Trial of Zeal',
           set: 'Amonkhet',
-          cost: '3 (2R)',
+          cost: '3',
           color: 'Red',
           supertype: 'Enchantment',
           rarity: 'Uncommon',
@@ -1896,7 +1896,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Trueheart Twins',
           set: 'Amonkhet',
-          cost: '5 (4R)',
+          cost: '5',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Jackal Warrior',
@@ -1910,7 +1910,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Violent Impact',
           set: 'Amonkhet',
-          cost: '4 (3R)',
+          cost: '4',
           color: 'Red',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -1921,7 +1921,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Warfire Javelineer',
           set: 'Amonkhet',
-          cost: '4 (3R)',
+          cost: '4',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Minotaur Warrior',
@@ -1935,7 +1935,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Benefaction of Rhonas',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -1946,7 +1946,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Bitterblade Warrior',
           set: 'Amonkhet',
-          cost: '2 (1G)',
+          cost: '2',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Jackal Warrior',
@@ -1960,7 +1960,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Cartouche of Strength',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Enchantment',
           subtype: 'Aura Cartouche',
@@ -1971,7 +1971,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Champion of Rhonas',
           set: 'Amonkhet',
-          cost: '4 (3G)',
+          cost: '4',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Jackal Warrior',
@@ -1985,7 +1985,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Channeler Initiate',
           set: 'Amonkhet',
-          cost: '2 (1G)',
+          cost: '2',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Human Druid',
@@ -1999,7 +1999,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Colossapede',
           set: 'Amonkhet',
-          cost: '5 (4G)',
+          cost: '5',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Insect',
@@ -2012,7 +2012,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Crocodile of the Crossing',
           set: 'Amonkhet',
-          cost: '4 (3G)',
+          cost: '4',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Crocodile',
@@ -2026,7 +2026,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Defiant Greatmaw',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Hippo',
@@ -2039,7 +2039,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Dissenter\'s Deliverance',
           set: 'Amonkhet',
-          cost: '2 (1G)',
+          cost: '2',
           color: 'Green',
           supertype: 'Instant',
           rarity: 'Common',
@@ -2050,7 +2050,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Exemplar of Strength',
           set: 'Amonkhet',
-          cost: '2 (1G)',
+          cost: '2',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -2064,7 +2064,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Giant Spider',
           set: 'Amonkhet',
-          cost: '4 (3G)',
+          cost: '4',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Spider',
@@ -2078,7 +2078,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Gift of Paradise',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Enchantment',
           subtype: 'Aura',
@@ -2089,7 +2089,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Greater Sandwurm',
           set: 'Amonkhet',
-          cost: '7 (5GG)',
+          cost: '7',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Wurm',
@@ -2103,7 +2103,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hapatra\'s Mark',
           set: 'Amonkhet',
-          cost: '1 (G)',
+          cost: '1',
           color: 'Green',
           supertype: 'Instant',
           rarity: 'Uncommon',
@@ -2114,7 +2114,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Harvest Season',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -2125,7 +2125,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Haze of Pollen',
           set: 'Amonkhet',
-          cost: '2 (1G)',
+          cost: '2',
           color: 'Green',
           supertype: 'Instant',
           rarity: 'Common',
@@ -2136,7 +2136,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Honored Hydra',
           set: 'Amonkhet',
-          cost: '6 (5G)',
+          cost: '6',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Snake Hydra',
@@ -2150,7 +2150,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hooded Brawler',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Naga Warrior',
@@ -2164,7 +2164,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Initiate\'s Companion',
           set: 'Amonkhet',
-          cost: '2 (1G)',
+          cost: '2',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Cat',
@@ -2178,7 +2178,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Manglehorn',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Beast',
@@ -2192,7 +2192,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Naga Vitalist',
           set: 'Amonkhet',
-          cost: '2 (1G)',
+          cost: '2',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Naga Druid',
@@ -2206,7 +2206,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Oashra Cultivator',
           set: 'Amonkhet',
-          cost: '1 (G)',
+          cost: '1',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Human Druid',
@@ -2220,7 +2220,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Ornery Kudu',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Antelope',
@@ -2234,7 +2234,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Pouncing Cheetah',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Cat',
@@ -2248,7 +2248,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Prowling Serpopard',
           set: 'Amonkhet',
-          cost: '3 (1GG)',
+          cost: '3',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Cat Snake',
@@ -2262,7 +2262,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Quarry Hauler',
           set: 'Amonkhet',
-          cost: '4 (3G)',
+          cost: '4',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Camel',
@@ -2276,7 +2276,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Rhonas the Indomitable',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Legendary Creature',
           subtype: 'God',
@@ -2289,7 +2289,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Sandwurm Convergence',
           set: 'Amonkhet',
-          cost: '8 (6GG)',
+          cost: '8',
           color: 'Green',
           supertype: 'Enchantment',
           rarity: 'Rare',
@@ -2300,7 +2300,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Scaled Behemoth',
           set: 'Amonkhet',
-          cost: '6 (4GG)',
+          cost: '6',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Crocodile',
@@ -2314,7 +2314,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Shed Weakness',
           set: 'Amonkhet',
-          cost: '1 (G)',
+          cost: '1',
           color: 'Green',
           supertype: 'Instant',
           rarity: 'Common',
@@ -2325,7 +2325,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Shefet Monitor',
           set: 'Amonkhet',
-          cost: '6 (5G)',
+          cost: '6',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Lizard',
@@ -2338,7 +2338,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Sixth Sense',
           set: 'Amonkhet',
-          cost: '1 (G)',
+          cost: '1',
           color: 'Green',
           supertype: 'Enchantment',
           subtype: 'Aura',
@@ -2350,7 +2350,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Spidery Grasp',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Instant',
           rarity: 'Common',
@@ -2361,7 +2361,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Stinging Shot',
           set: 'Amonkhet',
-          cost: '1 (G)',
+          cost: '1',
           color: 'Green',
           supertype: 'Instant',
           rarity: 'Common',
@@ -2372,7 +2372,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Synchronized Strike',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Instant',
           rarity: 'Uncommon',
@@ -2383,7 +2383,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Trial of Strength',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Enchantment',
           rarity: 'Uncommon',
@@ -2394,7 +2394,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Vizier of the Menagerie',
           set: 'Amonkhet',
-          cost: '4 (3G)',
+          cost: '4',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Naga Cleric',
@@ -2407,7 +2407,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Watchful Naga',
           set: 'Amonkhet',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Naga Wizard',
@@ -2421,7 +2421,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Ahn-Crop Champion',
           set: 'Amonkhet',
-          cost: '4 (2GW)',
+          cost: '4',
           color: 'Selesnya (White/Green)',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -2435,7 +2435,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Aven Wind Guide',
           set: 'Amonkhet',
-          cost: '4 (2WU)',
+          cost: '4',
           color: 'Azorius (White/Blue)',
           supertype: 'Creature',
           subtype: 'Bird Warrior',
@@ -2448,7 +2448,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Bounty of the Luxa',
           set: 'Amonkhet',
-          cost: '4 (2GU)',
+          cost: '4',
           color: 'Simic (Blue/Green)',
           supertype: 'Enchantment',
           rarity: 'Rare',
@@ -2458,7 +2458,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Decimator Beetle',
           set: 'Amonkhet',
-          cost: '5 (3BG)',
+          cost: '5',
           color: 'Golgari (Black/Green)',
           supertype: 'Creature',
           subtype: 'Insect',
@@ -2471,7 +2471,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Enigma Drake',
           set: 'Amonkhet',
-          cost: '3 (1UR)',
+          cost: '3',
           color: 'Izzet (Blue/Red)',
           supertype: 'Creature',
           subtype: 'Drake',
@@ -2485,7 +2485,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hapatra, Vizier of Poisons',
           set: 'Amonkhet',
-          cost: '2 (BG)',
+          cost: '2',
           color: 'Golgari (Black/Green)',
           supertype: 'Legendary Creature',
           subtype: 'Human Cleric',
@@ -2499,7 +2499,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Honored Crop-Captain',
           set: 'Amonkhet',
-          cost: '2 (RW)',
+          cost: '2',
           color: 'Boros (White/Red)',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -2513,7 +2513,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Khenra Charioteer',
           set: 'Amonkhet',
-          cost: '3 (1RG)',
+          cost: '3',
           color: 'Gruul (Red/Green)',
           supertype: 'Creature',
           subtype: 'Jackal Warrior',
@@ -2527,7 +2527,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Merciless Javelineer',
           set: 'Amonkhet',
-          cost: '4 (2BR)',
+          cost: '4',
           color: 'Rakdos (Black/Red)',
           supertype: 'Creature',
           subtype: 'Minotaur Warrior',
@@ -2541,7 +2541,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Neheb, the Worthy',
           set: 'Amonkhet',
-          cost: '3 (1BR)',
+          cost: '3',
           color: 'Rakdos (Black/Red)',
           supertype: 'Legendary Creature',
           subtype: 'Minotaur Warrior',
@@ -2554,7 +2554,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Nissa, Steward of Elements',
           set: 'Amonkhet',
-          cost: '3+ (XGB)',
+          cost: '3',
           color: 'Simic (Blue/Green)',
           supertype: 'Legendary Planeswalker',
           subtype: 'Nissa',
@@ -2566,7 +2566,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Samut, Voice of Dissent',
           set: 'Amonkhet',
-          cost: '5 (3RG)',
+          cost: '5',
           color: 'Gruul',
           supertype: 'Legendary Creature',
           subtype: 'Human Warrior',
@@ -2580,7 +2580,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Shadowstorm Vizier',
           set: 'Amonkhet',
-          cost: '2 (UB)',
+          cost: '2',
           color: 'Dimir (Blue/Black)',
           supertype: 'Creature',
           subtype: 'Human Cleric',
@@ -2594,7 +2594,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Temmet, Vizier of Naktamun',
           set: 'Amonkhet',
-          cost: '2 (WU)',
+          cost: '2',
           color: 'Azorius (White/Blue)',
           supertype: 'Legendary Creature',
           subtype: 'Human Cleric',
@@ -2607,7 +2607,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Wayward Servant',
           set: 'Amonkhet',
-          cost: '2 (WB)',
+          cost: '2',
           color: 'Orzhov (White/Black)',
           supertype: 'Creature',
           subtype: 'Zombie',
@@ -2621,7 +2621,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Weaver of Currents',
           set: 'Amonkhet',
-          cost: '3 (1GU)',
+          cost: '3',
           color: 'Simic (Blue/Green)',
           supertype: 'Creature',
           subtype: 'Naga Druid',
@@ -2635,7 +2635,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Dusk // Dawn',
           set: 'Amonkhet',
-          cost: '4 (2WW) // 5 (3WW)',
+          cost: '4',
           color: 'White // White',
           supertype: 'Sorcery // Sorcery',
           rarity: 'Rare',
@@ -2645,7 +2645,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Commit // Memory',
           set: 'Amonkhet',
-          cost: '4 (3U) // 6 (4UU)',
+          cost: '4',
           color: 'Blue // Blue',
           supertype: 'Instant // Sorcery',
           rarity: 'Rare',
@@ -2655,7 +2655,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Never // Return',
           set: 'Amonkhet',
-          cost: '3 (1BB) // 4 (3B)',
+          cost: '3',
           color: 'Black // Black',
           supertype: 'Sorcery // Sorcery',
           rarity: 'Rare',
@@ -2665,7 +2665,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Insult // Injury',
           set: 'Amonkhet',
-          cost: '3 (2R) // 3 (2R)',
+          cost: '3',
           color: 'Red // Red',
           supertype: 'Sorcery // Sorcery',
           rarity: 'Rare',
@@ -2675,7 +2675,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Mouth // Feed',
           set: 'Amonkhet',
-          cost: '3 (2G) // 4 (3G)',
+          cost: '3',
           color: 'Green // Green',
           supertype: 'Sorcery // Sorcery',
           rarity: 'Rare',
@@ -2685,7 +2685,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Start // Finish',
           set: 'Amonkhet',
-          cost: '3 (2W) // 3 (2B)',
+          cost: '3',
           color: 'White // Black',
           supertype: 'Instant // Sorcery',
           rarity: 'Uncommon',
@@ -2695,7 +2695,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Reduce // Rubble',
           set: 'Amonkhet',
-          cost: '3 (2U) // 3 (2R)',
+          cost: '3',
           color: 'Blue // Red',
           supertype: 'Instant // Sorcery',
           rarity: 'Uncommon',
@@ -2705,7 +2705,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Destined // Lead',
           set: 'Amonkhet',
-          cost: '2 (1B) // 4 (3G)',
+          cost: '2',
           color: 'Black // Green',
           supertype: 'Instant // Sorcery',
           rarity: 'Uncommon',
@@ -2715,7 +2715,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Onward // Victory',
           set: 'Amonkhet',
-          cost: '3 (2R) // 3 (2W)',
+          cost: '3',
           color: 'Red // White',
           supertype: 'Instant // Sorcery',
           rarity: 'Uncommon',
@@ -2725,7 +2725,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Spring // Mind',
           set: 'Amonkhet',
-          cost: '3 (2G) // 6 (4UU)',
+          cost: '3',
           color: 'Green // Blue',
           supertype: 'Sorcery // Instant',
           rarity: 'Uncommon',
@@ -2735,7 +2735,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Prepare // Fight',
           set: 'Amonkhet',
-          cost: '2 (1W) // 4 (3G)',
+          cost: '2',
           color: 'White // Green',
           supertype: 'Instant // Sorcery',
           rarity: 'Rare',
@@ -2745,7 +2745,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Failure // Comply',
           set: 'Amonkhet',
-          cost: '2 (1U) // 1 (W)',
+          cost: '2',
           color: 'Blue // White',
           supertype: 'Instant // Sorcery',
           rarity: 'Rare',
@@ -2755,7 +2755,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Rags // Riches',
           set: 'Amonkhet',
-          cost: '4 (2BB) // 7 (5UU)',
+          cost: '4',
           color: 'Black // Blue',
           supertype: 'Sorcery // Sorcery',
           rarity: 'Rare',
@@ -2765,7 +2765,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Cut // Ribbons',
           set: 'Amonkhet',
-          cost: '2 (1R) // 3+ (XBB)',
+          cost: '2',
           color: 'Red // Black',
           supertype: 'Sorcery // Sorcery',
           rarity: 'Rare',
@@ -2775,7 +2775,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Heaven // Earth',
           set: 'Amonkhet',
-          cost: '2+ (XG) // 3+ (XRR)',
+          cost: '2',
           color: 'Green // Red',
           supertype: 'Instant // Sorcery',
           rarity: 'Rare',

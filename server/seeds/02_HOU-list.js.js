@@ -8,7 +8,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Act of Heroism',
           set: 'Hour of Devastation',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Instant',
           rarity: 'Common',
@@ -19,7 +19,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Adorned Pouncer',
           set: 'Hour of Devastation',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Cat',
@@ -32,7 +32,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Angel of Condemnation',
           set: 'Hour of Devastation',
-          cost: '4 (2WW)',
+          cost: '4',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Angel',
@@ -45,7 +45,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Angel of the God-Pharoah',
           set: 'Hour of Devastation',
-          cost: '6 (4WW)',
+          cost: '6',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Angel',
@@ -59,7 +59,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Aven of Enduring Hope',
           set: 'Hour of Devastation',
-          cost: '5 (4W)',
+          cost: '5',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Bird Cleric',
@@ -73,7 +73,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Crested Sunmare',
           set: 'Hour of Devastation',
-          cost: '5 (3WW)',
+          cost: '5',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Horse',
@@ -87,7 +87,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Dauntless Aven',
           set: 'Hour of Devastation',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Bird Warrior',
@@ -101,7 +101,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Desert\'s Hold',
           set: 'Hour of Devastation',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Enchantment',
           subtype: 'Aura',
@@ -112,7 +112,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Disposal Mummy',
           set: 'Hour of Devastation',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Zombie Jackal',
@@ -126,7 +126,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Djeru, With Eyes Open',
           set: 'Hour of Devastation',
-          cost: '5 (3WW)',
+          cost: '5',
           color: 'White',
           supertype: 'Legendary Creature',
           subtype: 'Human Warrior',
@@ -139,7 +139,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Djeru\'s Renunciation',
           set: 'Hour of Devastation',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Instant',
           rarity: 'Common',
@@ -150,7 +150,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Dutiful Servants',
           set: 'Hour of Devastation',
-          cost: '4 (3W)',
+          cost: '4',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Zombie',
@@ -163,7 +163,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Gideon\'s Defeat',
           set: 'Hour of Devastation',
-          cost: '1 (W)',
+          cost: '1',
           color: 'White',
           supertype: 'Instant',
           rarity: 'Uncommon',
@@ -174,7 +174,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'God-Pharaoh\'s Faithful',
           set: 'Hour of Devastation',
-          cost: '1 (W)',
+          cost: '1',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Wizard',
@@ -188,7 +188,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hour of Revelation',
           set: 'Hour of Devastation',
-          cost: '6 (3WWW)',
+          cost: '6',
           color: 'White',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -199,7 +199,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Mummy Paramount',
           set: 'Hour of Devastation',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Zombie',
@@ -213,7 +213,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Oketra\'s Avenger',
           set: 'Hour of Devastation',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -227,7 +227,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Oketra\'s Last Mercy',
           set: 'Hour of Devastation',
-          cost: '3 (1WW)',
+          cost: '3',
           color: 'White',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -238,7 +238,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Overwhelming Splendor',
           set: 'Hour of Devastation',
-          cost: '8 (6WW)',
+          cost: '8',
           color: 'White',
           supertype: 'Enchantment',
           subtype: 'Aura Curse',
@@ -249,7 +249,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Sandblast',
           set: 'Hour of Devastation',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Instant',
           rarity: 'Common',
@@ -260,7 +260,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Saving Grace',
           set: 'Hour of Devastation',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Enchantment',
           subtype: 'Aura',
@@ -271,7 +271,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Solemnity',
           set: 'Hour of Devastation',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Enchantment',
           rarity: 'Rare',
@@ -282,7 +282,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Solitary Camel',
           set: 'Hour of Devastation',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Camel',
@@ -296,7 +296,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Steadfast Sentinel',
           set: 'Hour of Devastation',
-          cost: '4 (3W)',
+          cost: '4',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Cleric',
@@ -309,7 +309,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Steward of Solidarity',
           set: 'Hour of Devastation',
-          cost: '2 (1W)',
+          cost: '2',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -323,7 +323,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Sunscourge Champion',
           set: 'Hour of Devastation',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Wizard',
@@ -336,7 +336,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Unconventional Tactics',
           set: 'Hour of Devastation',
-          cost: '3 (2W)',
+          cost: '3',
           color: 'White',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
@@ -346,7 +346,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Vizier of the True',
           set: 'Hour of Devastation',
-          cost: '4 (3W)',
+          cost: '4',
           color: 'White',
           supertype: 'Creature',
           subtype: 'Human Cleric',
@@ -360,7 +360,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Aerial Guide',
           set: 'Hour of Devastation',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Drake',
@@ -374,7 +374,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Aven Reedstalker',
           set: 'Hour of Devastation',
-          cost: '4 (3U)',
+          cost: '4',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Bird Warrior',
@@ -388,7 +388,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Champion of Wits',
           set: 'Hour of Devastation',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Naga Wizard',
@@ -399,7 +399,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Countervailing Winds',
           set: 'Hour of Devastation',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Common',
@@ -410,7 +410,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Cunning Survivor',
           set: 'Hour of Devastation',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -424,7 +424,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Eternal of Harsh Truths',
           set: 'Hour of Devastation',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Zombie Cleric',
@@ -438,7 +438,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Fraying Sanity',
           set: 'Hour of Devastation',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Enchantment',
           subtype: 'Aura Curse',
@@ -450,7 +450,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hour of Eternity',
           set: 'Hour of Devastation',
-          cost: '5+ (XXUUU)',
+          cost: '5',
           color: 'Blue',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -461,7 +461,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Imaginary Threats',
           set: 'Hour of Devastation',
-          cost: '4 (2UU)',
+          cost: '4',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Uncommon',
@@ -472,7 +472,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Jace\'s Defeat',
           set: 'Hour of Devastation',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Uncommon',
@@ -483,7 +483,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Kefnet\'s Last Word',
           set: 'Hour of Devastation',
-          cost: '4 (2UU)',
+          cost: '4',
           color: 'Blue',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -494,7 +494,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Nimble Obstructionist',
           set: 'Hour of Devastation',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Bird Wizard',
@@ -507,7 +507,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Ominous Sphinx',
           set: 'Hour of Devastation',
-          cost: '5 (3UU)',
+          cost: '5',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Sphinx',
@@ -521,7 +521,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Proven Combatant',
           set: 'Hour of Devastation',
-          cost: '1 (U)',
+          cost: '1',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -535,7 +535,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Riddleform',
           set: 'Hour of Devastation',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Enchantment',
           rarity: 'Uncommon',
@@ -545,7 +545,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Seer of the Last Tomorrow',
           set: 'Hour of Devastation',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Naga Cleric',
@@ -559,7 +559,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Sinuous Striker',
           set: 'Hour of Devastation',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Naga Warrior',
@@ -572,7 +572,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Spellweaver Eternal',
           set: 'Hour of Devastation',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Zombie Naga Wizard',
@@ -586,7 +586,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Strategic Planning',
           set: 'Hour of Devastation',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -597,7 +597,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Striped Riverwinder',
           set: 'Hour of Devastation',
-          cost: '7 (6U)',
+          cost: '7',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Serpent',
@@ -611,7 +611,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Supreme Will',
           set: 'Hour of Devastation',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Uncommon',
@@ -621,7 +621,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Swarm Intelligence',
           set: 'Hour of Devastation',
-          cost: '7 (6U)',
+          cost: '7',
           color: 'Blue',
           supertype: 'Enchantment',
           rarity: 'Rare',
@@ -632,7 +632,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Tragic Lesson',
           set: 'Hour of Devastation',
-          cost: '3 (2U)',
+          cost: '3',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Common',
@@ -643,7 +643,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Unesh, Criosphinx Sovereign',
           set: 'Hour of Devastation',
-          cost: '6 (4UU)',
+          cost: '6',
           color: 'Blue',
           supertype: 'Legendary Creature',
           subtype: 'Sphinx',
@@ -656,7 +656,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Unquenchable Thirst',
           set: 'Hour of Devastation',
-          cost: '2 (1U)',
+          cost: '2',
           color: 'Blue',
           supertype: 'Enchantment',
           subtype: 'Aura',
@@ -667,7 +667,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Unsummon',
           set: 'Hour of Devastation',
-          cost: '1 (U)',
+          cost: '1',
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Common',
@@ -678,7 +678,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Vizier of the Anointed',
           set: 'Hour of Devastation',
-          cost: '4 (3U)',
+          cost: '4',
           color: 'Blue',
           supertype: 'Creature',
           subtype: 'Human Cleric',
@@ -691,7 +691,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Accursed Horde',
           set: 'Hour of Devastation',
-          cost: '4 (3B)',
+          cost: '4',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie',
@@ -704,7 +704,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Ammit Eternal',
           set: 'Hour of Devastation',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie Crocodile Demon',
@@ -717,7 +717,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Apocalypse Demon',
           set: 'Hour of Devastation',
-          cost: '6 (4BB)',
+          cost: '6',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Demon',
@@ -730,7 +730,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Banewhip Punisher',
           set: 'Hour of Devastation',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -744,7 +744,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Bontu\'s Last Reckoning',
           set: 'Hour of Devastation',
-          cost: '3 (1BB)',
+          cost: '3',
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -755,7 +755,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Carrion Screecher',
           set: 'Hour of Devastation',
-          cost: '4 (3B)',
+          cost: '4',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie Bird',
@@ -769,7 +769,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Doomfall',
           set: 'Hour of Devastation',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
@@ -780,7 +780,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Dreamstealer',
           set: 'Hour of Devastation',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Human Wizard',
@@ -793,7 +793,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Grisly Survivor',
           set: 'Hour of Devastation',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Minotaur Warrior',
@@ -807,7 +807,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hour of Glory',
           set: 'Hour of Devastation',
-          cost: '4 (3B)',
+          cost: '4',
           color: 'Black',
           supertype: 'Instant',
           rarity: 'Rare',
@@ -818,7 +818,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Khenra Eternal',
           set: 'Hour of Devastation',
-          cost: '2 (1B)',
+          cost: '2',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie Jackal Warrior',
@@ -832,7 +832,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Lethal Sting',
           set: 'Hour of Devastation',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -843,7 +843,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Liliana\'s Defeat',
           set: 'Hour of Devastation',
-          cost: '1 (B)',
+          cost: '1',
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
@@ -854,7 +854,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Lurching Rotbeast',
           set: 'Hour of Devastation',
-          cost: '4 (3B)',
+          cost: '4',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie Beast',
@@ -868,7 +868,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Marauding Boneslasher',
           set: 'Hour of Devastation',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie Minotaur',
@@ -882,7 +882,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Merciless Eternal',
           set: 'Hour of Devastation',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie Cleric',
@@ -896,7 +896,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Moaning Wall',
           set: 'Hour of Devastation',
-          cost: '3 (2B)',
+          cost: '3',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie Wall',
@@ -910,7 +910,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Razaketh, the Foulblooded',
           set: 'Hour of Devastation',
-          cost: '8 (5BBB)',
+          cost: '8',
           color: 'Black',
           supertype: 'Legendary Creature',
           subtype: 'Demon',
@@ -924,7 +924,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Razaketh\'s Rite',
           set: 'Hour of Devastation',
-          cost: '5 (3BB)',
+          cost: '5',
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
@@ -935,7 +935,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Ruin Rat',
           set: 'Hour of Devastation',
-          cost: '2 (1B)',
+          cost: '2',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Rat',
@@ -949,7 +949,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Scrounger of Souls',
           set: 'Hour of Devastation',
-          cost: '5 (4B)',
+          cost: '5',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Horror',
@@ -963,7 +963,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Torment of Hailfire',
           set: 'Hour of Devastation',
-          cost: '3+ (XBB)',
+          cost: '3',
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -974,7 +974,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Torment of Scarabs',
           set: 'Hour of Devastation',
-          cost: '4 (3B)',
+          cost: '4',
           color: 'Black',
           supertype: 'Enchantment',
           subtype: 'Aura Curse',
@@ -986,7 +986,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Torment of Venom',
           set: 'Hour of Devastation',
-          cost: '4 (2BB)',
+          cost: '4',
           color: 'Black',
           supertype: 'Instant',
           rarity: 'Common',
@@ -997,7 +997,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Vile Manifestation',
           set: 'Hour of Devastation',
-          cost: '2 (1B)',
+          cost: '2',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Horror',
@@ -1011,7 +1011,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Without Weakness',
           set: 'Hour of Devastation',
-          cost: '2 (1B)',
+          cost: '2',
           color: 'Black',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1021,7 +1021,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Wretched Camel',
           set: 'Hour of Devastation',
-          cost: '2 (1B)',
+          cost: '2',
           color: 'Black',
           supertype: 'Creature',
           subtype: 'Zombie Camel',
@@ -1035,7 +1035,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Abrade',
           set: 'Hour of Devastation',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Instant',
           rarity: 'Uncommon',
@@ -1046,7 +1046,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Blur of Blades',
           set: 'Hour of Devastation',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1057,7 +1057,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Burning-Fist Minotaur',
           set: 'Hour of Devastation',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Minotaur Wizard',
@@ -1071,7 +1071,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Chandra\'s Defeat',
           set: 'Hour of Devastation',
-          cost: '1 (R)',
+          cost: '1',
           color: 'Red',
           supertype: 'Instant',
           rarity: 'Uncommon',
@@ -1082,7 +1082,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Chaos Maw',
           set: 'Hour of Devastation',
-          cost: '7 (5RR)',
+          cost: '7',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Hellion',
@@ -1096,7 +1096,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Crash Through',
           set: 'Hour of Devastation',
-          cost: '1 (R)',
+          cost: '1',
           color: 'Red',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -1107,7 +1107,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Defiant Khenra',
           set: 'Hour of Devastation',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Jackal Warrior',
@@ -1120,7 +1120,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Earthshaker Khenra',
           set: 'Hour of Devastation',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Jackal Warrior',
@@ -1133,7 +1133,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Fervent Paincaster',
           set: 'Hour of Devastation',
-          cost: '3 (2R)',
+          cost: '3',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Human Wizard',
@@ -1147,7 +1147,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Firebrand Archer',
           set: 'Hour of Devastation',
-          cost: '2 (1R)',
+          cost: '2',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Human Archer',
@@ -1161,7 +1161,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Frontline Devastator',
           set: 'Hour of Devastation',
-          cost: '4 (3R)',
+          cost: '4',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Zombie Minotaur Warrior',
@@ -1175,7 +1175,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Gilded Cerodon',
           set: 'Hour of Devastation',
-          cost: '5 (4R)',
+          cost: '5',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Beast',
@@ -1189,7 +1189,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Granitic Titan',
           set: 'Hour of Devastation',
-          cost: '6 (4RR)',
+          cost: '6',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Elemental',
@@ -1203,7 +1203,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hazoret\'s Undying Fury',
           set: 'Hour of Devastation',
-          cost: '6 (4RR)',
+          cost: '6',
           color: 'Red',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -1213,7 +1213,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hour of Devastation',
           set: 'Hour of Devastation',
-          cost: '5 (3RR)',
+          cost: '5',
           color: 'Red',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -1224,7 +1224,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Imminent Doom',
           set: 'Hour of Devastation',
-          cost: '3 (2R)',
+          cost: '3',
           color: 'Red',
           supertype: 'Enchantment',
           rarity: 'Rare',
@@ -1234,7 +1234,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Inferno Jet',
           set: 'Hour of Devastation',
-          cost: '6 (5R)',
+          cost: '6',
           color: 'Red',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
@@ -1245,7 +1245,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Khenra Scrapper',
           set: 'Hour of Devastation',
-          cost: '3 (2R)',
+          cost: '3',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Jackal Warrior',
@@ -1259,7 +1259,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Kindled Fury',
           set: 'Hour of Devastation',
-          cost: '1 (R)',
+          cost: '1',
           color: 'Red',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1270,7 +1270,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Magmaroth',
           set: 'Hour of Devastation',
-          cost: '4 (3R)',
+          cost: '4',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Elemental',
@@ -1284,7 +1284,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Manticore Eternal',
           set: 'Hour of Devastation',
-          cost: '5 (3RR)',
+          cost: '5',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Zombie Manticore',
@@ -1298,7 +1298,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Neheb, the Eternal',
           set: 'Hour of Devastation',
-          cost: '5 (3RR)',
+          cost: '5',
           color: 'Red',
           supertype: 'Legendary Creature',
           subtype: 'Zombie Minotaur Warrior',
@@ -1312,7 +1312,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Open Fire',
           set: 'Hour of Devastation',
-          cost: '3 (2R)',
+          cost: '3',
           color: 'Red',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1323,7 +1323,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Puncturing Blow',
           set: 'Hour of Devastation',
-          cost: '4 (2RR)',
+          cost: '4',
           color: 'Red',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -1334,7 +1334,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Sand Strangler',
           set: 'Hour of Devastation',
-          cost: '4 (3R)',
+          cost: '4',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Beast',
@@ -1348,7 +1348,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Thorned Moloch',
           set: 'Hour of Devastation',
-          cost: '3 (2R)',
+          cost: '3',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Lizard',
@@ -1362,7 +1362,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Wildfire Eternal',
           set: 'Hour of Devastation',
-          cost: '4 (3R)',
+          cost: '4',
           color: 'Red',
           supertype: 'Creature',
           subtype: 'Zombie Jackal Cleric',
@@ -1375,7 +1375,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Ambuscade',
           set: 'Hour of Devastation',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1386,7 +1386,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Beneath the Sands',
           set: 'Hour of Devastation',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Sorcery',
           rarity: 'Common',
@@ -1397,7 +1397,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Bitterbow Sharpshooters',
           set: 'Hour of Devastation',
-          cost: '5 (4G)',
+          cost: '5',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Jackal Archer',
@@ -1411,7 +1411,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Devotee of Strength',
           set: 'Hour of Devastation',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Naga Wizard',
@@ -1425,7 +1425,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Dune Diviner',
           set: 'Hour of Devastation',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Naga Cleric',
@@ -1439,7 +1439,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Feral Prowler',
           set: 'Hour of Devastation',
-          cost: '2 (1G)',
+          cost: '2',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Cat',
@@ -1453,7 +1453,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Frilled Sandwalla',
           set: 'Hour of Devastation',
-          cost: '1 (G)',
+          cost: '1',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Lizard',
@@ -1467,7 +1467,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Gift of Strength',
           set: 'Hour of Devastation',
-          cost: '2 (1G)',
+          cost: '2',
           color: 'Green',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1478,7 +1478,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Harrier Naga',
           set: 'Hour of Devastation',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Naga Warrior',
@@ -1491,7 +1491,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hope Tender',
           set: 'Hour of Devastation',
-          cost: '2 (1G)',
+          cost: '2',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Human Druid',
@@ -1505,7 +1505,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Hour of Promise',
           set: 'Hour of Devastation',
-          cost: '5 (4G)',
+          cost: '5',
           color: 'Green',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -1516,7 +1516,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Life Goes On',
           set: 'Hour of Devastation',
-          cost: '1 (G)',
+          cost: '1',
           color: 'Green',
           supertype: 'Instant',
           rarity: 'Common',
@@ -1527,7 +1527,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Majestic Myriarch',
           set: 'Hour of Devastation',
-          cost: '5 (4G)',
+          cost: '5',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Chimera',
@@ -1540,7 +1540,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Nissa\'s Defeat',
           set: 'Hour of Devastation',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
@@ -1551,7 +1551,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Oasis Ritualist',
           set: 'Hour of Devastation',
-          cost: '4 (3G)',
+          cost: '4',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Naga Druid',
@@ -1565,7 +1565,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Overcome',
           set: 'Hour of Devastation',
-          cost: '5 (3GG)',
+          cost: '5',
           color: 'Green',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
@@ -1576,7 +1576,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Pride Sovereign',
           set: 'Hour of Devastation',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Cat',
@@ -1589,7 +1589,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Quarry Beetle',
           set: 'Hour of Devastation',
-          cost: '5 (4G)',
+          cost: '5',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Insect',
@@ -1603,7 +1603,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Rampaging Hippo',
           set: 'Hour of Devastation',
-          cost: '6 (4GG)',
+          cost: '6',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Hippo',
@@ -1617,7 +1617,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Ramunap Excavator',
           set: 'Hour of Devastation',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Naga Cleric',
@@ -1631,7 +1631,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Ramunap Hydra',
           set: 'Hour of Devastation',
-          cost: '4 (3G)',
+          cost: '4',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Snake Hydra',
@@ -1644,7 +1644,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Resilient Khenra',
           set: 'Hour of Devastation',
-          cost: '2 (1G)',
+          cost: '2',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Jackal Wizard',
@@ -1657,7 +1657,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Rhonas\'s Last Stand',
           set: 'Hour of Devastation',
-          cost: '2 (GG)',
+          cost: '2',
           color: 'Green',
           supertype: 'Sorcery',
           rarity: 'Rare',
@@ -1668,7 +1668,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Rhonas\'s Stalwart',
           set: 'Hour of Devastation',
-          cost: '2 (1G)',
+          cost: '2',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -1682,7 +1682,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Sidewinder Naga',
           set: 'Hour of Devastation',
-          cost: '3 (2G)',
+          cost: '3',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Naga Warrior',
@@ -1696,7 +1696,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Sifter Wurm',
           set: 'Hour of Devastation',
-          cost: '7 (5GG)',
+          cost: '7',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Wurm',
@@ -1710,7 +1710,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Tenacious Hunter',
           set: 'Hour of Devastation',
-          cost: '4 (2GG)',
+          cost: '4',
           color: 'Green',
           supertype: 'Creature',
           subtype: 'Crocodile',
@@ -1724,7 +1724,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Uncage the Menagerie',
           set: 'Hour of Devastation',
-          cost: '3+ (XGG)',
+          cost: '3',
           color: 'Green',
           supertype: 'Sorcery',
           rarity: 'Mythic',
@@ -1735,7 +1735,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Bloodwater Entity',
           set: 'Hour of Devastation',
-          cost: '3 (1UR)',
+          cost: '3',
           color: 'Izzet (Blue/Red)',
           supertype: 'Creature',
           subtype: 'Elemental',
@@ -1748,7 +1748,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'The Locust God',
           set: 'Hour of Devastation',
-          cost: '6 (4UR)',
+          cost: '6',
           color: 'Izzet (Blue/Red)',
           supertype: 'Legendary Creature',
           subtype: 'God',
@@ -1761,7 +1761,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Nicol Bolas, God-Pharaoh',
           set: 'Hour of Devastation',
-          cost: '7 (4UBR)',
+          cost: '7',
           color: 'Grixis (Blue/Black/Red)',
           supertype: 'Planeswalker',
           subtype: 'Bolas',
@@ -1773,7 +1773,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Obelisk Spider',
           set: 'Hour of Devastation',
-          cost: '3 (1BG)',
+          cost: '3',
           color: 'Golgari (Black/Green)',
           supertype: 'Creature',
           subtype: 'Spider',
@@ -1786,7 +1786,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Resolute Survivors',
           set: 'Hour of Devastation',
-          cost: '3 (1RW)',
+          cost: '3',
           color: 'Boros (Red/White)',
           supertype: 'Creature',
           subtype: 'Human Warrior',
@@ -1800,7 +1800,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'River Hoopoe',
           set: 'Hour of Devastation',
-          cost: '2 (GU)',
+          cost: '2',
           color: 'Simic (Green/Blue)',
           supertype: 'Creature',
           subtype: 'Bird',
@@ -1814,7 +1814,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Samut, the Tested',
           set: 'Hour of Devastation',
-          cost: '4 (2RG)',
+          cost: '4',
           color: 'Gruul (Red/Green)',
           supertype: 'Planeswalker',
           subtype: 'Samut',
@@ -1826,7 +1826,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'The Scarab God',
           set: 'Hour of Devastation',
-          cost: '5 (3BU)',
+          cost: '5',
           color: 'Dimir (Blue/Black)',
           supertype: 'Legendary Creature',
           subtype: 'God',
@@ -1839,7 +1839,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'The Scorpion God',
           set: 'Hour of Devastation',
-          cost: '5 (3BR)',
+          cost: '5',
           color: 'Rakdos (Black/Red)',
           supertype: 'Legendary Creature',
           subtype: 'God',
@@ -1852,7 +1852,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Unraveling Mummy',
           set: 'Hour of Devastation',
-          cost: '3 (1WB)',
+          cost: '3',
           color: 'Orzhov (White/Black)',
           supertype: 'Creature',
           subtype: 'Zombie',
@@ -1866,7 +1866,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Farm // Market',
           set: 'Hour of Devastation',
-          cost: '3 (2W) // 3 (2U)',
+          cost: '3',
           color: 'White // Blue',
           supertype: 'Instant // Sorcery',
           rarity: 'Uncommon',
@@ -1876,7 +1876,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Consign // Oblivion',
           set: 'Hour of Devastation',
-          cost: '2 (1U) // 5 (4B)',
+          cost: '2',
           color: 'Blue // Black',
           supertype: 'Instant // Sorcery',
           rarity: 'Uncommon',
@@ -1886,7 +1886,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Claim // Fame',
           set: 'Hour of Devastation',
-          cost: '1 (B) // 2 (1R)',
+          cost: '1',
           color: 'Black // Red',
           supertype: 'Sorcery // Sorcery',
           rarity: 'Uncommon',
@@ -1896,7 +1896,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Struggle // Survive',
           set: 'Hour of Devastation',
-          cost: '3 (2R) // 2 (1G)',
+          cost: '3',
           color: 'Red // Green',
           supertype: 'Instant // Sorcery',
           rarity: 'Uncommon',
@@ -1906,7 +1906,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Appeal // Authority',
           set: 'Hour of Devastation',
-          cost: '1 (G) // 2 (1W)',
+          cost: '1',
           color: 'Green // White',
           supertype: 'Sorcery // Sorcery',
           rarity: 'Uncommon',
@@ -1916,7 +1916,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Leave // Chance',
           set: 'Hour of Devastation',
-          cost: '2 (1W) // 4 (3R)',
+          cost: '2',
           color: 'White // Red',
           supertype: 'Instant // Sorcery',
           rarity: 'Rare',
@@ -1926,7 +1926,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Reason // Believe',
           set: 'Hour of Devastation',
-          cost: '1 (U) // 5 (4G)',
+          cost: '1',
           color: 'Blue // Green',
           supertype: 'Sorcery // Sorcery',
           rarity: 'Rare',
@@ -1936,7 +1936,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Grind // Dust',
           set: 'Hour of Devastation',
-          cost: '2 (1B) // 4 (3W)',
+          cost: '2',
           color: 'Black // White',
           supertype: 'Sorcery // Sorcery',
           rarity: 'Rare',
@@ -1946,7 +1946,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Refuse // Cooperate',
           set: 'Hour of Devastation',
-          cost: '4 (3R) // 3 (2U)',
+          cost: '4',
           color: 'Red // Blue',
           supertype: 'Instant // Instant',
           rarity: 'Rare',
@@ -1956,7 +1956,7 @@ exports.seed = function(knex, Promise) {
         {
           name: 'Driven // Despair',
           set: 'Hour of Devastation',
-          cost: '2 (1G) // 2 (1B)',
+          cost: '2',
           color: 'Green // Black',
           supertype: 'Sorcery // Sorcery',
           rarity: 'Rare',
