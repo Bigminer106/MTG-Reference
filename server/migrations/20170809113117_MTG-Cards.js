@@ -3,7 +3,7 @@ exports.up = function(knex, Promise) {
     table.increments('id').primary();
     table.text('name').notNullable();
     table.text('set').notNullable();
-    table.integer('cost').notNullable();
+    table.text('cost').notNullable();
     table.text('color').notNullable();
     table.text('supertype').notNullable();
     table.text('subtype');
