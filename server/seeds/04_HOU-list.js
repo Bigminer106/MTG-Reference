@@ -615,7 +615,7 @@ exports.seed = function(knex, Promise) {
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Uncommon',
-          effects: 'Choose one -- \n\tCounter target spell unless its controller pays (3).\n\tLook at the top four cards of your library.  Put one of them into your hand and the rest on the bottom of your library in any order.',
+          effects: 'Choose one -- \n\t*Counter target spell unless its controller pays (3).\n\t*Look at the top four cards of your library.  Put one of them into your hand and the rest on the bottom of your library in any order.',
           art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Supreme-Will-Hour-of-Devastation-Spoiler-216x302.png'
         },
         {
@@ -773,7 +773,7 @@ exports.seed = function(knex, Promise) {
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
-          effects: 'Choose one -- \n\tTarget opponent exiles a creature he or she controls.\n\tTarget opponent reveals his or her hand.  You choose a nonland card from it.  Exile that card.',
+          effects: 'Choose one -- \n\t*Target opponent exiles a creature he or she controls.\n\t*Target opponent reveals his or her hand.  You choose a nonland card from it.  Exile that card.',
           art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Doomfall-216x302.png',
           flavor: '"This place has outlived its usefulness." --Nicol Bolas'
         },
@@ -1039,7 +1039,7 @@ exports.seed = function(knex, Promise) {
           color: 'Red',
           supertype: 'Instant',
           rarity: 'Uncommon',
-          effects: 'Choose one --\n\tAbrade deals 3 damage to target creature.\n\tDestroy target artifact.',
+          effects: 'Choose one -- \n\t*Abrade deals 3 damage to target creature.\n\t*Destroy target artifact.',
           art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Abrade-Hour-of-Devastation-Spoiler-216x302.png',
           flavor: 'The desert is a voracious beast, devouring both flesh and stone.'
         },

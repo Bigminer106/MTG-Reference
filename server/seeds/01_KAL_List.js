@@ -648,7 +648,7 @@ exports.seed = function(knex, Promise) {
           color: 'Blue',
           supertype: 'Instant',
           rarity: 'Rare',
-          effects: 'Choose one -- \n\tCounter target spell.\n\tYou may choose new targets for target spell.\n\tCopy target instant or sorcery spell.  You may choose new targets for the copy.',
+          effects: 'Choose one -- \n\t*Counter target spell.\n\t*You may choose new targets for target spell.\n\t*Copy target instant or sorcery spell.  You may choose new targets for the copy.',
           art: 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417625&type=card',
           flavor: '"We meet again, pyromancer." --Baral, Chief of Compliance'
         },
@@ -773,7 +773,7 @@ exports.seed = function(knex, Promise) {
           color: 'Blue',
           supertype: 'Sorcery',
           rarity: 'Rare',
-          effects: 'Choose one or both -- \n\tCreate a token that\'s a copy of target artifact.\n\tCreate a token that\'s a copy of target creature, except it\'s an artifact in addition to its other types.',
+          effects: 'Choose one or both -- \n\t*Create a token that\'s a copy of target artifact.\n\t*Create a token that\'s a copy of target creature, except it\'s an artifact in addition to its other types.',
           art: 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417635&type=card',
           flavor: '"From the first touch, I know exactly what the metal wants to be."'
         },
@@ -1014,7 +1014,7 @@ exports.seed = function(knex, Promise) {
           color: 'Black',
           supertype: 'Sorcery',
           rarity: 'Common',
-          effects: 'Choose one or both -- \n\tReturn target artifact card from your graveyard to your hand.\n\tReturn target creature card from your graveyard to your hand.',
+          effects: 'Choose one or both -- \n\t*Return target artifact card from your graveyard to your hand.\n\t*Return target creature card from your graveyard to your hand.',
           art: 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417654&type=card',
           flavor: 'An aetherborn wastes neither time nor treasure.'
         },
@@ -1248,7 +1248,7 @@ exports.seed = function(knex, Promise) {
           color: 'Black',
           supertype: 'Instant',
           rarity: 'Common',
-          effects: 'Choose one or both -- \n\tTarget creature gets -1/-1 until end of turn.\n\tPut a +1/+1 counter on target creature.',
+          effects: 'Choose one or both -- \n\t*Target creature gets -1/-1 until end of turn.\n\t*Put a +1/+1 counter on target creature.',
           art: 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417673&type=card',
           flavor: 'Renegades do some of their best work right under the Consulate\'s nose.'
         },
@@ -2136,7 +2136,7 @@ exports.seed = function(knex, Promise) {
           color: 'Green',
           supertype: 'Sorcery',
           rarity: 'Common',
-          effects: 'Choose one -- \n\tTake Down deals 4 damage to target creature with flying.\n\tTake Down deals 1 damage to each creature with flying.',
+          effects: 'Choose one -- \n\t*Take Down deals 4 damage to target creature with flying.\n\t*Take Down deals 1 damage to each creature with flying.',
           art: 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417743&type=card',
           flavor: 'The drake flew true.  The arrow flew truer.'
         },
@@ -2281,7 +2281,7 @@ exports.seed = function(knex, Promise) {
           color: 'Selesnya (Green/White)',
           supertype: 'Sorcery',
           rarity: 'Uncommon',
-          effects: 'Choose one -- \n\tTarget creature gets +5/+5 and gains trample until end of turn.\n\tCreatures you control get +2/+2 and gain vigilance until end of turn.',
+          effects: 'Choose one -- \n\t*Target creature gets +5/+5 and gains trample until end of turn.\n\t*Creatures you control get +2/+2 and gain vigilance until end of turn.',
           art: 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417754&type=card'
         },
         {
