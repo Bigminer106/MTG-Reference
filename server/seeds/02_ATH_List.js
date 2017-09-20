@@ -1767,7 +1767,7 @@ exports.seed = function(knex, Promise) {
           power: '2',
           toughness: '3'
         },
-        // 1{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1782,7 +1782,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 2{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1797,7 +1797,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 3{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1812,7 +1812,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 4{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1827,7 +1827,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 5{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1842,7 +1842,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 6{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1857,7 +1857,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 7{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1872,7 +1872,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 8{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1887,7 +1887,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 9{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1902,7 +1902,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 10{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1917,7 +1917,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 11{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1932,7 +1932,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 12{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1947,7 +1947,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 13{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1962,7 +1962,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 14{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1977,7 +1977,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 15{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -1992,7 +1992,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 16{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2007,7 +2007,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 17{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2022,7 +2022,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 18{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2037,7 +2037,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 19{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2052,7 +2052,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 20{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2067,7 +2067,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 21{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2082,7 +2082,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 22{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2097,7 +2097,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 23{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2127,7 +2127,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 25{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2142,7 +2142,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 26{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2157,7 +2157,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 27{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2172,7 +2172,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 28{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2187,7 +2187,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 29{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2202,7 +2202,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 30{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2217,7 +2217,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 31{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2232,7 +2232,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 32{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2247,7 +2247,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 33{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2262,7 +2262,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 34{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2277,7 +2277,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 35{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2292,7 +2292,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 36{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2307,7 +2307,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 37{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2322,7 +2322,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 38{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2337,7 +2337,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 39{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2352,7 +2352,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 40{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2367,7 +2367,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 41{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2382,7 +2382,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 42{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2397,7 +2397,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 43{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
@@ -2412,7 +2412,7 @@ exports.seed = function(knex, Promise) {
         //   flavor: '',
         //   loyalty: ''
         // },
-        // 44{
+        // {
         //   name: '',
         //   set: 'Aether Revolt',
         //   cost: '',
