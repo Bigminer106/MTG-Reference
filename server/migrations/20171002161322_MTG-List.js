@@ -1,5 +1,5 @@
 exports.up = function(knex, Promise) {
-  return knex.schema.createTable('card-list', (table) => {
+  return knex.schema.createTable('Card_List', (table) => {
     table.increments('id').primary();
     table.text('name').notNullable();
     table.text('set').notNullable();
@@ -18,5 +18,5 @@ exports.up = function(knex, Promise) {
 };
 
 exports.down = function(knex, Promise) {
-  return knex.schema.dropTable('card-list');
+  return knex.schema.dropTable('Card_List');
 };

@@ -2,30 +2,30 @@ const knex = require('./knex');
 
 module.exports = {
   getAll() {
-    return knex('card-list');
+    return knex('Card_List');
   },
   getOne(id) {
-    return knex('card-list').where('id', id).first();
+    return knex('Card_List').where('id', id).first();
   },
   getColor(color) {
-    return knex('card-list').where('color', color);
+    return knex('Card_List').where('color', color);
   },
   getType(supertype) {
-    return knex('card-list').where('supertype', supertype);
+    return knex('Card_List').where('supertype', supertype);
   },
   getSet(set) {
-    return knex('card-list').where('set', set);
+    return knex('Card_List').where('set', set);
   },
   getRare(rarity) {
-    return knex('card-list').where('rarity', rarity);
+    return knex('Card_List').where('rarity', rarity);
   },
-  update(id, card-list) {
-    return knex('card-list').where('id', id).update(card-list)
+  update(id, Card_List) {
+    return knex('Card_List').where('id', id).update(Card_List)
   },
   create(card) {
-    return knex('card-list').insert(card, '*');
+    return knex('Card_List').insert(card, '*');
   },
   delete(id) {
-    return knex('card-list').where('id', id).del();
+    return knex('Card_List').where('id', id).del();
   }
 }

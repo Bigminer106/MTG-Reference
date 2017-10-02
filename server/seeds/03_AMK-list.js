@@ -1,10 +1,9 @@
-
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
-  return knex('card-list').del()
+  return knex('Card_List').del()
     .then(function () {
       // Inserts seed entries
-      return knex('card-list').insert([
+      return knex('Card_List').insert([
         {
           name: 'Angel of Sanctions',
           set: 'Amonkhet',

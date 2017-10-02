@@ -1,11 +1,9 @@
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
-  return knex('card-list').del()
+  return knex('Card_List').del()
     .then(function () {
       // Inserts seed entries
-      return knex('card-list').insert([
-
-        /*WHITES*/
+      return knex('Card_List').insert([
         {
           name: 'Acrobatic Maneuver',
           set: 'Kaladesh',
@@ -448,8 +446,6 @@ exports.seed = function(knex, Promise) {
           power: '4',
           toughness: '4'
         },
-        /*End Whites*/
-        /*BLUES*/
         {
           name: 'Aether Meltdown',
           set: 'Kaladesh',
@@ -878,8 +874,6 @@ exports.seed = function(knex, Promise) {
           toughness: '2',
           flavor: 'Drakes prowl the skies of Kaladesh, waiting for the perfect moment to strike.'
         },
-        /*End Blues*/
-        /*BLACKS*/
         {
           name: 'Aetherborn Marauder',
           set: 'Kaladesh',
@@ -1315,9 +1309,6 @@ exports.seed = function(knex, Promise) {
           toughness: '1',
           flavor: '"No, I don\'t believe they have the proper permits for those, but I\'m not going to be the one to ask." --Caru, Consulate warden'
         },
-        /*End Blacks*/
-
-        /*REDS*/
         {
           name: 'Aethertorch Renegade',
           set: 'Kaladesh',
@@ -1765,7 +1756,6 @@ exports.seed = function(knex, Promise) {
           art: 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417713&type=card',
           flavor: '"The fires of invention burn in all of us.  I fight for the freedom to unleash those flames." --Pia Nalaar'
         },
-        // GREENS
         {
           name: 'Appetite for the Unnatural',
           set: 'Kaladesh',
@@ -2206,7 +2196,6 @@ exports.seed = function(knex, Promise) {
           toughness: '1',
           flavor: 'Part feline, part primate, all trouble.'
         },
-        // End Greens
         {
           name: 'Cloudblazer',
           set: 'Kaladesh',

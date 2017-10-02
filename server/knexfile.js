@@ -4,7 +4,9 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgresql://localhost/MTG-Cards'
+    connection: {
+      database: 'mtg_list'
+    }
   }
 
   // production: {
