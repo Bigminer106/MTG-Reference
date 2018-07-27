@@ -1,10 +1,8 @@
 const express = require('express');
-
 const router = express.Router();
-
 const queries = require('../db/queries');
 
-function isValidId(req, res, next) {
+var isValidId = (req, res, next) => {
   if(!isNaN(req.params.id)) {
     return next();
   } else {
@@ -12,7 +10,7 @@ function isValidId(req, res, next) {
   }
 };
 
-function validCard(card) {
+var validCard = (card) => {
   const hasName = typeof card.name == 'string' && card.title.trim() != '';
   const hasArt = typeof card.art == 'string' && card.art.trim() != '';
   const hasCost = typeof card.cost == 'number' && card.cost.trim() != isNaN;
