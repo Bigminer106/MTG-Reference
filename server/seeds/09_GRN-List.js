@@ -6,7 +6,7 @@ exports.seed = (knex, Promise) => {
       return knex('Card_List').insert([
         {
           name: '',
-          set: 'Magic 2019 Core Set',
+          set: 'Guilds of Ravnica',
           cost: '',
           color: '',
           supertype: '',
