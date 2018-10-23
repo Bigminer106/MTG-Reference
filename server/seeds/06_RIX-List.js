@@ -2315,33 +2315,131 @@ exports.seed = function(knex, Promise) {
           art: 'http://www.mythicspoiler.com/rix/cards/travelersamulet.jpg'
         },
         {
-          name: '',
+          name: 'Arch of Orazca',
           set: 'Rivals of Ixalan',
-          cost: '',
+          cost: '0',
           color: 'Colorless',
-          supertype: '',
-          subtype: '',
-          rarity: '',
-          effects: '',
-          flavor: '',
-          power: '',
-          toughness: '',
-          art: ''
+          supertype: 'Land',
+          rarity: 'Rare',
+          effects: 'Ascend (If you control ten or more permanents, you get the city\'s blessing for the rest of the game.)\n{T}: Add {C} to your mana pool.\n{5}, {T}: Draw a card.  Activate this ability only if you have the city\'s blessing.',
+          art: 'http://www.mythicspoiler.com/rix/cards/archoforazca.jpg'
         },
         {
-          name: '',
+          name: 'Stone Quarry',
           set: 'Rivals of Ixalan',
-          cost: '',
+          cost: '0',
           color: 'Colorless',
-          supertype: '',
-          subtype: '',
-          rarity: '',
-          effects: '',
-          flavor: '',
-          power: '',
-          toughness: '',
-          art: ''
+          supertype: 'Land',
+          rarity: 'Uncommon',
+          effects: 'Stone Quarry enters the battlefield tapped.\n{T}: Add {R} or {W} to your mana pool.',
+          flavor: 'The Sun Empire\'s cities are built from the bones of the earth.',
+          art: 'http://www.mythicspoiler.com/rix/cards/stonequarry.jpg'
         },
+        {
+          name: 'Highland Lake',
+          set: 'Rivals of Ixalan',
+          cost: '0',
+          color: 'Colorless',
+          supertype: 'Land',
+          rarity: 'Uncommon',
+          effects: 'Highland Lake enters the battlefield tapped.\n{T}: Add {U} or {R} to your mana pool.',
+          flavor: '"A place like this makes me wonder if there\'s more to life than blood and treasure... Nah."\n--Boyl Bucksalt, Storm Fleet swab',
+          art: 'http://www.mythicspoiler.com/rix/cards/highlandlake.jpg'
+        },
+        {
+          name: 'Foul Orchard',
+          set: 'Rivals of Ixalan',
+          cost: '0',
+          color: 'Colorless',
+          supertype: 'Land',
+          rarity: 'Uncommon',
+          effects: 'Foul Orchard enters the battlefield tapped.\n{T}: Add {B} or {G} to your mana pool.',
+          flavor: 'The stench of rotting meat lures flies, goblins, and young raptors.',
+          art: 'http://www.mythicspoiler.com/rix/cards/foulorchard.jpg'
+        },
+        {
+          name: 'Forsaken Sanctuary',
+          set: 'Rivals of Ixalan',
+          cost: '0',
+          color: 'Colorless',
+          supertype: 'Land',
+          rarity: 'Uncommon',
+          effects: 'Forsaken Sanctuary enters the battlefield tapped.\n{T}: Add {W} or {B} to your mana pool.',
+          flavor: 'In the galleon\'s grand cathedral, conquistadors swore vows of faith.  In its wreckage, they swore vows of revenge.',
+          art: 'http://www.mythicspoiler.com/rix/cards/forsakensanctuary.jpg'
+        },
+        {
+          name: 'Woodland Stream',
+          set: 'Rivals of Ixalan',
+          cost: '0',
+          color: 'Colorless',
+          supertype: 'Land',
+          rarity: 'Uncommon',
+          effects: 'Woodland Stream enters the battlefield tapped.\n{T}: Add {G} or {B} to your mana pool.',
+          flavor: 'Countless streams flow into the nine rivers, and the nine rivers flow into the Great River.  The River Heralds guard them all.',
+          art: 'http://www.mythicspoiler.com/rix/cards/woodlandstream.jpg'
+        },
+        {
+          name: 'Evolving Wilds',
+          set: 'Rivals of Ixalan',
+          cost: '0',
+          color: 'Colorless',
+          supertype: 'Land',
+          rarity: 'Common',
+          effects: '{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.',
+          flavor: 'The Sun Empire bends nature--rivers, mountainsides, dinosaurs--to its unyielding will.',
+          art: 'http://www.mythicspoiler.com/rix/cards/evolvingwilds1.jpg'
+        },
+        {
+          name: 'Plains',
+          set: 'Rivals of Ixalan',
+          cost: '0',
+          color: 'Colorless',
+          supertype: 'Land',
+          rarity: 'Common',
+          effects: '{T}: Add {W} to your mana pool.',
+          art: 'http://www.mythicspoiler.com/rix/cards/plains.jpg'
+        },
+        {
+          name: 'Island',
+          set: 'Rivals of Ixalan',
+          cost: '0',
+          color: 'Colorless',
+          supertype: 'Land',
+          rarity: 'Common',
+          effects: '{T}: Add {U} to your mana pool.',
+          art: 'http://www.mythicspoiler.com/rix/cards/island.jpg'
+        },
+        {
+          name: 'Swamp',
+          set: 'Rivals of Ixalan',
+          cost: '0',
+          color: 'Colorless',
+          supertype: 'Land',
+          rarity: 'Common',
+          effects: '{T}: Add {B} to your mana pool.',
+          art: 'http://www.mythicspoiler.com/rix/cards/swamp.jpg'
+        },
+        {
+          name: 'Mountain',
+          set: 'Rivals of Ixalan',
+          cost: '0',
+          color: 'Colorless',
+          supertype: 'Land',
+          rarity: 'Common',
+          effects: '{T}: Add {R} to your mana pool.',
+          art: 'http://www.mythicspoiler.com/rix/cards/mountain.jpg'
+        },
+        {
+          name: 'Forest',
+          set: 'Rivals of Ixalan',
+          cost: '0',
+          color: 'Colorless',
+          supertype: 'Land',
+          rarity: 'Common',
+          effects: '{T}: Add {G} to your mana pool.',
+          art: 'http://www.mythicspoiler.com/rix/cards/forest.jpg'
+        }
       ]);
     });
   };
