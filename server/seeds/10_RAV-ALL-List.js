@@ -1,17 +1,18 @@
-exports.seed = (knex, Promise) => {
+exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
   return knex('Card_List').del()
-  .then(() => {
+  .then(function () {
     // Inserts seed entries
     return knex('Card_List').insert([
       {
         name: '',
-        set: 'Guilds of Ravnica',
+        set: 'Ravnica Allegiance',
         cost: '',
         color: '',
         supertype: '',
         subtype: '',
         rarity: '',
+        effects: '',
         flavor: '',
         power: '',
         toughness: '',
