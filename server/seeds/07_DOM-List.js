@@ -2043,32 +2043,27 @@ exports.seed = function(knex, Promise) {
         art: 'http://mythicspoiler.com/dom/cards/giftofgrowth1.jpg'
       },
       {
-        name: '',
+        name: 'Grow from the Ashes',
         set: 'Dominaria',
-        cost: '',
+        cost: '3',
         color: 'Green',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Sorcery',
+        rarity: 'Common',
+        effects: 'Kicker {2} (You may pay an additional {2} as you cast this spell.)\nSearch your library for a basic land card, put it onto the battlefield, then shuffle your library.  If this spell was kicked, instead search your library for two basic land cards, put them onto the battlefield, then shuffle your library.',
+        art: 'http://mythicspoiler.com/dom/cards/growfromtheashes.jpg'
       },
       {
-        name: '',
+        name: 'Grunn, the Lonely King',
         set: 'Dominaria',
-        cost: '',
+        cost: '6',
         color: 'Green',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Legendary Creature',
+        subtype: 'Ape Warrior',
+        rarity: 'Uncommon',
+        effects: 'Kicker {3} (You may pay an additional {3} as you cast this spell.)\nIf Grunn, the Lonely King was kicked, it enters the battlefield with five +1/+1 counters on it.\nWhenever Grunn attacks alone, double its power and toughness until end of turn.',
+        power: '5',
+        toughness: '5',
+        art: 'http://mythicspoiler.com/dom/cards/grunnthelonelyking.jpg'
       },
       {
         name: '',
