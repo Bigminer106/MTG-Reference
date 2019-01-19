@@ -2984,19 +2984,187 @@ exports.seed = function(knex, Promise) {
         art: 'http://mythicspoiler.com/dom/cards/weatherlight.jpg'
       },
       {
-        name: '',
+        name: 'Cabal Stronghold',
         set: 'Dominaria',
-        cost: '',
+        cost: '0',
         color: 'Colorless',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Land',
+        rarity: 'Rare',
+        effects: '{T}: Add {C}.\n{3}, {T}: Add {B} for each basic Swamp you control.',
+        flavor: 'The seat of Belzenlok\'s power, the Stronghold serves as a gathering place for the Cabal as their dark influence spreads from Urborg.',
+        art: 'http://mythicspoiler.com/dom/cards/cabalstronghold2.jpg'
       },
+      {
+        name: 'Clifftop Retreat',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Rare',
+        effects: 'Clifftop Retreat enters the battlefield tapped unless you control a Mountain or a Plains.\n{T}: Add {R} or {W}.',
+        flavor: 'The sunlight falls pristine on the temple at Epityr, softened by the remembered shadows of angelic saviors\' wings.',
+        art: 'http://mythicspoiler.com/dom/cards/clifftopretreat1.jpg'
+      },
+      {
+        name: 'Hinterland Harbor',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Rare',
+        effects: 'Hinterland Harbor enters the battlefield tapped unless you control a Forest or an Island.\n{T}: Add {G} or {U}.',
+        flavor: '"Our ancestors brought down a Phyrexian portal ship, then built our town on its hull.  We\'re pretty proud of that."\n--Alene of Riverspan',
+        art: 'http://mythicspoiler.com/dom/cards/hinterlandharbor1.jpg'
+      },
+      {
+        name: 'Isolated Chapel',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Rare',
+        effects: 'Isolated Chapel enters the battlefield tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B}.',
+        flavor: 'Serra\'s blessing lies strongest upon Sursi, where her holy chapels are untouched even as the Cabal encroaches.',
+        art: 'http://mythicspoiler.com/dom/cards/isolatedchapel1.jpg'
+      },
+      {
+        name: 'Memorial to Folly',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Uncommon',
+        effects: 'Memorial to Folly enters the battlefield tapped.\n{T}: Add {B}.\n{2B}, {T}, Sacrifice Memorial to Folly: Return target creature card from your graveyard to your hand.',
+        art: 'http://mythicspoiler.com/dom/cards/memorialtofolly.jpg'
+      },
+      {
+        name: 'Memorial to Genius',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Uncommon',
+        effects: 'Memorial to Genius enters the battlefield tapped.\n{T}: Add {U}.\n{4U}, {T}, Sacrifice Memorial to Genius: Draw two cards.',
+        art: 'http://mythicspoiler.com/dom/cards/memorialtogenius.jpg'
+      },
+      {
+        name: 'Memorial to Glory',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Uncommon',
+        effects: 'Memorial to Glory enters the battlefield tapped.\n{T}: Add {W}.\n{3W}, {T}, Sacrifice Memorial to Glory: Create two 1/1 white Soldier creature tokens.',
+        art: 'http://mythicspoiler.com/dom/cards/memorialtoglory.jpg'
+      },
+      {
+        name: 'Memorial to Unity',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Uncommon',
+        effects: 'Memorial to Unity enters the battlefield tapped.\n{T}: Add {G}.\n{2G}, {T}, Sacrifice Memorial to Unity: Look at the top five cards of your library.  You may reveal a creature card from among them and put it into your hand.  Then put the rest on the bottom of your library in a random order.',
+        art: 'http://mythicspoiler.com/dom/cards/memorialtounity.jpg'
+      },
+      {
+        name: 'Memorial to War',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Uncommon',
+        effects: 'Memorial to War enters the battlefield tapped.\n{T}: Add {R}.\n{4R}, {T}, Sacrifice Memorial to War: Destroy target land.',
+        art: 'http://mythicspoiler.com/dom/cards/memorialtowar.jpg'
+      },
+      {
+        name: 'Sulfur Falls',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Rare',
+        effects: 'Sulfur Falls enters the battlefield tapped unless you control an Island or a Mountain.\n{T}: Add {U} or {R}.',
+        flavor: '"We have inherited the mysteries of the Thran, but few of the answers."\n--Jhoira',
+        art: 'http://mythicspoiler.com/dom/cards/sulfurfalls1.jpg'
+      },
+      {
+        name: 'Woodland Cemetary',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Rare',
+        effects: 'Woodland Cemetary enters the battlefield tapped unless you control a Swamp or a Forest.\n{T}: Add {B} or {G}.',
+        flavor: '"They never found the body of young Josu, or that of his murderous sister."\n--"The Fall of the House of Vess"',
+        art: 'http://mythicspoiler.com/dom/cards/woodlandcemetery1.jpg'
+      },
+      {
+        name: 'Zhalfirin Void',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Uncommon',
+        effects: 'When Zhalfirin Void enters the battlefield, scry 1. (Look at the top card of your library.  You may put that card on the bottom of your library.)\n{T}: Add {C}.',
+        flavor: '"The wind whispers, \'come home,\' but I cannot."\n--Teferi',
+        art: 'http://mythicspoiler.com/dom/cards/zhalfirinvoid2.jpg'
+      },
+      {
+        name: 'Plains',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Basic Land',
+        subtype: 'Plains',
+        rarity: 'CommonCommon',
+        effects: '{T}: Add {W}.',
+        art: 'http://mythicspoiler.com/dom/cards/plains1.jpg'
+      },
+      {
+        name: 'Island',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Basic Land',
+        subtype: 'Island',
+        rarity: 'Common',
+        effects: '{T}: Add {U}.',
+        art: 'http://mythicspoiler.com/dom/cards/island1.jpg'
+      },
+      {
+        name: 'Swamp',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Basic Land',
+        subtype: 'Swamp',
+        rarity: 'Common',
+        effects: '{T}: Add {B}.',
+        art: 'http://mythicspoiler.com/dom/cards/swamp1.jpg'
+      },
+      {
+        name: 'Mountain',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Basic Land',
+        subtype: 'Mountain',
+        rarity: 'Common',
+        effects: '{T}: Add {R}.',
+        art: 'http://mythicspoiler.com/dom/cards/mountain1.jpg'
+      },
+      {
+        name: 'Forest',
+        set: 'Dominaria',
+        cost: '0',
+        color: 'Colorless',
+        supertype: 'Basic Land',
+        subtype: 'Forest',
+        rarity: 'Common',
+        effects: '{T}: Add {G}.',
+        art: 'http://mythicspoiler.com/dom/cards/forest1.jpg'
+      }
     ]);
   });
 };
