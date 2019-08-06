@@ -2914,20 +2914,194 @@ exports.seed = function(knex, Promise) {
         art: 'http://mythicspoiler.com/war/cards/vraskaswarmseminence.jpg'
       },
       {
-        name: '',
+        name: 'Firemind Vessel',
         set: 'War of the Spark',
-        cost: 'Colorless',
-        color: '',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
+        cost: '4',
+        color: 'Colorless',
+        supertype: 'Artifact',
+        rarity: 'Uncommon',
+        effects: 'Firemind Vessel enters the battlefield tapped.\n{T}: Add two mana of different colors.',
+        flavor: 'The city mourned Niv-Mizzet\'s death, but he left behind the components for his rebirth.',
+        art: 'http://mythicspoiler.com/war/cards/firemindvessel.jpg'
       },
+      {
+        name: 'God-Pharaoh\'s Statue',
+        set: 'War of the Spark',
+        cost: '6',
+        color: 'Colorless',
+        supertype: 'Legendary Artifact',
+        rarity: 'Uncommon',
+        effects: 'Spells your opponents cast cost {2} more to cast.\nAt the beginning of your end step, each opponent loses 1 life.',
+        flavor: 'A dictator\'s infuriating smirk, an affront to everything Ravnica stood for.',
+        art: 'http://mythicspoiler.com/war/cards/godpharaohsstatue.jpg'
+      },
+      {
+        name: 'Guild Globe',
+        set: 'War of the Spark',
+        cost: '2',
+        color: 'Colorless',
+        supertype: 'Artifact',
+        rarity: 'Common',
+        effects: 'When Guild Globe enters the battlefield, draw a card.\n{2}, {T}, Sacrifice Guild Globe: Add two mana of different colors.',
+        flavor: '"Hopefully Ravnica will prove harder to break."\n--Karn',
+        art: 'http://mythicspoiler.com/war/cards/guildglobe.jpg'
+      },
+      {
+        name: 'Iron Bully',
+        set: 'War of the Spark',
+        cost: '3',
+        color: 'Colorless',
+        supertype: 'Artifact Creature',
+        subtype: 'Golem',
+        rarity: 'Common',
+        effects: 'Menace (This creature can\'t be blocked except by two or more creatures.)\nWhen Iron Bully enters the battlefield, put a +1/+1 counter on target creature.',
+        flavor: '"Why would someone have built... wait, never mind.  Send it to the front lines!"\n--Commander Grozdan',
+        power: '1',
+        toughness: '1',
+        art: 'http://mythicspoiler.com/war/cards/ironbully.jpg'
+      },
+      {
+        name: 'Mana Geode',
+        set: 'War of the Spark',
+        cost: '3',
+        color: 'Colorless',
+        supertype: 'Artifact',
+        rarity: 'Common',
+        effects: 'When Mana Geode enters the battlefield, scry 1.\n{T}: Add one mana of any color.',
+        flavor: '"I don\'t care if it\'s an all-powerful relic or a street vendor\'s lucky charm.  If it brings you courage, wear it."\n--Saheeli Rai',
+        art: 'http://mythicspoiler.com/war/cards/manageode.jpg'
+      },
+      {
+        name: 'Prismite',
+        set: 'War of the Spark',
+        cost: '2',
+        color: 'Colorless',
+        supertype: 'Artifact Creature',
+        subtype: 'Golem',
+        rarity: 'Common',
+        effects: '{2}: Add one mana of any color.',
+        flavor: 'It didn\'t budge when the portal opened, nor when the ancient gods emerged.  It came to life only when all ten guilds came together to face a common threat.',
+        power: '2',
+        toughness: '1',
+        art: 'http://mythicspoiler.com/war/cards/prismite.jpg'
+      },
+      {
+        name: 'Saheeli\'s Silverwing',
+        set: 'War of the Spark',
+        cost: '4',
+        color: 'Colorless',
+        supertype: 'Artifact Creature',
+        subtype: 'Drake',
+        rarity: 'Common',
+        effects: 'Flying\nWhen Saheeli\'s Silverwing enters the battlefield, look at the top card of target opponent\'s library.',
+        flavor: '"Track the source of those thopters," Saheeli told her creation. "And feel free to snack on as many as you want."',
+        power: '2',
+        toughness: '3',
+        art: 'http://mythicspoiler.com/war/cards/saheelissilverwing.jpg'
+      },
+      {
+        name: 'Blast Zone',
+        set: 'War of the Spark',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Rare',
+        effects: 'Blast Zone enters the battlefield with a charge counter on it.\n{T}: Add {1}.\n{XX}, {T}: Put X charge counters on Blast Zone.\n{3}, {T}, Sacrifice Blast Zone: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Blast Zone.',
+        art: 'http://mythicspoiler.com/war/cards/blastzone.jpg'
+      },
+      {
+        name: 'Emergence Zone',
+        set: 'War of the Spark',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Uncommon',
+        effects: '{T}: Add {1}.\n{1}, {T}, Sacrifice Emergence Zone: You may cast spells this turn as though they had flash.',
+        flavor: 'The Planar Bridge opened over the Chamber of the Guildpact, reducing the symbol of Ravnica\'s endurance to rubble.',
+        art: 'http://mythicspoiler.com/war/cards/emergencezone.jpg'
+      },
+      {
+        name: 'Gateway Plaza',
+        set: 'War of the Spark',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Common',
+        effects: 'Gateway Plaza enters the battlefield tapped.\nWhen Gateway Plaza enters the battlefield, sacrifice it unless you pay {1}.\n{T}: Add one mana of any color.',
+        flavor: 'Guild leaders focused their magic on the portal scar.  Where the Chamber perished, a parun could be reborn.',
+        art: 'http://mythicspoiler.com/war/cards/gatewayplaza.jpg'
+      },
+      {
+        name: 'Interplanar Beacon',
+        set: 'War of the Spark',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Uncommon',
+        effects: 'Whenever you cast a planeswalker spell, you gain 1 life.\n{T}: Add {1}.\n{1}, {T}: Add two mana of different colors.  Spend this mana only to cast planeswalker spells.',
+        art: 'http://mythicspoiler.com/war/cards/interplanarbeacon.jpg'
+      },
+      {
+        name: 'Karn\'s Bastion',
+        set: 'War of the Spark',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Rare',
+        effects: '{T}: Add {1}.\n{4}, {T}: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)',
+        flavor: '"I can\'t protect everyone here.  But those I can, I will."\n--Karn',
+        art: 'http://mythicspoiler.com/war/cards/karnsbastion.jpg'
+      },
+      {
+        name: 'Mobilized District',
+        set: 'War of the Spark',
+        color: 'Colorless',
+        supertype: 'Land',
+        rarity: 'Rare',
+        effects: '{T}: Add {1}.\n{4}: Mobilized District becomes a 3/3 Citizen creature with vigilance until end of turn.  It\'s still a land.  This ability costs {1} less for each legendary creature and planeswalker you control.',
+        flavor: 'Sometimes the strongest weapon you can hold in your hand is another hand.',
+        art: 'http://mythicspoiler.com/war/cards/mobilizeddistrict.jpg'
+      },
+      {
+        name: 'Plains',
+        set: 'War of the Spark',
+        color: 'Colorless',
+        supertype: 'Basic Land',
+        rarity: 'Common',
+        effects: '{T}: Add {W}.',
+        art: 'http://mythicspoiler.com/war/cards/plains.jpg'
+      },
+      {
+        name: 'Island',
+        set: 'War of the Spark',
+        color: 'Colorless',
+        supertype: 'Basic Land',
+        rarity: 'Common',
+        effects: '{T}: Add {U}.',
+        art: 'http://mythicspoiler.com/war/cards/island.jpg'
+      },
+      {
+        name: 'Swamp',
+        set: 'War of the Spark',
+        color: 'Colorless',
+        supertype: 'Basic Land',
+        rarity: 'Common',
+        effects: '{T}: Add {B}.',
+        art: 'http://mythicspoiler.com/war/cards/swamp.jpg'
+      },
+      {
+        name: 'Mountain',
+        set: 'War of the Spark',
+        color: 'Colorless',
+        supertype: 'Basic Land',
+        rarity: 'Common',
+        effects: '{T}: Add {R}.',
+        art: 'http://mythicspoiler.com/war/cards/mountain.jpg'
+      },
+      {
+        name: 'Forest',
+        set: 'War of the Spark',
+        color: 'Colorless',
+        supertype: 'Basic Land',
+        rarity: 'Common',
+        effects: '{T}: Add {G}.',
+        art: 'http://mythicspoiler.com/war/cards/forest.jpg'
+      }
     ]);
   });
 };
