@@ -13,19 +13,13 @@ module.exports = {
   getType(supertype) {
     return knex('Card_List').where('supertype', supertype);
   },
+  getSubtype(subtype) {
+    return knex('Card_list').where('subtype', subtype);
+  },
   getSet(set) {
     return knex('Card_List').where('set', set);
   },
-  getRare(rarity) {
+  getRarity(rarity) {
     return knex('Card_List').where('rarity', rarity);
-  },
-  update(id, Card_List) {
-    return knex('Card_List').where('id', id).update(Card_List)
-  },
-  create(card) {
-    return knex('Card_List').insert(card, '*');
-  },
-  delete(id) {
-    return knex('Card_List').where('id', id).del();
   }
 }
