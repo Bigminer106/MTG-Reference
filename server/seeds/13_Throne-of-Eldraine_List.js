@@ -8,7 +8,7 @@ exports.seed = function(knex, Promise) {
         name: '',
         set: 'Throne of Eldraine',
         cost: '',
-        color: '',
+        color: 'White',
         supertype: '',
         subtype: '',
         rarity: '',
