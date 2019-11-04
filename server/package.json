@@ -6,7 +6,7 @@
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.15.4",
-    "knex": "^0.13.0",
+    "knex": "^0.20.1",
     "pg": "^7.1.0"
   },
   "devDependencies": {},
