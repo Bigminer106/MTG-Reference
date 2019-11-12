@@ -7,7 +7,7 @@ exports.up = function(knex, Promise) {
     table.text('color').notNullable();
     table.text('supertype').notNullable();
     table.text('subtype');
-    table.text('rarity').notNullable();
+    table.text('rarity');
     table.text('effects');
     table.text('art').notNullable();
     table.text('power');

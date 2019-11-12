@@ -5,19 +5,283 @@ exports.seed = function(knex, Promise) {
     // Inserts seed entries
     return knex('Card_List').insert([
       {
-        name: '',
+        name: 'Animate Wall',
         set: 'Limited Edition Alpha',
-        cost: '',
+        cost: '1',
         color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
+        supertype: 'Enchant Wall',
+        effects: 'Enchanted Wall can now attack.  Enchanted Wall\'s power and toughness are unchanged, even if its power is 0.',
+        art: 'http://mythicspoiler.com/lea/cards/animatewall.jpg'
+      },
+      {
+        name: 'Armageddon',
+        set: 'Limited Edition Alpha',
+        cost: '4',
+        color: 'White',
+        supertype: 'Sorcery',
+        effects: 'All lands in play are destroyed.',
+        art: 'http://mythicspoiler.com/lea/cards/armageddon.jpg'
+      },
+      {
+        name: 'Balance',
+        set: 'Limited Edition Alpha',
+        cost: '2',
+        color: 'White',
+        supertype: 'Sorcery',
+        effects: 'Whichever player has more lands in play must sacrifice enough lands of that player\'s choice to equalize the number of lands both players have in play.  Cards in hand and creatures on the battlefield must be equalized this way.  Creatures destroyed this way can\'t be regenerated.',
+        art: 'http://mythicspoiler.com/lea/cards/balance.jpg'
+      },
+      {
+        name: 'Benalish Hero',
+        set: 'Limited Edition Alpha',
+        cost: '1',
+        color: 'White',
+        supertype: 'Summon Hero',
+        effects: 'Bands',
+        flavor: 'Benalia has a complex caste system that changes with the lunar year.  No matter what the seasons, the only caste that cannot be attained by heredity or money is that of the hero.',
+        power: '1',
+        toughness: '1',
+        art: 'http://mythicspoiler.com/lea/cards/benalishhero.jpg'
+      },
+      {
+        name: 'Black Ward',
+        set: 'Limited Edition Alpha',
+        cost: '1',
+        color: 'White',
+        supertype: 'Enchant Creature',
+        effects: 'Enchanted creature gains protection from black.',
+        art: 'http://mythicspoiler.com/lea/cards/blackward.jpg'
+      },
+      {
+        name: 'Blaze of Glory',
+        set: 'Limited Edition Alpha',
+        cost: '1',
+        color: 'White',
+        supertype: 'Instant',
+        effects: 'Target defending creature can and must block all attacking creatures it can legally block.  For example, a normal non-flying defender can and must block all normal non-flying attackers at once, but it cannot block any flying attackers.  Target defender\'s controller may distribute damage among attackers as desired.  Play before defense is chosen.',
+        art: 'http://mythicspoiler.com/lea/cards/blazeofglory.jpg'
+      },
+      {
+        name: 'Blessing',
+        set: 'Limited Edition Alpha',
+        cost: '2',
+        color: 'White',
+        supertype: 'Enchant Creature',
+        effects: '{W}: Enchanted creature gets +1/+1 until end of turn.',
+        art: 'http://mythicspoiler.com/lea/cards/blessing.jpg'
+      },
+      {
+        name: 'Blue Ward',
+        set: 'Limited Edition Alpha',
+        cost: '1',
+        color: 'White',
+        supertype: 'Enchant Creature',
+        effects: 'Enchanted creature gains protection from blue.',
+        art: 'http://mythicspoiler.com/lea/cards/blueward.jpg'
+      },
+      {
+        name: 'Castle',
+        set: 'Limited Edition Alpha',
+        cost: '4',
+        color: 'White',
+        supertype: 'Enchantment',
+        effects: 'Untapped creatures you control get +0/+2.  Attacking creatures you control lose this bonus.',
+        art: 'http://mythicspoiler.com/lea/cards/castle.jpg'
+      },
+      {
+        name: 'Circle of Protection: Black',
+        set: 'Limited Edition Alpha',
+        cost: '2',
+        color: 'White',
+        supertype: 'Enchantment',
+        effects: '{1}: Prevent all damage against you from one black source.  If a source deals damage to you more than once in a turn, you must pay {1} each time to prevent the damage.',
+        art: 'http://mythicspoiler.com/lea/cards/circleofprotectionblack.jpg'
+      },
+      {
+        name: 'Circle of Protection: Blue',
+        set: 'Limited Edition Alpha',
+        cost: '2',
+        color: 'White',
+        supertype: 'Enchantment',
+        effects: '{1}: Prevent all damage against you from one blue source.  If a source deals damage to you more than once in a turn, you must pay {1} each time to prevent the damage.',
+        art: 'http://mythicspoiler.com/lea/cards/circleofprotectionblue.jpg'
+      },
+      {
+        name: 'Circle of Protection: Green',
+        set: 'Limited Edition Alpha',
+        cost: '2',
+        color: 'White',
+        supertype: 'Enchantment',
+        effects: '{1}: Prevent all damage against you from one green source.  If a source deals damage to you more than once in a turn, you must pay {1} each time to prevent the damage.',
+        art: 'http://mythicspoiler.com/lea/cards/circleofprotectiongreen.jpg'
+      },
+      {
+        name: 'Circle of Protection: Red',
+        set: 'Limited Edition Alpha',
+        cost: '2',
+        color: 'White',
+        supertype: 'Enchantment',
+        effects: '{1}: Prevent all damage against you from one red source.  If a source deals damage to you more than once in a turn, you must pay {1} each time to prevent the damage.',
+        art: 'http://mythicspoiler.com/lea/cards/circleofprotectionred.jpg'
+      },
+      {
+        name: 'Circle of Protection: White',
+        set: 'Limited Edition Alpha',
+        cost: '2',
+        color: 'White',
+        supertype: 'Enchantment',
+        effects: '{1}: Prevent all damage against you from one white source.  If a source deals damage to you more than once in a turn, you must pay {1} each time to prevent the damage.',
+        art: 'http://mythicspoiler.com/lea/cards/circleofprotectionwhite.jpg'
+      },
+      {
+        name: 'Consecrate Land',
+        set: 'Limited Edition Alpha',
+        cost: '1',
+        color: 'White',
+        supertype: 'Enchant Land',
+        effects: 'All enchantments on enchanted land are destroyed.  Enchanted land cannot be destroyed or further enchanted until this enchantment is destroyed.',
+        art: 'http://mythicspoiler.com/lea/cards/consecrateland.jpg'
+      },
+      {
+        name: 'Conversion',
+        set: 'Limited Edition Alpha',
+        cost: '4',
+        color: 'White',
+        supertype: 'Enchantment',
+        effects: 'All Mountains are considered Plains.  At the beginning of each of your upkeeps, sacrifice Conversion unless you pay {WW}.',
+        art: 'http://mythicspoiler.com/lea/cards/conversion.jpg'
+      },
+      {
+        name: 'Crusade',
+        set: 'Limited Edition Alpha',
+        cost: '2',
+        color: 'White',
+        supertype: 'Enchantment',
+        effects: 'All white creatures get +1/+1.',
+        art: 'http://mythicspoiler.com/lea/cards/crusade.jpg'
+      },
+      {
+        name: 'Death Ward',
+        set: 'Limited Edition Alpha',
+        cost: '1',
+        color: 'White',
+        supertype: 'Instant',
+        effects: 'Regenerate target creature.',
+        art: 'http://mythicspoiler.com/lea/cards/deathward.jpg'
+      },
+      {
+        name: 'Disenchant',
+        set: 'Limited Edition Alpha',
+        cost: '2',
+        color: 'White',
+        supertype: 'Instant',
+        effects: 'Destroy target artifact or enchantment.',
+        art: 'http://mythicspoiler.com/lea/cards/disenchant.jpg'
+      },
+      {
+        name: 'Farmstead',
+        set: 'Limited Edition Alpha',
+        cost: '3',
+        color: 'White',
+        supertype: 'Enchant Land',
+        effects: 'Enchanted land\'s controller gains 1 life each upkeep if {WW} is spent.  Enchanted land can still generate mana as usual.',
+        art: 'http://mythicspoiler.com/lea/cards/farmstead.jpg'
+      },
+      {
+        name: 'Green Ward',
+        set: 'Limited Edition Alpha',
+        cost: '1',
+        color: 'White',
+        supertype: 'Enchant Creature',
+        effects: 'Enchanted creature gains protection from green.',
+        art: 'http://mythicspoiler.com/lea/cards/greenward.jpg'
+      },
+      {
+        name: 'Guardian Angel',
+        set: 'Limited Edition Alpha',
+        cost: '2+',
+        color: 'White',
+        supertype: 'Instant',
+        effects: 'Prevent the next X damage dealt to any target.  Any further damage dealt to that target this turn can be cancelled by paying {1} for each 1 damage dealt.',
+        art: 'http://mythicspoiler.com/lea/cards/guardianangel.jpg'
+      },
+      {
+        name: 'Healing Salve',
+        set: 'Limited Edition Alpha',
+        cost: '1',
+        color: 'White',
+        supertype: 'Instant',
+        effects: 'Choose one --\n\tYou gain 3 life.\n\tPrevent the next 3 damage dealt to any target.',
+        art: 'http://mythicspoiler.com/lea/cards/healingsalve.jpg'
+      },
+      {
+        name: 'Holy Armor',
+        set: 'Limited Edition Alpha',
+        cost: '1',
+        color: 'White',
+        supertype: 'Enchant Creature',
+        effects: 'Enchanted creature gets +0/+2.\n{W}: Enchanted creature gets +0/+1 until end of turn.',
+        art: 'http://mythicspoiler.com/lea/cards/holyarmor.jpg'
+      },
+      {
+        name: 'Holy Strength',
+        set: 'Limited Edition Alpha',
+        cost: '1',
+        color: 'White',
+        supertype: 'Enchant Creature',
+        effects: 'Enchanted creature gets +1/+2.',
+        art: 'http://mythicspoiler.com/lea/cards/holystrength.jpg'
+      },
+      {
+        name: 'Island Sanctuary',
+        set: 'Limited Edition Alpha',
+        cost: '2',
+        color: 'White',
+        supertype: 'Enchantment',
+        effects: 'You may decline your draw step each turn.  If you do, until your next turn, creatures without flying or islandwalk cannot attack you.',
+        art: 'http://mythicspoiler.com/lea/cards/islandsanctuary.jpg'
+      },
+      {
+        name: 'Karma',
+        set: 'Limited Edition Alpha',
+        cost: '4',
+        color: 'White',
+        supertype: 'Enchantment',
+        effects: 'For each Swamp on the battlefield, it deals 1 damage to its controller at the beginning of that player\'s upkeep.',
+        art: 'http://mythicspoiler.com/lea/cards/karma.jpg'
+      },
+      {
+        name: 'Lance',
+        set: 'Limited Edition Alpha',
+        cost: '1',
+        color: 'White',
+        supertype: 'Enchant Creature',
+        effects: 'Enchanted creature gains first strike.',
+        art: 'http://mythicspoiler.com/lea/cards/lance.jpg'
+      },
+      {
+        name: 'Mesa Pegasus',
+        set: 'Limited Edition Alpha',
+        cost: '2',
+        color: 'White',
+        supertype: 'Summon Pegasus',
+        effects: 'Flying, bands',
+        flavor: 'Before a woman marries in the village of Sursi, she must visit the land of the Mesa Pegasus.  Legend has it that if the woman is pure of heart and her love is true, a Mesa Pegasus will appear, blessing her family with long life and good fortune.',
+        power: '1',
+        toughness: '1',
+        art: 'http://mythicspoiler.com/lea/cards/mesapegasus.jpg'
+      },
+      {
+        name: 'Northern Paladin',
+        set: 'Limited Edition Alpha',
+        cost: '4',
+        color: 'White',
+        supertype: 'Summon Paladin',
+        effects: '{WW}, {T}: Destroy target black permanent.',
+        flavor: '"Look to the north; there you will find aid and comfort."\n--The Book of Tal',
+        power: '3',
+        toughness: '3',
+        art: 'http://mythicspoiler.com/lea/cards/northernpaladin.jpg'
       },
       {
         name: '',
@@ -25,283 +289,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -310,13 +301,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -325,13 +313,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -340,13 +325,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -355,13 +337,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -370,13 +349,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -385,13 +361,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -400,13 +373,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -415,13 +385,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -430,13 +397,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -445,13 +409,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -460,13 +421,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -475,13 +433,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -490,13 +445,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -505,13 +457,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -520,178 +469,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'White',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
-        art: ''
-      },
-      {
-        name: '',
-        set: 'Limited Edition Alpha',
-        cost: '',
-        color: 'White',
-        supertype: '',
-        subtype: '',
-        rarity: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -700,13 +481,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -715,13 +493,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -730,13 +505,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -745,13 +517,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -760,13 +529,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -775,13 +541,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -790,13 +553,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -805,13 +565,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -820,13 +577,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -835,13 +589,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -850,13 +601,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -865,13 +613,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -880,13 +625,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -895,13 +637,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -910,13 +649,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -925,13 +661,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -940,13 +673,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -955,13 +685,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -970,13 +697,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -985,13 +709,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1000,13 +721,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1015,13 +733,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1030,13 +745,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1045,13 +757,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1060,13 +769,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1075,13 +781,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1090,13 +793,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1105,13 +805,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1120,13 +817,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1135,13 +829,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1150,13 +841,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1165,13 +853,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1180,13 +865,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1195,13 +877,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1210,13 +889,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1225,13 +901,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1240,13 +913,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1255,13 +925,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1270,13 +937,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1285,13 +949,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1300,13 +961,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1315,13 +973,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1330,13 +985,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1345,13 +997,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1360,13 +1009,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1375,13 +1021,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Blue',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1390,13 +1033,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1405,13 +1045,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1420,13 +1057,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1435,13 +1069,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1450,13 +1081,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1465,13 +1093,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1480,13 +1105,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1495,13 +1117,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1510,13 +1129,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1525,13 +1141,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1540,13 +1153,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1555,13 +1165,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1570,13 +1177,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1585,13 +1189,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1600,13 +1201,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1615,13 +1213,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1630,13 +1225,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1645,13 +1237,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1660,13 +1249,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1675,13 +1261,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1690,13 +1273,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1705,13 +1285,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1720,13 +1297,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1735,13 +1309,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1750,13 +1321,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1765,13 +1333,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1780,13 +1345,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1795,13 +1357,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1810,13 +1369,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1825,13 +1381,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1840,13 +1393,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1855,13 +1405,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1870,13 +1417,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1885,13 +1429,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1900,13 +1441,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1915,13 +1453,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1930,13 +1465,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1945,13 +1477,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1960,13 +1489,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1975,13 +1501,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -1990,13 +1513,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2005,13 +1525,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2020,13 +1537,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2035,13 +1549,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2050,13 +1561,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2065,13 +1573,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Black',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2080,13 +1585,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2095,13 +1597,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2110,13 +1609,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2125,13 +1621,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2140,13 +1633,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2155,13 +1645,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2170,13 +1657,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2185,13 +1669,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2200,13 +1681,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2215,13 +1693,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2230,13 +1705,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2245,13 +1717,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2260,13 +1729,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2275,13 +1741,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2290,13 +1753,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2305,13 +1765,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2320,13 +1777,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2335,13 +1789,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2350,13 +1801,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2365,13 +1813,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2380,13 +1825,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2395,13 +1837,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2410,13 +1849,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2425,13 +1861,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2440,13 +1873,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2455,13 +1885,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2470,13 +1897,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2485,13 +1909,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2500,13 +1921,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2515,13 +1933,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2530,13 +1945,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2545,13 +1957,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2560,13 +1969,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2575,13 +1981,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2590,13 +1993,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2605,13 +2005,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2620,13 +2017,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2635,13 +2029,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2650,13 +2041,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2665,13 +2053,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2680,13 +2065,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2695,13 +2077,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2710,13 +2089,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2725,13 +2101,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2740,13 +2113,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2755,13 +2125,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Red',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2770,13 +2137,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2785,13 +2149,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2800,13 +2161,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2815,13 +2173,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2830,13 +2185,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2845,13 +2197,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2860,13 +2209,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2875,13 +2221,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2890,13 +2233,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2905,13 +2245,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2920,13 +2257,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2935,13 +2269,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2950,13 +2281,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2965,13 +2293,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2980,13 +2305,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -2995,13 +2317,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3010,13 +2329,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3025,13 +2341,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3040,13 +2353,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3055,13 +2365,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3070,13 +2377,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3085,13 +2389,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3100,13 +2401,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3115,13 +2413,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3130,13 +2425,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3145,13 +2437,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3160,13 +2449,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3175,13 +2461,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3190,13 +2473,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3205,13 +2485,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3220,13 +2497,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3235,13 +2509,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3250,13 +2521,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3265,13 +2533,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3280,13 +2545,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3295,13 +2557,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3310,13 +2569,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3325,13 +2581,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3340,13 +2593,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3355,13 +2605,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3370,13 +2617,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3385,13 +2629,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3400,13 +2641,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3415,13 +2653,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3430,13 +2665,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3445,13 +2677,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Green',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3460,13 +2689,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3475,13 +2701,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3490,13 +2713,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3505,13 +2725,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3520,13 +2737,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3535,13 +2749,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3550,13 +2761,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3565,13 +2773,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3580,13 +2785,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3595,13 +2797,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3610,13 +2809,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3625,13 +2821,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3640,13 +2833,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3655,13 +2845,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3670,13 +2857,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3685,13 +2869,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3700,13 +2881,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3715,13 +2893,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3730,13 +2905,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3745,13 +2917,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3760,13 +2929,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3775,13 +2941,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3790,13 +2953,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3805,13 +2965,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3820,13 +2977,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3835,13 +2989,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3850,13 +3001,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3865,13 +3013,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3880,13 +3025,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3895,13 +3037,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3910,13 +3049,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3925,13 +3061,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3940,13 +3073,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3955,13 +3085,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3970,13 +3097,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -3985,13 +3109,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4000,13 +3121,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4015,13 +3133,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4030,13 +3145,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4045,13 +3157,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4060,13 +3169,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4075,13 +3181,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4090,13 +3193,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4105,13 +3205,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4120,13 +3217,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4135,13 +3229,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4150,13 +3241,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4165,13 +3253,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4180,13 +3265,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4195,13 +3277,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4210,13 +3289,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4225,13 +3301,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4240,13 +3313,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4255,13 +3325,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4270,13 +3337,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4285,13 +3349,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       },
       {
@@ -4300,13 +3361,10 @@ exports.seed = function(knex, Promise) {
         cost: '',
         color: 'Colorless',
         supertype: '',
-        subtype: '',
-        rarity: '',
         effects: '',
         flavor: '',
         power: '',
         toughness: '',
-        loyalty: '',
         art: ''
       }
     ]);
