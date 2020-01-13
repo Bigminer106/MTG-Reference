@@ -13,7 +13,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Soldier',
         rarity: 'Uncommon',
         effects: 'As long as Adanto Vanguard is attacking, it gets +2/+0 until end of turn.\nPay 4 life: Adanto Vanguard gains indestructible until end of turn. (Damage and effects that say "destroy" don\'t destroy it.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Adanto-Vanguard-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1'
       },
@@ -25,7 +25,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'Players can\'t cast spells from graveyards or activate abilities of cards in graveyards.\nWhenever a creature dies, you gain 1 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Ashes-of-the-Abhorrent-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Let no trace of the vampires\' foulness remain."'
       },
       {
@@ -36,7 +36,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Mythic',
         effects: 'At the beginning of your upkeep, you may have two target players exchange life totals.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Axis-of-Mortality-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'The Church of Dusk teaches there is no gain without loss, no triumph without sacrifice, no drink of exquisite crimson without a dying gasp.'
       },
       {
@@ -48,7 +48,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Uncommon',
         effects: 'Enrage -- Whenever Bellowing Aegisaur is dealt damage, put a +1/+1 counter on each other creature you control.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Bellowing-Aegisaur-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '5',
         flavor: 'Its roaring challenge is punctuated by the slam of its tail on the earth, rousing the herds of the plains.'
@@ -62,7 +62,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Cleric',
         rarity: 'Rare',
         effects: 'Vigilance\nWhenever Bishop of Rebirth attacks, return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Bishop-of-Rebirth-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '4',
         flavor: '"In the death of the foe lies the resurrection of the faithful."'
@@ -76,7 +76,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Soldier',
         rarity: 'Common',
         effects: 'Lifelink',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Bishop%E2%80%99s-Soldier-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: 'Vampires, the noble class of old Torrezon, are guided by their dual loyalties to church and crown.'
@@ -89,7 +89,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Destroy target attacking creature.\nDraw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Bright-Reprisal-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Vampires know blood and the systems that carry it.  And they know exactly where to strike to set it free.'
       },
       {
@@ -100,7 +100,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Destroy target enchantment.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Demystify-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"The River Heralds carve spells into jade, hoping to steer us from our course.  But what right do they have to keep us from that which once was ours?"'
       },
       {
@@ -112,7 +112,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Cleric',
         rarity: 'Uncommon',
         effects: 'Flying\n(W), (T): Target attacking Vampire gets +1/+1 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Duskborne-Skymarcher-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: '"The hour of Dusk is come."'
@@ -126,7 +126,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Cleric',
         rarity: 'Uncommon',
         effects: 'First strike\nWhen Emissary of Sunrise enters the battlefield, it explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Emissary-of-Sunrise-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '1'
       },
@@ -139,7 +139,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Hound',
         rarity: 'Common',
         effects: 'First strike\n(7W), Sacrifice Encampment Keeper: Creatures you control get +2/+2 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Encampment-Keeper-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: 'Paladins of the Sanctum Seeker order are an adventurous lot, venturing into the wilds with monstrous mastiffs at their side.'
@@ -153,7 +153,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Soldier',
         rarity: 'Uncommon',
         effects: 'Pay 2 life: Glorifier of Dusk gains flying until end of turn.\nPay 2 life: Glorifier of Dusk gains vigilance until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Glorifier-of-Dusk-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '4',
         flavor: '"The blood of the enemy is a sacrament.  The strength it gives proves that our cause is just."'
@@ -167,7 +167,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Rare',
         effects: 'Double strike\nWhenever Goring Ceratops attacks, other creatures you control gain double strike until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Goring-Ceratops-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: '"Follow her footsteps and she will show you the way." --Itzama the Crested'
@@ -181,7 +181,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Uncommon',
         effects: 'Flying\nWhen Imperial Aerosaur enters the battlefield, another target creature you control gets +1/+1 and gains flying until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Imperial-Aerosaur-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: 'Its assistance is unnervingly similar to its hunting technique.'
@@ -195,7 +195,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Knight',
         rarity: 'Uncommon',
         effects: 'Imperial Lancer has double strike as long as you control a Dinosaur.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Imperial-Lancer-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: '"Together my mount and I are stronger than either of us apart."'
@@ -209,7 +209,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Cleric',
         rarity: 'Uncommon',
         effects: 'When Inspiring Cleric enters the battlefield, you gain 4 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Inspiring-Cleric-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '2',
         flavor: '"The Immortal Sun will bring us true everlasting life to replace the everlasting shadow of undeath."'
@@ -222,7 +222,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Uncommon',
         effects: 'When Ixalan\'s Binding enters the battlefield, exile target nonland permanent an opponent controls until Ixalan\'s Binding leaves the battlefield.\nYour opponents can\'t cast spells with the same name as the exiled card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Ixalan%E2%80%99s-Binding-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Jace awoke to the certainty that he was lost.'
       },
       {
@@ -234,7 +234,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Cleric',
         rarity: 'Common',
         effects: 'Dinosaur spells you cast cost (1) less to cast.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Kinjalli%E2%80%99s-Caller-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '0',
         toughness: '3',
         flavor: 'The people of the Sun Empire worship the sun in three aspects.  Kinjalli is the Wakening Sun, who created humans from clay and baked them in the sun\'s warmth.'
@@ -248,7 +248,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Rare',
         effects: 'Flying\nCreatures your opponents control enter the battlefield tapped.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Kinjallis-Sunwing-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '3',
         flavor: '"There are moments when I feel I could fly like the sunwing.  Far away would I soar, but always a golden gale pushes me back." --Huatli'
@@ -262,7 +262,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Soldier',
         rarity: 'Common',
         effects: 'When Legion Conquistador enters the battlefield, you may search your library for any number of cards named Legion Conquistador, reveal them, put them into your hand, then shuffle your library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Legion-Conquistador-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: 'The Legion of Dusk sailed from Torrezon in search of glory, riches, and the Immortal Sun.'
@@ -275,7 +275,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Destroy target creature with power 4 or greater.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Legion%E2%80%99s-Judgment-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"My lance was once wielded by the Venerable Tarrian.  In his name and by his might, I cast you down!"'
       },
       {
@@ -286,7 +286,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Enchantment',
         rarity: 'Mythic',
         effects: 'When Legion\'s Landing enters the battlefield, create a 1/1 white Vampire creature token with lifelink.\nWhen you attack with three or more creatures, transform Legion\'s Landing.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Legions-Landing-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"I claim this land in the name of the queen." --Adrian Adanto of Lujio'
       },
       {
@@ -297,7 +297,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Land',
         rarity: 'Mythic',
         effects: '(Transforms from Legion\'s Landing.)\n(T): Add (W) to your mana pool.\n(2W), (T): Create a 1/1 white Vampire creature token with lifelink.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Adanto-the-First-Fort-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Looming Altisaur',
@@ -307,7 +307,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Dinosaur',
         rarity: 'Common',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Looming-Altisaur-216x300.jpg',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '7',
         flavor: 'Nature can\'t be tamed, but the Sun Empire believes that humans are made stronger when they test themselves against the wild strength of the dinosaurs.'
@@ -321,7 +321,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Cleric',
         rarity: 'Rare',
         effects: 'Whenever one or more nontoken Vampires you control attack, create a 1/1 white Vampire creature token with lifelink.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Mavren-Fein-Dusk-Apostle-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: 'In the rapture of his Blood Fast, he destroyed the navigator\'s tools and steered the ship to shore by faith alone.'
@@ -335,7 +335,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Knight',
         rarity: 'Common',
         effects: 'When Paladin of the Bloodstained enters the battlefield, create a 1/1 white Vampire creature token with lifelink.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Paladin-of-the-Bloodstained-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '2',
         flavor: 'Closely linked to the Church of Dusk, the paladins of the Bloodstained order are devout to the point of fanaticism.'
@@ -349,7 +349,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Common',
         effects: 'Enchant creature\nWhen Pious Interdiction enters the battlefield, you gain 2 life.\nEnchanted creature can\'t attack or block.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Pious-Interdiction-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Ours is the true and righteous path.  You will bow before our might."'
       },
       {
@@ -361,7 +361,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Cleric',
         rarity: 'Rare',
         effects: 'At the beginning of your upkeep, you may reveal a Dinosaur card from your hand.  If you do, you gain 2 life.\n(3WW), Sacrifice Priest of the Wakening Sun: Search your library for a Dinosaur card, reveal it, put it into your hand, then shuffle your library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Priest-of-the-Wakening-Sun-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1'
       },
@@ -374,7 +374,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Knight',
         rarity: 'Common',
         effects: 'Pterodon Knight has flying as long as you control a Dinosaur.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Pterodon-Knight-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: '"To rise like the sun--there is no greater feeling."'
@@ -387,7 +387,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Create two 1/1 white Vampire creature tokens with lifelink.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Queen%E2%80%99s-Commission-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Let the blood of the impure flow through you.  Only the blessings of the golden city will purge its acrid taste from your mouth." --High Marshal Arguel'
       },
       {
@@ -398,7 +398,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Creatures you control get +1/+1 until end of turn.  Untap them.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Rallying-Roar-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"The sun\'s strength sings in our hearts!  I have never been more proud of my home and my people." --Huatli'
       },
       {
@@ -409,7 +409,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Dinosaur',
         rarity: 'Common',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Raptor-Companion-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '1',
         flavor: 'A raptor will follow any order as long as that order is "hunt," "kill," or "go for the guts."'
@@ -422,7 +422,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'You gain 4 life.\nDraw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Ritual-of-Rejuvenation-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Nothing is more sacred than the gift of blood.  Blessed is the vein that empties and the heart that is renewed."'
       },
       {
@@ -433,7 +433,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Rare',
         effects: 'You gain twice X life.  Put Sanguine Sacrament on the bottom of its owner\'s library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Sanguine-Sacrement-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"As the sun sets to make way for dawn, so we turn to darkness to bring about the coming salvation."'
       },
       {
@@ -444,7 +444,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Rare',
         effects: 'Exile all attacking creatures target player controls.  That player searches his or her library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle his or her library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Settle-the-Wreckage-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Sheltering Light',
@@ -454,7 +454,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Target creature gains indestructible until end of turn.  Scry 1. (Damage and effects that say "destroy" don\'t destroy the creature.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Sheltering-Light-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Those who wield the power of the sun protect the Empire from darkness.'
       },
       {
@@ -466,7 +466,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Common',
         effects: 'Flying',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Shining-Aerosaur-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '4',
         flavor: '"The invaders cloak themselves in the shadows of dusk.  Aerosaurs hide in the brilliance of the noonday sun." --Caparocti Sunborn'
@@ -480,7 +480,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Soldier',
         rarity: 'Common',
         effects: 'Flying',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Skyblade-of-the-Legion-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '3',
         flavor: 'Vampires call the gift of flight "exultation."  For their enemies, it brings only sorrow.'
@@ -493,7 +493,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Slash of Talons deals 2 damage to target attacking or blocking creature.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Slash-of-Talons-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"The amber sun smokes with fury, gazing on foes that gather like ants invading our home.  We are ready!  Blade and claw strike as one." --Huatli'
       },
       {
@@ -505,7 +505,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Uncommon',
         effects: 'Vigilance\n(1W), (T): Steadfast Armasaur deals damage equal to its toughness to target creature blocking or blocked by it.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Steadfast-Armasaur-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '3',
         flavor: '"Like the mighty armasaur, we will defend against all who invade our shores." --Itzama the Crested'
@@ -519,7 +519,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Scout',
         rarity: 'Common',
         effects: 'Vigilance\nWhen Sunrise Seeker enters the battlefield, it explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Sunrise-Seeker-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3'
       },
@@ -532,7 +532,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Common',
         effects: 'Whenever Territorial Hammerskull attacks, tap target creature an opponent controls.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Territorial-Hammerskull-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '3',
         flavor: 'From the eyes up, it\'s solid bone and stubbornness.'
@@ -546,7 +546,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Soldier',
         rarity: 'Rare',
         effects: 'Creatures entering the battlefield don\'t cause abilities to trigger.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Tocatli-Honor-Guard-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '3',
         flavor: 'The glorious city of Pachatupa is the center of the Sun Empire, and Tocatli, the emperor\'s palace, is its glowing heart.'
@@ -559,7 +559,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Target creature gets +2/+2 until end of turn.  If it\'s a Vampire, it gains first strike until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Vampires-Zeal-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'The Feast of Blood sends new life essence flowing through the vampire who partakes, manifesting as even greater strength and speed.'
       },
       {
@@ -571,7 +571,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur Avatar',
         rarity: 'Mythic',
         effects: 'When Wakening Sun\'s Avatar enters the battlefield, if you cast it from your hand, destroy all non-Dinosaur creatures.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Wakening-Suns-Avatar-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '7',
         toughness: '7',
         flavor: '"Kinjalli\'s encompassing rays herald new life in the moment of the sun\'s dawning." --Chitlati, Lightning Rider'
@@ -585,7 +585,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Elemental',
         rarity: 'Uncommon',
         effects: 'Flying',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Air-Elemental-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '4',
         flavor: 'As the ship approached, the jade totem rose high overhead.  Power rippled.  Eyes of stone glowed and crackled.  Out hissed a breath of the world, and a windstorm came alive.'
@@ -598,7 +598,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'As Arcane Adaptation enters the battlefield, choose a creature type.\nCreatures you control are the chosen type in addition to their other types.  The same is true for creature spells you control and creature cards you own that aren\'t on the battlefield.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Arcane-Adaptation-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Cancel',
@@ -608,7 +608,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Counter target spell.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Cancel-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Hold your fire, obviously." --Captain Brandis Thorn'
       },
       {
@@ -619,7 +619,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Draw two cards.  Then discard a card unless you attacked with a creature this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Chart-a-Course-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'While other pirates prowl for treasure, Captain Parrish plunders secrets.'
       },
       {
@@ -631,7 +631,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Rare',
         effects: '(2U): Daring Saboteur can\'t be blocked this turn.\nWhenever Daring Saboteur deals combat damage to a player, you may draw a card.  If you do, discard a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Daring-Saboteur-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '1',
         flavor: '"They\'ll never see me coming."'
@@ -645,7 +645,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Uncommon',
         effects: 'When Deadeye Quartermaster enters the battlefield, search your library for an Equipment or Vehicle card, reveal it, put it into your hand, then shuffle your library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Deadeye-Quartermaster-Ixalan-Spoilers-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: '"Welcome aboard, mate!  You\'re going to need this."'
@@ -658,7 +658,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Uncommon',
         effects: 'Whenever you cast a Merfolk spell, create a 1/1 blue Merfolk creature token with hexproof. (A creature with hexproof can\'t be the target of spells or abilities your opponents control.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Deeproot-Waters-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'A visit to the Deeproot Tree and its ancient spring replenishes a merfolk\'s connection to nature.'
       },
       {
@@ -669,7 +669,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Return target creature to its owners hand.  Create a colorless Treasure artifact token with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Depths-of-Desire-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Pockets full of gold, lungs full of brine.'
       },
       {
@@ -680,7 +680,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Target creature you control gets +0/+3 and gains hexproof until end of turn. (It can\'t be the target of spells or abilities your opponents control.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Dive-Down-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Seeing the river is not the same as seeing the fish."'
       },
       {
@@ -692,7 +692,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Siren Pirate',
         rarity: 'Rare',
         effects: 'Flash\nFlying\nDreamcaller Siren can block only creatures with flying.\nWhen Dreamcaller Siren enters the battlefield, if you control another Pirate, tap up to two target nonland permanents.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Dreamcaller-Siren-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3'
       },
@@ -704,7 +704,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Gain control of target creature with converted mana cost X.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Entrancing-Melody-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'The stronger the will, the more bewitching the song.'
       },
       {
@@ -715,7 +715,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Uncommon',
         effects: 'Creatures you control with flying get +1/+1.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Favorable-Winds-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Like ribbons of wind and wisdom the coatls fly, twisting mystery into truth, shaping the clouds to suit their inscrutable will." --Huatli'
       },
       {
@@ -727,7 +727,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Fish',
         rarity: 'Rare',
         effects: 'Whenever Fleet Swallower attacks, target opponent player puts the top half of his or her library into his or her graveyard, rounded up.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Fleet-Swallower.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '6',
         toughness: '6',
         flavor: '"Captain, I think that island is following us."'
@@ -740,7 +740,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Merfolk Warrior',
         rarity: 'Common',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Headwater-Sentries-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '5',
         flavor: '"The elders say that if the intruders discovered the secret of the golden city, it would mean an end to our people."'
@@ -754,7 +754,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Warrior',
         rarity: 'Rare',
         effects: 'Creatures you control with +1/+1 counters on them can\'t be blocked.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Herald-of-Secret-Streams-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '3',
         flavor: '"You might as well try to stop the waterfall."'
@@ -768,7 +768,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Jace',
         rarity: 'Mythic',
         effects: '+1: Whenever one or more creatures you control deal combat damage to a player this turn, draw a card, then discard a card.\n-2: Create a 2/2 blue Illusion creature with "When this creature becomes the target of a spell, sacrifice it."\n-5: Create two tokens that are copies of Jace, Cunning Castaway, except they\'re not legendary.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Jace-Cunning-Castaway-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         loyalty: '3'
       },
       {
@@ -780,7 +780,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Wizard',
         rarity: 'Rare',
         effects: 'Spells your opponents cast that target a Merfolk you control cost (2) more to cast.\nAbilities your opponents activate that target a Merfolk you control cost (2) more to activate.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Kopala-Warden-of-Waves-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: '"I know these waters better than you know yourselves."'
@@ -793,7 +793,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Lookout\'s Dispersal costs (1) less to cast if you control a Pirate.\nCounter target spell unless its controller pays (4).',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Lookouts-Dispersal-216x300.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Her song plucks the strings of the storm, shifting wind and storm into a harmony that will carry her ship to safety.'
       },
       {
@@ -804,7 +804,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Uncommon',
         effects: 'Raid -- At the beginning of your end step, if you attacked with a creature this turn, target opponent puts the top four cards of his or her library into his or her graveyard.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Navigator%E2%80%99s-Ruin-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"You won\'t be needing this.  Or this.  Or these..."'
       },
       {
@@ -816,7 +816,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Common',
         effects: 'Enchant creature\nEnchanted creature gets +2/+2 and has flying.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/One-With-the-Wind-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"River and sea, jungle and sky.  Water flows freely between the two halves of the world.  We are creatures of the water." --Shaper Tuvasa'
       },
       {
@@ -827,7 +827,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Scry 1. (Look at the top card of your library.  You may put that card on the bottom of your library.)\nDraw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Opt-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"It\'s easy to anticipate Captain Storm\'s orders: take the more dangerous route."'
       },
       {
@@ -838,7 +838,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Mythic',
         effects: 'Target player draws seven cards.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Overflowing-Insight-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'The truth came to Kumena like the Great River\'s torrent: the only way to keep his enemies away from the hidden city was to claim its power for himself.'
       },
       {
@@ -849,7 +849,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Return target nonland permanent you don\'t control to its owner\'s hand.  If its converted mana cost was 2 or less, scry 2.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Perilous-Voyage-216x302.jpg',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'For the first time in her life, Vraska tried to prevent death.'
       },
       {
@@ -860,7 +860,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Draw two cards.  Create a colorless Treasure token with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Pirates-Prize-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Nothing warms the heart like plunder.'
       },
       {
@@ -872,7 +872,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Common',
         effects: 'When Prosperous Pirates enters the battlefield, create two colorless Treasure tokens with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Prosperous-Pirates-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '4',
         flavor: 'The floating city of High and Dry hasn\'t yet sunk under the weight of gold, but it\'s not for want of trying.'
@@ -886,7 +886,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Warrior',
         rarity: 'Uncommon',
         effects: 'River Sneak can\'t be blocked.\nWhenever another Merfolk enters the battlefield under your control, River Sneak gets +1/+1 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/River-Sneak-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: 'No ripples, no splashes, no warning.'
@@ -899,7 +899,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Return all nonland permanents target player controls to their owner\'s hand.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Rivers-Rebuke-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Carefully following the thaumatic compass Bolas had given her, Vraska blundered straight into the River Heralds\' trap.'
       },
       {
@@ -910,7 +910,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Put target artifact or creature on top of its owner\'s library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Run-Aground-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"That\'s the first time I\'ve seen the ground do the running." --Captain Brinely Rage'
       },
       {
@@ -922,7 +922,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Common',
         effects: 'When Sailor of Means enters the battlefield, create a colorless Treasure token with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Sailor-of-Means-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '4',
         flavor: 'In the Brazen Coalition, the wheels of business are greased with plunder.'
@@ -935,7 +935,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Enchantment',
         rarity: 'Rare',
         effects: 'At the beginning of your upkeep, you may look at the top card of your library.  You may put it into your graveyard.  Then if you have seven or more cards in your graveyard, you may transform Search for Azcanta.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Search-for-Azcanta-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'The Sunken Ruin houses all the learning of a long-forgotten age.'
       },
       {
@@ -946,7 +946,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Land',
         rarity: 'Rare',
         effects: '(Transforms from Search for Azcanta)\n(T): Add (U) to your mana pool.\n(2U), (T): Look at the top four cards of your library.  You may reveal a noncreature, nonland card from among them and put it into your hand.  Put the rest on the bottom of your library in any order.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Azcanta-the-Sunken-Ruin-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Shaper Apprentice',
@@ -957,7 +957,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Wizard',
         rarity: 'Common',
         effects: 'Shaper Apprentice has flying as long as you control another Merfolk.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Shaper-Apprentice-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '1',
         flavor: 'The River Heralds would wreck a thousand ships to keep intruders from finding the golden city.'
@@ -971,7 +971,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Common',
         effects: 'Raid -- When Shipwreck Looter enters the battlefield, if you attacked with a creature this turn, you may draw a card.  If you do, discard a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Shipwreck-Looter-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '1',
         flavor: 'One pirate\'s wreck is another\'s reward.'
@@ -985,7 +985,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Trilobite',
         rarity: 'Common',
         effects: '(7U), (T), Sacrifice Shore Keeper: Draw three cards.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Shore-Keeper-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '0',
         toughness: '3',
         flavor: 'Over their long life spans, the larger trilobites accumulate vast treasure troves in their guts.'
@@ -999,7 +999,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Siren Pirate',
         rarity: 'Common',
         effects: 'Flying\nWhen Siren Lookout enters the battlefield, it explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Siren-Lookout-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '2'
       },
@@ -1012,7 +1012,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Siren Pirate Wizard',
         rarity: 'Uncommon',
         effects: 'Flying\n(U), Sacrifice Siren Stormtamer: Counter target spell or ability that targets you or a creature you control.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Siren-Stormtamer-Ixalan-Spoilers-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: 'He\'s the calm that hides the coming storm.'
@@ -1025,7 +1025,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Exile target creature you control, then return that card to the battlefield under its owner\'s control.  If a Pirate was exiled this way, draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Sirens-Ruse-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Deception and misdirection are the heart of the pirate\'s arsenal.'
       },
       {
@@ -1036,7 +1036,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Counter target noncreature spell unless its controller pays (2).',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Spell-Pierce-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"A fool\'s fire is quickly quenched." --Shaper Kumena'
       },
       {
@@ -1047,7 +1047,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Rare',
         effects: 'Counter target spell.  Create X colorless Treasure tokens, where X is that spell\'s converted mana cost.  They have "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Spell-Swindle-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Storm Fleet Aerialist',
@@ -1058,7 +1058,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Uncommon',
         effects: 'Flying\nRaid -- Storm Fleet Aerialist enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Storm-Fleet-Aerialist-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '2',
         flavor: '"Only one thing beats the freedom of the sea: the freedom of the sky."'
@@ -1072,7 +1072,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Uncommon',
         effects: 'Raid -- When Storm Fleet Spy enters the battlefield, if you attacked with a creature this turn, draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Storm-Fleet-Spy-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: '"They\'re searching in the same direction we are.  And for the same thing, I\'d wager."'
@@ -1086,7 +1086,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Wizard',
         rarity: 'Common',
         effects: 'Storm Sculptor can\'t be blocked.\nWhen Storm Sculptor enters the battlefield, return a creature you control to its owner\'s hand.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Storm-Sculptor-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '2',
         flavor: 'In his hands, the wind can become a weapon or a means of escape.'
@@ -1100,7 +1100,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Wizard',
         rarity: 'Uncommon',
         effects: 'When Tempest Caller enters the battlefield, tap all creatures target opponent controls.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Tempest-Caller-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '3',
         flavor: '"I *am* the storm."'
@@ -1114,7 +1114,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Wizard',
         rarity: 'Common',
         effects: 'When Watertrap Weaver enters the battlefield, tap target creature an opponent controls.  That creature doesn\'t untap during its controller\'s untap step.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Watertrap-Weaver-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: 'The river is a powerful friend.'
@@ -1128,7 +1128,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Wizard',
         rarity: 'Common',
         effects: 'Flash\nFlying',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Wind-Strider-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: '"Currents are currents, whether in sea or sky."'
@@ -1142,7 +1142,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Cleric',
         rarity: 'Common',
         effects: 'At the beginning of combat on your turn, you may have target Vampire get +2/+0 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Anointed-Deacon-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: 'Inspiration is red as rubies, flowing like honeyed wine.'
@@ -1155,7 +1155,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Enchantment',
         rarity: 'Rare',
         effects: '(1B), Pay 2 life: Draw a card.\nAt the beginning of your upkeep, if you have 5 or less life, you may transform Arguel\'s Blood Fast.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Arguels-Blood-Fast-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Arguel\'s vision led him into the jungles of Ixalan...'
       },
       {
@@ -1166,7 +1166,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Land',
         rarity: 'Rare',
         effects: '(Transforms from Arguel\'s Blood Fast)\n(T): Add (B) to your mana pool.\n(T), Sacrifice a creature: You gain life equal to the sacrificed creature\'s toughness.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Temple-of-Aclazotz-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '...to the lost temple of a bat-god of night, eternal enemy to the Threefold Sun.'
       },
       {
@@ -1178,7 +1178,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Cleric',
         rarity: 'Uncommon',
         effects: 'When Bishop of the Bloodstained enters the battlefield, target opponent loses 1 life for each Vampire you control.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Bishop-of-the-Bloodstained-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: '"They shall give us all they have as penance for their resistance.  Their ships.  Their goods.  Their rebellious blood."'
@@ -1192,7 +1192,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Bat Imp',
         rarity: 'Common',
         effects: '(7B), (T), Sacrifice Blight Keeper: Target opponent loses 4 life and you gain 4 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Blight-Keeper-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: 'It withers fruit and flesh alike.'
@@ -1206,7 +1206,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Knight',
         rarity: 'Rare',
         effects: 'Flash\nBloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Bloodcrazed-Paladin-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: 'When a paladin undertaking the Blood Fast finally gives in to hunger, the violence is sudden, explosive, and complete.'
@@ -1219,7 +1219,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Mythic',
         effects: 'Exile up to five creature cards from graveyards.  An opponent separates those cards into two piles.  Put all cards from the pile of your choice on the battlefield under your control and the rest into their owners\' graveyards.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Boneyard-Parley-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Contract Killing',
@@ -1229,7 +1229,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Destroy target creature.  Create two colorless Treasure artifact tokens with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Contract-Killing-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'For a price, the floating city of High and Dry offers all the amenities a pirate could want: rest, recreation, and revenge.'
       },
       {
@@ -1240,7 +1240,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'As an additional cost to cast Costly Plunder, sacrifice an artifact or creature.\nDraw two cards.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Costly-Plunder-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'No lock of iron is a match for Vraska\'s will of stone.'
       },
       {
@@ -1251,7 +1251,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Dark Nourishment deals 3 damage to target creature or player.  You gain 3 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Dark-Nourishment-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Demons lurk in the shadows of ancient ruins, spreading plague and corruption across the land.'
       },
       {
@@ -1263,7 +1263,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Common',
         effects: 'Raid -- When Deadeye Tormentor enters the battlefield, if you attacked with a creature this turn, target opponent discards a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Deadeye-Tormentor-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: 'Despite their noble heritage, the pirates of the Deadeye Fleet are known for underhanded tactics and despicable trickery.'
@@ -1277,7 +1277,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Rare',
         effects: '(1B), (T): Exile two cards from an opponent\'s graveyard.  Deadeye Tracker explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Deadeye-Tracker-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1'
       },
@@ -1290,7 +1290,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Knight',
         rarity: 'Uncommon',
         effects: 'Flying\nTap three untapped Vampires you control: Return Deathless Ancient from your graveyard to your hand.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Deathless-Ancient-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '4',
         flavor: '"Ancient one, we have reached the promised shore.  The Immortal Sun is near.  Drink and awake."'
@@ -1304,7 +1304,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Common',
         effects: 'Desperate Castaways can\'t attack unless you control an artifact.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Desperate-Castaways-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '3',
         flavor: 'A pirate crew without a ship is a crew that will do anything to get one.'
@@ -1318,7 +1318,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Common',
         effects: 'When Dire Fleet Hoarder dies, create a colorless Treasure artifact token with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Dire-Fleet-Hoarder-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '1',
         flavor: 'Among the pirates of the Brazen Coalition, the only thing more dangerous than failure is success.'
@@ -1332,7 +1332,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Common',
         effects: 'Menace\nWhen Dire Fleet Interloper enters the battlefield, it explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Dire-Fleet-Interloper-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2'
       },
@@ -1345,7 +1345,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Orc Pirate Wizard',
         rarity: 'Mythic',
         effects: 'Menace, deathtouch\nWhen Dire Fleet Ravager enters the battlefield, each player loses a third of his or her life, rounded up.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Dire-Fleet-Ravager-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '4',
         flavor: 'His fists fume with the decay of death, each strike a plague on the hearts of his enemies.'
@@ -1358,7 +1358,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Target opponent reveals his or her hand.  You choose a noncreature, nonland card from it.  That player discards that card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Duress-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Solitude and starvation are brutal punishments, but even worse is all that time to think.'
       },
       {
@@ -1370,7 +1370,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Rare',
         effects: 'Menace\nWhenever Fathom Fleet Captain attacks, if you control another nontoken Pirate, you may pay (2).  If you do, create a 2/2 black Pirate creature token with menace.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Fathom-Fleet-Captain-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '1',
         flavor: '"Join me, and take the world for yourself!"'
@@ -1384,7 +1384,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Common',
         effects: 'When Fathom Fleet Cutthroat enters the battlefield, destroy target creature an opponent controls that was dealt damage this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Fathom-Fleet-Cutthroat-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: '"It was a bad evening for you, mate.  Now it\'s chow time for the sharks."'
@@ -1397,7 +1397,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Return a Pirate card from your graveyard to your hand, then do the same for Vampire, Dinosaur, and Merfolk.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Grim-Captains-Call-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'When the battle is over, the bitterest foes at last find common ground.'
       },
       {
@@ -1408,7 +1408,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Target opponent discards two cards.\nRaid -- If you attacked with a creature this turn, create a colorless Treasure artifact token with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Heartless-Pillage-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Kitesail Freebooter',
@@ -1419,7 +1419,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Uncommon',
         effects: 'Flying\nWhen Kitesail Freebooter enters the battlefield, target opponent reveals his or her hand.  You choose a noncreature, nonland card from it.  Exile that card until Kitesail Freebooter leaves the battlefield.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Kitesail-Freebooter-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '2'
       },
@@ -1432,7 +1432,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Beast Horror',
         rarity: 'Uncommon',
         effects: 'Whenever a creature you control explores, target creature an opponent controls gets -2/-2 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Lurking-Chupacabra-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '3',
         flavor: '"Shadow birthed it.  The moon gave it eyes, and the jungle gave it teeth.  But it was Death that taught it cruelty." --Huatli'
@@ -1445,7 +1445,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Choose one -- \n\t* Return target creature card from your graveyard to your hand.\n\t* Return two target Pirate cards from your graveyard to your hand.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/March-of-the-Drowned-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Mark of the Vampire',
@@ -1456,7 +1456,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Common',
         effects: 'Enchant creature\nEnchanted creature gets +2/+2 and has lifelink.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Mark-of-the-Vampire-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Through your sacrifice of self, you become holy.  Through your strength, all will be saved." --From the Rite of Redemption'
       },
       {
@@ -1468,7 +1468,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Scout',
         rarity: 'Common',
         effects: 'Lifelink\nWhen Queen\'s Agent enters the battlefield, it explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Queen%E2%80%99s-Agent-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3'
       },
@@ -1480,7 +1480,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Vampire Soldier',
         rarity: 'Common',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Queen%E2%80%99s-Bay-Soldier-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: 'The soldiers of the Legion of Dusk have come to the colonies at Queen\'s Bay in search of glory and riches.  They are veterans of centuries of warfare, and they thirst for conquest.'
@@ -1493,7 +1493,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Uncommon',
         effects: 'Whenever an opponent discards a card, that player loses 2 life.\nRaid -- At the beginning of your end step, if you attacked with a creature this turn, target opponent discards a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Raiders%E2%80%99-Wake-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'One was spared to tell the gruesome tale.'
       },
       {
@@ -1504,7 +1504,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'Whenever a creature an opponent controls dies, create a colorless Treasure artifact token with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."\nAt the beginning of your upkeep, if you control ten or more Treasures, you win the game.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Revel-in-Riches-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Ruin Raider',
@@ -1515,7 +1515,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Orc Pirate',
         rarity: 'Rare',
         effects: 'Raid -- At the beginning of your end step, if you attacked with a creature this turn, reveal the top card of your library and put that card into your hand.  You lose life equal to the card\'s converted mana cost.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Ruin-Raider-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '2'
       },
@@ -1528,7 +1528,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Orc Pirate',
         rarity: 'Uncommon',
         effects: '(2B), Sacrifice a creature: Create two colorless Treasure artifact tokens with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."\nSacrifice three Treasures: Draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Ruthless-Knave-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '2',
         flavor: '"This scum is barely worth the trouble."'
@@ -1542,7 +1542,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Knight',
         rarity: 'Rare',
         effects: 'Whenever a Vampire you control attacks, each opponent loses 1 life and you gain 1 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Sanctum-Seeker-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '4',
         flavor: 'The Sanctum Seekers were the first of the knightly orders to cross the sea and are still the most zealous.'
@@ -1556,7 +1556,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Scout',
         rarity: 'Uncommon',
         effects: 'When Seekers\' Squire enters the battlefield, it explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Seekers%E2%80%99-Squire-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '2',
         flavor: 'Dusk follows the light.'
@@ -1570,7 +1570,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Insect',
         rarity: 'Common',
         effects: '(B): Skittering Heartstopper gains deathtouch until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Skittering-Heartstopper-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '2',
         flavor: 'It flows like water over the forest floor, as deadly as the swiftest current.'
@@ -1583,7 +1583,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Until end of turn, target creature  you control gets +1/+1 and target creature an opponent controls gets -1/-1.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Skulduggery-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"They\'re so much more willing to parley once they\'re hanging from a boom by the ankle!"'
       },
       {
@@ -1595,7 +1595,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Soldier',
         rarity: 'Common',
         effects: 'Flying\nWhen Skymarch Bloodletter enters the battlefield, target opponent loses 1 life and you gain 1 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Skymarch-Bloodletter-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: 'From the perpetual shadowsmoke that hung over the ship, a silent form emerged, lips curled with malice and anticipation.'
@@ -1608,7 +1608,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Destroy target land.  Its controller loses 2 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Spreading-Rot-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"What is this foul presence that defies the sun\'s cleansing rays?" --Itzama the Crested'
       },
       {
@@ -1619,7 +1619,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Reveal the top three cards of your library.  For each of those cards, put it into your hand unless any opponent pays 3 life.  Then exile the rest.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Sword-Point-Diplomacy-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Take my blood if you want.  Just don\'t take my gold!"'
       },
       {
@@ -1630,7 +1630,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Destroy target creature with power 3 or less.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Vanquish-the-Weak-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'The clerics known as condemners punish those who do not recognize the righteous authority of the church.'
       },
       {
@@ -1642,7 +1642,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Soldier',
         rarity: 'Uncommon',
         effects: 'Whenever Vicious Conquistador attacks, each opponent loses 1 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Vicious-Conquistador-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '2',
         flavor: '"He is ambitions.  Tireless.  And utterly ruthless.  Ideal for the frontier." --Viceroy Elia Sotonores, report to the queen'
@@ -1655,7 +1655,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Rare',
         effects: 'Exile target creature or planeswalker.  You gain 2 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Vraskas-Contempt-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'It wasn\'t long before the taverns of High and Dry were full of whispers about the new captain who could turn a person to stone with a glance.'
       },
       {
@@ -1666,7 +1666,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Destroy target non-Merfolk creature.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Walk-the-Plank-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'When Captain Thorn adds a new ship to his fleet, he gives the crew a simple choice: follow me, or fall in the sea.'
       },
       {
@@ -1678,7 +1678,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Uncommon',
         effects: 'When Wanted Scoundrels dies, target opponent creates two colorless Treasure artifact tokens with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Wanted-Scoundrels-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '3',
         flavor: '"Trust me.  The reward\'s not worth it."'
@@ -1692,7 +1692,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Rare',
         effects: 'If a source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Angraths-Marauders-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '4',
         flavor: 'Captain Angrath cares less about treasure than mayhem.  If he can\'t leave Ixalan, he\'ll burn the plane down.'
@@ -1706,7 +1706,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Uncommon',
         effects: 'Bonded Horncrest can\'t attack or block alone.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Bonded-Horncrest-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '5',
         toughness: '5',
         flavor: '"You don\'t tame a horncrest.  You convince it that it\'s easier to destroy something else." --Amautl, knight of Atzocan'
@@ -1720,7 +1720,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Common',
         effects: 'Haste\nWhen Brazen Buccaneers enters the battlefield, it explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Brazen-Buccaneers-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2'
       },
@@ -1733,7 +1733,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur Avatar',
         rarity: 'Rare',
         effects: 'When Burning Sun\'s Avatar enters the battlefield, it deals 3 damage to target opponent and 3 damage to up to one target creature.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Burning-Suns-Avatar-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '6',
         toughness: '6',
         flavor: '"Tilonalli\'s searing rays carry the spark of life\'s eventual destruction as all light fades." --Chitlati, Lightning Rider'
@@ -1747,7 +1747,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Rare',
         effects: 'Haste\nWhenever Captain Lannery Storm attacks, create a colorless Treasure artifact token with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Captain-Lannery-Storm-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2'
       },
@@ -1760,7 +1760,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Rare',
         effects: '(3R): Gain control of target creature an opponent controls until end of turn.  Untap that creature.  It gains haste until end of turn.  Activate this ability only any time you could cast a sorcery.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Captivating-Crew-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '3',
         flavor: '"We sail.  We plunder.  Then we dance."'
@@ -1774,7 +1774,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Uncommon',
         effects: 'Trample, haste',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Charging-Monstrosaur-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '5',
         toughness: '5',
         flavor: '"I knew I should have stayed with the boat.  Always stay with the boat!"'
@@ -1787,7 +1787,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Destroy target artifact or land.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Demolish-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'What took months for human hands to carve took just seconds for the dinosaur\'s tail to ruin.'
       },
       {
@@ -1798,7 +1798,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Attacking creatures get +2/+0 until end of turn.  Dinosaurs you control gain trample until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Dinousaur-Stampede-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'If you\'re in the way of a ceratops charge and you\'re made of mere flesh and bone, then you\'re not really in the way.'
       },
       {
@@ -1809,7 +1809,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Dual Shot deals 1 damage to each of up to two target creatures.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Dual-Shot-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Through me the rage of Tilonalli burns twice as bright."'
       },
       {
@@ -1821,7 +1821,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Common',
         effects: '(1R): Fathom Fleet Firebrand gets +1/+0 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Fathom-Fleet-Firebrand-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: 'As she charges into battle, her arcane tattoos stir and crawl like fiery serpents.'
@@ -1834,7 +1834,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Fiery Cannonade deals 2 damage to each non-Pirate creature.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Fiery-Cannonade-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Wary of the ferocious dinosaurs, the Legion of Dusk built up the walls of their fort--just in time for the pirates to burn them down.'
       },
       {
@@ -1846,7 +1846,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Elemental',
         rarity: 'Common',
         effects: 'Menace\n(7R), (T), Sacrifice Fire Shrine Keeper: It deals 3 damage to each of up to two target creatures.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Fire-Shrine-Keeper-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: 'Though grimed with the dust of centuries, the ancient shrine was not unguarded.'
@@ -1859,7 +1859,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Firecannon Blast deals 3 damage to target creature.\nRaid -- Firecannon Blast deals 6 damage to that creature instead if you attacked with a creature this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Firecannon-Blast-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Goblins\' fearlessness and diminutive size make them the perfect cannoneers.'
       },
       {
@@ -1870,7 +1870,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Dinosaur',
         rarity: 'Common',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Frenzied-Raptor-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '2',
         flavor: 'Sun Empire warriors are taught to emulate the fearless raptors that fling themselves against towers of horn and muscle a hundred times their size.'
@@ -1884,7 +1884,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Orc Pirate',
         rarity: 'Common',
         effects: 'Headstrong Brute can\'t block.\nHeadstrong Brute has menace as long as you control another Pirate.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Headstrong-Brute-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: '"Watch your backs, keep your blades at hand, and let the orc go first!" --Captain Brandis Thorn'
@@ -1897,7 +1897,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Gain control of target artifact or creature until end of turn.  Untap it.  It gains haste until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Hijack-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Trapped on Ixalan, the Planeswalker Angrath is the only minotaur sailing the seas.  No matter how many ships he captures, he cannot break free.'
       },
       {
@@ -1908,7 +1908,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Lightning Strike deals 3 damage to target creature or player.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Lightning-Strike-Ixalan-Spoilers-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Storm on the horizon, cap\'n!" --Grick Doobin, last words'
       },
       {
@@ -1920,7 +1920,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Goblin Pirate',
         rarity: 'Uncommon',
         effects: '(T): Lightning-Rig Crew deals 1 damage to each opponent.\nWhenever you cast a Pirate spell, untap Lightning-Rig Crew.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Lightning-Rig-Crew-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '0',
         toughness: '5',
         flavor: 'A pirate ship in battle is a storm of activity.'
@@ -1933,7 +1933,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Uncommon',
         effects: '(1), Sacrifice an artifact or creature: Makeshift Munitions deals 1 damage to target creature or player.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Makeshift-Munitions-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Grease up a firecannon good and proper with dinosaur-liver oil, and it\'ll shoot just about anything."'
       },
       {
@@ -1945,7 +1945,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Common',
         effects: 'Haste',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Nest-Robber-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '1',
         flavor: '"These sailors on our shores are like the dinosaurs that plunder eggs from nests.  They live on the labors of others." --Itzama the Crested'
@@ -1959,7 +1959,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Shaman',
         rarity: 'Uncommon',
         effects: 'Dinosaur spells you cast cost (1) less to cast.\n(T): Target Dinosaur gains haste until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Otepec-Huntmaster-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '2',
         flavor: '"Forward!  Let the Burning Sun\'s light guide you to deserving prey!"'
@@ -1973,7 +1973,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Rare',
         effects: 'Menace\nPlayers can\'t gain life.\nWhenever another creature enters the battlefield, Rampaging Ferocidon deals 1 damage to that creature\'s controller.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Rampaging-Ferocidon-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: 'All raptors are aggressive, but ferocidons seem to enjoy their prey\'s pain.'
@@ -1987,7 +1987,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Uncommon',
         effects: 'Enrage -- Whenever Raptor Hatchling is dealt damage, create a 3/3 green Dinosaur creature token with trample.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Raptor-Hatchling-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: '"Every little hatchling has a parent\'s claws to guard it." --Sun Empire saying'
@@ -2000,7 +2000,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Repeating Barrage deals 3 damage to target creature or player.\nRaid -- (3RR): Return Repeating Barrage from your graveyard to your hand.  Activate this ability only if you attacked with a creature this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Repeating-Barrage-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Rigging Runner',
@@ -2011,7 +2011,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Goblin Pirate',
         rarity: 'Uncommon',
         effects: 'First strike\nRaid -- Rigging Runner enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Rigging-Runner-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: 'The hook made him feel brave, and the hat made him feel fancy.'
@@ -2024,7 +2024,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Rile deals 1 damage to target creature you control.  That creature gains trample until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Rile-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'The enormous can still be at the mercy of the small.'
       },
       {
@@ -2036,7 +2036,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Mythic',
         effects: 'Trample\nWhen Rowdy Crew enters the battlefield, draw three cards, then discard two cards at random.  If two cards that share a card type are discarded this way, put two +1/+1 counters on Rowdy Crew.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Rowdy-Crew-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3'
       },
@@ -2049,7 +2049,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Goblin Rogue',
         rarity: 'Common',
         effects: '(T), Discard a card: Draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Rummaging-Goblin-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: 'Goblins\' eager curiosity leads them to scavenging, petty theft, and the rigging of sleek pirate ships.  Some stop at scavenging.'
@@ -2062,7 +2062,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Mythic',
         effects: 'Destroy target land.  Star of Extinction deals 20 damage to each creature and each planeswalker.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Star-of-Extinction-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"The visions haunt me.  I see the end of the world, brought on by the search for the Immortal Sun." --Shaper Pashona'
       },
       {
@@ -2074,7 +2074,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Orc Pirate',
         rarity: 'Uncommon',
         effects: 'Raid -- When Storm Fleet Arsonist enters the battlefield, if you attacked with a creature this turn, target opponent sacrifices a permanent.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Storm-Fleet-Arsonist-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '4',
         flavor: '"Go ahead, build another.  I\'ll burn that down as well."'
@@ -2088,7 +2088,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate Wizard',
         rarity: 'Common',
         effects: 'Raid -- When Storm Fleet Pyromancer enters the battlefield, if you attacked with a creature this turn, it deals 2 damage to target creature or player.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Storm-Fleet-Pyromancer-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '2'
       },
@@ -2101,7 +2101,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Common',
         effects: 'Enrage -- When Sun-Crowned Hunters is dealt damage, it deals 3 damage to target opponent.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Sun-Crowned-Hunters-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '5',
         toughness: '4',
         flavor: 'One alone is dangerous, and they are never alone.'
@@ -2114,7 +2114,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'Whenever you cast a spell from your hand, reveal the top X cards of your library, where X is that spell\'s converted mana cost.  You may cast a card revealed this way with converted mana cost X or less without paying its mana cost.  Put the rest on the bottom of your library in a random order.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Sunbirds-Invocation-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Sure Strike',
@@ -2124,7 +2124,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Target creature gets +3/+0 and gains first strike until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Sure-Strike-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Everyone has a weak spot."'
       },
       {
@@ -2136,7 +2136,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Common',
         effects: 'Enchant creature\nEnchanted creature gets +2/+2 and has haste.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Swashbuckling-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'The pirates of the Brazen Coalition are the descendants of those displaced by the Legion of Dusk, and they are eager for vengeance.'
       },
       {
@@ -2148,7 +2148,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Common',
         effects: 'As long as you control another Dinosaur, Thrash of Raptors gets +2/+0 and has trample.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Thrash-of-Raptors-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: 'They glide through the undergrowth, drawn to the sounds of disturbance.  They attack in unison and all share in the kill.  And then they move on.'
@@ -2162,7 +2162,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Knight',
         rarity: 'Common',
         effects: 'Whenever Tilonalli\'s Knight attacks, if you control another Dinosaur, Tilonalli\'s Knight gets +1/+1 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Tilonallis-Knight-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: 'The people of the Sun Empire worship the sun in three aspects.  Tilonalli is the Burning Sun, associated with ferocity, fire, and passion.'
@@ -2176,7 +2176,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Shaman',
         rarity: 'Rare',
         effects: 'Haste\nWhenever Tilonalli\'s Skinshifter attacks, it becomes a copy of another target nonlegendary creature until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Tilonallis-Skinshifter-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '0',
         toughness: '1',
         flavor: '"I am the ferocity of the Burning Sun.  I am hide and feather, fang and claw."'
@@ -2189,7 +2189,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Uncommon',
         effects: 'Each opponent must attack you or a planeswalker you control with at least one creature each combat if able.\nAt the beginning of your end step, create a colorless Treasure artifact token with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Trove-of-Temptation-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Unfriendly Fire',
@@ -2199,7 +2199,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Unfriendly Fire deals 4 damage to target creature or player.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Unfriendly-Fire-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Disputes within the Brazen Coalition can escalate from insult to broadside in the blink of an eye.'
       },
       {
@@ -2210,7 +2210,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Enchantment',
         rarity: 'Rare',
         effects: 'At the beginning of your upkeep, exile the top card of your library.  If it\'s a nonland card, you may cast that card this turn.\nWhenever you cast your third spell in a turn, you may transform Vance\'s Blasting Cannons.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Vance%E2%80%99s-Blasting-Cannons-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'With a broadside assault, Captain Vance carved the cliffs to form her new home.'
       },
       {
@@ -2221,7 +2221,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Land',
         rarity: 'Rare',
         effects: '(Transforms from Vance\'s Blasting Cannons)\n(T): Add (R) to your mana pool.\n(2R), (T): Spitfire Bastion deals 3 damage to target creature or player.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Spitfire-Bastion-213x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Now instead of a ship, Ripley Vance commands a fortress.'
       },
       {
@@ -2233,7 +2233,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Goblin Pirate',
         rarity: 'Uncommon',
         effects: 'When Wily Goblin enters the battlefield, create a colorless Treasure artifact token with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Wily-Goblin-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: 'Goblins climb and swing with ease, whether through a pirate ship\'s rigging or a tree\'s branches.'
@@ -2246,7 +2246,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Dinosaur',
         rarity: 'Common',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Ancient-Brontodon-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '9',
         toughness: '9',
         flavor: 'It is taller than all but the tallest trees, and older than all but the oldest.'
@@ -2260,7 +2260,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Archer',
         rarity: 'Uncommon',
         effects: 'Reach\nWhen Atzocan Archer enters the battlefield, you may have it fight another target creature. (Each deals damage equal to its power to the other.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Atzocan-Archer-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '4',
         flavor: 'His arrows are fletched with feathers from the greatest of the winged dinosaurs.'
@@ -2273,7 +2273,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Prevent all damage that would be dealt to creatures this turn.  Creatures you control gain hexproof until end of turn. (They can\'t be the target of spells or abilities your opponents control.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Blinding-Fog-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"I see you, shiny soldiers, but you won\'t see me."'
       },
       {
@@ -2285,7 +2285,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dryad',
         rarity: 'Common',
         effects: '(T): Untap target land.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Blossom-Dryad-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: 'The only force on Ixalan not interested in finding the golden city is Ixalan itself.'
@@ -2299,7 +2299,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Mythic',
         effects: 'Carnage Tyrant can\'t be countered.\nTrample, hexproof',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Carnage-Tyrant-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '7',
         toughness: '6',
         flavor: 'Sun Empire commanders are well-versed in advanced martial strategy.  Still, the correct maneuver is usually to deploy the giant, implacable death lizard.'
@@ -2313,7 +2313,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Common',
         effects: 'Trample',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Colossal-Dreadmaw-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '6',
         toughness: '6',
         flavor: 'If you feel the ground quake, run.  If you hear its bellow, flee.  If you see its teeth, it\'s too late.'
@@ -2326,7 +2326,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Look at the top five cards of your library.  You may reveal a Dinosaur or land card from among them and put it into your hand.  Put the rest on the bottom of your library in any order.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Commune-with-Dinosaurs-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Crash the Ramparts',
@@ -2336,7 +2336,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Target creature gets +3/+3 and gains trample until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Crash-the-Ramparts-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'The Legion\'s conquistadors could endure Ixalan\'s sun.  Their forts could withstand a charging ceratops.  But nothing can stop a ceratops strengthened by the sun.'
       },
       {
@@ -2347,7 +2347,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Choose one -- \n\t* Destroy target creature with flying.\n\t* Destroy target enchantment.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Crushing-Canopy-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Do not mistake your lofty vantage point for safety." --Shaper Tuvasa'
       },
       {
@@ -2359,7 +2359,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Rare',
         effects: 'Whenever Deathgorge Scavenger enters the battlefield or attacks, you may exile target card from a graveyard.  If a creature card was exiled this way, you gain 2 life.  If a noncreature card is exiled this way, Deathgorge Scavenger gets +1/+1 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Deathgorge-Scavenger-216x296.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '2'
       },
@@ -2372,7 +2372,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Shaman',
         rarity: 'Rare',
         effects: 'Whenever you cast a noncreature spell, put a +1/+1 counter on Deeproot Champion.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Deeproot-Champion-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: '"No good will come from what you seek.  Turn back now or suffer an ignoble death far from your home."'
@@ -2386,7 +2386,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Warrior',
         rarity: 'Common',
         effects: 'Whenever Deeproot Warrior becomes blocked, it gets +1/+1 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Deeproot-Warrior-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: '"We breathe from our soul and bones to give strength to the jungle.  The jungle breathes from its roots and rivers to give strength to us." --Shaper Falani'
@@ -2400,7 +2400,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Druid',
         rarity: 'Uncommon',
         effects: 'Drover of the Mighty gets +2/+2 as long as you control a Dinosaur.\n(T): Add one mana of any color to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Drover-of-the-Mighty-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: '"I do not lead.  They do not follow.  We walk together."'
@@ -2413,7 +2413,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Target creature gets +5/+5 and must be blocked this turn if able.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Emergent-Growth-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"By accepting my smallness I am vast."'
       },
       {
@@ -2425,7 +2425,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Scout',
         rarity: 'Rare',
         effects: 'Whenever Emperor\'s Vanguard deals combat damage to a player, it explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Emperors-Vanguard-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '3'
       },
@@ -2438,7 +2438,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Common',
         effects: 'Reach',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Grazing-Whiptail-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '4',
         flavor: 'Often found browsing on the upper canopies of Ixalan\'s jungles, whiptails are known to absently bat away anything foolish enough to interrupt their meal.'
@@ -2451,7 +2451,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Enchantment',
         rarity: 'Rare',
         effects: 'When Growing Rites of Itlimoc enters the battlefield, look at the top four cards of your library.  You may reveal a creature card from among them and put it into your hand.  Put the rest on the bottom of your library in any order.\nAt the beginning of your end step, if you control four or more creatures, you may transform Growing Rites of Itlimoc.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Growing-Rites-of-Itlimoc-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Itlimoc, Cradle of the Sun',
@@ -2461,7 +2461,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Land',
         rarity: 'Rare',
         effects: '(Transforms from Growing Rites of Itlimoc)\n(T): Add (G) to your mana pool.\n(T): Add (G) to your mana pool for each creature you control.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Itlimoc-Cradle-of-the-Sun-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Before the Sun Empire was born, humans and merfolk joined their magic to invoke a blessing of fertility on the land.'
       },
       {
@@ -2473,7 +2473,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Druid',
         rarity: 'Common',
         effects: 'When Ixalli\'s Diviner enters the battlefield, it explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Ixalli%E2%80%99s-Diviner-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '0',
         toughness: '3'
       },
@@ -2486,7 +2486,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Shaman',
         rarity: 'Common',
         effects: '(7G), (T), Sacrifice Ixalli\'s Keeper: Target creature gets +5/+5 and gains trample until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Ixalli%E2%80%99s-Keeper-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: 'The people of the Sun Empire worship the sun in three aspects.  Ixalli is the Verdant Sun, who fosters growth in all things.'
@@ -2500,7 +2500,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Shaman',
         rarity: 'Common',
         effects: 'Hexproof (This creature can\'t be the target of spells or abilities your opponents control.)\nWhen Jade Guardian enters the battlefield, put a +1/+1 counter on target Merfolk you control.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Jade-Guardian-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: 'The River Heralds believe that jade gives weight to their magic.'
@@ -2514,7 +2514,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Warrior',
         rarity: 'Common',
         effects: '(3G): Put a +1/+1 counter on Jungle Delver.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Jungle-Delver-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: '"There is no power too great to be used in the defense of our ancestral lands."'
@@ -2528,7 +2528,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Shaman',
         rarity: 'Uncommon',
         effects: 'Kumena\'s Speaker gets +1/+1 as long as you control another Merfolk or an Island.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Kumena%E2%80%99s-Speaker-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '1',
         flavor: '"The same power that drives the river ever onward flows through the roots and branches--to me."'
@@ -2542,7 +2542,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Scout',
         rarity: 'Uncommon',
         effects: 'When Merfolk Branchwalker enters the battlefield, it explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Merfolk-Branchwalker-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '1'
       },
@@ -2555,7 +2555,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Common',
         effects: 'Enchant land\nWhen New Horizons enters the battlefield, put a +1/+1 counter on target creature you control.\nEnchanted land has "(T): Add two mana of any one color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/New-Horizons-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Old-Growth Dryads',
@@ -2566,7 +2566,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dryad',
         rarity: 'Rare',
         effects: 'When Old-Growth Dryads enters the battlefield, each opponent searches their library for a basic land card, put it onto the battlefield tapped, then shuffle his or her library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Old-Growth-Dryads-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: '"The jungle was here before any city.  It will be here after the last city falls."'
@@ -2579,7 +2579,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Target creature you control fights target creature you don\'t control. (Each deals damage equal to its power to the other.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Pounce-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'The drive to hunt and feed is raw instinct for dinosaurs.  The trick is simply to channel it in the right direction.'
       },
       {
@@ -2591,7 +2591,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Uncommon',
         effects: 'Enrage -- When Ranging Rators is dealt damage, search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Ranging-Raptors-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '3',
         flavor: 'They cover their territory like a tide of teeth and claws.'
@@ -2604,7 +2604,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Dinosaur',
         rarity: 'Common',
         effects: 'Enrage -- Whenever Ravenous Daggertooth is dealt damage, you gain 2 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Ravenous-Daggertooth-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '2',
         flavor: 'A daggertooth\'s triumphant roar makes all the sounds of jungle life fall silent.'
@@ -2618,7 +2618,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Rare',
         effects: 'Enrage -- Whenever Ripjaw Raptor is dealt damage, draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Ripjaw-Raptor-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '5',
         flavor: 'Raptors are clever enough to to tear away a hard metal shell to get at the tasty morsel inside.'
@@ -2631,7 +2631,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Put a +1/+1 counter on target creature and a +1/+1 counter on up to one target Merfolk.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/River-Heralds-Boon-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"We are kin to the trees, and their strength is our own."'
       },
       {
@@ -2642,7 +2642,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Savage Stomp costs (2) less to cast if it targets a Dinosaur you control.\nPut a +1/+1 counter on target creature you control.  It fights target creature you don\'t control. (Each deals damage equal to its power to the other.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Savage-Stomp-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Shapers\' Sanctuary',
@@ -2652,7 +2652,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'Whenever a creature you control becomes the target of a spell or ability an opponent controls, you may draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Shapers-Sanctuary-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Protection is woven into every vine and branch.'
       },
       {
@@ -2663,7 +2663,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Destroy target artifact or enchantment.\nDraw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Slice-in-Twain-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'The magic of the River Heralds is so great that even a single shaman can fend off a pirate landing party.'
       },
       {
@@ -2675,7 +2675,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Uncommon',
         effects: 'Flash\nEnrage -- Whenever Snapping Sailback is dealt damage, put a +1/+1 counter on it. (It must survive the damage to get the counter.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Snapping-Sailback-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '4',
         flavor: 'Lurking beneath the murky waters of Ixalan\'s rivers, sailbacks can rip a meal off the shore in the blink of an eye.'
@@ -2689,7 +2689,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Common',
         effects: 'Spike-Tailed Ceratops can block an additional creature each combat.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Spike-Tailed-Ceratops-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '4',
         flavor: 'The conquistadors surrounded the dinosaur only to find that it had outflanked them.'
@@ -2703,7 +2703,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Uncommon',
         effects: 'Other Dinosaurs you control get +1/+1.\n(5G): Create a 3/3 Dinosaur creature token with trample.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Thundering-Spineback-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '5',
         toughness: '5',
         flavor: '"It appears that nature has risen against us." --Captain Brinely Rage'
@@ -2717,7 +2717,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Scout',
         rarity: 'Common',
         effects: 'When Tishana\'s Wayfinder enters the battlefield, it explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Tishanas-Wayfinder-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: '"There is always another way."'
@@ -2730,7 +2730,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Until end of turn, target creature gets "When this creature dies, return it to its owner\'s hand."\nDraw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Verdant-Rebirth-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'The dryads of the forest have no stake in Ixalan\'s conflict, but they hate to see another living being suffer.'
       },
       {
@@ -2742,7 +2742,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Rare',
         effects: 'Whenever Verdant Sun\'s Avatar or another creature enters the battlefield under your control, you gain life equal to that creature\'s toughness.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Verdant-Suns-Avatar-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '5',
         toughness: '5',
         flavor: '"Ixalli\'s fertile rays enliven us all.  Each of us is a testament to the sun\'s strength and love." --Chitlati, Lightning Rider'
@@ -2756,7 +2756,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Shaman',
         rarity: 'Uncommon',
         effects: 'When Vineshaper Mystic enters the battlefield, put a +1/+1 counter on each of up to two target Merfolk creatures you control.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Vineshaper-Mystic-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '3',
         flavor: 'She has never touched a loom, yet the tapestries she weaves are vast and beautiful.'
@@ -2770,7 +2770,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Shaman',
         rarity: 'Rare',
         effects: '(XGG): Put X +1/+1 counters on target land.  That land becomes a 0/0 Elemental creature with haste.  It\'s still a land.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Waker-of-the-Wilds-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: '"Our enemies are many and mighty, but not as many as the trees or as mighty as the sea."'
@@ -2784,7 +2784,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Elemental',
         rarity: 'Uncommon',
         effects: 'Whenever a creature you control explores, put a +1/+1 counter on Wildgrowth Walker and you gain 3 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Wildgrowth-Walker-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '1',
         toughness: '3',
         flavor: '"Hear me, stone, root, branch: be the fist of this land.  Turn back those who trample upon your domain." --Song of the Shaper'
@@ -2798,7 +2798,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Mythic',
         effects: 'Other Pirates you control get +1/+1.\nAt the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Admiral-Beckett-Brass-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: '"You and your ship will make a fine addition to my fleet."'
@@ -2812,7 +2812,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Uncommon',
         effects: 'Each creature you control assigns combat damage equal to its toughness rather than its power.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Belligerent-Brontodon-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '6',
         flavor: 'Predators try to separate the young, old, or injured from the rest of the herd.  The alternative is crushing defeat.'
@@ -2825,7 +2825,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Create three 1/1 Vampire creature tokens with lifelink.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Call-to-the-Feast-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'By the law of church and crown, vampires feed only on the blood of the guilty--those declared heretics, rebels, or enemies of war.'
       },
       {
@@ -2837,7 +2837,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Uncommon',
         effects: 'Deadeye Plunderers gets +1/+1 for each artifact you control.\n(2UB): Create a colorless Treasure artifact with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Deadeye-Plunderers-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: '"Keep your friends close and your enemies within range."'
@@ -2851,7 +2851,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Orc Pirate',
         rarity: 'Uncommon',
         effects: 'Whenever Dire Fleet Captain attacks, it gets +1/+1 for each other attacking Pirate.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Dire-Fleet-Captain-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: 'Orcs are happiest under captains who steer toward battle.  Orcs of the Dire Fleet are downright jovial.'
@@ -2865,7 +2865,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur Avatar',
         rarity: 'Mythic',
         effects: 'Trample, vigilance, haste\nWhenever Gishath, Sun\'s Avatar deals combat damage to a player, reveal that many cards from the top of your library.  Put any number of Dinosaur cards from among them onto the battlefield and the rest on the bottom of your library in a random order.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Gishath-Suns-Avatar-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '7',
         toughness: '6'
       },
@@ -2878,7 +2878,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Rare',
         effects: 'When Hostage Taker enters the battlefield, exile target artifact or creature until Hostage Taker leaves the battlefield.  You may cast that card as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Hostage-Taker-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '3'
       },
@@ -2891,7 +2891,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Huatli',
         rarity: 'Mythic',
         effects: '+2: You gain life equal to the greatest power among creatures you control.\n0: Create a 3/3 green Dinosaur creature token with trample.\n-X: Huatli, Warrior Poet deals X damage divided as you choose among any number of target creatures.  Creatures dealt damage this way can\'t block this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Huatli-Warrior-Poet-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         loyalty: '3'
       },
       {
@@ -2903,7 +2903,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Uncommon',
         effects: 'Raid -- When Marauding Looter enters the battlefield, if you attacked with a creature this turn, you may draw a card.  If you do, discard a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Marauding-Looter-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '3',
         flavor: '"I\'ll be taking that."'
@@ -2917,7 +2917,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Uncommon',
         effects: 'Trample\nWhen Raging Swordtooth enters the battlefield, it deals 1 damage to each other creature.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Raging-Swordtooth-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '5',
         toughness: '5',
         flavor: 'Carnivorous dinosaurs developed a taste for undead flesh, tracking the vampires by the scent of blood on their breath.'
@@ -2931,7 +2931,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Rare',
         effects: 'Other Dinosaurs you control have haste.\nWhen Regisaur Alpha enters the battlefield, create a 3/3 green Dinosaur creature token with trample.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Regisaur-Alpha-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '4',
         flavor: '"Seeing a pack of these monsters hunt together, I\'m at a loss to imagine the size of their prey." --Adrian Adanto of Lujio'
@@ -2945,7 +2945,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Shaman',
         rarity: 'Uncommon',
         effects: '(3G): Put a +1/+1 counter on target creature.\n(2U), Remove a +1/+1 counter from a creature you control: Draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Shapers-of-Nature-Ixalan-Spoilers-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: 'Shapers adapt nature to fit their needs and then return it to the way it was, leaving no trace of their passing.'
@@ -2959,7 +2959,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dinosaur',
         rarity: 'Uncommon',
         effects: 'Flying, menace',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Sky-Terror-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2',
         flavor: '"Wherever the Threefold Sun shines, great wings may go." --Emperor Apatzec Intli III'
@@ -2973,7 +2973,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Merfolk Shaman',
         rarity: 'Mythic',
         effects: 'Tishana, Voice of Thunder\'s power and toughness are each equal to the number of cards in your hand.\nYou have no maximum hand size.\nWhen Tishana, Voice of Thunder enters the battlefield, draw a card for each creature you control.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Tishana-Voice-of-Thunder-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '*',
         toughness: '*'
       },
@@ -2986,7 +2986,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vampire Knight',
         rarity: 'Mythic',
         effects: 'Vigilance, lifelink\n(T), Pay 7 life: Destroy target nonland permanent.  Activate this ability only during your turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Vona-Butcher-of-Magan-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '4',
         flavor: '"For four hundred years, I have led armies of conquest.  These lands hold nothing that can stand against me."'
@@ -3000,7 +3000,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vraska',
         rarity: 'Mythic',
         effects: '+2: Create a 2/2 black Pirate creature token with menace.\n-3: Destroy target artifact, creature, or enchantment.  Create a colorless Treasure token with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."\n-10: Target player\'s life total becomes 1.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Vraska-Relic-Seeker-Ixalan-Planeswalker-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         loyalty: '6'
       },
       {
@@ -3012,7 +3012,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Equipment',
         rarity: 'Common',
         effects: 'Equipped creature has flying.\nEquip (1) ((1): Attach to target creature you control.  Equip only as a sorcery.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Cobbled-Wings-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Flotsam held together by optimism.'
       },
       {
@@ -3024,7 +3024,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vehicle',
         rarity: 'Rare',
         effects: 'Whenever Conqueror\'s Galleon attacks, exile it at end of combat, then return it to the battlefield transformed under your control.\nCrew 4 (Tap any number of creatures you control with total power 4 or more: This vehicle becomes an artifact creature until end of turn.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Conquerors-Galleon-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '10'
       },
@@ -3036,7 +3036,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Rare',
         effects: '(Transforms from Conqueror\'s Galleon)\n(T): Add (1) to your mana pool.\n(2), (T): Draw a card, then discard a card.\n(4), (T): Draw a card.\n(6), (T): Return target card from your graveyard to your hand.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Conquerors-Foothold-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Dowsing Dagger',
@@ -3047,7 +3047,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Equipment',
         rarity: 'Rare',
         effects: 'When Dowsing Dagger enters the battlefield, target opponent creates two 0/2 green Plant creature tokens with defender.\nEquipped creature gets +2/+1.\nWhenever equipped creature deals combat damage to a player, transform Dowsing Dagger.\nEquip (2)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Dowsing-Dagger-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Lost Vale',
@@ -3057,7 +3057,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Rare',
         effects: '(Transforms from Dowsing Dagger)\n(T): Add three mana of any one color to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Lost-Vale-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'The pirates had ventured into the interior for treasure.  They found something far greater.'
       },
       {
@@ -3069,7 +3069,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vehicle',
         rarity: 'Uncommon',
         effects: 'Vigilance\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Dusk-Legion-Dreadnought-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '6',
         flavor: 'It loomed up over the horizon, silent and dark as a grave.'
@@ -3082,7 +3082,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Uncommon',
         effects: 'Elaborate Firecannon doesn\'t untap during your untap step.\n(4), (T): Elaborate Firecannon deals 2 damage to target creature or player.\nAt the beginning of your upkeep, you may discard a card.  If you do, untap Elaborate Firecannon.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Elaborate-Firecannon-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Fell Flagship',
@@ -3093,7 +3093,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vehicle',
         rarity: 'Rare',
         effects: 'Pirates you control get +1/+0.\nWhenever Fell Flagship deals combat damage to a player, that player discards a card.\n Crew 3 (Tap anynumber of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Fell-Flagship-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3'
       },
@@ -3105,7 +3105,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact Creature',
         subtype: 'Golem',
         rarity: 'Common',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Gilded-Sentinel-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '3',
         toughness: '3',
         flavor: 'The River Heralds fight to keep all others from reaching the golden city.  The city has its own defenses.'
@@ -3118,7 +3118,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Common',
         effects: 'When Heirophant\'s Chalice enters the battlefield, target opponent loses 1 life and you gain 1 life.\n(T): Add (1) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Hierophant%E2%80%99s-Chalice-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'In the Rite of Redemption, nobles take the same oath as Elenda, the first vampire, and make the same eternal sacrifice.'
       },
       {
@@ -3129,7 +3129,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Uncommon',
         effects: 'As Pillar of Origins enters the battlefield, choose a creature type.\n(T): Add one mana of any color to your mana pool.  Spend this mana only to cast a creature spell of the chosen type.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Pillar-of-Origins-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Pirate\'s Cutlass',
@@ -3140,7 +3140,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Equipment',
         rarity: 'Common',
         effects: 'When Pirate\'s Cutlass enters the battlefield, attach it to target Pirate you control.\nEquipped creature gets +2/+1.\nEquip (2) ((2): Attach to target creature you control.  Equip only as a sorcery.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Pirate%E2%80%99s-Cutlass-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Primal Amulet',
@@ -3150,7 +3150,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Rare',
         effects: 'Instant and sorcery spells you cast cost (1) less to cast.\nWhenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet.  Then if there are four or more charge counters on it, you may remove those counters and transform it.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Primal-Amulet-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Primal Wellspring',
@@ -3160,7 +3160,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Rare',
         effects: '(Transforms from Primal Amulet)\n(T): Add one mana of any color to your mana pool.  When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Primal-Wellspring-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Prying Blade',
@@ -3171,7 +3171,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Equipment',
         rarity: 'Common',
         effects: 'Equipped creature gets +1/+0.\nWhenever equipped creature deals combat damage to a player, create a colorless Treasure artifact token with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."\nEquip (2) ((2): Attach to target creature you control.  Equip only as a sorcery.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Prying-Blade-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Sentinel Totem',
@@ -3181,7 +3181,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Uncommon',
         effects: 'When Sentinel Totem enters the battlefield, scry 1. (Look at the top card of your library.  You may put that card on the bottom of your library.)\n(T), Exile Sentinel Totem: Exile all cards from all graveyards.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Sentinel-Totem-Ixalan-Spoilers-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Shadowed Caravel',
@@ -3192,7 +3192,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vehicle',
         rarity: 'Rare',
         effects: 'Whenever a creature you control explores, put a +1/+1 counter on Shadowed Caravel.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Shadowed-Caravel-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '2',
         toughness: '2'
       },
@@ -3205,7 +3205,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vehicle',
         rarity: 'Uncommon',
         effects: 'Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Sleek-Schooner-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         power: '4',
         toughness: '3',
         flavor: 'The pirates had left the open sea behind, but they were still in their element: reckless adventure.'
@@ -3218,7 +3218,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Rare',
         effects: 'As Sorcerous Spyglass enters the battlefield, look at an opponent\'s hand, then choose any card name.\nActivated abilities of sources with the chosen name can\'t be activated unless they\'re mana abilities.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Sorcerous-Spyglass-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Thaumatic Compass',
@@ -3228,7 +3228,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Rare',
         effects: '(3), (T): Search for a basic land card, reveal it, put it into your hand, then shuffle your library.\nAt the beginning of your end step, if you control seven or more lands, transform Thaumatic compass.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Thaumatic-Compass-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Clearly, it indicates the aetheric azimuth of..." --Jace Beleren'
       },
       {
@@ -3239,7 +3239,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Rare',
         effects: '(T): Add (1) to your mana pool.\n(T): Untap target attacking creature and remove it from combat.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Spires-of-Orazca-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"...a cryptic objective." --Jace Beleren'
       },
       {
@@ -3250,7 +3250,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Rare',
         effects: '(1), (T): Scry 1.  Put a landmark counter on Treasure Map.  Then if there are three or more landmark counters on it, remove those counters, transform Treasure Map, and create three colorless Treasure tokens with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Treasure-Map-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Treasure Cove',
@@ -3260,7 +3260,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Rare',
         effects: '(Transforms from Treasure Map)\n(T): Add (1) to your mana pool.\n(T), Sacrifice a Treasure: Draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/08/Treasure-Cove-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Half the treasure is the glory of finding it.'
       },
       {
@@ -3271,7 +3271,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Rare',
         effects: 'As Vanquisher\'s Banner enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1.\nWhenever you cast a creature spell of the chosen type, draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Vanquishers-Banner-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Dragonskull Summit',
@@ -3281,7 +3281,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Rare',
         effects: 'Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.\n(T): Add (B) or (R) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Dragonskull-Summit-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'When the Planeswalker Angrath called dinosaurs "dragons," the name stuck in certain pirate circles.'
       },
       {
@@ -3292,7 +3292,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Rare',
         effects: 'Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.\n(T): Add (U) or (B) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Drowned-Catacomb-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'None can tell how many vessels are tangled up on the sea floor--or how much treasure remains unclaimed.'
       },
       {
@@ -3303,7 +3303,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Uncommon',
         effects: '(T): Add (1) to your mana pool.\n(2), (T), Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls.  Each player searches his or her library for a basic land card, puts it onto the battlefield, then shuffles his or her library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Field-of-Ruin-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Glacial Fortress',
@@ -3313,7 +3313,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Rare',
         effects: 'Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.\n(T): Add (W) or (U) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Glacial-Fortress-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Ships blown north in their voyage across the Stormwreck Sea become trapped in the unmelting ice.'
       },
       {
@@ -3324,7 +3324,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Rare',
         effects: 'Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.\n(T): Add (R) or (G) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Rootbound-Crag-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'Cliffs echo and branches quake at the roar of life.'
       },
       {
@@ -3335,7 +3335,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Rare',
         effects: 'Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.\n(T): Add (G) or (W) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Sunpetal-Grove-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: 'To the Sun Empire, any place where daylight brightens the jungle floor is sacred ground.'
       },
       {
@@ -3346,7 +3346,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Uncommon',
         effects: 'When Unclaimed Territory enters the battlefield, choose a creature type.\n(T): Add (1) to your mana pool.\n(T): Add one mana of any color to your mana pool.  Spend this mana only to cast a creature spell of the chosen type.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Unclaimed-Territory-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Unknown Shores',
@@ -3356,7 +3356,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Common',
         effects: '(T): Add (1) to your mana pool.\n(1), (T): Add one mana of any color to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Unknown-Shores-Ixalan-Spoiler-216x302.png',
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpg',
         flavor: '"Just imagine what\'s waiting around the next bend.  Adventure.  Discovery.  Riches for the taking.  This is why I sail." --Captain Lannery Storm'
       },
       {
@@ -3368,7 +3368,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Plains',
         rarity: 'Common',
         effects: '(T): Add (W) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Plains-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Island (Lost Jace)',
@@ -3379,7 +3379,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Island',
         rarity: 'Common',
         effects: '(T): Add (U) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Island-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Swamp (Lost Jace)',
@@ -3390,7 +3390,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Swamp',
         rarity: 'Common',
         effects: '(T): Add (B) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Swamp-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Mountain (Lost Jace)',
@@ -3401,7 +3401,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Mountain',
         rarity: 'Common',
         effects: '(T): Add (R) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Mountain-Ixalan-Spoiler-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       },
       {
         name: 'Forest (Lost Jace)',
@@ -3412,7 +3412,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Forest',
         rarity: 'Common',
         effects: '(T): Add (G) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/09/Forest-Ixalan-Spoiler1-216x302.png'
+        art: 'https://www.mythicspoiler.com/ixa/cards/.jpgg'
       }
     ]);
   });

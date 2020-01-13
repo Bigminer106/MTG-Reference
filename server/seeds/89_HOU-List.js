@@ -12,7 +12,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Untap target creature.  It gets +2/+2 and can block an additional creature this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Act-of-Heroism-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"On every plane, there are those who run toward danger." --Gideon Jura'
       },
       {
@@ -24,7 +24,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Cat',
         rarity: 'Rare',
         effects: 'Double strike\nEternalize (3WW) ((3WW), Exile this card from your graveyard: Create a token that\'s a copy of it, except it\'s a 4/4 black Zombie Cat with no mana cost.  Eternalize only as a sorcery.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Adorned-Pouncer-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '1',
         toughness: '1'
       },
@@ -37,7 +37,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Angel',
         rarity: 'Rare',
         effects: 'Flying, vigilance\n(2W), (T): Exile another target creature.  Return that card to the battlefield under its owner\'s control at the beginning of the next end step.\n(2W), (T), Exert Angel of Condemnation: Exile another target creature until Angel of Condemnation leaves the battlefield. (An exerted creature won\'t untap during your next untap step.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Angel-of-Condemnation-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '3',
         toughness: '3'
       },
@@ -50,7 +50,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Angel',
         rarity: 'Uncommon',
         effects: 'Flying\nCycling (2) ((2), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Angel-of-the-God-Pharaoh-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The angels did not deceive.  From the start, they were clear their allegiance was to the God-Pharoah and to him alone.',
         power: '4',
         toughness: '4'
@@ -64,7 +64,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Bird Cleric',
         rarity: 'Common',
         effects: 'Flying\nWhen Aven of Enduring Hope enters the battlefield, you gain 3 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Aven-of-Enduring-Hope-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"This storm will calm.  We must believe that."',
         power: '3',
         toughness: '3'
@@ -78,7 +78,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Horse',
         rarity: 'Mythic',
         effects: 'Other Horses you control have indestructible.\nAt the beginning of each end step, if you gained life this turn, create a 5/5 white Horse creature token.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Crested-Sunmare-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"It is evidence that some pure corner of the world must still exist." --Djeru, former Tah-crop initiate',
         power: '5',
         toughness: '5'
@@ -92,7 +92,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Bird Warrior',
         rarity: 'Common',
         effects: 'Flying\nWhenever Dauntless Aven attacks, untap target creature you control.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Dauntless-Aven-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'In the chaos brought by the new gods, swift-winged aven served as pathfinders, leading the last of the people away from the ruins of Naktamun.',
         power: '2',
         toughness: '1'
@@ -106,7 +106,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Uncommon',
         effects: 'Enchant creature\nWhen Desert\'s Hold enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, you gain 3 life.\nEnchanted creature can\'t attack or block, and its activated abilities can\'t be activated.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Deserts-Hold-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Disposal Mummy',
@@ -117,7 +117,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Jackal',
         rarity: 'Common',
         effects: 'When Disposal Mummy enters the battlefield, exile target card from an opponent\'s graveyard.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Disposal-Mummy-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Without the viziers to oversee their actions, some anointed went to extreme lengths to fulfill their directives.',
         power: '2',
         toughness: '3'
@@ -131,7 +131,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Warrior',
         rarity: 'Rare',
         effects: 'Vigilance\nWhen Djeru, With Eyes Open enters the battlefield, you may search your library for a planeswalker card, reveal it, put it into your hand, then shuffle your library.\nIf a source would deal damage to a planeswalker you control, prevent 1 of that damage.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Djeru-With-Eyes-Open-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '4',
         toughness: '3'
       },
@@ -143,7 +143,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Tap up to two target creatures.\nCycling (W) ((W), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Djeru%E2%80%99s-Renunciation-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg2.png',
         flavor: '"I was promised an afterlife, not this.  Samut was right.  The God-Pharoah lied." --Djeru, former Tah-crop initiate'
       },
       {
@@ -154,7 +154,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Zombie',
         rarity: 'Rare',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Dutiful-Servants-216x302.jpg',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Buildings crumbled and monuments fell.  The river bled and the sky wept tears of fire.  All the while, servants silently continued their work, oblivious to it all.',
         power: '2',
         toughness: '5'
@@ -167,7 +167,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Exile target white creature that\'s attacking or blocking.  If it was a Gideon planeswalker, you gain 5 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Gideon%E2%80%99s-Defeat-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Gideon, how easy it must be to play the protector when you think yourself untouchable.  How wrong you are." --Nicol Bolas'
       },
       {
@@ -179,7 +179,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Wizard',
         rarity: 'Common',
         effects: 'Whenever you cast a blue, black, or red spell, you gain 1 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/God-Pharaoh%E2%80%99s-Faithful-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg2.png',
         flavor: '"This is the final trial!  Rejoice, for the God-Pharaoh soars among us!"',
         power: '0',
         toughness: '4'
@@ -192,7 +192,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Hour of Revelation costs (3) less to cast if there are ten or more nonland permanents on the battlefield.\nDestroy all nonland permanents.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Hour-of-Revelation-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'In the first moments, the gate to the afterlife opened, and the people were prostrate in the light of the God-Pharaoh.'
       },
       {
@@ -204,7 +204,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie',
         rarity: 'Common',
         effects: 'Whenever another Zombie enters the battlefield under your control, Mummy Paramount gets +1/+1 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Mummy-Paramount-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"It appears some mummies have begun to observe a hierarchy all their own." --Elekh, vizier of embalming',
         power: '2',
         toughness: '2'
@@ -218,7 +218,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Warrior',
         rarity: 'Common',
         effects: 'You may exert Oketra\'s Avenger as it attacks.  When you do, prevent all combat damage that would be dealt to it this turn. (An exerted creature won\'t untap during your next untap step.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Oketra%E2%80%99s-Avenger-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Oketra\'s arrow is my spear, and her love my shield."',
         power: '3',
         toughness: '1'
@@ -231,7 +231,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Your life total becomes your starting life total.  Lands you control don\'t untap during your next untap step.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Oketras-Last-Mercy-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'To the end, all Oketra did was for others.'
       },
       {
@@ -243,7 +243,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura Curse',
         rarity: 'Mythic',
         effects: 'Enchant player\nCreatures enchanted player controls lose all abilities and have base power and toughness 1/1.\nEnchanted player can\'t activate abilites that aren\'t mana abilities or loyalty abilities.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Overwhelming-Splendor-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Sandblast',
@@ -253,7 +253,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Sandblast deals 5 damage to target attacking or blocking creature.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Sandblast-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The sands of Amonkhet can be a boon as much as a bane.  It depends entirely on which way the wind blows.'
       },
       {
@@ -265,7 +265,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Uncommon',
         effects: 'Flash\hEnchant creature you control\nWhen Saving Grace enters the battlefield, all damage that would be dealt to you and permanents you control is dealt to enchanted creature instead.\nEnchanted creature gets +0/+3.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Saving-Grace-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Solemnity',
@@ -275,7 +275,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'Players can\'t get counters.\nCounters can\'t be put on artifacts, creatures, enchantments, or land.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Solemnity-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The arrival of the God-Pharaoh marked the betrayal of both gods and mortals.'
       },
       {
@@ -287,7 +287,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Camel',
         rarity: 'Common',
         effects: 'Solitary Camel has lifelink as long as you control a Desert or there is a Desert card in your graveyard. (Damage dealt by this creature also causes you to gain that much life.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Solitary-Camel-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Deserts are inhospitable, not uninhabitable.',
         power: '3',
         toughness: '2'
@@ -301,7 +301,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Cleric',
         rarity: 'Common',
         effects: 'Vigilance\nEternalize (4WW) ((4WW), Exile this card from your graveyard: Create a token that\'s a copy of it, except it\'s a 4/4 black Zombie Human Cleric with no mana cost.  Eternalize only as a sorcery.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Steadfast-Sentinel-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '2',
         toughness: '3'
       },
@@ -314,7 +314,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Warrior',
         rarity: 'Uncommon',
         effects: '(T), Exert Steward of Solidarity: Create a 1/1 white Warrior creature token with vigilance. (An exerted creature won\t untap during your next untap step.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Steward-of-Solidarity-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'In the midst of disaster, heroic acts became almost ordinary, and ordinary warriors became heroes.',
         power: '2',
         toughness: '2'
@@ -328,7 +328,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Wizard',
         rarity: 'Uncommon',
         effects: 'When Sunscourge Champion enters the battlefield, you gain life equal to its power.\nEternalize (2WW) ((2WW), Exile this card from your graveyard: Create a token that\'s a copy of it, except it\'s a 4/4 black Zombie Human Wizard with no mana cost.  Eternalize only as a sorcery.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Sunscourge-Champion-214x302.jpg',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '2',
         toughness: '3'
       },
@@ -340,7 +340,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Target creature gets +3/+3 and gains flying until end of turn.\nWhenever a Zombie enters the battlefield under your control, you may pay (W).  If you do, return Unconventional Tactics from your graveyard to your hand.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Unconventional-Tactics-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Vizier of the True',
@@ -351,7 +351,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Cleric',
         rarity: 'Uncommon',
         effects: 'You may exert Vizier of the True as it attacks. (An exerted creature won\'t untap during your next untap step.)\nWhenever you exert a creature, tap target creature an opponent controls.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Vizier-of-the-True-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Outnumbered, but not outmatched.',
         power: '3',
         toughness: '2'
@@ -365,7 +365,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Drake',
         rarity: 'Common',
         effects: 'Flying\nWhenever Aerial Guide attacks, another target attacking creature gains flying until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Aerial-Guide-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Kefnet taught us to turn obstacles into advantages." --Neponem, vizier of Kefnet',
         power: '2',
         toughness: '2'
@@ -379,7 +379,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Bird Warrior',
         rarity: 'Common',
         effects: 'Flash\nFlying',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Aven-Reedstalker-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Our best chance against the Eternals will be tactics they\'ve never seen and styles they\'ve never trained in."',
         power: '2',
         toughness: '3'
@@ -393,7 +393,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Naga Wizard',
         rarity: 'Rare',
         effects: 'When Champion of Wits enters the battlefield, you may draw cards equal to its power.  If you do, discard two cards.\nEternalize (5UU) ((5UU), Exile this card from your graveyard: Create a token that\'s a copy of it, except it\'s a 4/4 black Zombie Naga Wizard with no mana cost.  Eternalize only as a sorcery.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Champion-of-Wits-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Countervailing Winds',
@@ -403,7 +403,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Counter target spell unless its controller pays (1) for each card in your graveyard.\nCycling (2) ((2), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Countervailing-Winds-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The Eternals had long since mastered every technique taught during the trials.'
       },
       {
@@ -415,7 +415,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Warrior',
         rarity: 'Common',
         effects: 'Whenever you cycle or discard a card, Cunning Survivor gets +1/+0 until end of turn and can\'t be blocked this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Cunning-Survivor-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Initiates who had been through the Trial of Knowledge learned to see everything as pieces of a larger puzzle.',
         power: '1',
         toughness: '3'
@@ -429,7 +429,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Cleric',
         rarity: 'Uncommon',
         effects: 'Afflict 2 (Whenever this creature becomes blocked, defending player loses 2 life)\nWhenever Eternal of Harsh Truths attacks and isn\'t blocked, draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Eternal-of-Harsh-Truths-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"If creating the Eternals was Bolas\'s plan here, what is his plan for the Eternals?" --Jace Beleren',
         power: '1',
         toughness: '3'
@@ -443,7 +443,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura Curse',
         rarity: 'Rare',
         effects: 'Enchant player\nAt the beginning of each end step, enchanted player puts the top X cards of his or her library into his or her graveyard, where X is the number of cards put into that graveyard from anywhere this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Fraying-Sanity-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Those wound tightest are the first to unravel.'
       },
       {
@@ -454,7 +454,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Exile X target creature cards from your graveyard.  For each card exiled this way, create a token that\'s a copy of that card, except it\'s a 4/4 black Zombie.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Hour-of-Eternity-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'To serve as an Eternal is the afterlife granted to the worthy.'
       },
       {
@@ -465,7 +465,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Creatures target opponent controls attack this turn if able.  During that opponent\'s next untap step, creatures he or she controls don\'t untap.\nCycling (2) ((2), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Imaginary-Threats-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Liliana always knew Jace\'s illusions would come in handy.'
       },
       {
@@ -476,7 +476,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Counter target blue spell.  If it was a Jace planeswalker spell, scry 2.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Jace%E2%80%99s-Defeat-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"I had hoped for more from you, Jace.  But I expected as much." --Nicol Bolas'
       },
       {
@@ -487,7 +487,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Gain control of target artifact, creature, or enchantment.  Lands you control don\'t untap during your next untap step.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Kefnets-Last-Word-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'In his final moments, Kefnet reached into the minds of those around him, desperate for logic within the consuming chaos.'
       },
       {
@@ -499,7 +499,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Bird Wizard',
         rarity: 'Rare',
         effects: 'Flash\nFlying\nCycling (2U) ((2U), Discard this card: Draw a card.)\nWhen you cycle Nimble Obstructionist, counter target activated or triggered ability you don\'t control.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Nimble-Obstructionist-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '3',
         toughness: '1'
       },
@@ -512,7 +512,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Sphinx',
         rarity: 'Uncommon',
         effects: 'Flying\nWhenever you cycle or discard a card, target creature an opponent controls gets -2/-0 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Ominous-Sphinx-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The sphinxes began to speak only after the Second Sun aligned.  They whispered dire warnings, though no one listened.',
         power: '4',
         toughness: '4'
@@ -526,7 +526,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Warrior',
         rarity: 'Common',
         effects: 'Eternalize (4UU) ((4UU), Exile this card from your graveyard: Create a token that\'s a copy of it, except it\'s a 4/4 black Zombie Human Warrior with no mana cost.  Eternalize only as a sorcery.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Proven-Combatant-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"It\'s not wise to keep glory waiting."',
         power: '1',
         toughness: '1'
@@ -539,7 +539,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Uncommon',
         effects: 'Whenever you cast a noncreature spell, you may have Riddleform become a 3/3 Sphinx creature with flying in addition to its other types until end of turn.\n(2U): Scry 1.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Riddleform-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Seer of the Last Tomorrow',
@@ -550,7 +550,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Naga Cleric',
         rarity: 'Common',
         effects: '(U), (T), Discard a card: Target player puts the top three cards of his or her library into his or her graveyard.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Seer-of-the-Last-Tomorrow-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"The truth?  It\'s been here all along.  The Hours as we understood them are lies."',
         power: '1',
         toughness: '4'
@@ -564,7 +564,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Naga Warrior',
         rarity: 'Uncommon',
         effects: '(U): Sinuous Striker gets +1/-1 until end of turn.\nEternalize (3UU) ((3UU), Discard a card, Exile this card from your graveyard: Create a token that\'s a copy of it, except it\'s a 4/4 black Zombie Naga Warrior with no mana cost.  Eternalize only as a sorcery.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Sinuous-Striker-216x300.jpg',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '2',
         toughness: '2'
       },
@@ -577,7 +577,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Naga Wizard',
         rarity: 'Common',
         effects: 'Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nAfflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Spellweaver-Eternal-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"They were once our brothers and sisters." --Etha, former Rhet-crop initiate',
         power: '2',
         toughness: '1'
@@ -590,7 +590,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Look at the top three cards of your library.  Put one into your hand and the rest into your graveyard.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Strategic-Planning1-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Bolas remade this place in his image.  He has the advantage here.  We must approach carefully." --Jace Beleren'
       },
       {
@@ -602,7 +602,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Serpent',
         rarity: 'Common',
         effects: 'Hexproof (This creature can\'t be the target of spells or abilities your opponents control.)\nCycling (U) ((U), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Striped-Riverwinder-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The denizens of the Luxa River woke angry on the currents of blood.',
         power: '5',
         toughness: '5'
@@ -615,7 +615,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Choose one -- \n\t*Counter target spell unless its controller pays (3).\n\t*Look at the top four cards of your library.  Put one of them into your hand and the rest on the bottom of your library in any order.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Supreme-Will-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Swarm Intelligence',
@@ -625,7 +625,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'Whenever you cast an instant or sorcery spell, you may copy that spell.  You may choose new targets for the copy.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Swarm-Intelligence-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The Locust God\'s children were numberless, relentlessly eating away every trace of the city\'s protection.'
       },
       {
@@ -636,7 +636,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Draw two cards.  Then discard a card unless you return a land you control to its owner\'s hand.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Tragic-Lesson-216x302.jpg',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Though Kefnet\'s followers feverishly searched his last words for some final riddle, they only found the gurgles of a dying god.'
       },
       {
@@ -648,7 +648,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Sphinx',
         rarity: 'Mythic',
         effects: 'Flying\nSphinx spells you cast cost (2) less to cast.\nWhenever Unesh, Criosphinx Sovereign or another Sphinx enters the battlefield under your control, reveal the top four cards of your library.  An opponent separates those cards into two piles.  Put one pile into your hand and the other into your graveyard.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Unesh-Criosphinx-Sovereign-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg2.png',
         power: '4',
         toughness: '4'
       },
@@ -661,7 +661,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Common',
         effects: 'Enchant creature\nWhen Unquenchable Thirst enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, tap enchanted creature.\nEnchanted creature doesn\'t untap during its controller\'s untap step.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Unquenchable-Thirst-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Unsummon',
@@ -671,7 +671,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Return target creature to its owner\'s hand.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Unsummon-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Skills mastered by initiates are preserved within cartouches, so Eternals remain adept at their preferred combat styles.'
       },
       {
@@ -683,7 +683,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Cleric',
         rarity: 'Uncommon',
         effects: 'When Vizier of the Anointed enters the battlefield, you may search your library for a creature card with eternalize or embalm, put that card into your graveyard, then shuffle your library.\nWhenever you activate an eternalize or embalm ability, draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Vizier-of-the-Anointed-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '2',
         toughness: '4'
       },
@@ -696,7 +696,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie',
         rarity: 'Uncommon',
         effects: '(1B): Target Zombie gains indestructible until end of turn. (Damage and effects that say "destroy" don\'t destroy it.  If its toughness is 0 or less, it\'s still put into its owner\'s graveyard.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Accursed-Horde-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '3',
         toughness: '3'
       },
@@ -709,7 +709,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Crocodile Demon',
         rarity: 'Rare',
         effects: 'Afflict 3 (Whenever this creature becomes blocked, defending player loses 3 life.)\nWhenever an opponent casts a spell, put a -1/-1 counter on Ammit Eternal.\nWhenever Ammit Eternal deals combat damage to a player, remove all -1/-1 counters from it.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Ammit-Eternal-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '5',
         toughness: '5'
       },
@@ -722,7 +722,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Demon',
         rarity: 'Rare',
         effects: 'Flying\nApocalypse Demon\'s power and toughness are each equal to the number of cards in your graveyard.\nAt the beginning of your upkeep, tap Apocalypse Demon unless you sacrifice another creature.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Apocalypse-Demon-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '*',
         toughness: '*'
       },
@@ -735,7 +735,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Warrior',
         rarity: 'Uncommon',
         effects: 'When Banewhip Punisher enters the battlefield, put a -1/-1 counter on target creature.\n(B), Sacrifice Banewhip Punisher: Destroy target creature that has a -1/-1 counter on it.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Banewhip-Punisher-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"If I die, it will not be alone."',
         power: '2',
         toughness: '2'
@@ -748,7 +748,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Destroy all creatures.  Lands you control don\'t untap during your next untap step.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Bontus-Last-Reckoning-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'To the last, Bontu wanted only to be first among the God-Pharaoh\'s disciples.'
       },
       {
@@ -760,7 +760,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Bird',
         rarity: 'Common',
         effects: 'Flying',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Carrion-Screecher-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The banished have come home to roost.',
         power: '3',
         toughness: '1'
@@ -773,7 +773,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Choose one -- \n\t*Target opponent exiles a creature he or she controls.\n\t*Target opponent reveals his or her hand.  You choose a nonland card from it.  Exile that card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Doomfall-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"This place has outlived its usefulness." --Nicol Bolas'
       },
       {
@@ -785,7 +785,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Wizard',
         rarity: 'Rare',
         effects: 'Menace\nWhenever Dreamstealer deals combat damage to a player, that player discards that many cards.\nEternalize (4BB) ((4BB), Exile this card from your graveyard: Create a token that\'s a copy of it, except it\'s a 4/4 black Zombie Human Wizard with no mana cost.  Eternalize only as a sorcery.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Dreamstealer-216x302.jpg',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '1',
         toughness: '2'
       },
@@ -798,7 +798,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Minotaur Warrior',
         rarity: 'Common',
         effects: 'Whenever you cycle or discard a card, Grisly Survivor gets +2/+0 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Grisly-Survivor-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'No cartouches to earn.  No afterlife to enter.  Only the glory of a well-struck blow and the growing pile of felled enemies at her feet.',
         power: '2',
         toughness: '3'
@@ -811,7 +811,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Rare',
         effects: 'Exile target creature.  If that creature was a God, its controller reveals his or her hand and exiles from it with the same name as that creature.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Hour-of-Glory-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The gods of the trials also faced the opportunity to prove themselves worthy.'
       },
       {
@@ -823,7 +823,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Jackal Warrior',
         rarity: 'Common',
         effects: 'Afflict 1 (Whenever this creature becomes blocked, defending player loses 1 life.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Khenra-Eternal-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'For many years, servant mummies toiled in the mines to extract lazotep.  The emergence of the Eternals revealed the sacred substance\'s true purpose.',
         power: '2',
         toughness: '2'
@@ -836,7 +836,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'As an additional cost to cast Lethal Sting, put a -1/-1 counter on target creature you control.\nDestroy target creature.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Lethal-Sting-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Initiates once believed defeat was the worst fate possible--a sentiment they quickly abandoned.'
       },
       {
@@ -847,7 +847,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Destroy target black creature or black planeswalker.  If that permanent was a Liliana planeswalker, her controller loses 3 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Liliana%E2%80%99s-Defeat-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"All the power you have gathered for yourself, Liliana, I can take away." --Nicol Bolas'
       },
       {
@@ -859,7 +859,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Beast',
         rarity: 'Common',
         effects: 'Cycling (B) ((B), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Lurching-Rotbeast-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The dead that swept across Naktamun came in all shapes and sizes.',
         power: '4',
         toughness: '2'
@@ -873,7 +873,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Minotaur',
         rarity: 'Common',
         effects: 'Marauding Boneslasher can\'t block unless you control another Zombie.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Marauding-Boneslasher-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'With the Hekma destroyed, the wandering dead that sought entrance to Naktamun had free rein to lay waste to the city.',
         power: '3',
         toughness: '3'
@@ -887,7 +887,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Cleric',
         rarity: 'Uncommon',
         effects: 'Afflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)\n(2B), Discard a card: Merciless Eternal gets +2/+2 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Merciless-Eternal-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"My work here is done.  The people have done everything required of them." --Nicol Bolas',
         power: '2',
         toughness: '2'
@@ -901,7 +901,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Wall',
         rarity: 'Common',
         effects: 'Defender\nCycling (2) ((2), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Moaning-Wall-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Before the monuments, before the first trials, before Naktamun itself, Bolas culled the plane of its adults in order to rebuild it for his own designs.',
         power: '0',
         toughness: '5'
@@ -915,7 +915,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Demon',
         rarity: 'Mythic',
         effects: 'Flying, trample\nPay 2 life, Sacrifice another creature: Search your library for a card and put that card into your hand.  Then shuffle your library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Razaketh-the-Foulblooded-216x300.jpg',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Liliana insisted on coming to Amonkhet to confront one of the two remaining demons to whom she is bound.',
         power: '8',
         toughness: '8'
@@ -928,7 +928,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Search your library for a card and put that card into your hand.  Then shuffle your library.\nCycling (B) ((B), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Razaketh%E2%80%99s-Rite-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"The blood ritual is complete.  The end approaches."'
       },
       {
@@ -940,7 +940,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Rat',
         rarity: 'Common',
         effects: 'Deathtouch\nWhen Ruin Rat dies, exile target card from an opponent\'s graveyard.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Ruin-Rat-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'From every shadow came the dull scratch of teeth on bones.',
         power: '1',
         toughness: '1'
@@ -954,7 +954,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Horror',
         rarity: 'Common',
         effects: 'Lifelink (Damage dealt by this creature also causes you to gain that much life.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Scrounger-of-Souls-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Yell for help, and that may answer.',
         power: '3',
         toughness: '4'
@@ -967,7 +967,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Repeat the following process X times.  Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Torment-of-Hailfire-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Your God-Pharaoh has returned."'
       },
       {
@@ -979,7 +979,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura Curse',
         rarity: 'Uncommon',
         effects: 'Enchant player\nAt the beginning of enchanted player\'s upkeep, that player loses 3 life unless he or she sacrifices a nonland permanent or discards a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Torment-of-Scarabs-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Like a carpet unrolling for their god, the scarabs poured out from the necropolis.'
       },
       {
@@ -990,7 +990,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Put three -1/-1 counters on target creature.  Its controller loses 3 life unless he or she sacrifices a nonland permanent or discards a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Torment-of-Venom-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The Scorpion God\'s sting sends venom strong enough to poison blood, bone, and spirit.'
       },
       {
@@ -1002,7 +1002,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Horror',
         rarity: 'Uncommon',
         effects: 'Vile Manifestation gets +1/+0 for each card with cycling in your graveyard.\nCycling (2) ((2), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Vile-Manifestation-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The glyphs writhed and twisted, spewing out dark, vengeful magic.',
         power: '0',
         toughness: '4'
@@ -1015,7 +1015,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Target creature you control gains indestructible until end of turn.\nCycling (2) ((2), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Without-Weakness-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Wretched Camel',
@@ -1026,7 +1026,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Camel',
         rarity: 'Common',
         effects: 'When Wretched Camel dies, if you control a Desert or there is a Desert card in your graveyard, target player discards a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Wretched-Camel-216x302.jpg',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Perfectly adapted to cross the wastes in life, they bring the wastes with them in death.',
         power: '2',
         toughness: '1'
@@ -1039,7 +1039,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Choose one -- \n\t*Abrade deals 3 damage to target creature.\n\t*Destroy target artifact.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Abrade-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The desert is a voracious beast, devouring both flesh and stone.'
       },
       {
@@ -1050,7 +1050,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Put a -1/-1 counter on target creature.  Blur of Blades deals 2 damage to that creature\'s controller.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Blur-of-Blades-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Samut battled her way through the hordes, shouting the names of those who\'d died in her crop and those she hoped yet to save.'
       },
       {
@@ -1062,7 +1062,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Minotaur Wizard',
         rarity: 'Uncommon',
         effects: 'First strike\n(1R), Discard a card: Burning-Fist Minotaur gets +2/+0 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Burning-Fist-Minotaur-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"There is no afterlife.  Not for me, and not for you.  So think again before getting in my way."',
         power: '2',
         toughness: '1'
@@ -1075,7 +1075,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Chandra\'s Defeat deals 5 damage to target red creature or red planeswalker.  If that permanent is a Chandra planeswalker, you may discard a card.  If you do, draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Chandra%E2%80%99s-Defeat-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Fire?  Is that your only trick, Chandra?" --Nicol Bolas'
       },
       {
@@ -1087,7 +1087,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Hellion',
         rarity: 'Rare',
         effects: 'When Chaos Maw enters the battlefield, it deals 3 damage to each other creature.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Chaos-Maw-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The food chain doesn\'t end at sandwurms.',
         power: '6',
         toughness: '6'
@@ -1100,7 +1100,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Creatures you control gain trample until end of turn.\nDraw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Crash-Through-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"We have to get out of the city, Djeru.  All of us!  Gather as many as you can." --Samut, former Tah-crop initiate'
       },
       {
@@ -1111,7 +1111,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Jackal Warrior',
         rarity: 'Common',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Defiant-Khenra-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'There were those who saw the death of the gods and the city\'s collapse as a final test of worth.  Some believed it meant the God-Pharaoh had been killed.  Only a few realized they had been deceived.',
         power: '2',
         toughness: '2'
@@ -1125,7 +1125,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Jackal Warrior',
         rarity: 'Rare',
         effects: 'Haste\nWhen Earthshaker Khenra enters the battlefield, target creature with power less than or equal to Earthshaker Khenra\'s power can\'t block this turn.\nEternalize (4RR) ((4RR), Exile this card from your graveyard: Create a token that\'s a copy of it, except it\'s a 4/4 black Zombie Jackal Warrior with no mana cost.  Eternalize only as a sorcery.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Earthshaker-Khenra-216x302.jpg',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '2',
         toughness: '1'
       },
@@ -1138,7 +1138,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Wizard',
         rarity: 'Uncommon',
         effects: '(T): Fervent Paincaster deals 1 damage to target player.\n(T), Exert Fervent Paincaster: It deals 1 damage to target creature. (An exerted creature won\'t untap during your next untap step.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Fervent-Paincaster-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Everyone here is a honed fighter.  We will respond the only way we know how."',
         power: '3',
         toughness: '1'
@@ -1152,7 +1152,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Archer',
         rarity: 'Common',
         effects: 'Whenever you cast a noncreature spell, Firebrand Archer deals 1 damage to each opponent.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Firebrand-Archer-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'A word of vengeance, and her arrows awaken in flame.',
         power: '2',
         toughness: '1'
@@ -1166,7 +1166,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Minotaur Warrior',
         rarity: 'Common',
         effects: 'Afflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)\n(1R): Frontline Devastator gets +1/+0 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Frontline-Devastator-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The God-Pharaoh\'s benevolence concealed the factory he created to produce an army of Eternals.',
         power: '3',
         toughness: '3'
@@ -1180,7 +1180,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Beast',
         rarity: 'Common',
         effects: 'Whenever Gilded Cerodon attacks, if you control a Desert or there is a Desert card in your graveyard, target creature can\'t block this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Gilded-Cerodon-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The plating on its horns is a token of honor from Hazoret, who favors creatures with great hearts.',
         power: '4',
         toughness: '4'
@@ -1194,7 +1194,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Elemental',
         rarity: 'Common',
         effects: 'Menace\nCycling (2) ((2), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Granitic-Titan-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"That one\'s not mine.  Run!" --Nissa Revane',
         power: '5',
         toughness: '4'
@@ -1207,7 +1207,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Shuffle your library, then exile the top four cards.  You may cast any number of nonland cards with converted mana cost 5 or less from among them without paying their mana costs.  Lands you control don\'t untap during your next untap step.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Hazoret%E2%80%99s-Undying-Fury-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg2.png'
       },
       {
         name: 'Hour of Devastation',
@@ -1217,7 +1217,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'All creatures lose indestructible until end of turn.  Hour of Devastation deals 5 damage to each creature and each non-Bolas planeswalker.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Hour-of-Devastation-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Everything here exists or perishes at my whim.  Including you, Gatewatch." --Nicol Bolas'
       },
       {
@@ -1228,7 +1228,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'Imminent Doom enters the battlefield with a doom counter on it.\nWhenever you cast a spell with converted mana cost equal to the number of doom counters on Imminent Doom, Imminent Doom deals that much damage to target creature or player.  Then put a doom counter on Imminent Doom.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Imminent-Doom-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Inferno Jet',
@@ -1238,7 +1238,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Inferno Jet deals 6 damage to target opponent.\nCycling (2) ((2), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Inferno-Jet-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"When the whole world is crazy, it\'s important to find something you can rely on."'
       },
       {
@@ -1250,7 +1250,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Jackal Warrior',
         rarity: 'Common',
         effects: 'Menace\nYou may exert Khenra Scrapper as it attacks.  When you do, it gets +2/+0 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Khenra-Scrapper-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"There is no tomorrow, so hold nothing back."',
         power: '2',
         toughness: '3'
@@ -1263,7 +1263,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Target creature gets +1/+0 and gains first strike until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Kindled-Fury-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The minotaur stared at the Eternal bearing down on him--the embodiment of deadly skill he had aspired to become.'
       },
       {
@@ -1275,7 +1275,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Elemental',
         rarity: 'Uncommon',
         effects: 'At the beginning of your upkeep, put a -1/-1 counter on Magmaroth.\nWhenever you cast a noncreature spell, remove a -1/-1 counter from Magmaroth.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Magmaroth-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Sand into glass and flesh into ash--such are the markers of its domain.',
         power: '5',
         toughness: '5'
@@ -1289,7 +1289,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Manticore',
         rarity: 'Uncommon',
         effects: 'Afflict 3 (Whenever this creature becomes blocked, defending player loses 3 life.)\nManticore Eternal attacks each combat if able.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Manticore-Eternal-216x302.jpg',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'While most Eternals were initiates who completed the trials, Bolas had plans for some of Amonkhet\'s other denizens.',
         power: '5',
         toughness: '4'
@@ -1303,7 +1303,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Minotaur Warrior',
         rarity: 'Mythic',
         effects: 'Afflict 3 (Whenever this creature becomes blocked, defending player loses 3 life.)\nAt the beginning of your postcombat main phase, add (R) to your mana pool for each 1 life your opponents have lost this turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Neheb-the-Eternal-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"This is what glory looks like." --Nicol Bolas',
         power: '4',
         toughness: '6'
@@ -1316,7 +1316,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Open Fire deals 3 damage to target creature or player.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Open-Fire-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Some khenra archers fashion their arrows with a personal touch.'
       },
       {
@@ -1327,7 +1327,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Puncturing Blow deals 5 damage to target creature.  If that creature would die this turn, exile it instead.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Puncturing-Blow-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Neither the false God-Pharaoh nor his bugs will decide our fate." --Samut, former Tah-crop initiate'
       },
       {
@@ -1339,7 +1339,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Beast',
         rarity: 'Uncommon',
         effects: 'When Sand Strangler enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, you may have Sand Strangler deal 3 damage to target creature.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Sand-Strangler-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The bombardment of sand disorients, chokes, and ultimately tenderizes its prey.',
         power: '3',
         toughness: '3'
@@ -1353,7 +1353,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Lizard',
         rarity: 'Common',
         effects: 'Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nThorned Moloch has first strike as long as it\'s attacking.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Thorned-Moloch-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Those who fled the destruction of the city stumbled into the territory of their prickly neighbors.',
         power: '2',
         toughness: '2'
@@ -1367,7 +1367,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie Jackal Cleric',
         rarity: 'Rare',
         effects: 'Afflict 4 (Whenever this creature becomes blocked, defending player loses 4 life.)\nWhenever Wildfire Eternal attacks and isn\'t blocked, you may cast an instant or sorcery card from your hand without paying its mana cost.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Wildfire-Eternal-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '1',
         toughness: '4'
       },
@@ -1379,7 +1379,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Target creature you control gets +1/+0 until end of turn.  It deals damage equal to its power to target creature an opponent controls.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Ambuscade-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Spent a lifetime learning from predators.  Picked up a few tricks."'
       },
       {
@@ -1390,7 +1390,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.\nCycling (2) ((2), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Beneath-the-Sands-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Though buried and muffled, nature\'s whisper still called to Nissa.'
       },
       {
@@ -1402,7 +1402,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Jackal Archer',
         rarity: 'Common',
         effects: 'Vigilance, reach',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Bitterbow-Sharpshooters-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Remember, brother, the eyes are always vulnerable."\n"I never forgot."',
         power: '4',
         toughness: '4'
@@ -1416,7 +1416,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Naga Wizard',
         rarity: 'Uncommon',
         effects: '(4G): Target creature gets +2/+2 until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Devotee-of-Strength-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'When Rhonas fell, his followers stirred with newfound strength--a final gift from a god they thought indomitable.',
         power: '3',
         toughness: '2'
@@ -1430,7 +1430,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Naga Cleric',
         rarity: 'Uncommon',
         effects: '(1), Tap an untapped Desert you control: You gain 1 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Dune-Diviner-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The desert had once been a place of endless horror.  It was now the last refuge as the city of Naktamun fell.',
         power: '2',
         toughness: '3'
@@ -1444,7 +1444,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Cat',
         rarity: 'Common',
         effects: 'When Feral Prowler dies, draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Feral-Prowler-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Once favored companions, many cats were left to fend for themselves.',
         power: '1',
         toughness: '3'
@@ -1458,7 +1458,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Lizard',
         rarity: 'Common',
         effects: '(1G): Frilled Sandwalla gets +2/+2 until end of turn.  Activate this ability only once each turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Frilled-Sandwalla-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'It basks atop the rubble of Rhonas\'s monument, which still pulses with latent power.',
         power: '1',
         toughness: '1'
@@ -1471,7 +1471,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Target creature gets +3/+3 and gains reach until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Gift-of-Strength-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"What greater testament can there be to Rhonas\'s lessons?"'
       },
       {
@@ -1482,7 +1482,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Naga Warrior',
         rarity: 'Common',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Harrier-Naga-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'She trusts that the potent poisons of her darts will reach the enemy before the enemy reaches her.',
         power: '3',
         toughness: '3'
@@ -1496,7 +1496,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Druid',
         rarity: 'Uncommon',
         effects: '(1), (T): Untap target land.\n(1), (T), Exert Hope Tender: Untap two target lands. (An exerted creature won\'t untap during your next untap step.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Hope-Tender-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Some refused to leave their shattered homes, vowing to rebuild at any cost.',
         power: '2',
         toughness: '2'
@@ -1509,7 +1509,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Search your library for up to two land cards, put them onto the battlefield tapped, then shuffle your library.  Then if you control three or more Deserts, create two 2/2 black Zombie creature tokens.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Hour-of-Promise-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'With the Hekma breached and its protection removed, the deserts swept in.'
       },
       {
@@ -1520,7 +1520,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'You gain 4 life.  If a creature died this turn, you gain 8 life instead.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Life-Goes-On-216x302.jpg',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"If you believe the God-Pharaoh tests you, charge with me to prove yourself.  If you believe he betrayed us all, join with me to fight for tomorrow!" --Samut, former Tah-crop initiate'
       },
       {
@@ -1532,7 +1532,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Chimera',
         rarity: 'Mythic',
         effects: 'Majestic Myriarch\'s power and toughness are each equal to twice the number of creatures you control.\nAt the beginning of each combat, if you control a creature with flying,  Majestic Myriarch gains flying until end of turn.  The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Majestic-Myriarch-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '*',
         toughness: '*'
       },
@@ -1544,7 +1544,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Destroy target Forest, green enchantment, or green planeswalker.  If that permanent is a Nissa planeswalker, draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Nissa%E2%80%99s-Defeat-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"The soul of this world is gone, Nissa, and I would gladly kill it again." --Nicol Bolas'
       },
       {
@@ -1556,7 +1556,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Naga Druid',
         rarity: 'Common',
         effects: '(T): Add one mana of any color to your mana pool.\n(T), Exert Oasis Ritualist: Add two mana of any one color to your mana pool. (An exerted creature won\'t untap during your next untap step.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Oasis-Ritualist-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"It\'s only the end if we allow it."',
         power: '2',
         toughness: '4'
@@ -1569,7 +1569,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Creatures you control get +2/+2 and gain trample until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Overcome-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Forward!  Until the horizon is ours!" --Khemses, charioteer'
       },
       {
@@ -1581,7 +1581,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Cat',
         rarity: 'Rare',
         effects: 'Pride Sovereign gets +1/+1 for each other Cat you control.\n(W), (T), Exert Pride Sovereign: Create two 1/1 white Cat creature tokens with lifelink. (An exerted creature won\'t untap during your next untap step/)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Pride-Sovereign-216x302.jpg',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '2',
         toughness: '2'
       },
@@ -1594,7 +1594,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Insect',
         rarity: 'Uncommon',
         effects: 'When Quarry Beetle enters the battlefield, you may return target land card from your graveyard to the battlefield.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Quarry-Beetle-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"The ruin of the past is the topsoil of the future." --Sokar, former Nef-crop initiate',
         power: '4',
         toughness: '5'
@@ -1608,7 +1608,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Hippo',
         rarity: 'Common',
         effects: 'Trample\nCycling (2) ((2), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Rampaging-Hippo-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Respect is earned through deeds--or the capacity to bite someone in half." --Sana, former Ahn-crop initiate',
         power: '5',
         toughness: '6'
@@ -1622,7 +1622,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Naga Cleric',
         rarity: 'Rare',
         effects: 'You may play land cards from your graveyard.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Ramunap-Excavator-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"This world was once so much more than the confines of Naktamun."',
         power: '2',
         toughness: '3'
@@ -1636,7 +1636,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Snake Hydra',
         rarity: 'Rare',
         effects: 'Vigilance, reach, trample\nRamunap Hydra gets +1/+1 as long as you control a Desert.\nRamunap Hydra gets +1/+1 as long as there is a Desert card in your graveyard.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Ramunap-Hydra-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '3',
         toughness: '3'
       },
@@ -1649,7 +1649,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Jackal Wizard',
         rarity: 'Rare',
         effects: 'When Resilient Khenra enters the battlefield, you may have target creature get +X/+X until end of turn, where X is Resilient Khenra\'s power.\nEternalize (4GG) ((4GG), Exile this card from your graveyard: Create a token that\'s a copy of it, except it\'s a 4/4 black Zombie Jackal Wizard with no mana cost.  Eternalize only as a sorcery.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Resilient-Khenra-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '2',
         toughness: '2'
       },
@@ -1661,7 +1661,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Create a 5/4 green Snake creature token.  Lands you control don\'t untap during your next untap step.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Rhonass-Last-Stand-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Rhonas continued to fight until his last breath and even beyond.'
       },
       {
@@ -1673,7 +1673,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Warrior',
         rarity: 'Common',
         effects: 'You may exert Rhonas\'s Stalwart as it attacks.  When you do, it gets +1/+1 until end of turn and can\'t be blocked by creatures with power 2 or less this turn. (An exerted creature won\'t untap during your next untap step.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Rhonass-Stalwart-216x302.jpg',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Give me some room."',
         power: '2',
         toughness: '2'
@@ -1687,7 +1687,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Naga Warrior',
         rarity: 'Common',
         effects: 'As long as you control a Desert or there is a Desert card in your graveyard, Sidewinder Naga gets +1/+0 and has trample.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Sidewinder-Naga-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Those who embrace the harsh land rather than fight it find they have a powerful ally." --Nissa Revane',
         power: '3',
         toughness: '2'
@@ -1701,7 +1701,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Wurm',
         rarity: 'Uncommon',
         effects: 'Trample\nWhen Sifter Wurm enters the battlefield, scry 3, then reveal the top card of your library.  You gain life equal to that card\'s converted mana cost.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Sifter-Wurm-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Rhonas\'s monument belongs to the wurms now.  Look elsewhere for refuge." --Arnun, vizier of the menagerie',
         power: '7',
         toughness: '7'
@@ -1715,7 +1715,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Crocodile',
         rarity: 'Uncommon',
         effects: 'As long as a creature has a -1/-1 counter on it, Tenacious Hunter has vigilance and deathtouch.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Tenacious-Hunter-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The crocodiles of the Broken Lands, long used to feeding on undead flesh, eagerly flooded into Naktamun for a taste of something fresher.',
         power: '4',
         toughness: '4'
@@ -1728,7 +1728,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Mythic',
         effects: 'Search your library for X creature cards with different names that each have converted mana cost X, reveal them, put them into your hand, then shuffle your library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Uncage-the-Menagerie-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The destruction of Rhonas\'s monument released his collection upon the city.'
       },
       {
@@ -1740,7 +1740,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Elemental',
         rarity: 'Uncommon',
         effects: 'Flying\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhen Bloodwater Entity enters the battlefield, you may put target instant or sorcery card from your graveyard on top of your library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Bloodwater-Entity-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '2',
         toughness: '2'
       },
@@ -1753,7 +1753,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'God',
         rarity: 'Mythic',
         effects: 'Flying\nWhenever you draw a card, create a 1/1 blue and red Insect creature token with flying and haste.\n(2UR): Draw a card, then discard a card.\nWhen The Locust God dies, return it to its owner\'s hand at the beginning of the next end step.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/The-Locust-God-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '4',
         toughness: '4'
       },
@@ -1766,7 +1766,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Bolas',
         rarity: 'Mythic',
         effects: '+2: Your opponent exiles the top of his or her library until he or she reveals a nonland card.  Until end of turn, you may cast that card without paying its mana cost.\n+1: Each opponent exiles two cards from his or her hand.\n-4: Nicol Bolas, God-Pharaoh deals 7 damage to target opponent or target creature an opponent controls.\n-12: Exile each nonland permanent your opponents control.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Nicol-Bolas-God-Pharaoh-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         loyalty: '7'
       },
       {
@@ -1778,7 +1778,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Spider',
         rarity: 'Uncommon',
         effects: 'Reach\nWhenever Obelisk Spider deals combat damage to a creature, put a -1/-1 counter on that creature.\nWhenever you put one or more -1/-1 counters on a creature, each opponent loses 1 life and you gain 1 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Obelisk-Spider-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '1',
         toughness: '4'
       },
@@ -1791,7 +1791,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Warrior',
         rarity: 'Uncommon',
         effects: 'You may exert Resolute Survivors as it attacks. (It won\'t untap during your next untap step.)\nWhenever you exert a creature, Resolute Survivors deals 1 damage to each opponent and you gain 1 life.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Resolute-Survivors-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"We are crops no longer.  Reap elsewhere."',
         power: '3',
         toughness: '3'
@@ -1805,7 +1805,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Bird',
         rarity: 'Uncommon',
         effects: 'Flying\n(3GU): You gan 2 life and draw a card.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/River-Hoopoe-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"It\'s a cruel thing to give such a sad song to such a colorful creature." --Sana, former Ahn-crop initiate',
         power: '1',
         toughness: '3'
@@ -1819,7 +1819,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Samut',
         rarity: 'Mythic',
         effects: '+1: Up to one target creature gains double strike until end of turn.\n-2: Samut, the Tested deals 2 damage divided as you choose among one or two target creatures and/or players.\n-7: Search your library for up to two creature and/or planeswalker cards, put them onto the battlefield, then shuffle your library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Samut-the-Tested-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         loyalty: '4'
       },
       {
@@ -1831,7 +1831,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'God',
         rarity: 'Mythic',
         effects: 'At the beginning of your upkeep, target opponent loses X life and you scry X, where X is the number of Zombies you control.\n(2UB): Exile target creature card from a graveyard. Create a token that\'s a copy of it, except it\'s a 4/4 black Zombie.\nWhen The Scarab God dies, return it to its owner\'s hand at the beginning of the next end step.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/The-Scarab-God-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '5',
         toughness: '5'
       },
@@ -1844,7 +1844,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'God',
         rarity: 'Mythic',
         effects: 'Whenever a creature with a -1/-1 counter on it dies, draw a card.\n(1BR): Put a -1/-1 counter on another target creature.\nWhen The Scorpion God dies, return it to its owner\'s hand at the beginning of the next end step.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/The-Scorpion-God-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         power: '6',
         toughness: '5'
       },
@@ -1857,7 +1857,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Zombie',
         rarity: 'Uncommon',
         effects: '(1W): Target attacking Zombie gains lifelink until end of turn.\n(1B): Target attacking Zombie gains deathtouch until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Unraveling-Mummy-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"We are no longer in control." --Elekh, vizier of embalming',
         power: '2',
         toughness: '3'
@@ -1870,7 +1870,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant // Sorcery',
         rarity: 'Uncommon',
         effects: 'Destroy target attacking or blocking creature.\n//\nAftermath (Cast this spell only from your graveyard.  Then exile it.)\nDraw two cards, then discard two cards.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Farm-Market-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Consign // Oblivion',
@@ -1880,7 +1880,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant // Sorcery',
         rarity: 'Uncommon',
         effects: 'Return target nonland permanent to its owner\'s hand.\n//\nAftermath (Cast this spell only from your graveyard.  Then exile it.)\nTarget opponent discards two cards.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Consign-Oblivion-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Claim // Fame',
@@ -1890,7 +1890,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery // Sorcery',
         rarity: 'Uncommon',
         effects: 'Return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.\n//\nAftermath (Cast this spell only from your graveyard.  Then exile it.)\nTarget creature gets +2/+0 and gains haste until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Claim-Fame-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Struggle // Survive',
@@ -1900,7 +1900,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant // Sorcery',
         rarity: 'Uncommon',
         effects: 'Struggle deals damage to target creature equal to the number of lands you control.\n//\nAftermath (Cast this spell only from your graveyard.  Then exile it.)\nEach player shuffles his or her graveyard into his or her library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Struggle-Survive-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Appeal // Authority',
@@ -1910,7 +1910,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery // Sorcery',
         rarity: 'Uncommon',
         effects: 'Until end of turn, target creature gets +X/+X, where X is the number of creatures you control.\n//\nAftermath (Cast this spell only from your graveyard.  Then exile it.)\nTap up to two target creatures your opponents control.  Creatures you control gain vigilance until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Apeal-Authority-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Leave // Chance',
@@ -1920,7 +1920,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant // Sorcery',
         rarity: 'Rare',
         effects: 'Return any number of target permanents you own to your hand.\n//\nAftermath (Cast this spell only from your graveyard.  Then exile it.)\nDiscard any number of cards, then draw that many cards.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Leave-Chance-216x297.jpg'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Reason // Believe',
@@ -1930,7 +1930,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery // Sorcery',
         rarity: 'Rare',
         effects: 'Scry 3.\n//\nAftermath\nLook at the top card of your library.  You may put it onto the battlefield if it\'s a creature card.  If you don\'t, put it into your hand.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Reason-Believe-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Grind // Dust',
@@ -1940,7 +1940,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery // Sorcery',
         rarity: 'Rare',
         effects: 'Put a -1/-1 counter on each of up to two target creatures.\n//\nAftermath (Cast this spell only from your graveyard.  Then exile it.)\nExile any number of target creatures that have -1/-1 counters on them.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Grind-Dust-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Refuse // Cooperate',
@@ -1950,7 +1950,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant // Instant',
         rarity: 'Rare',
         effects: 'Refuse deals damage to target spell\'s controller equal to that spell\'s converted mana cost.\n//\nAftermath (Cast this spell only from your graveyard.  Then exile it.)\nCopy target instant or sorcery spell.  You may choose new targets for that copy.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Refuse-Cooperate-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Driven // Despair',
@@ -1960,7 +1960,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery // Sorcery',
         rarity: 'Rare',
         effects: 'Until end of turn, creatures you control gain trample and "Whenever this creature deals combat damage to a player, draw a card."\n//\nAftermath\nUntil end of turn, creatures you control gain menace and "Whenever this creature deals combat damage to a player, that player discards a card."',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Driven-Despair-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Abandoned Sarcophagus',
@@ -1970,7 +1970,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Rare',
         effects: 'You may cast nonland cards with cycling from your graveyard.\nIf a card with cycling would be put into your graveyard from anywhere, if it wasn\'t cycled, exile it instead.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Abandoned-Sarcophagus-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Although long since dead, the banished dissenters finally took their vengeance.'
       },
       {
@@ -1981,7 +1981,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Uncommon',
         effects: '(1), (T): Exile target card from a graveyard.\n(1), Exile Crook of Condemnation: Exile all cards from all graveyards.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Crook-of-Condemnation-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The God-Pharaoh\'s angels stripped former initiates of their cartouches and the fortifying magic they provided.'
       },
       {
@@ -1993,7 +1993,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Equipment',
         rarity: 'Uncommon',
         effects: 'Equipped creature gets +2/+0 and has afflict 1. (Whenever it becomes blocked, defending player loses 1 life.)\nEquip (2) ((2): Attach to target creature you control.  Equip only as a sorcery.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Dagger-of-the-Worthy-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'God-Pharaoh\'s Gift',
@@ -2003,7 +2003,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Rare',
         effects: 'At the beginning of combat on your turn, you may exile a creature card from your graveyard.  If you do, create a token that\'s a copy of that card, except it\'s a 4/4 black Zombie.  It gains haste until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/God-Pharaoh%E2%80%99s-Gift-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Graven Abomination',
@@ -2014,7 +2014,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Horror',
         rarity: 'Common',
         effects: 'Whenever Graven Abomination attacks, exile target card from defending player\'s graveyard.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Graven-Abomination-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Ironically, the statues had been constructed as a warning.',
         power: '3',
         toughness: '1'
@@ -2028,7 +2028,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Golem',
         rarity: 'Rare',
         effects: 'Hollow One costs (2) less to cast for each card you\'ve cycled or discarded this turn.\nCycling (2) ((2), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Hollow-One-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The embodiment of yearning, forever drifting the deserts to find what had once made it whole.',
         power: '4',
         toughness: '4'
@@ -2041,7 +2041,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Common',
         effects: '(T): Add one mana of any color to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Manalith-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Though the afterlife, the city, and even the God-Pharaoh himself were one great deception, the ideals championed by the gods remain true." --Djeru, former Tah-crop initiate'
       },
       {
@@ -2052,7 +2052,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Rare',
         effects: '(2): Mirage Mirror becomes a copy of target artifact, creature, enchantment, or land until end of turn.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Mirage-Mirror-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Most mirrors show your reflection.  Others show you your potential.'
       },
       {
@@ -2063,7 +2063,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Uncommon',
         effects: 'Sunset Pyramid enters the battlefield with three brick counters on it.\n(2), (T), Remove a brick counter from Sunset Pyramid: Draw a card.\n(2), (T): Scry 1.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Sunset-Pyramid-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Decades to build.  Hours to demolish.'
       },
       {
@@ -2074,7 +2074,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Common',
         effects: '(1), Sacrifice Traveler\'s Amulet: Search your library for a basic land card, reveal it, and put it into your hand.  Then shuffle your library.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Traveler%E2%80%99s-Amulet-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"Why wander in search of a new home when the path is laid out before you?" --Pytamun, former Nef-crop initiate'
       },
       {
@@ -2086,7 +2086,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Wall',
         rarity: 'Common',
         effects: 'Defender\n(T): Wall of Forgotten Pharaohs deals 1 damage to target player.  Activate this ability only if you control a Desert or there is a Desert card in your graveyard.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Wall-of-Forgotten-Pharaohs-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg2.png',
         power: '0',
         toughness: '4'
       },
@@ -2098,7 +2098,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Uncommon',
         effects: 'When Crypt of the Eternals enters the battlefield, you gain 1 life.\n(T): Add (1) to your mana pool.\n(1), (T): Add (U), (B), or (R) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Crypt-of-the-Eternals-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The dead entered as worthy.  They exited as Eternals.'
       },
       {
@@ -2110,7 +2110,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Common',
         effects: 'Desert of the Fervent enters the battlefield tapped.\n(T): Add (R) to your mana pool.\nCycling (1R) ((1R), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Desert-of-the-Fervent-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Desert of the Glorified',
@@ -2121,7 +2121,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Common',
         effects: 'Desert of the Glorified enters the battlefield tapped.\n(T): Add (B) to your mana pool.\nCycling (1B) ((1B), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Desert-of-the-Glorified-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Desert of the Indomitable',
@@ -2132,7 +2132,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Common',
         effects: 'Desert of the Indomitable enters the battlefield tapped.\n(T): Add (G) to your mana pool.\nCycling (1G) ((1G), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Desert-of-the-Indomitable-1-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Desert of the Mindful',
@@ -2143,7 +2143,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Common',
         effects: 'Desert of the Mindful enters the battlefield tapped.\n(T): Add (U) to your mana pool.\nCycling (1U) ((1U), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Desert-of-the-Mindful-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Desert of the True',
@@ -2154,7 +2154,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Common',
         effects: 'Desert of the True enters the battlefield tapped.\n(T): Add (W) to your mana pool.\nCycling (1W) ((1W), Discard this card: Draw a card.)',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Desert-of-the-True-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Dunes of the Dead',
@@ -2165,7 +2165,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Uncommon',
         effects: '(T): Add (1) to your mana pool.\nWhen Dunes of the Dead is put into a graveyard from the battlefield, create a 2/2 black Zombie creature token.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Dunes-of-the-Dead-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'The Curse of Wandering permeated Amonkhet long before Nicol Bolas.  He simply harnessed it.'
       },
       {
@@ -2177,7 +2177,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Rare',
         effects: '(T): Add (1) to your mana pool.\n(2), (T): Exile target creature you control.\n(4), (T), Exile Endless Sands: Return each creature card exiled with Endless Sands to the battlefield under its owner\'s control.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Endless-Sands-216x302.jpg'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Hashep Oasis',
@@ -2188,7 +2188,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Uncommon',
         effects: '(T): Add (1) to your mana pool.\n(T), Pay 1 life: Add (G) to your mana pool.\n(1GG), (T), Sacrifice a Desert: Target creature gets +3/+3 until end of turn. Activate this ability only any time you could cast a sorcery.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Hashep-Oasis-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Hostile Desert',
@@ -2199,7 +2199,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Rare',
         effects: '(T): Add (1) to your mana pool.\n(2), Exile a land card from your graveyard: Hostile Desert becomes a 3/4 Elemental creature until end of turn.  It\'s still a land.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Hostile-Desert-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'Amonkhet\'s dessicated land thirsts for blood.'
       },
       {
@@ -2211,7 +2211,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Uncommon',
         effects: '(T): Add (1) to your mana pool.\n(T), Pay 1 life: Add (B) to your mana pool.\n(2BB), (T), Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls.  Activate this ability only any time you could cast a sorcery.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Ifnir-Deadlands-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Ipnu Rivulet',
@@ -2222,7 +2222,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Uncommon',
         effects: '(T): Add (1) to your mana pool.\n(T), Pay 1 life: Add (U) to your mana pool.\n(1U), (T), Sacrifice a Desert: Target player puts the top four cards of his or her library into his or her graveyard.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Ramunap-Ruins-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Ramunap Ruins',
@@ -2233,7 +2233,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Uncommon',
         effects: '(T): Add (1) to your mana pool.\n(T), Pay 1 life: Add (R) to your mana pool.\n(2RR), (T), Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Ramunap-Ruins-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Scavenger Grounds',
@@ -2244,7 +2244,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Rare',
         effects: '(T): Add (1) to your mana pool.\n(2), (T), Sacrifice a Desert: Exile all cards from all graveyards.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Scavenger-Grounds-Hour-of-Devastation-Spoiler-216x302.png',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: 'When the last scrap of flesh is scoured away, the Curse of Wandering ends.  Then the dead may sleep.'
       },
       {
@@ -2256,7 +2256,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Uncommon',
         effects: '(T): Add (1) to your mana pool.\n(T), Pay 1 life: Add (W) to your mana pool.\n(2WW), (T), Sacrifice a Desert: Creatures you control get +1/+1 until end of turn.  Activate this ability only any time you could cast a sorcery.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Shefet-Dunes-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Survivors\' Encampment',
@@ -2267,7 +2267,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Desert',
         rarity: 'Common',
         effects: '(T): Add (1) to your mana pool.\n(T), Tap an untapped creature you control: Add one mana of any color to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Survivors-Encampment-216x302.jpg',
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpg',
         flavor: '"What will happen to us?" they asked.  The vizier paused.  "I think... I think that\'s up to us now."'
       },
       {
@@ -2279,7 +2279,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Plains',
         rarity: 'Common',
         effects: '(T): Add (W) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Plains-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Island (Full-Art)',
@@ -2290,7 +2290,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Island',
         rarity: 'Common',
         effects: '(T): Add (U) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Island-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Swamp (Full-Art)',
@@ -2301,7 +2301,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Swamp',
         rarity: 'Common',
         effects: '(T): Add (B) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Swamp-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Mountain (Full-Art)',
@@ -2312,7 +2312,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Mountain',
         rarity: 'Common',
         effects: '(T): Add (R) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Mountain-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       },
       {
         name: 'Forest (Full-Art)',
@@ -2323,7 +2323,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Forest',
         rarity: 'Common',
         effects: '(T): Add (G) to your mana pool.',
-        art: 'http://www.magicspoiler.com/wp-content/uploads/2017/06/Forest-Hour-of-Devastation-Spoiler-216x302.png'
+        art: 'http://www.mythicspoiler.com/hou/cards/.jpgg'
       }
     ]);
   });
