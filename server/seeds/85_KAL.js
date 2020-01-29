@@ -465,7 +465,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Vedalken Rogue',
         rarity: 'Common',
-        effects: 'When Aether Theorist enters the battlefield, you get {E}{E}{E} (three energy counters).\n(T), Pay {E}: Scry 1. (Look at the top card of your library.  You may put that card on the bottom of your library.)',
+        effects: 'When Aether Theorist enters the battlefield, you get {E}{E}{E} (three energy counters).\n{T}, Pay {E}: Scry 1. (Look at the top card of your library.  You may put that card on the bottom of your library.)',
         art: 'https://www.mythicspoiler.com/kal/cards/aethertheorist.jpg',
         power: '1',
         toughness: '3'
@@ -656,7 +656,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Vedalken Soldier',
         rarity: 'Uncommon',
-        effects: 'When Janjeet Sentry enters the battlefield, you get {E}{E} (two energy counters).\n(T), Pay {E}{E}: You may tap or untap target artifact or creature.',
+        effects: 'When Janjeet Sentry enters the battlefield, you get {E}{E} (two energy counters).\n{T}, Pay {E}{E}: You may tap or untap target artifact or creature.',
         art: 'https://www.mythicspoiler.com/kal/cards/janjeetsentry.jpg',
         power: '2',
         toughness: '3',
@@ -706,7 +706,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Vedalken Advisor',
         rarity: 'Uncommon',
-        effects: 'When Minister of Inquiries enters the battlefield, you get {E}{E} (two energy counters).\n(T), Pay {E}: Target player puts the top three cards of his or her library into his or her graveyard.',
+        effects: 'When Minister of Inquiries enters the battlefield, you get {E}{E} (two energy counters).\n{T}, Pay {E}: Target player puts the top three cards of his or her library into his or her graveyard.',
         art: 'https://www.mythicspoiler.com/kal/cards/ministerofinquiries.jpg',
         power: '1',
         toughness: '2',
@@ -1317,7 +1317,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Rogue',
         rarity: 'Uncommon',
-        effects: 'When Aethertorch Renegade enters the battlefield, you get {E}{E}{E}{E} (four energy counters).\n(T), Pay {E}{E}: Aethertorch Renegade deals 1 damage to target creature.\n(T), Pay {E}{E}{E}{E}{E}{E}{E}{E}: Aethertorch Renegade deals 6 damage to target player.',
+        effects: 'When Aethertorch Renegade enters the battlefield, you get {E}{E}{E}{E} (four energy counters).\n{T}, Pay {E}{E}: Aethertorch Renegade deals 1 damage to target creature.\n{T}, Pay {E}{E}{E}{E}{E}{E}{E}{E}: Aethertorch Renegade deals 6 damage to target player.',
         art: 'https://www.mythicspoiler.com/kal/cards/aethertorchrenegade.jpg',
         power: '1',
         toughness: '2'
@@ -2058,7 +2058,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Creature',
         subtype: 'Human Artificer',
         rarity: 'Rare',
-        effects: '(2G), (T): Create a 1/1 colorless Servo artifact creature token.\n(4G), (T): Create an X/X colorless Construct artifact creature token, where X is the number of creatures you control.',
+        effects: '(2G), {T}: Create a 1/1 colorless Servo artifact creature token.\n(4G), {T}: Create an X/X colorless Construct artifact creature token, where X is the number of creatures you control.',
         art: 'https://www.mythicspoiler.com/kal/cards/oviyapashirisagelifecrafter.jpg',
         power: '1',
         toughness: '2',
@@ -2113,7 +2113,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Elf Druid',
         rarity: 'Uncommon',
-        effects: 'When Servant of the Conduit enters the battlefield, you get {E}{E} (two energy counters).\n(T), Pay {E}: Add one mana of any color to your mana pool.',
+        effects: 'When Servant of the Conduit enters the battlefield, you get {E}{E} (two energy counters).\n{T}, Pay {E}: Add one mana of any color to your mana pool.',
         art: 'https://www.mythicspoiler.com/kal/cards/servantoftheconduit.jpg',
         power: '2',
         toughness: '2',
@@ -2421,7 +2421,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Legendary Artifact',
         rarity: 'Mythic',
-        effects: 'Whenever a permanent you control is put into a graveyard, you get {E} (an energy counter).\n(T), Pay {E}{E}{E}{E}{E}{E}: Look at the top six cards of your library.  You may cast a card from among them without paying its mana cost.  Put the rest on the bottom of your library in a random order.',
+        effects: 'Whenever a permanent you control is put into a graveyard, you get {E} (an energy counter).\n{T}, Pay {E}{E}{E}{E}{E}{E}: Look at the top six cards of your library.  You may cast a card from among them without paying its mana cost.  Put the rest on the bottom of your library in a random order.',
         art: 'https://www.mythicspoiler.com/kal/cards/aetherworksmarvel.jpg'
       },
       {
@@ -2431,7 +2431,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Rare',
-        effects: 'Whenever one or more +1/+1 counters would be put on a permanent you control, you may pay {1}.  If you do, create a 1/1 colorless Servo artifact creature token.\n{3}, (T): Choose a counter on target permanent or player.  Give that permanent or player another counter of that kind.',
+        effects: 'Whenever one or more +1/+1 counters would be put on a permanent you control, you may pay {1}.  If you do, create a 1/1 colorless Servo artifact creature token.\n{3}, {T}: Choose a counter on target permanent or player.  Give that permanent or player another counter of that kind.',
         art: 'https://www.mythicspoiler.com/kal/cards/animationmodule.jpg',
         flavor: 'Design leads to progress.'
       },
@@ -2548,7 +2548,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         subtype: 'Vehicle',
         rarity: 'Rare',
-        effects: '(T): Add one mana of any color to your mana pool.\nCrew 3 (Tap any number of creatures you control with power 3 or greater: This Vehicle becomes an artifact creature until end of turn.)',
+        effects: '{T}: Add one mana of any color to your mana pool.\nCrew 3 (Tap any number of creatures you control with power 3 or greater: This Vehicle becomes an artifact creature until end of turn.)',
         art: 'https://www.mythicspoiler.com/kal/cards/cultivatorscaravan.jpg',
         power: '5',
         toughness: '5'
@@ -2560,7 +2560,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Rare',
-        effects: 'Deadlock Trap enters the battlefield tapped.\nWhen Deadlock Trap enters the battlefield, you get {E}{E} (two energy counters).\n(T), Pay {E}: Tap target creature or planeswalker.  Its activated abilities can\'t be activated this turn.',
+        effects: 'Deadlock Trap enters the battlefield tapped.\nWhen Deadlock Trap enters the battlefield, you get {E}{E} (two energy counters).\n{T}, Pay {E}: Tap target creature or planeswalker.  Its activated abilities can\'t be activated this turn.',
         art: 'https://www.mythicspoiler.com/kal/cards/deadlocktrap.jpg'
       },
       {
@@ -2570,7 +2570,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Uncommon',
-        effects: 'Whenever a creature enters the battlefield under your control, you get {E} (an energy counter).\n{4}, (T): Return target creature you control to its owner\'s hand.',
+        effects: 'Whenever a creature enters the battlefield under your control, you get {E} (an energy counter).\n{4}, {T}: Return target creature you control to its owner\'s hand.',
         art: 'https://www.mythicspoiler.com/kal/cards/decoctionmodule.jpg',
         flavor: 'Progress leads to inspiration.'
       },
@@ -2608,7 +2608,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Rare',
-        effects: 'Whenever you cast an instant or sorcery, you get {E}{E} (two energy counters).\n(T), Pay {E}{E}{E}{E}{E}: Dynavolt Tower deals 3 damage to target creature or player.',
+        effects: 'Whenever you cast an instant or sorcery, you get {E}{E} (two energy counters).\n{T}, Pay {E}{E}{E}{E}{E}: Dynavolt Tower deals 3 damage to target creature or player.',
         art: 'https://www.mythicspoiler.com/kal/cards/dynavolttower.jpg',
         flavor: '"I like that Tezzeret.  He has vision the other judges don\'t.  He sees the potential in what we\'re making here." --Faiz, inventor'
       },
@@ -2646,7 +2646,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Uncommon',
-        effects: 'Whenever you get one or more {E} (energy counters), put a +1/+1 counter on target creature you control.\n{4}, (T): You get {E}.',
+        effects: 'Whenever you get one or more {E} (energy counters), put a +1/+1 counter on target creature you control.\n{4}, {T}: You get {E}.',
         art: 'https://www.mythicspoiler.com/kal/cards/fabricationmodule.jpg',
         flavor: 'Inspiration leads to design.'
       },
@@ -2754,7 +2754,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Rare',
-        effects: '(T), Discard a card: Up to one target creature can\'t be blocked this turn.\nWhenever Key to the City becomes untapped, you may pay {2}.  If you do, draw a card.',
+        effects: '{T}, Discard a card: Up to one target creature can\'t be blocked this turn.\nWhenever Key to the City becomes untapped, you may pay {2}.  If you do, draw a card.',
         art: 'https://www.mythicspoiler.com/kal/cards/keytothecity.jpg',
         flavor: 'It would be unfortunate if the key fell into the wrong hands.'
       },
@@ -2840,7 +2840,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Uncommon',
-        effects: '(T): Put the top two cards of your library into your graveyard.\n{2}, Exile Perpetual Timepiece: Shuffle any number of target cards from your graveyard into your library.',
+        effects: '{T}: Put the top two cards of your library into your graveyard.\n{2}, Exile Perpetual Timepiece: Shuffle any number of target cards from your graveyard into your library.',
         art: 'https://www.mythicspoiler.com/kal/cards/perpetualtimepiece.jpg',
         flavor: 'Do not be so caught up in keeping track of time that you forget to make use of it.'
       },
@@ -2865,7 +2865,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Common',
-        effects: 'When Prophetic Prism enters the battlefield, draw a card.\n{1}, (T): Add one mana of any color to your mana pool.',
+        effects: 'When Prophetic Prism enters the battlefield, draw a card.\n{1}, {T}: Add one mana of any color to your mana pool.',
         art: 'https://www.mythicspoiler.com/kal/cards/propheticprism.jpg',
         flavor: 'To understand Kaladesh, one must first understand how aether and invention flow together through the great Aether Cycle.'
       },
@@ -2996,7 +2996,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Uncommon',
-        effects: '{4}, (T): Create a 1/1 colorless Thopter artifact creature token with flying.',
+        effects: '{4}, {T}: Create a 1/1 colorless Thopter artifact creature token with flying.',
         art: 'https://www.mythicspoiler.com/kal/cards/whirlermaker.jpg',
         flavor: '"Our creations are more than mere things.  They have life in them, little bits of ourselves." --Saheeli Rai'
       },
@@ -3031,7 +3031,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Land',
         rarity: 'Uncommon',
-        effects: 'When Aether Hub enters the battlefield, you get {E} (an energy counter).\n(T): Add {1} to your mana pool.\n(T), Pay {E}: Add one mana of any color to your mana pool.',
+        effects: 'When Aether Hub enters the battlefield, you get {E} (an energy counter).\n{T}: Add {1} to your mana pool.\n{T}, Pay {E}: Add one mana of any color to your mana pool.',
         art: 'https://www.mythicspoiler.com/kal/cards/aetherhub.jpg',
         flavor: 'It powers the dreams of Ghirapur.'
       },
@@ -3042,7 +3042,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Land',
         rarity: 'Rare',
-        effects: 'Blooming Marsh enters the battlefield tapped unless you control two or fewer other lands.\n(T): Add {B} or {G} to your mana pool.',
+        effects: 'Blooming Marsh enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {B} or {G} to your mana pool.',
         art: 'https://www.mythicspoiler.com/kal/cards/bloomingmarsh.jpg',
         flavor: 'A retreat to nature can inspire even the most jaded inventor.'
       },
@@ -3053,7 +3053,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Land',
         rarity: 'Rare',
-        effects: 'Botanical Sanctum enters the battlefield tapped unless you control two or fewer other lands.\n(T): Add {G} or {U} to your mana pool',
+        effects: 'Botanical Sanctum enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {G} or {U} to your mana pool',
         art: 'https://www.mythicspoiler.com/kal/cards/botanicalsanctum.jpg',
         flavor: 'Life inspires technology, which expands life\'s domain.'
       },
@@ -3064,7 +3064,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Land',
         rarity: 'Rare',
-        effects: 'Concealed Courtyard enters the battlefield tapped unless you control two or fewer other lands.\n(T): Add {W} or {B} to your mana pool.',
+        effects: 'Concealed Courtyard enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {W} or {B} to your mana pool.',
         art: 'https://www.mythicspoiler.com/kal/cards/concealedcourtyard.jpg',
         flavor: 'Where high society and dark opportunity intersect.'
       },
@@ -3075,7 +3075,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Land',
         rarity: 'Rare',
-        effects: 'Inspiring Vantage enters the battlefield tapped unless you control two or fewer other lands.\n(T): Add {R} or {W} to your mana pool.',
+        effects: 'Inspiring Vantage enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {R} or {W} to your mana pool.',
         art: 'https://www.mythicspoiler.com/kal/cards/inspiringvantage.jpg',
         flavor: 'Ghirapur is a beacon of inspiration, attracting the most brilliant minds on Kaladesh.'
       },
@@ -3086,7 +3086,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Legendary Land',
         rarity: 'Rare',
-        effects: 'At the beginning of your upkeep, if you control three or more artifacts, you gain 1 life.\n(T): Add {1} to your mana pool.\n{4}, (T), Sacrifice Inventors\' Fair: Search your library for an artifact card, reveal it, put it into your hand, then shuffle your library.  Activate this ability only if you control three or more artifacts.',
+        effects: 'At the beginning of your upkeep, if you control three or more artifacts, you gain 1 life.\n{T}: Add {1} to your mana pool.\n{4}, {T}, Sacrifice Inventors\' Fair: Search your library for an artifact card, reveal it, put it into your hand, then shuffle your library.  Activate this ability only if you control three or more artifacts.',
         art: 'https://www.mythicspoiler.com/kal/cards/inventorsfair.jpg'
       },
       {
@@ -3096,7 +3096,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Land',
         rarity: 'Uncommon',
-        effects: '(T): Add {1} to your mana pool.\n{4}, (T), Sacrifice Sequestered Stash: Put the top five cards from your library on top of your graveyard.  Then you may put an artifact card from your graveyard on top of your library.',
+        effects: '{T}: Add {1} to your mana pool.\n{4}, {T}, Sacrifice Sequestered Stash: Put the top five cards from your library on top of your graveyard.  Then you may put an artifact card from your graveyard on top of your library.',
         art: 'https://www.mythicspoiler.com/kal/cards/sequesteredstash.jpg'
       },
       {
@@ -3106,7 +3106,7 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Land',
         rarity: 'Rare',
-        effects: 'Spirebluff Canal enters the battlefield tapped unless you control two or fewer other lands.\n(T): Add {U} or {R} to your mana pool.',
+        effects: 'Spirebluff Canal enters the battlefield tapped unless you control two or fewer other lands.\n{T}: Add {U} or {R} to your mana pool.',
         art: 'https://www.mythicspoiler.com/kal/cards/spirebluffcanal.jpg',
         flavor: 'There\'s so much more to Ghirapur than can be accessed by traditional roads.'
       }

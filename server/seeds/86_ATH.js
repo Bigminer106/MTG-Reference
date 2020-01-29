@@ -13,7 +13,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Uncommon',
         effects: 'Enchant creature or Vehicle\nAs long as enchanted permanent is a Vehicle, it\'s a creature in addition to its other types.\nEnchanted creature gets +2/+2 and has flying.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/ath/cards/aerialmodification.jpg'
       },
       {
         name: 'Aeronaut Admiral',
@@ -24,7 +24,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pilot',
         rarity: 'Uncommon',
         effects: 'Flying\nVehicles you control have flying.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/aeronautadmiral.jpg',
         power: '3',
         toughness: '1',
         flavor: 'The Consulate recruits its best pilots from the League of Aeronauts.  Many go on to command entire fleets.'
@@ -37,8 +37,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Dwarf Artificer',
         rarity: 'Common',
-        effects: 'Vigilance\nWhen Aether Inspector enters the battlefield, you get (E)(E) (two energy counters).\nWhenever Aether Inspector attacks, you may pay (E)(E).  If you do, create a 1/1 colorless Servo artifact creature token.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Vigilance\nWhen Aether Inspector enters the battlefield, you get {E}{E} (two energy counters).\nWhenever Aether Inspector attacks, you may pay {E}{E}.  If you do, create a 1/1 colorless Servo artifact creature token.',
+        art: 'https://www.mythicspoiler.com/ath/cards/aetherinspector.jpg',
         power: '2',
         toughness: '3'
       },
@@ -50,8 +50,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Dwarf Scout',
         rarity: 'Rare',
-        effects: 'Whenever Aethergeode Miner attacks, you get (E)(E) (two energy counters).\nPay (E)(E): Exile Aethergeode Miner, then return it to the battlefield under its owner\'s control.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Whenever Aethergeode Miner attacks, you get {E}{E} (two energy counters).\nPay {E}{E}: Exile Aethergeode Miner, then return it to the battlefield under its owner\'s control.',
+        art: 'https://www.mythicspoiler.com/ath/cards/aethergeodeminer.jpg',
         power: '3',
         toughness: '1',
         flavor: 'Gremlins in the wild feed on nodules of pure aether, which are also prized by miners.'
@@ -65,7 +65,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dwarf Scout',
         rarity: 'Uncommon',
         effects: 'Flying\nRevolt--When Airdrop Aeronauts enters the battlefield, if a permanent you controlled left the battlefield this turn, you gain 5 life.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/airdropaeronauts.jpg',
         power: '4',
         toughness: '3',
         flavor: '"Supplies inbound.  Keep that pressure on."'
@@ -78,7 +78,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Choose one -- \n\t*Target creature gets +1/+2 until end of turn.\n\t*Return target creature you control to its owner\'s hand.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/alleyevasion.jpg',
         flavor: '"Sure, you know the law.  But I know the streets."'
       },
       {
@@ -90,7 +90,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dwarf Rogue',
         rarity: 'Common',
         effects: 'Audacious Infiltrator can\'t be blocked by artifact creatures.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/audaciousinfiltrator.jpg',
         power: '3',
         toughness: '1',
         flavor: '"This little critter can turn all of you to scrap in under thirty seconds!  Come on, who wants to be the first to go?  Try and stop me!"'
@@ -103,7 +103,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Dwarf Soldier',
         rarity: 'Common',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/bastionenforcer.jpg',
         power: '3',
         toughness: '2',
         flavor: 'Headquartered at the Bastion of the Honorable, the Consulate\'s enforcers are charged with the impossible task of keeping the peace.'
@@ -116,7 +116,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'Revolt--At the beginning of your end step, if a permanent you controlled left the battlefield this turn, put a unity counter on Call for Unity.\nCreatures you control get +1/+1 for each unity counter on Call for Unity.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/callforunity.jpg',
         flavor: 'The "leaking spire" stands for liberation from Consulate control.'
       },
       {
@@ -128,7 +128,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Common',
         effects: 'Enchant creature\nEnchanted creature can\'t attack or block.\nWhen a Vehicle you control attacks, exile enchanted creature.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/caughtinthebrights.jpg',
         flavor: 'While hunting aether, a gremlin may ignore other stimuli, including threats to its own life.'
       },
       {
@@ -139,7 +139,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'When Consulate Crackdown enters the battlefield, exile all artifacts your opponents control until Consulate Crackdown leaves the battlefield.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/consulatecrackdown.jpg',
         flavor: '"The workshops are silent.  Our creations have been seized.  They have killed what made us alive." --Pia Nalaar'
       },
       {
@@ -150,8 +150,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         subtype: 'Aura',
         rarity: 'Common',
-        effects: 'Enchant creature\nEnchanted creature gets +1/+3.\n(W): Return Conviction to its owner\'s hand.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Enchant creature\nEnchanted creature gets +1/+3.\n{W}: Return Conviction to its owner\'s hand.',
+        art: 'https://www.mythicspoiler.com/ath/cards/conviction.jpg',
         flavor: '"There is no greater coward than one who believes in nothing."'
       },
       {
@@ -163,7 +163,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dwarf Artificer',
         rarity: 'Common',
         effects: 'Revolt--When Countless Gears Renegade enters the battlefield, if a permanent you controlled left the battlefield this turn, create a 1/1 colorless Servo artifact creature token.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/countlessgearsrenegade.jpg',
         power: '2',
         toughness: '2',
         flavor: '"Go forth and cause trouble, my little one!"'
@@ -177,7 +177,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Bird',
         rarity: 'Common',
         effects: 'Flying\nWhen Dawnfeather Eagle enters the battlefield, creatures you control get +1/+1 and vigilance until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/dawnfeathereagle.jpg',
         power: '3',
         toughness: '3',
         flavor: '"It came to rest on the angel\'s arm, and then the weight of their gazes fell upon me." --Aeronaut\'s journal'
@@ -191,7 +191,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dwarf Warrior',
         rarity: 'Uncommon',
         effects: 'Revolt--When Deadeye Harpooner enters the battlefield, if a permanent you controlled left the battlefield this turn, destroy target tapped creature an opponent controls.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/deadeyeharpooner.jpg',
         power: '2',
         toughness: '2',
         flavor: '"It seems there\'s even better hunting down here."'
@@ -204,7 +204,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Destroy target artifact or enchantment.\nRevolt--If a permanent you controlled left the battlefield this turn, you gain 3 life.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/decommission.jpg',
         flavor: '"A key weakness in the design is its vulnerability to repeated, forceful blows."'
       },
       {
@@ -215,7 +215,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Deft Dismissal deals 3 damage divided how you choose among one, two, or three target attacking or blocking creatures.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/deftdismissal.jpg',
         flavor: '"With spy thopters all around, how can the consuls be so blind to Tezzeret\'s manipulations?" --Gideon Jura'
       },
       {
@@ -227,7 +227,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Angel',
         rarity: 'Mythic',
         effects: 'Flying\nIf you would lose the game, instead exile Exquisite Archangel and your life total becomes your starting life total.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/exquisitearchangel.jpg',
         power: '5',
         toughness: '5',
         flavor: 'A living invention born of a grand design.'
@@ -241,7 +241,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Cat Beast',
         rarity: 'Uncommon',
         effects: 'When Felidar Guardian enters the battlefield, you may exile target permanent you control, then return that card to the battlefield under its owner\'s control.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/felidarguardian.jpg',
         power: '1',
         toughness: '4',
         flavor: 'The loyalty of a felidar is hard won but worth the effort.'
@@ -255,7 +255,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Bird',
         rarity: 'Common',
         effects: 'Flying',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/ghirapurorrery.jpg',
         power: '2',
         toughness: '2',
         flavor: 'Many airship captains keep pets that share their love of the sky.'
@@ -268,8 +268,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Dwarf Artificer',
         rarity: 'Uncommon',
-        effects: '(W), Sacrifice Restoration Specialist: Return up to one target artifact card and up to one target enchantment card from your graveyard to your hand.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: '{W}, Sacrifice Restoration Specialist: Return up to one target artifact card and up to one target enchantment card from your graveyard to your hand.',
+        art: 'https://www.mythicspoiler.com/ath/cards/restorationspecialist.jpg',
         power: '2',
         toughness: '1',
         flavor: 'Dwarves\' tools are priceless heirlooms handed down through generations.'
@@ -283,7 +283,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dwarf Warrior',
         rarity: 'Rare',
         effects: 'Double strike\nRevolt--At the beginning of your end step, if a permanent you controlled left the battlefield this turn, put a +1/+1 counter on Solemn Recruit.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/solemnrecruit.jpg',
         power: '2',
         toughness: '2',
         flavor: '"I can no longer sit in my workshop and ignore the events outside.  My hammers strike for the people of Ghirapur."'
@@ -297,7 +297,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dwarf Advisor',
         rarity: 'Rare',
         effects: 'Whenever you cast an Aura, Equipment, or Vehicle spell, draw a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/sramsenioredificer.jpg',
         power: '2',
         toughness: '2',
         flavor: '"As this conflict grows, it gets harder to prevent the city from breaking down.  How much longer can we keep this machinery balanced?"'
@@ -310,7 +310,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Create three 1/1 colorless Servo artifact creature tokens.\nYou may cast a card with converted mana cost 3 or less from your hand without paying its mana cost.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/sramsexpertise.jpg',
         flavor: '"It\'s important to always have the right tool for the job.  This one is for picking my teeth."'
       },
       {
@@ -321,7 +321,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Uncommon',
         effects: 'When Thopter Arrest enters the battlefield, exile target artifact or creature an opponent controls until Thopter Arrest leaves the battlefield.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/thopterarrest.jpg',
         flavor: 'The Consulate\'s eyes--unblinking, unsleeping--are everywhere.'
       },
       {
@@ -332,8 +332,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Vedalken Artificer',
         rarity: 'Common',
-        effects: 'Flying\nWhen Aether Swooper enters the battlefield, you get (E)(E) (two energy counters).\nWhenever Aether Swooper attacks, you may pay (E)(E).  If you do, create a 1/1 colorless Servo artifact creature token.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Flying\nWhen Aether Swooper enters the battlefield, you get {E}{E} (two energy counters).\nWhenever Aether Swooper attacks, you may pay {E}{E}.  If you do, create a 1/1 colorless Servo artifact creature token.',
+        art: 'https://www.mythicspoiler.com/ath/cards/aetherswooper.jpg',
         power: '1',
         toughness: '2'
       },
@@ -345,8 +345,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Whale',
         rarity: 'Rare',
-        effects: 'Flying\nWhen Aethertide Whale enters the battlefield, you get (E)(E)(E)(E)(E)(E) (six energy counters).\nPay (E)(E)(E)(E): Return Aethertide Whale to its owner\'s hand.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Flying\nWhen Aethertide Whale enters the battlefield, you get {E}{E}{E}{E}{E}{E} (six energy counters).\nPay {E}{E}{E}{E}: Return Aethertide Whale to its owner\'s hand.',
+        art: 'https://www.mythicspoiler.com/ath/cards/aethertidewhale.jpg',
         power: '6',
         toughness: '4',
         flavor: '"To survive up here, I\'ve learned when to use my harpoon and when to just enjoy the view." --Kadhu, skywhaler'
@@ -359,8 +359,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Creature',
         subtype: 'Human Wizard',
         rarity: 'Rare',
-        effects: 'Instant and sorcery spells you cast cost (1) less to cast.\nWhenever a spell or ability you control counters a spell, you may draw a card.  If you do, discard a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Instant and sorcery spells you cast cost {1} less to cast.\nWhenever a spell or ability you control counters a spell, you may draw a card.  If you do, discard a card.',
+        art: 'https://www.mythicspoiler.com/ath/cards/baralchiefofcompliance.jpg',
         power: '1',
         toughness: '3',
         flavor: '"The echo of silence is music to my ears."'
@@ -373,7 +373,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Return up to three target artifacts and/or creatures to their owners\' hands.\nYou may cast a spell with converted mana cost 4 or less from your hand without paying its mana cost.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/baralsexpertise.jpg',
         flavor: '"Get out of my way."'
       },
       {
@@ -384,8 +384,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Vedalken Artificer',
         rarity: 'Common',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nHexproof (This creature can\'t be the target of spells or abilities your opponents control.)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nHexproof (This creature can\'t be the target of spells or abilities your opponents control.)',
+        art: 'https://www.mythicspoiler.com/ath/cards/bastioninventor.jpg',
         power: '4',
         toughness: '4',
         flavor: '"This armor transcends the the limitations of mere flesh and bone."'
@@ -398,7 +398,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Rare',
         effects: 'Counter target spell, activated ability, or triggered ability. (Mana abilities can\'t be targeted.)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/disallow.jpg',
         flavor: '"How easily your flames are quenched." --Baral, Chief of Compliance'
       },
       {
@@ -410,7 +410,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vedalken Artificer',
         rarity: 'Common',
         effects: 'When Dispersal Technician enters the battlefield, you may return target artifact to its owner\'s hand.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/dispersaltechnician.jpg',
         power: '3',
         toughness: '2',
         flavor: 'As renegade forces closed in on the Aether Spire, Consulate blockades failed one by one.'
@@ -423,7 +423,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Uncommon',
         effects: 'Whenever you cast an artifact spell, create a 1/1 colorless Thopter artifact creature token with flying.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/efficientconstruction.jpg',
         flavor: 'For some of Ghirapur\'s aerowrights, building thopters is a byproduct of larger construction efforts.'
       },
       {
@@ -435,7 +435,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Drake',
         rarity: 'Common',
         effects: 'Flying\nHinterland Drake can\'t block artifact creatures.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/hinterlanddrake.jpg',
         power: '2',
         toughness: '3',
         flavor: '"As a kid, I dreamed of flying on those wild drakes.  They inspired me to build wings of my own." --Nadja Cloudtoucher, aerowright'
@@ -449,7 +449,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Common',
         effects: 'Enchant artifact or creature\nEnchanted permanent doesn\'t untap during its controller\'s untap step.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/iceover.jpg',
         flavor: '"Slow the Consulate with whatever you\'ve got!" --Jasi Ganin, master siphoner'
       },
       {
@@ -460,7 +460,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Exile up to two target creatures you control, then return those cards to the battlefield under their owner\'s control.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/illusionistsstratagem.jpg',
         flavor: '"When everything hangs on a single moment, be sure to choose the right moment." --Jace Beleren'
       },
       {
@@ -471,7 +471,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Return target nonland permanent to its owner\'s hand.\nDraw a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/leaveinthedust.jpg',
         flavor: 'The daredevil racers of the Derby Crows, long at odds with the Consulate, were quick to join the renegades in open revolt.'
       },
       {
@@ -483,7 +483,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Mythic',
         effects: 'Enchant artifact you control\nAt the beginning of your upkeep, create a token that\'s a copy of enchanted artifact.  Then if you control eight or more artifacts with the same name as one another, you win the game.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/mechanizedproduction.jpg',
         flavor: '"Give me eight walkers, I\'ll give you the city." --Dovin Baan'
       },
       {
@@ -493,8 +493,8 @@ exports.seed = function(knex, Promise) {
         color: 'Blue',
         supertype: 'Instant',
         rarity: 'Common',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nCounter target spell unless its controller pays (3).',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nCounter target spell unless its controller pays {3}.',
+        art: 'https://www.mythicspoiler.com/ath/cards/metallicrebuke.jpg',
         flavor: '"Too little, too late.  The machine is in motion." --Tezzeret'
       },
       {
@@ -505,7 +505,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Counter target noncreature spell.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/negate.jpg',
         flavor: '"It is fascinating to see how the people of this plane replicate magical techniques without a natural gift.  Also frustrating." --Jace Beleren'
       },
       {
@@ -516,8 +516,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Artificer',
         rarity: 'Rare',
-        effects: 'When Quicksmith Spy enters the battlefield, target artifact gets "(T): Draw a card" for as long as you control Quicksmith Spy.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'When Quicksmith Spy enters the battlefield, target artifact gets "{T}: Draw a card" for as long as you control Quicksmith Spy.',
+        art: 'https://www.mythicspoiler.com/ath/cards/quicksmithspy.jpg',
         power: '2',
         toughness: '3',
         flavor: '"Let\'s just broaden its surveillance lens."'
@@ -529,8 +529,8 @@ exports.seed = function(knex, Promise) {
         color: 'Blue',
         supertype: 'Sorcery',
         rarity: 'Uncommon',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nDraw three cards.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nDraw three cards.',
+        art: 'https://www.mythicspoiler.com/ath/cards/reverseengineer.jpg',
         flavor: 'The Hold, an illegal research facility in a derelict merchant ship, became a wellspring of renegade intelligence.'
       },
       {
@@ -542,7 +542,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Crab',
         rarity: 'Uncommon',
         effects: 'Whenever Salvage Scuttler attacks, return an artifact you control to its owner\'s hand.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/salvagescuttler.jpg',
         power: '4',
         toughness: '4',
         flavor: 'A hermit crab goes through many shells in its lifetime, and not all are natural in origin.'
@@ -555,8 +555,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Vedalken Rogue',
         rarity: 'Uncommon',
-        effects: 'Flash (You may cast this spell anytime you could cast an instant.)\nWhenever Shielded Aether Thief blocks, you get (E) (an energy counter).\n(T), Pay (E)(E)(E): Draw a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Flash (You may cast this spell anytime you could cast an instant.)\nWhenever Shielded Aether Thief blocks, you get {E} (an energy counter).\n{T}, Pay {E}{E}{E}: Draw a card.',
+        art: 'https://www.mythicspoiler.com/ath/cards/shieldedaetherthief.jpg',
         power: '0',
         toughness: '4',
         flavor: 'Conflict breeds opportunity.'
@@ -569,8 +569,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Fish',
         rarity: 'Common',
-        effects: 'When Shipwreck Moray enters the battlefield, you get (E)(E)(E)(E) (four energy counters).\nPay (E): Shipwreck Moray gets +2/-2 until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'When Shipwreck Moray enters the battlefield, you get {E}{E}{E}{E} (four energy counters).\nPay {E}: Shipwreck Moray gets +2/-2 until end of turn.',
+        art: 'https://www.mythicspoiler.com/ath/cards/shipwreckmoray.jpg',
         power: '0',
         toughness: '5',
         flavor: 'Shipwrecks do wonders for the local fauna, providing both shelter and aether.'
@@ -584,7 +584,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Uncommon',
         effects: 'Flying\nWhenever Skyship Plunderer deals combat damage to a player, for each kind of counter on target permanent or player, give that permanent or player another counter of that kind.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/skyshipplunderer.jpg',
         power: '2',
         toughness: '1',
         flavor: 'Escapes should always be daring.'
@@ -597,7 +597,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Tap target creature.  It doesn\'t untap during its controller\'s next untap step.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/takeintocustody.jpg',
         flavor: '"You can tell me what I want to know, or you can talk to the Chief of Compliance.  Why don\'t you make it easy on yourself?"'
       },
       {
@@ -609,7 +609,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Wizard',
         rarity: 'Uncommon',
         effects: 'When Trophy Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 3, reveal it, put it into your hand, then shuffle your library.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/trophymage.jpg',
         power: '2',
         toughness: '2',
         flavor: '"The tools of the past will help us forge the future."'
@@ -621,8 +621,8 @@ exports.seed = function(knex, Promise) {
         color: 'Blue',
         supertype: 'Instant',
         rarity: 'Rare',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nSearch your library for converted mana cost X or less, put it onto the battlefield, then shuffle your library.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg'
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nSearch your library for converted mana cost X or less, put it onto the battlefield, then shuffle your library.',
+        art: 'https://www.mythicspoiler.com/ath/cards/whirofinvention.jpg'
       },
       {
         name: 'Wind-Kin Raiders',
@@ -632,8 +632,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Artificer',
         rarity: 'Uncommon',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nFlying',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nFlying',
+        art: 'https://www.mythicspoiler.com/ath/cards/windkinraiders.jpg',
         power: '4',
         toughness: '3',
         flavor: 'Small aeronaut societies like the Wind-Kin had little to lose by siding with the renegades, and much to gain.'
@@ -646,8 +646,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Artificer',
         rarity: 'Common',
-        effects: 'Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhen Aether Poisoner enters the battlefield, you get (E)(E) (two energy counters).\nWhenever Aether Poisoner attacks, you may pay (E)(E).  If you do, create a 1/1 colorless Servo artifact creature token.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhen Aether Poisoner enters the battlefield, you get {E}{E} (two energy counters).\nWhenever Aether Poisoner attacks, you may pay {E}{E}.  If you do, create a 1/1 colorless Servo artifact creature token.',
+        art: 'https://www.mythicspoiler.com/ath/cards/aetherpoisoner.jpg',
         power: '1',
         toughness: '1'
       },
@@ -660,7 +660,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aetherborn Rogue',
         rarity: 'Common',
         effects: 'Menace',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/alleystrangler.jpg',
         power: '2',
         toughness: '3',
         flavor: '"You never know what day might be your last."'
@@ -672,8 +672,8 @@ exports.seed = function(knex, Promise) {
         color: 'Black',
         supertype: 'Sorcery',
         rarity: 'Rare',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nTarget creature gets -X/-X until end of turn.  You gain X life.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nTarget creature gets -X/-X until end of turn.  You gain X life.',
+        art: 'https://www.mythicspoiler.com/ath/cards/battleatthebridge.jpg',
         flavor: '"This is bigger than you.  All of you." --Tezzeret'
       },
       {
@@ -684,7 +684,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Target creature gets -2/-2 until end of turn.  Scry 1. (Look at the top card of your library.  You may put that card on the bottom of your library.)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/cruelfinality.jpg',
         flavor: 'Bitter the bite of a demon\'s steel, and deep the abyss it opens.'
       },
       {
@@ -695,7 +695,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Destroy target creature or Vehicle.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/daringdemolition.jpg',
         flavor: 'Living so close to death gives the aetherborn an unusual perspective on risk.'
       },
       {
@@ -707,7 +707,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aetherborn Artificer',
         rarity: 'Common',
         effects: 'Sacrifice an artifact or creature: Put a +1/+1 counter on Defiant Salvager.  Activate this ability only any time you could cast a sorcery.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/defiantsalvager.jpg',
         power: '2',
         toughness: '2',
         flavor: '"I didn\'t survive that crash just so I could fall to the likes of you."'
@@ -720,7 +720,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Destroy target creature with converted mana cost 2 or less.\nRevolt--Destroy that creature if it has converted mana cost 4 or less if a permanent you controlled left the battlefield this turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/ath/cards/fatalpush.jpg'
       },
       {
         name: 'Fen Hauler',
@@ -730,8 +730,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Insect',
         rarity: 'Common',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nFen Hauler can\'t be blocked by artifact creatures.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nFen Hauler can\'t be blocked by artifact creatures.',
+        art: 'https://www.mythicspoiler.com/ath/cards/fenhauler.jpg',
         power: '5',
         toughness: '5',
         flavor: '"Success is found where others fear to look." --Ara, renegade smuggler'
@@ -745,7 +745,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Insect',
         rarity: 'Uncommon',
         effects: 'Flying\nWhen Foundry Hornet enters the battlefield, if you control a creature with a +1/+1 counter on it, creatures your opponents control get -1/-1 until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/foundryhornet.jpg',
         power: '2',
         toughness: '3',
         flavor: 'Its buzzing is easily mistaken for the hum of a thopter\'s wings.'
@@ -759,7 +759,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Rogue',
         rarity: 'Common',
         effects: 'When Fourth Bridge Prowler enters the battlefield, you may have target creature get -1/-1 until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/fourthbridgeprowler.jpg',
         power: '1',
         toughness: '1',
         flavor: 'Renegades run the gamut from lofty sages to petty thieves.'
@@ -773,7 +773,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aetherborn Vampire',
         rarity: 'Uncommon',
         effects: 'Deathtouch, lifelink',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/giftedaetherborn.jpg',
         power: '2',
         toughness: '3',
         flavor: 'A few aetherborn have discovered a way to sustain their own existences at the cost of an insatiable hunger for the life essence of other beings.'
@@ -786,8 +786,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Rogue',
         rarity: 'Rare',
-        effects: 'Menace\nWhen Glint-Sleeve Siphoner enters the battlefield or attacks, you get (E) (an energy counter).\nAt the beginning of your upkeep, you may pay (E)(E).  If you do, you draw a card and you lose 1 life.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Menace\nWhen Glint-Sleeve Siphoner enters the battlefield or attacks, you get {E} (an energy counter).\nAt the beginning of your upkeep, you may pay {E}{E}.  If you do, you draw a card and you lose 1 life.',
+        art: 'https://www.mythicspoiler.com/ath/cards/glintsleevesiphoner.jpg',
         power: '2',
         toughness: '1'
       },
@@ -798,8 +798,8 @@ exports.seed = function(knex, Promise) {
         color: 'Black',
         supertype: 'Enchantment',
         rarity: 'Uncommon',
-        effects: 'Whenever you lose life for the first time each turn, you get (E). (You get an energy counter.  Damage causes loss of life.)\nPay (E)(E), Sacrifice Gonti\'s Machinations: Each opponent loses 3 life.  You gain life equal to the life lost this way.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Whenever you lose life for the first time each turn, you get {E}. (You get an energy counter.  Damage causes loss of life.)\nPay {E}{E}, Sacrifice Gonti\'s Machinations: Each opponent loses 3 life.  You gain life equal to the life lost this way.',
+        art: 'https://www.mythicspoiler.com/ath/cards/gontismachinations.jpg',
         flavor: '"I am confident that all our enterprises can benefit from this little revolution."'
       },
       {
@@ -810,8 +810,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Demon',
         rarity: 'Mythic',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nFlying\nAt the beginning of your end step, each opponent discards a card.\n(1B), Sacrifice an artifact: Target creature gets -2/-2 until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nFlying\nAt the beginning of your end step, each opponent discards a card.\n(1B), Sacrifice an artifact: Target creature gets -2/-2 until end of turn.',
+        art: 'https://www.mythicspoiler.com/ath/cards/heraldofanguish.jpg',
         power: '5',
         toughness: '5'
       },
@@ -824,7 +824,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aetherborn Artificer',
         rarity: 'Uncommon',
         effects: 'When Ironclad Revolutionary enters the battlefield, you may sacrifice an artifact.  If you do, put two +1/+1 counters on Ironclad Revolutionary and each opponent loses 2 life.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/ironcladrevolutionary.jpg',
         power: '4',
         toughness: '4',
         flavor: 'As the rebellion spread, renegade ingenuity outpaced the Consulate\'s greatest fears.'
@@ -838,7 +838,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aetherborn Rogue',
         rarity: 'Rare',
         effects: 'Other Aetherborn you control get +1/+1.\nWhenever Midnight Aetherborn or another Aetherborn you control dies, you draw a card and you lose 1 life.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/midnightentourage.jpg',
         power: '3',
         toughness: '3'
       },
@@ -851,7 +851,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aetherborn Warrior',
         rarity: 'Common',
         effects: 'Flying\nRevolt--Night Market Aeronaut enters the battlefield with a +1/+1 counter on it if a permanent you controlled left the battlefield this turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/nightmarketaeronaut.jpg',
         power: '2',
         toughness: '2',
         flavor: '"Death might come tomorrow, but today--today I am alive."'
@@ -864,7 +864,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Each opponent sacrifices an artifact creature and a nonartifact creature.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/perilouspredicament.jpg',
         flavor: 'Comrades in life.  Comrades in death.'
       },
       {
@@ -875,7 +875,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Target permanent gains indestructible until end of turn.  Create a 1/1 colorless Servo artifact creature token. (Effects that say "destroy" don\'t destroy a permanent with indestructible, and if it\'s a creature, it can\'t be destroyed by damage.)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/renegadesgetaway.jpg',
         flavor: 'You can\'t fight what you can\'t find.'
       },
       {
@@ -886,7 +886,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Return target creature card from your graveyard to your hand.  If you control an artifact, draw a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/resourcefulreturn.jpg',
         flavor: 'When the salvage team brought in the shattered gearhulk, a wave of excitement swept through the renegade foundry.'
       },
       {
@@ -897,7 +897,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Exile target nonland card from your graveyard.  Search your library for any number of cards with the same name as that card, reveal them, and put them into your hand.  Then shuffle your library.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/secretsalvage.jpg',
         flavor: 'There is no shortage of illegal salvage in Ghirapur, nor of those who are willing to profit from it.'
       },
       {
@@ -908,8 +908,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Artificer',
         rarity: 'Uncommon',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nWhenever a nontoken artifact you control is put into a graveyard from the battlefield, create a 1/1 colorless Servo artifact creature token.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nWhenever a nontoken artifact you control is put into a graveyard from the battlefield, create a 1/1 colorless Servo artifact creature token.',
+        art: 'https://www.mythicspoiler.com/ath/cards/slyrequisitioner.jpg',
         power: '2',
         toughness: '2'
       },
@@ -922,7 +922,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aetherborn Warrior',
         rarity: 'Uncommon',
         effects: 'Revolt--When Vengeful Rebel enters the battlefield, if a permanent you controlled left the battlefield this turn, target creature an opponent controls gets -3/-3 until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/vengefulrebel.jpg',
         power: '3',
         toughness: '2',
         flavor: 'Some aetherborn joined the rebellion for profit, others for the sake of their freedom, still others for revenge.'
@@ -936,7 +936,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aetherborn Vampire',
         rarity: 'Rare',
         effects: 'Haste\nWhenever a creature an opponent controls dies, put a +1/+1 counter on Yahenni, Undying Partisan.\nSacrifice another creature: Yahenni, Undying Partisan gains indestructible until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/yahenniundyingpartisan.jpg',
         power: '2',
         toughness: '2',
         flavor: '"The time for subtlety is over, darling."'
@@ -949,7 +949,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'All creatures get -3/-3 until end of turn.\nYou may cast a card with converted mana cost 3 or less from your hand without paying its mana cost.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/yahennisexpertise.jpg',
         flavor: '"The Consulate pushed me to my limit, darling, and this is the result."'
       },
       {
@@ -960,8 +960,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Artificer',
         rarity: 'Common',
-        effects: 'First strike\nWhen Aether Chaser enters the battlefield, you get (E)(E) (two energy counters).\nWhenever Aether Chaser attacks, you may pay (E)(E).  If you do, create a 1/1 colorless Servo artifact creature token.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'First strike\nWhen Aether Chaser enters the battlefield, you get {E}{E} (two energy counters).\nWhenever Aether Chaser attacks, you may pay {E}{E}.  If you do, create a 1/1 colorless Servo artifact creature token.',
+        art: 'https://www.mythicspoiler.com/ath/cards/aetherchaser.jpg',
         power: '2',
         toughness: '1'
       },
@@ -973,7 +973,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Chandra\'s Revolution deals 4 damage to target creature.  Tap target land.  That land doesn\'t untap during its controller\'s next untap step.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/chandrasrevolution.jpg',
         flavor: 'Chandra was driven by her anger, directed particularly at the man who had taken her father from her.'
       },
       {
@@ -984,7 +984,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Choose one -- \n\t*Destroy target artifact.\n\t*Creatures without flying can\'t block this turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/destructivetampering.jpg',
         flavor: '"I don\'t think they\'ll appreciate any ... adjustments." --Karavin, renegade saboteur'
       },
       {
@@ -995,8 +995,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Warrior',
         rarity: 'Common',
-        effects: '(T), Sacrifice an artifact: Embraal Gear-Smasher deals 2 damage to each opponent.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: '{T}, Sacrifice an artifact: Embraal Gear-Smasher deals 2 damage to each opponent.',
+        art: 'https://www.mythicspoiler.com/ath/cards/embraalgearsmasher.jpg',
         power: '2',
         toughness: '3',
         flavor: '"A well-made wrench is a versatile, indispensable tool."'
@@ -1009,8 +1009,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Giant',
         rarity: 'Uncommon',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nTrample, haste',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nTrample, haste',
+        art: 'https://www.mythicspoiler.com/ath/cards/enragedgiant.jpg',
         power: '4',
         toughness: '4',
         flavor: 'When fighting spilled over into Giant\'s Walk, the aether weapons and swooping airships angered the normally placid creatures.'
@@ -1023,8 +1023,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Dragon',
         rarity: 'Rare',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nFlying\n(1R): Freejam Regent gets +2/+0 until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nFlying\n(1R): Freejam Regent gets +2/+0 until end of turn.',
+        art: 'https://www.mythicspoiler.com/ath/cards/freejamregent.jpg',
         power: '4',
         toughness: '4',
         flavor: 'The dragons perching in Freejam\'s towers symbolize the zone\'s fierce independence.'
@@ -1038,7 +1038,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Warrior',
         rarity: 'Common',
         effects: 'Frontline Rebel attacks each combat if able.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/frontlinerebel.jpg',
         power: '3',
         toughness: '3',
         flavor: '"Will you be strong and stand with me?"'
@@ -1052,7 +1052,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Uncommon',
         effects: 'Enchant artifact\nAt the beginning of your end step, Gremlin Infestation deals 2 damage to enchanted artifact\'s controller.\nWhen enchanted artifact is put into a graveyard, create a 2/2 red Gremlin creature token.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/ath/cards/gremlininfestation.jpg'
       },
       {
         name: 'Hungry Flames',
@@ -1062,7 +1062,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Hungry Flames deals 3 damage to target creature and 2 damage to target player.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/hungryflames.jpg',
         flavor: 'In the hold of the Heart of Kiran, Chandra answered Dovin Baan\'s sabotage with an explosive retort.'
       },
       {
@@ -1073,7 +1073,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Mythic',
         effects: 'Destroy X target artifacts and/or creatures.  For each permanent destroyed this way, its controller reveals cards from the top of his or her library until an artifact or creature card is revealed and exiles that card.  Those players put the exiled cards onto the battlefield, then shuffle their libraries.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/ath/cards/indomitablecreativity.jpg'
       },
       {
         name: 'Invigorated Rampage',
@@ -1083,7 +1083,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Choose one -- \n\t*Target creature gets +4/+0 and gains trample until end of turn.\n\t*Two target creatures each get +2/+0 and gain trample until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/invigoratedrampage.jpg',
         flavor: 'Gremlins can change from pest to problem to plague in the span of a moment.'
       },
       {
@@ -1095,7 +1095,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pirate',
         rarity: 'Rare',
         effects: 'First strike, menace\nWhenever Kari Zev, Skyship Raider attacks, create a 2/1 red Monkey creature token named Ragavan that\'s tapped and attacking.  Exile that token at end of combat.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/karizevskyshipraider.jpg',
         power: '1',
         toughness: '3',
         flavor: 'Aboard her ship, the Dragon\'s Smile, Kari follows no one\'s rules but her own.'
@@ -1108,7 +1108,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Gain control of target creature or Vehicle until end of turn.  Untap it.  It gains haste until end of turn.\nYou may cast a card with converted mana cost 2 or less from your hand without paying its mana cost.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/karizevsexpertise.jpg',
         flavor: '"I was made for this!"'
       },
       {
@@ -1119,7 +1119,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Lizard',
         rarity: 'Common',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/lathnusailback.jpg',
         power: '5',
         toughness: '4',
         flavor: 'Travelers to Lathnu, high on the Devra Cliffs, need not fear the political strife of Ghirapur... but they have other dangers to worry about.'
@@ -1132,8 +1132,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Warrior',
         rarity: 'Mythic',
-        effects: 'Double strike, haste\nWhenever Lightning Runner attacks, you get (E)(E) (two energy counters), then you may pay (E)(E)(E)(E)(E)(E)(E)(E).  If you pay, untap all creatures you control, and after this phase, there is an additional combat phase.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Double strike, haste\nWhenever Lightning Runner attacks, you get {E}{E} (two energy counters), then you may pay {E}{E}{E}{E}{E}{E}{E}{E}.  If you pay, untap all creatures you control, and after this phase, there is an additional combat phase.',
+        art: 'https://www.mythicspoiler.com/ath/cards/lightningrunner.jpg',
         power: '2',
         toughness: '2',
         flavor: '"Catch me if you can!"'
@@ -1146,7 +1146,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'Whenever a nontoken artifact is put into your graveyard from the battlefield, return that card to your hand unless target opponent has Pia\'s Revolution deal 3 damage to him or her.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/piasrevolution.jpg',
         flavor: 'Pia\'s passion was directed at the big picture--at making real, lasting change.'
       },
       {
@@ -1157,7 +1157,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Target creature gets +1/+0 and gains first strike until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/precisestrike.jpg',
         flavor: '"Hit where it hurts, and always hit first."'
       },
       {
@@ -1168,8 +1168,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Artificer',
         rarity: 'Rare',
-        effects: 'When Quicksmith Rebel enters the battlefield, target artifact gets "(T): This artifact deals 2 damage to target creature or player" for as long as you control Quicksmith Rebel.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'When Quicksmith Rebel enters the battlefield, target artifact gets "{T}: This artifact deals 2 damage to target creature or player" for as long as you control Quicksmith Rebel.',
+        art: 'https://www.mythicspoiler.com/ath/cards/quicksmithrebel.jpg',
         power: '3',
         toughness: '2',
         flavor: '"Let\'s add just a bit more stopping power."'
@@ -1183,7 +1183,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Gremlin',
         rarity: 'Uncommon',
         effects: 'Sacrifice an artifact: Ravenous Intruder gets +2/+2 until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/ravenousintruder.jpg',
         power: '1',
         toughness: '2',
         flavor: '"I\'ve made some fine acquisitions of late, so I\'m planning to make commensurate improvements to my security systems.  I have a consultant coming tomorrow." --Kurna Majan, Luminary League'
@@ -1197,7 +1197,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Pilot',
         rarity: 'Uncommon',
         effects: 'First strike\nWhenever Reckless Racer becomes tapped, you may discard a card.  If you do, draw a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/recklessracer.jpg',
         power: '2',
         toughness: '3',
         flavor: 'Illegal street races turned out to be perfect practice for avoiding Consulate patrols.'
@@ -1210,7 +1210,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Destroy X target artifacts.  Create X 2/2 red Gremlin creature tokens.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/releasethegremlins.jpg',
         flavor: '"Being an inventor means knowing how to use the tools at hand to make something great--or to bring it down." --Pia Nalaar'
       },
       {
@@ -1221,8 +1221,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Artificer',
         rarity: 'Uncommon',
-        effects: 'Double strike (This creature deals both first-strike and regular combat damage.)\nWhen Scrapper Champion enters the battlefield, you get (E)(E) (two energy counters).\nWhenever Scrapper Champion attacks, you may pay (E)(E).  If you do, put a +1/+1 counter on it.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Double strike (This creature deals both first-strike and regular combat damage.)\nWhen Scrapper Champion enters the battlefield, you get {E}{E} (two energy counters).\nWhenever Scrapper Champion attacks, you may pay {E}{E}.  If you do, put a +1/+1 counter on it.',
+        art: 'https://www.mythicspoiler.com/ath/cards/scrapperchampion.jpg',
         power: '2',
         toughness: '2'
       },
@@ -1234,7 +1234,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Shock deals 2 damage to target creature or player.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/shock.jpg',
         flavor: 'The tools of invention became the weapons of revolution.'
       },
       {
@@ -1246,7 +1246,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Uncommon',
         effects: 'Enchant creature or Vehicle\nAs long as enchanted permanent is a Vehicle, it\'s a creature in addition to its other types.\nEnchanted creature gets +3/+0 and has first strike.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/siegemodification.jpg',
         flavor: 'Perfect for getting through to the consuls.'
       },
       {
@@ -1257,8 +1257,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Artificer',
         rarity: 'Common',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nMenace',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nMenace',
+        art: 'https://www.mythicspoiler.com/ath/cards/sweatworksbrawler.jpg',
         power: '3',
         toughness: '3',
         flavor: 'The residents of Embraal were never known for finesse, just for getting things done.'
@@ -1271,7 +1271,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Gain control of target creature with power 4 or less until end of turn.  Untap that creature.  It gains haste until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/wrangle.jpg',
         flavor: 'Gremlins are loyal to nothing but their next meal.'
       },
       {
@@ -1282,8 +1282,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Elf Artificer Druid',
         rarity: 'Common',
-        effects: 'When Aether Herder enters the battlefield, you get (E)(E) (two energy counters).\nWhenever Aether Herder attacks, you may pay (E)(E).  If you do, create a 1/1 colorless Servo artifact creature token.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'When Aether Herder enters the battlefield, you get {E}{E} (two energy counters).\nWhenever Aether Herder attacks, you may pay {E}{E}.  If you do, create a 1/1 colorless Servo artifact creature token.',
+        art: 'https://www.mythicspoiler.com/ath/cards/aetherherder.jpg',
         power: '3',
         toughness: '3'
       },
@@ -1295,8 +1295,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Cat',
         rarity: 'Common',
-        effects: 'Trample\nWhen Aetherstream Leopard enters the battlefield, you get (E) (an energy counter).\nWhenever Aetherstream Leopard attacks, you may pay (E).  If you do, it gets +2/+0 until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Trample\nWhen Aetherstream Leopard enters the battlefield, you get {E} (an energy counter).\nWhenever Aetherstream Leopard attacks, you may pay {E}.  If you do, it gets +2/+0 until end of turn.',
+        art: 'https://www.mythicspoiler.com/ath/cards/aetherstreamleopard.jpg',
         power: '2',
         toughness: '3'
       },
@@ -1308,8 +1308,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Lizard',
         rarity: 'Mythic',
-        effects: 'Trample\nWhenever Aetherwind Basker enters the battlefield or attacks, you get (E) (an energy counter) for each creature you control.\nPay (E): Aetherwind Basker gets +1/+1 until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Trample\nWhenever Aetherwind Basker enters the battlefield or attacks, you get {E} (an energy counter) for each creature you control.\nPay {E}: Aetherwind Basker gets +1/+1 until end of turn.',
+        art: 'https://www.mythicspoiler.com/ath/cards/aetherwindbasker.jpg',
         power: '7',
         toughness: '7',
         flavor: 'Its frill inspired the design of efficient aether collectors.'
@@ -1322,7 +1322,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'Revolt -- At the beginning of your end step, if a permanent you controlled left the battlefield this turn, reveal the top card of your library.  If it\'s a permanent card, you may put it onto the battlefield.  Otherwise, you may put it on the bottom of your library.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/ath/cards/aidfromthecowl.jpg'
       },
       {
         name: 'Druid of the Cowl',
@@ -1332,8 +1332,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Elf Druid',
         rarity: 'Common',
-        effects: '(T): Add (G) to your mana pool.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: '{T}: Add {G} to your mana pool.',
+        art: 'https://www.mythicspoiler.com/ath/cards/druidofthecowl.jpg',
         power: '1',
         toughness: '3',
         flavor: '"The wild tangle of the Cowl provides sanctuary to life that watched the first buildings rise."'
@@ -1346,8 +1346,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Elephant',
         rarity: 'Rare',
-        effects: 'When Greenbelt Rampager enters the battlefield, pay (E)(E) (two energy counters).  If you can\'t, return Greenbelt Rampager to its owner\'s hand and you get (E).',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'When Greenbelt Rampager enters the battlefield, pay {E}{E} (two energy counters).  If you can\'t, return Greenbelt Rampager to its owner\'s hand and you get {E}.',
+        art: 'https://www.mythicspoiler.com/ath/cards/greenbeltrampager.jpg',
         power: '3',
         toughness: '4',
         flavor: 'Subtlety is not a necessary part of sabotage.'
@@ -1361,7 +1361,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Elf Warrior',
         rarity: 'Rare',
         effects: 'Revolt -- Greenwheel Liberator enters the battlefield with two +1/+1 counters on it if a permanent you controlled left the battlefield this turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/greenwheelliberator.jpg',
         power: '2',
         toughness: '1',
         flavor: '"I will not rest until every vestige of the Consulate--every banner, flag, and standard--has fallen."'
@@ -1374,7 +1374,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Rare',
         effects: 'Permanents you control gain hexproof and indestructible until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/heroicintervention.jpg',
         flavor: '"Wherever the strong would harm the weak, I will be there." --Ajani Goldmane'
       },
       {
@@ -1386,7 +1386,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Druid',
         rarity: 'Uncommon',
         effects: 'Revolt -- When Hidden Herbalists enters the battlefield, if a permanent you controlled left the battlefield this turn, add (GG) to your mana pool.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/hiddenherbalists.jpg',
         power: '2',
         toughness: '2',
         flavor: 'In the cellars beneath Narnam House, a strange and deadly garden grows.'
@@ -1398,8 +1398,8 @@ exports.seed = function(knex, Promise) {
         color: 'Green',
         supertype: 'Instant',
         rarity: 'Common',
-        effects: 'Target creature gets +3/+3 until end of turn.  You get (E)(E) (two energy counters).',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Target creature gets +3/+3 until end of turn.  You get {E}{E} (two energy counters).',
+        art: 'https://www.mythicspoiler.com/ath/cards/highspireinfusion.jpg',
         flavor: '"If nothing else, the Inventors\' Fair taught us that we\'re only beginning to discover aether\'s true potential." --Kershan Danil, Highspire artisan'
       },
       {
@@ -1410,7 +1410,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Put X +1/+1 counters on target artifact you control.  If it isn\'t a creature or Vehicle, it becomes a 0/0 Construct artifact creature.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/lifecraftawakening.jpg',
         flavor: '"It was made, yes, but that does not mean it cannot grow."'
       },
       {
@@ -1422,7 +1422,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Elf Warrior',
         rarity: 'Common',
         effects: 'Trample\nRevolt -- Lifecraft Cavalry enters the battlefield with two +1/+1 counters on it if a permanent you controlled left the battlefield this turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/lifecraftcavalry.jpg',
         power: '4',
         toughness: '4',
         flavor: '"I do not ask you to be tame.  I only ask you to be true." --Rishkar, Peema renegade'
@@ -1435,7 +1435,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Put a +1/+1 counter on target creature, then put a +1/+1 counter on each creature you control with a +1/+1 counter on it.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/lifecraftersgift.jpg',
         flavor: 'The best engineers recognize when a problem has already been solved.'
       },
       {
@@ -1447,7 +1447,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Warrior',
         rarity: 'Uncommon',
         effects: 'Trample\nWhen Maulfist Revolutionary enters the battlefield or dies, for each kind of counter on target permanent or player, give that permanent or player another counter of that kind.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/maulfistrevolutionary.jpg',
         power: '3',
         toughness: '3'
       },
@@ -1459,7 +1459,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Monstrous Onslaught deals X damage divided as you choose among any number of target creatures, where X is the greatest power among creatures you control as you cast Monstrous Onslaught.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/monstrousonslaught.jpg',
         flavor: '"Regards from Peema." --Rishkar'
       },
       {
@@ -1471,7 +1471,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Elf Warrior',
         rarity: 'Uncommon',
         effects: 'Deathtouch\nRevolt -- Narnam Renegade enters the battlefield with a +1/+1 counter on it if a permanent you controlled left the battlefield this turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/narnamrenegade.jpg',
         power: '1',
         toughness: '2',
         flavor: '"I do not need to pierce your heart to still its beating."'
@@ -1484,7 +1484,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Common',
         effects: 'Put target artifact on the bottom of its owner\'s library.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/naturalobsolenscence.jpg',
         flavor: '"It is folly to believe your precious inventions will endure.  All things return to the soil." --Nirav, Tirahar elder'
       },
       {
@@ -1495,8 +1495,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Elf Druid',
         rarity: 'Uncommon',
-        effects: 'When Peema Aether-Seer enters the battlefield, you get an amount of (E) (energy counters) equal to the greatest power among creatures you control.\nPay (E)(E)(E): Target creature blocks this turn if able.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'When Peema Aether-Seer enters the battlefield, you get an amount of {E} (energy counters) equal to the greatest power among creatures you control.\nPay {E}{E}{E}: Target creature blocks this turn if able.',
+        art: 'https://www.mythicspoiler.com/ath/cards/peemaaetherseer.jpg',
         power: '3',
         toughness: '2',
         flavor: '"The Great Conduit connects us all."'
@@ -1509,7 +1509,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Target creature you control fights target creature you don\'t control. (Each deals damage equal to its power to the other.)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/preyupon.jpg',
         flavor: 'It is the nature of the strong to survive.'
       },
       {
@@ -1521,7 +1521,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Beast',
         rarity: 'Uncommon',
         effects: 'When Ridgescale Tusker enters the battlefield, put a +1/+1 counter on each other creature you control.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/ridgescaletusker.jpg',
         power: '5',
         toughness: '5',
         flavor: '"Each creature holds a solution to a problem, a lesson to be learned." --Oviya Pashiri, sage lifecrafter'
@@ -1534,8 +1534,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Creature',
         subtype: 'Elf Druid',
         rarity: 'Rare',
-        effects: 'When Rishkar, Peema Renegade enterst the battlefield, put a +1/+1 counter on each of up to two target creatures.\nEach creature you control with a +1/+1 counter on it has "(T): Add (G) to your mana pool."',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'When Rishkar, Peema Renegade enterst the battlefield, put a +1/+1 counter on each of up to two target creatures.\nEach creature you control with a +1/+1 counter on it has "{T}: Add {G} to your mana pool."',
+        art: 'https://www.mythicspoiler.com/ath/cards/rishkarpeemarenegade.jpg',
         power: '2',
         toughness: '2',
         flavor: '"Aether is the soul of Kaladesh, and all souls should be free."'
@@ -1548,7 +1548,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Draw cards equal to the greatest power among creatures you control.\nYou may cast a card with converted mana cost 5 or less from your hand without paying its mana cost.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/rishkarsexpertise.jpg',
         flavor: '"Control the Great Conduit?  You might as well try to divert a river with your hands."'
       },
       {
@@ -1560,7 +1560,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Cat Monkey',
         rarity: 'Common',
         effects: 'Scrounging Bandar enters the battlefield with two +1/+1 counters on it.\nAt the beginning of your upkeep, you may move any number of +1/+1 counters from Scrounging Bandar onto another target creature.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/scroungingbandar.jpg',
         power: '0',
         toughness: '0',
         flavor: '"It was right here a second ago..."'
@@ -1574,7 +1574,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Elf Archer',
         rarity: 'Common',
         effects: 'Reach (This creature can block creatures with flying.)\nRevolt -- When Silkweaver Elite enters the battlefield, if a permanent you controlled left the battlefield this turn, draw a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/silkweaverelite.jpg',
         power: '2',
         toughness: '2',
         flavor: 'Elvish weavers use spidersilk to make everything from tapestries to rappelling ropes.'
@@ -1587,8 +1587,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         subtype: 'Aura',
         rarity: 'Common',
-        effects: 'Enchant land\nEnchanted land has "(T): Add one mana of any color to your mana pool."\nSacrifice Unbridled Growth: Draw a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Enchant land\nEnchanted land has "{T}: Add one mana of any color to your mana pool."\nSacrifice Unbridled Growth: Draw a card.',
+        art: 'https://www.mythicspoiler.com/ath/cards/unbridledgrowth.jpg',
         flavor: '"If the Consulate has abandoned restraint, so too shall the wilds." --Surash, keeper of the Cowl'
       },
       {
@@ -1596,11 +1596,11 @@ exports.seed = function(knex, Promise) {
         set: 'Aether Revolt',
         cost: '6',
         color: 'Selesnya (Green/White)',
-        supertype: 'Planeswalker',
+        supertype: 'Legendary Planeswalker',
         subtype: 'Ajani',
         rarity: 'Mythic',
         effects: '+2: Reveal the top three cards of your library.  Put all nonland permanents revealed this way into your hand and the rest on the bottom of your library in any order.\n-2: Exile target creature.  Its controller gains life equal to its power.\n-9: Put five +1/+1 counters on each creature you control and five loyalty counters on each other planeswalker you control.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/ajaniunyielding.jpg',
         loyalty: '4'
       },
       {
@@ -1611,7 +1611,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Rare',
         effects: 'Each opponent sacrifices a creature or planeswalker, then discards a card.  You return a creature or planeswalker card from your graveyard to your hand, then draw a card.\nWhen you cast a Bolas planeswalker spell, exile Dark Intimations from your graveyard.  That planeswalker enters the battlefield with an additional loyalty counter on it.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/ath/cards/darkintimations.jpg'
       },
       {
         name: 'Hidden Stockpile',
@@ -1620,8 +1620,8 @@ exports.seed = function(knex, Promise) {
         color: 'Orzhov (White/Black)',
         supertype: 'Enchantment',
         rarity: 'Uncommon',
-        effects: 'Revolt -- At the beginning of your end step, if a permanent you controlled left the battlefield this turn, create a 1/1 colorless Servo artifact creature token.\n(1), Sacrifice a creature: Scry 1.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg'
+        effects: 'Revolt -- At the beginning of your end step, if a permanent you controlled left the battlefield this turn, create a 1/1 colorless Servo artifact creature token.\n{1}, Sacrifice a creature: Scry 1.',
+        art: 'https://www.mythicspoiler.com/ath/cards/hiddenstockpile.jpg'
       },
       {
         name: 'Maverick Thopterist',
@@ -1631,8 +1631,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Artificer',
         rarity: 'Uncommon',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nWhen Maverick Thopterist enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nWhen Maverick Thopterist enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.',
+        art: 'https://www.mythicspoiler.com/ath/cards/maverickthopterist.jpg',
         power: '2',
         toughness: '2'
       },
@@ -1643,8 +1643,8 @@ exports.seed = function(knex, Promise) {
         color: 'Selesnya (Green/White)',
         supertype: 'Legendary Enchantment',
         rarity: 'Rare',
-        effects: 'When Oath of Ajani enters the battlefield, put a +1/+1 counter on each creature you control.\nPlaneswalker spells you cast cost (1) less to cast.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'When Oath of Ajani enters the battlefield, put a +1/+1 counter on each creature you control.\nPlaneswalker spells you cast cost {1} less to cast.',
+        art: 'https://www.mythicspoiler.com/ath/cards/oathofajani.jpg',
         flavor: '"Until all have found their place, I will keep watch."'
       },
       {
@@ -1656,7 +1656,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Boar',
         rarity: 'Uncommon',
         effects: 'Outland Boar can\'t be blocked by creatures with power 2 or less.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/outlandboar.jpg',
         power: '4',
         toughness: '4',
         flavor: 'The vibrant forest of Peema is awash with aether.  Its animals are stronger, faster, and more aggressive than their counterparts elsewhere.'
@@ -1670,7 +1670,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Warrior',
         rarity: 'Uncommon',
         effects: 'Revolt -- When Renegade Rallier enters the battlefield, if a permanent you controlled left the battlefield this turn, return target permanent card with converted mana cost 2 or less from your graveyard to the battlefield.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/renegaderallier.jpg',
         power: '3',
         toughness: '2',
         flavor: '"This fight belongs to us all."'
@@ -1684,7 +1684,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Dwarf Pilot',
         rarity: 'Uncommon',
         effects: 'Whenever Renegade Wheelsmith becomes tapped, target creature can\'t block this turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/renegadewheelsmith.jpg',
         power: '3',
         toughness: '2',
         flavor: 'Many veterans of the Ovalchase racetrack turned their talents to the renegade cause.'
@@ -1697,8 +1697,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Creature',
         subtype: 'Human Rogue',
         rarity: 'Uncommon',
-        effects: 'When Rogue Refiner enters the battlefield, draw a card and you get (E)(E) (two energy counters).',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'When Rogue Refiner enters the battlefield, draw a card and you get {E}{E} (two energy counters).',
+        art: 'https://www.mythicspoiler.com/ath/cards/roguerefiner.jpg',
         power: '3',
         toughness: '2',
         flavor: '"It\'s natural, it\'s all around us, and it\'s there for the taking.  Just try and tell me what I\'m doing is wrong."'
@@ -1712,7 +1712,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Soldier',
         rarity: 'Uncommon',
         effects: 'Flying\nWhen Spire Patrol enters the battlefield, tap target creature an opponent controls.  It doesn\'t untap during its controller\'s next untap step.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/spirepatrol.jpg',
         power: '3',
         toughness: '2',
         flavor: '"After I examine your cargo and check your papers, you can be on your way."'
@@ -1722,11 +1722,11 @@ exports.seed = function(knex, Promise) {
         set: 'Aether Revolt',
         cost: '4',
         color: 'Dimir (Blue/Black)',
-        supertype: 'Planeswalker',
+        supertype: 'Legendary Planeswalker',
         subtype: 'Tezzeret',
         rarity: 'Mythic',
-        effects: '+1: Create a colorless artifact token named Etherium Cell with "(T), Sacrifice this artifact: Add one mana of any color to your mana pool."\n-2: Target creature gets +X/-X until end of turn, where X is the number of artifacts you control.\n-7: You get an emblem with "At the beginning of combat on your turn, target artifact you control becomes an artifact creature with base power and toughness 5/5."',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: '+1: Create a colorless artifact token named Etherium Cell with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."\n-2: Target creature gets +X/-X until end of turn, where X is the number of artifacts you control.\n-7: You get an emblem with "At the beginning of combat on your turn, target artifact you control becomes an artifact creature with base power and toughness 5/5."',
+        art: 'https://www.mythicspoiler.com/ath/cards/tezzerettheschemer.jpg',
         loyalty: '5'
       },
       {
@@ -1738,7 +1738,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Uncommon',
         effects: 'Enchant artifact\nEnchanted artifact is a creature with base power and toughness 5/5 in addition to its other types.\nWhen enchanted artifact is put into a graveyard, return that card to its owner\'s hand.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/ath/cards/tezzeretstouch.jpg'
       },
       {
         name: 'Weldfast Engineer',
@@ -1749,7 +1749,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Human Artificer',
         rarity: 'Uncommon',
         effects: 'At the beginning of combat on your turn, target artifact creature you control gets +2/+0 until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/weldfastengineer.jpg',
         power: '3',
         toughness: '3',
         flavor: '"Let\'s err on the side of glorious mayhem."'
@@ -1763,7 +1763,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Snake',
         rarity: 'Uncommon',
         effects: 'If one or more counters would be placed on an artifact or creature you control, that many of those counters plus one are placed on that permanent instead.\nIf you would get one or more counters, you get that many counters plus one instead.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/windingconstrictor.jpg',
         power: '2',
         toughness: '3'
       },
@@ -1776,7 +1776,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Construct',
         rarity: 'Common',
         effects: '(4W): Return target creature to its owner\'s hand.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/aegisautomaton.jpg',
         power: '0',
         toughness: '3',
         flavor: 'The streets of Ghirapur have become dangerous.  It\'s good to have a dependable companion.'
@@ -1789,8 +1789,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         subtype: 'Vehicle',
         rarity: 'Rare',
-        effects: 'Flying\nWhen Aethersphere Harvester enters the battlefield, you get (E)(E) (two energy counters).\nPay (E): Aethersphere Harvester gains lifelink until end of turn.\nCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Flying\nWhen Aethersphere Harvester enters the battlefield, you get {E}{E} (two energy counters).\nPay {E}: Aethersphere Harvester gains lifelink until end of turn.\nCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)',
+        art: 'https://www.mythicspoiler.com/ath/cards/aetherspireharvester.jpg',
         power: '3',
         toughness: '5'
       },
@@ -1803,7 +1803,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Construct',
         rarity: 'Common',
         effects: '(1B): Augmenting Automaton gets +1/+1 until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/augmentingautomaton.jpg',
         power: '1',
         toughness: '1',
         flavor: 'When you have taught an automaton how to build others of its kind, it\'s a small step to make it build itself.'
@@ -1816,8 +1816,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact Creature',
         subtype: 'Juggernaut',
         rarity: 'Uncommon',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)\nBarricade Breaker attacks each combat if able.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)\nBarricade Breaker attacks each combat if able.',
+        art: 'https://www.mythicspoiler.com/ath/cards/barricadebreaker.jpg',
         power: '7',
         toughness: '5',
         flavor: '"The Consulate sought to crush us.  Let\'s give them a taste of their own medicine." --Venkat Dasai, renegade commander'
@@ -1831,7 +1831,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Assembly-Worker',
         rarity: 'Uncommon',
         effects: '(7): Create a token that\'s a copy of target artifact.  That token gains haste until end of turn.  Exile it at the beginning of the next end step.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/cogworkassembler.jpg',
         power: '2',
         toughness: '3',
         flavor: 'Duplication is neither thievery or flattery.  It is efficiency.'
@@ -1845,7 +1845,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vehicle',
         rarity: 'Uncommon',
         effects: 'Crew 6 (Tap any number of creatures you control with total power 6 or more: This Vehicle becomes an artifact creature until end of turn.)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/consulatedreadnought.jpg',
         power: '7',
         toughness: '10',
         flavor: '"It\'s like they planted another Bastion right in the middle of the harbor." --Bes Tavani, Bomat merchant'
@@ -1857,8 +1857,8 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Common',
-        effects: '(T): You get (E) (an energy counter).\n(T), Pay (E)(E)(E): Consulate Turret deals 2 damage to target player.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: '{T}: You get {E} (an energy counter).\n{T}, Pay {E}{E}{E}: Consulate Turret deals 2 damage to target player.',
+        art: 'https://www.mythicspoiler.com/ath/cards/consulateturret.jpg',
         flavor: '"Our watchtowers are well positioned.  Why don\'t we arm them?" --Enforcer-Chief Ranaj'
       },
       {
@@ -1870,7 +1870,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Construct',
         rarity: 'Uncommon',
         effects: 'Whenever you activate an ability of an artifact or creature that isn\'t a mana ability, Crackdown Construct gets +1/+1 until end of turn.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/crackdownconstruct.jpg',
         power: '2',
         toughness: '2',
         flavor: '"All buildings are subject to search.  Resistance will be punished." --Enforcer-Chief Ranaj'
@@ -1884,7 +1884,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vehicle',
         rarity: 'Uncommon',
         effects: 'At end of combat, if Daredevil Dragster attacked or blocked this combat, put a velocity counter on it.  Then if it has two or more velocity counters on it, sacrifice it and draw two cards.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/daredevildragster.jpg',
         power: '4',
         toughness: '4'
       },
@@ -1897,7 +1897,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Insect',
         rarity: 'Common',
         effects: 'When Filigree Crawler dies, create a 1/1 colorless Thopter artifact creature token with flying.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/filigreecrawler.jpg',
         power: '2',
         toughness: '2',
         flavor: '"The most harmonious designs are based on relationships found in nature." --Venand Kapur, the Gearherder'
@@ -1910,8 +1910,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact Creature',
         subtype: 'Assembly-Worker',
         rarity: 'Common',
-        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for (1).)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Improvise (Your artifacts can help cast this spell.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.)',
+        art: 'https://www.mythicspoiler.com/ath/cards/foundryassembler.jpg',
         power: '3',
         toughness: '3',
         flavor: '"They never tire, they never complain, and they never ask questions.  Build more." --Ivash, Consulate inventor'
@@ -1923,7 +1923,8 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Legendary Artifact',
         rarity: 'Mythic',
-        effects: 'Whenever Gonti\'s Aether Heart or another artifact enters the battlefield under your control, you get (E)(E) (two energy counters).\nPay (E)(E)(E)(E)(E)(E)(E)(E), Exile Gonti\'s Aether Heart: Thttps://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Whenever Gonti\'s Aether Heart or another artifact enters the battlefield under your control, you get {E}{E} (two energy counters).\nPay {E}{E}{E}{E}{E}{E}{E}{E}, Exile Gonti\'s Aether Heart: Take an extra turn after this one.',
+        art: 'https://www.mythicspoiler.com/ath/cards/gontisaetherheart.jpg',
         flavor: 'Despite the magic that sustains Gonti\'s life, the crime lord is often described as heartless.'
       },
       {
@@ -1935,7 +1936,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vehicle',
         rarity: 'Mythic',
         effects: 'Flying, vigilance\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)\nYou may remove a loyalty counter from a planeswalker you control rather than pay Heart of Kiran\'s crew cost.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/heartofkiran.jpg',
         power: '4',
         toughness: '4'
       },
@@ -1948,7 +1949,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Thopter',
         rarity: 'Rare',
         effects: 'Flying\nSacrifice Hope of Ghirapur: Until your next turn, target player who was dealt combat damage by Hope of Ghirapur this turn can\'t cast noncreature spells.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/hopeofghirapur.jpg',
         power: '1',
         toughness: '1',
         flavor: 'The renegades mounted an aether disruptor aboard a lightweight thopter to destroy Tezzeret\'s Planar Bridge.'
@@ -1960,8 +1961,8 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Common',
-        effects: '(R), Sacrifice Implement of Combustion: It deals 1 damage to target player.\nWhen Implement of Combustion is put into a graveyard from the battlefield, draw a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: '{R}, Sacrifice Implement of Combustion: It deals 1 damage to target player.\nWhen Implement of Combustion is put into a graveyard from the battlefield, draw a card.',
+        art: 'https://www.mythicspoiler.com/ath/cards/implementofcombustion.jpg',
         flavor: 'A dream of fire lies coiled inside, waiting for its glorious awakening.'
       },
       {
@@ -1971,8 +1972,8 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Common',
-        effects: '(U), Sacrifice Implement of Examination: Draw a card.\nWhen Implement of Examination is put into a graveyard from the battlefield, draw a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: '{U}, Sacrifice Implement of Examination: Draw a card.\nWhen Implement of Examination is put into a graveyard from the battlefield, draw a card.',
+        art: 'https://www.mythicspoiler.com/ath/cards/implementofexamination.jpg',
         flavor: 'A tool to see the unseen.'
       },
       {
@@ -1982,8 +1983,8 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Common',
-        effects: '(G), Sacrifice Implement of Ferocity: Put a +1/+1 counter on target creature.  Activate this ability only any time you could cast a sorcery.\nWhen Implement of Ferocity is put into a graveyard from the battlefield, draw a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg'
+        effects: '{G}, Sacrifice Implement of Ferocity: Put a +1/+1 counter on target creature.  Activate this ability only any time you could cast a sorcery.\nWhen Implement of Ferocity is put into a graveyard from the battlefield, draw a card.',
+        art: 'https://www.mythicspoiler.com/ath/cards/implementofferocity.jpg'
       },
       {
         name: 'Implement of Improvement',
@@ -1992,8 +1993,8 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Common',
-        effects: '(W), Sacrifice Implement of Improvement: You gain 2 life.\nWhen Implement of Improvement is put into a graveyard from the battlefield, draw a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: '{W}, Sacrifice Implement of Improvement: You gain 2 life.\nWhen Implement of Improvement is put into a graveyard from the battlefield, draw a card.',
+        art: 'https://www.mythicspoiler.com/ath/cards/implementofimprovement.jpg',
         flavor: 'A mystery in metal.'
       },
       {
@@ -2003,8 +2004,8 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Common',
-        effects: '(B), Sacrifice Implement of Malice: Target player discards a card.  Activate this ability only any time you could cast a sorcery.\nWhen Implement of Malice is put into a graveyard from the battlefield, draw a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg'
+        effects: '{B}, Sacrifice Implement of Malice: Target player discards a card.  Activate this ability only any time you could cast a sorcery.\nWhen Implement of Malice is put into a graveyard from the battlefield, draw a card.',
+        art: 'https://www.mythicspoiler.com/ath/cards/implementofmalice.jpg'
       },
       {
         name: 'Inspiring Statuary',
@@ -2013,8 +2014,8 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Rare',
-        effects: 'Nonartifact spells you cast have improvise. ((Your artifacts can help cast those spells.  Each artifact you tap after you\'re done activating mana abilities pays for (1).))',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Nonartifact spells you cast have improvise. ((Your artifacts can help cast those spells.  Each artifact you tap after you\'re done activating mana abilities pays for {1}.))',
+        art: 'https://www.mythicspoiler.com/ath/cards/inspiringstatuary.jpg',
         flavor: 'Ghirapur\'s most celebrated inventors have been immortalized in clockwork.'
       },
       {
@@ -2026,7 +2027,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vehicle',
         rarity: 'Common',
         effects: 'Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/irontreadcrusher.jpg',
         power: '6',
         toughness: '6',
         flavor: '"We\'ve been through a lot together."'
@@ -2038,8 +2039,8 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Rare',
-        effects: 'At the beginning of your upkeep, scry 1.\nWhenever you cast a creature spell, you may pay (G).  If you do, draw a card.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'At the beginning of your upkeep, scry 1.\nWhenever you cast a creature spell, you may pay {G}.  If you do, draw a card.',
+        art: 'https://www.mythicspoiler.com/ath/cards/lifecraftersbestiary.jpg',
         flavor: '"Inspiration is found by looking outward." --Oviya Pashiri, sage lifecrafter'
       },
       {
@@ -2050,8 +2051,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact Creature',
         subtype: 'Construct',
         rarity: 'Rare',
-        effects: '(3U), (T), Tap X untapped artifacts you control: Look at the top X cards of your library.  Put one of them into your hand and the rest on the bottom of your library in any order.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: '(3U), {T}, Tap X untapped artifacts you control: Look at the top X cards of your library.  Put one of them into your hand and the rest on the bottom of your library in any order.',
+        art: 'https://www.mythicspoiler.com/ath/cards/merchantsdockhand.jpg',
         power: '1',
         toughness: '2',
         flavor: '"If you can build it, we can move it." --Bes Tavani, Bomat merchant'
@@ -2065,7 +2066,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Shapeshifter',
         rarity: 'Rare',
         effects: 'As Metallic Mimic enters the battlefield, choose a creature type.\nMetallic Mimic is the chosen type in addition to its other types.\nEach other creature you control of the chosen type enters the battlefield with an additional +1/+1 counter on it.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/metallicmimic.jpg',
         power: '2',
         toughness: '1'
       },
@@ -2078,7 +2079,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vehicle',
         rarity: 'Common',
         effects: 'Whenever Mobile Garrison attacks, untap another target artifact or creature you control.\nCrew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/mobilegarrison.jpg',
         power: '3',
         toughness: '4'
       },
@@ -2091,7 +2092,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Construct',
         rarity: 'Common',
         effects: 'Night Market Guard can block an additional creature each combat.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/nightmarketguard.jpg',
         power: '3',
         toughness: '1',
         flavor: '"One head watches for Consulate enforcers.  The other watches for renegade thieves." --Crime Lord Gonti'
@@ -2105,7 +2106,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Thopter',
         rarity: 'Uncommon',
         effects: 'Flying',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/ornithopter.jpg',
         power: '0',
         toughness: '2',
         flavor: '"You want to know what we are fighting for?  Look at the wonder in that child\'s eyes." --Pia Nalaar'
@@ -2117,8 +2118,8 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Uncommon',
-        effects: '(2), (T): Tap target artifact or creature.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: '{2}, {T}: Tap target artifact or creature.',
+        art: 'https://www.mythicspoiler.com/ath/cards/pacificationarray.jpg',
         flavor: 'The Consulate had access to thousands of innovative devices displayed at the Inventors\' Fair.  A few small changes transformed some of them from marvels of ingenuity to instruments of oppression.'
       },
       {
@@ -2129,7 +2130,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Artifact',
         rarity: 'Mythic',
         effects: 'Whenever you cast a spell, untap all nonland permanents you control.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/paradoxengine.jpg',
         flavor: '"One look at this glorious item convinced me that Kaladesh deserved my full attention.  Sure enough, my time here has yielded exquisite fruit." --Tezzeret'
       },
       {
@@ -2141,7 +2142,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vehicle',
         rarity: 'Rare',
         effects: '(1W): Another target Vehicle you control becomes an artifact creature until end of turn.\nCrew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/peacewalkercolossus.jpg',
         power: '6',
         toughness: '6',
         flavor: '"Peace?  Its sole purpose is fear." --Saheeli Rai'
@@ -2153,8 +2154,8 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Legendary Artifact',
         rarity: 'Mythic',
-        effects: '(8), (T): Search your library for a permanent card, put that card onto the battlefield, then shuffle your library.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: '(8), {T}: Search your library for a permanent card, put that card onto the battlefield, then shuffle your library.',
+        art: 'https://www.mythicspoiler.com/ath/cards/planarbridge.jpg',
         flavor: '"It is finished.  Now the real work can begin." --Tezzeret'
       },
       {
@@ -2165,7 +2166,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact Creature',
         subtype: 'Construct',
         rarity: 'Common',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/prizefighterconstruct.jpg',
         power: '6',
         toughness: '2',
         flavor: 'The Scrappers, an uderground group with a passion for automaton brawls, had renegade leanings even before the Consulate crackdown.  It didn\'t take long for them to lend their best brawlers to the conflict.'
@@ -2177,8 +2178,8 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Common',
-        effects: 'Renegade Map enters the battlefield tapped.\n(T), Sacrifice Renegade Map: Search your library for a basic land card, reveal it, put that card into your hand, then shuffle your library.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Renegade Map enters the battlefield tapped.\n{T}, Sacrifice Renegade Map: Search your library for a basic land card, reveal it, put that card into your hand, then shuffle your library.',
+        art: 'https://www.mythicspoiler.com/ath/cards/renegademap.jpg',
         flavor: '"We have safe houses in every zone, but you\'ll never find one without this."'
       },
       {
@@ -2189,8 +2190,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact Creature',
         subtype: 'Construct',
         rarity: 'Common',
-        effects: 'When Reservoir Walker enters the battlefield, you gain 3 life and get (E)(E)(E) (three energy counters).',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'When Reservoir Walker enters the battlefield, you gain 3 life and get {E}{E}{E} (three energy counters).',
+        art: 'https://www.mythicspoiler.com/ath/cards/reservoirwalker.jpg',
         power: '3',
         toughness: '3',
         flavor: 'Renegade supply lines are, by necessity, mobile and difficult to disrupt.'
@@ -2204,7 +2205,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Construct',
         rarity: 'Rare',
         effects: 'Whenever Scrap Trawler or another artifact you control is put into a graveyard from the battlefield, return to your hand target artifact card in your graveyard with lesser converted mana cost.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/scraptrawler.jpg',
         power: '3',
         toughness: '2'
       },
@@ -2216,7 +2217,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Uncommon',
         effects: 'When Servo Schematic enters the battlefield or is put into a graveyard from the battlefield, create a 1/1 colorless Servo artifact creature token.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/servoschematic.jpg',
         flavor: 'The Consulate prizes innovation when it is dependable and replicable.'
       },
       {
@@ -2228,7 +2229,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Construct',
         rarity: 'Uncommon',
         effects: 'When Treasure Keeper dies, reveal cards from the top of your library until you reveal a nonland card with converted mana cost 3 or less.  You may cast that card without paying its mana cost.  Put all revealed cards not cast this way on the bottom of your library in a random order.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/treasurekeeper.jpg',
         power: '3',
         toughness: '3'
       },
@@ -2239,8 +2240,8 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Artifact',
         rarity: 'Common',
-        effects: '(7), (T), Sacrifice Universal Solvent: Destroy target permanent.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: '(7), {T}, Sacrifice Universal Solvent: Destroy target permanent.',
+        art: 'https://www.mythicspoiler.com/ath/cards/universalsolvent.jpg',
         flavor: '"A few drops of this, and the trickiest problems simply melt away." --Thamaz, Weldfast inventor'
       },
       {
@@ -2252,7 +2253,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Vehicle',
         rarity: 'Uncommon',
         effects: 'Trample\nWhenever Untethered Express attacks, put a +1/+1 counter on it.\nCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/untetheredexpress.jpg',
         power: '4',
         toughness: '4',
         flavor: 'Rules and rails were made to be broken.'
@@ -2266,7 +2267,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Construct',
         rarity: 'Common',
         effects: '(3G): Put a +1/+1 counter on Verdant Automaton.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/verdantautomaton.jpg',
         power: '1',
         toughness: '2',
         flavor: '"A perfect fusion of nature and artifice." --Irsi, Kujar gardener'
@@ -2279,8 +2280,8 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact Creature',
         subtype: 'Construct',
         rarity: 'Rare',
-        effects: 'Walking Ballista enters the battlefield with X +1/+1 counters on it.\n(4): Put a +1/+1 counter on Walking Ballista.\nRemove a +1/+1 counter from Walking Ballista: It deals 1 damage to target creature or player.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: 'Walking Ballista enters the battlefield with X +1/+1 counters on it.\n{4}: Put a +1/+1 counter on Walking Ballista.\nRemove a +1/+1 counter from Walking Ballista: It deals 1 damage to target creature or player.',
+        art: 'https://www.mythicspoiler.com/ath/cards/walkingballista.jpg',
         power: '0',
         toughness: '0'
       },
@@ -2293,7 +2294,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Construct',
         rarity: 'Common',
         effects: '(2U): Scry 1. (Look at the top card of your library.  You may put that card on the bottom of your library.)',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/watchfulautomaton.jpg',
         power: '2',
         toughness: '2',
         flavor: '"Before we can destroy our enemies, we must find them.  We must peer into every wretched hovel and every teeming market." --Baral, Chief of Compliance'
@@ -2307,7 +2308,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Construct',
         rarity: 'Common',
         effects: '(3R): Welder Automaton deals 1 damage to each opponent.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        art: 'https://www.mythicspoiler.com/ath/cards/welderautomaton.jpg',
         power: '2',
         toughness: '1',
         flavor: 'Most of the constructs the renegades used against the Consulate weren\'t originally intended for combat.  But some didn\'t require much modification.'
@@ -2319,10 +2320,10 @@ exports.seed = function(knex, Promise) {
         color: 'Colorless',
         supertype: 'Land',
         rarity: 'Rare',
-        effects: '(T): Add (1) to your mana pool.\n(T), Pay 1 life: Add one mana of any color to your mana pool.  Activate this ability only if you control an artifact.',
-        art: 'https://www.mythicspoiler.com/ath/cards/.jpg',
+        effects: '{T}: Add {1} to your mana pool.\n{T}, Pay 1 life: Add one mana of any color to your mana pool.  Activate this ability only if you control an artifact.',
+        art: 'https://www.mythicspoiler.com/ath/cards/spireofindustry.jpg',
         flavor: 'A beacon of prosperity to some, a shadow of oppression to others.'
       },
     ]);
   });
-};
+}
