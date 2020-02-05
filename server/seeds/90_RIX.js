@@ -12,7 +12,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Uncommon',
         effects: 'When Baffling End enters the battlefield, exile target creature an opponent controls with converted mana cost 3 or less.\nWhen Baffling End leaves the battlefield, target opponent creates a 3/3 green Dinosaur creature token with trample.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/bafflingend.jpg'
       },
       {
         name: 'Bishop of Binding',
@@ -25,7 +25,7 @@ exports.seed = function(knex, Promise) {
         effects: 'When Bishop of Binding enters the battlefield, exile target creature an opponent controls until Bishop of Binding leaves the battlefield.\nWhenever Bishop of Binding attacks, target Vampire gets +X/+X until end of turn, where X is the power of the exiled card.',
         power: '1',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/bishopofbinding.jpg'
       },
       {
         name: 'Blazing Hope',
@@ -36,7 +36,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'Exile target creature with power greater than or equal to your life total.',
         flavor: '"No shadow remains for you to hide in." --Caparocti Sunborn',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/blazinghope.jpg'
       },
       {
         name: 'Cleansing Ray',
@@ -47,7 +47,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Choose one --\n\tDestroy target Vampire.\n\tDestroy target enchantment.',
         flavor: '"The sun creates, sustains, and consumes so it can create again." --Caparocti Sunborn',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/cleansingray.jpg'
       },
       {
         name: 'Divine Verdict',
@@ -58,7 +58,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Destroy target attacking or blocking creature.',
         flavor: 'Cunning warriors and dim-witted beasts alike fall under the church\'s harsh judgment.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/divineverdict.jpg'
       },
       {
         name: 'Everdawn Champion',
@@ -72,7 +72,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Undefeated in battle, she is the shining future that our empire deserves." --Huatli',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/everdawnchampion.jpg'
       },
       {
         name: 'Exultant Skymarcher',
@@ -86,7 +86,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"We have come at last to this holiest of holy places.  What was stolen from us long ago is ours once again."',
         power: '2',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/exultantskymarcher.jpg'
       },
       {
         name: 'Famished Paladin',
@@ -100,7 +100,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'Loyal to his queen, slave to his thirst.',
         power: '3',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/famishedpaladin.jpg'
       },
       {
         name: 'Forerunner of the Legion',
@@ -113,7 +113,7 @@ exports.seed = function(knex, Promise) {
         effects: 'When Forerunner of the Legion enters the battlefield, you may search your library for a Vampire card, reveal it, then shuffle your library and put that card on top of it.\nWhenever another Vampire enters the battlefield under your control, target creature gets +1/+1 until end of turn.',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/forerunnerofthelegion.jpg'
       },
       {
         name: 'Imperial Ceratops',
@@ -127,7 +127,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"The music of blades against its silver armor merely inspires it to bellow more full-throated melodies." --Huatli',
         power: '3',
         toughness: '5',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/imperialceratops.jpg'
       },
       {
         name: 'Legion Conquistador',
@@ -141,7 +141,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'The Legion of Dusk sailed from Torrezon in search of glory, riches, and the Immortal Sun.',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/legionconquistador.jpg'
       },
       {
         name: 'Luminous Bonds',
@@ -153,7 +153,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Enchant creature\nEnchanted creature can\'t attack or block.',
         flavor: '"Your part in this fight is done, vampire.  Get used to your thirst."',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/luminousbonds.jpg'
       },
       {
         name: 'Majestic Heliopterus',
@@ -167,7 +167,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Its rise is like the sun\'s, a beautiful beginning.  Its descent is like the sun\'s, a frightful ending." --Huatli',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/majesticheliopterus.jpg'
       },
       {
         name: 'Martyr of Dusk',
@@ -181,7 +181,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Should I fall, take up our standard and carry on.  The Legion must always prevail."',
         power: '2',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/martyrofdusk.jpg'
       },
       {
         name: 'Moment of Triumph',
@@ -192,7 +192,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Target creature gets +2/+2 until end of turn.  You gain 2 life.',
         flavor: '"The time of our salvation is at hand.  Dusk washes over the world, and the Legion will rise immortal!"',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/momentoftriumph.jpg'
       },
       {
         name: 'Paladin of Atonement',
@@ -206,7 +206,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'For every wound there is a blessing; for every death, a reckoning.',
         power: '1',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/paladinofatonement.jpg'
       },
       {
         name: 'Pride of Conquerors',
@@ -216,7 +216,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Ascend (If you control ten or more permanents, you get the city\'s blessing for the rest of the game.)\nCreatures you control get +1/+1 until end of turn.  If you have the city\'s blessing, those creatures get +2/+2 instead.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/prideofconquerors.jpg'
       },
       {
         name: 'Radiant Destiny',
@@ -226,7 +226,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'Ascend (If you control ten or more permanents, you get the city\'s blessing for the rest of the game.)\nAs Radiant Destiny enters the battlefield, choose a creature type.\nCreatures you control of the chosen type get +1/+1.  As long as you have the city\'s blessing, they also have vigilance.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/radiantdestiny.jpg'
       },
       {
         name: 'Raptor Companion',
@@ -239,7 +239,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'The abundance of foes in Orazca means the raptors no longer need any orders.',
         power: '3',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/raptorcompanion.jpg'
       },
       {
         name: 'Sanguine Glorifier',
@@ -253,7 +253,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'For the Legion of Dusk, the Immortal Sun is a source of eternal life.  When they reclaim it, they will no longer be forced to subsist on the blood of the wicked.',
         power: '3',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/sanguineglorifier.jpg'
       },
       {
         name: 'Skymarcher Aspirant',
@@ -267,7 +267,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"I was born to glory."',
         power: '2',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/skymarcheraspirant.jpg'
       },
       {
         name: 'Slaughter the Strong',
@@ -278,7 +278,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Rare',
         effects: 'Each player chooses any number of creatures he or she controls with total power 4 or less, then sacrifices all other creatures he or she controls.',
         flavor: '"Cut the beasts out from under them and their strength is nothing." --Vona of Iedo, Butcher of Magan',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/slaughterthestrong.jpg'
       },
       {
         name: 'Snubhorn Sentry',
@@ -292,7 +292,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'They\'re fun to train -- if you like stubborn, aggressive, and fiercely territorial.',
         power: '0',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/snubhornsentry.jpg'
       },
       {
         name: 'Sphinx\'s Decree',
@@ -303,7 +303,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Rare',
         effects: 'Each opponent can\'t cast instant or sorcery spells during that player\'s next turn.',
         flavor: '"Be still." --Azor',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/sphinxsdecree.jpg'
       },
       {
         name: 'Squire\'s Devotion',
@@ -314,7 +314,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Common',
         effects: 'Enchant creature\nEnchanted creature gets +1/+1 and has lifelink.\nWhen Squire\'s Devotion enters the battlefield, create a 1/1 white Vampire creature token with lifelink.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/squiresdevotion.jpg'
       },
       {
         name: 'Sun Sentinel',
@@ -328,7 +328,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"I will not sleep until Orazca is ours once more."',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/sunsentinel.jpg'
       },
       {
         name: 'Sun-Crested Pterodon',
@@ -342,7 +342,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Pterodons tolerate no intrusion into their skies.  Even the clouds must ask permission." --Mahuiz, Sun Empire archer',
         power: '2',
         toughness: '5',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/suncrestedpterodon.jpg'
       },
       {
         name: 'Temple Altisaur',
@@ -356,7 +356,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Kinjalli sculpted humans from clay, but the dinosaurs were carved from unyielding stone." --Itzama the Crested',
         power: '3',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/templealtisaur.jpg'
       },
       {
         name: 'Trapjaw Tyrant',
@@ -370,7 +370,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"I would advise you not to struggle." --Huatli',
         power: '5',
         toughness: '5',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/trapjawtyrant.jpg'
       },
       {
         name: 'Zetalpa, Primal Dawn',
@@ -384,7 +384,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'The sky takes flight and the earth trembles.',
         power: '4',
         toughness: '8',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/zetalpaprimaldawn.jpg'
       },
       {
         name: 'Admiral\'s Order',
@@ -395,7 +395,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Rare',
         effects: 'Raid -- If you attacked with a creature this turn, you may pay {U} rather than pay this spell\'s mana cost.\nCounter target spell.',
         flavor: '"Damn the cannons, mates.  Charge!"',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/admiralsorder.jpg'
       },
       {
         name: 'Aquatic Incursion',
@@ -405,7 +405,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Uncommon',
         effects: 'When Aquatic Incursion enters the battlefield, create two 1/1 blue Merfolk creature tokens with hexproof. (They can\'t be the targets of spells or abilities your opponents control)\n{3U}: Target Merfolk can\'t be blocked this turn.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/aquaticincursion.jpg'
       },
       {
         name: 'Crafty Cutpurse',
@@ -419,7 +419,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'Possession is eleven-tenths of the pirate code.',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/craftycutpurse.jpg'
       },
       {
         name: 'Crashing Tide',
@@ -429,7 +429,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Common',
         effects: 'Crashing Tide has flash as long as you control a Merfolk.\nReturn target creature to its owner\'s hand.\nDraw a card.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/crashingtide.jpg'
       },
       {
         name: 'Curious Obsession',
@@ -440,7 +440,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Uncommon',
         effects: 'Enchant creature\nEnchanted creature gets +1/+1 and "Whenever this creature deals combat damage to a player, you may draw a card."\nAt the beginning of your next end step, if you didn\'t attack with a creature this turn, sacrifice Curious Obsession.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/curiousobsession.jpg'
       },
       {
         name: 'Deadeye Rig-Hauler',
@@ -454,7 +454,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Up you go, you soggy rat."',
         power: '3',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/deadeyerighauler.jpg'
       },
       {
         name: 'Expel from Orazca',
@@ -464,7 +464,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Uncommon',
         effects: 'Ascend (If you control ten or more permanents, you get the city\'s blessing for the rest of the game.\nReturn target nonland permanent to its owner\'s hand.  If you have the city\'s blessing, you may put that permanent on top of its owner\'s library instead.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/expelfromorazca.jpg'
       },
       {
         name: 'Flood of Recollection',
@@ -475,7 +475,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'Return target instant or sorcery card from your graveyard to your hand.  Exile Flood of Recollection.',
         flavor: 'Jace tumbled down the waterfall and plunged deep into his past.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/floodofrecollection.jpg'
       },
       {
         name: 'Hornswoggle',
@@ -486,7 +486,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'Counter target creature spell.  You create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."',
         flavor: 'Being a merciful pirate, she saved the vampire\'s gold from falling overboard.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/hornswoggle.jpg'
       },
       {
         name: 'Induced Amnesia',
@@ -496,7 +496,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'When Induced Amnesia enters the battlefield, target player exiles all cards from his or her hand face down, then draws that many cards.\nWhen Induced Amnesia is put into a graveyard from the battlefield, return the exiled cards to their owner\'s hand.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/inducedamnesia.jpg'
       },
       {
         name: 'Kitesail Corsair',
@@ -510,7 +510,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Why perch in the crow\'s nest when I can fly like the crows?"',
         power: '2',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/kitesailcorsair.jpg'
       },
       {
         name: 'Kumena\'s Awakening',
@@ -520,7 +520,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'Ascend (If you control ten or more permanents, you get the city\'s blessing for the rest of the game.)\nAt the beginning of your upkeep, each player draws a card.  If you have the city\'s blessing, instead only you draw a card.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/kumenasawakening.jpg'
       },
       {
         name: 'Mist-Cloaked Herald',
@@ -534,7 +534,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'With matchless stealth, the River Heralds fought a running battle against the three enemy forces.',
         power: '1',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/mistcloakedherald.jpg'
       },
       {
         name: 'Negate',
@@ -545,7 +545,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Counter target noncreature spell.',
         flavor: '"As one, nature lifts its voice to tell you this: \'No.\'"',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/negate.jpg'
       },
       {
         name: 'Nezehal, Primal Tide',
@@ -557,7 +557,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Nezehal, Primal Tide can\'t be countered.\nYou have no maximum hand size.\nWhenever an opponent casts a noncreature spell, draw a card.\nDiscard three cards: Exile Nezehal.  Return it to the battlefield tapped under its owner\'s control at the beginning of the next end step.',
         power: '7',
         toughness: '7',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/nezehalprimaltide.jpg'
       },
       {
         name: 'Release to the Wind',
@@ -568,7 +568,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Rare',
         effects: 'Exile target nonland permanent.  For as long as that card remains exiled, its owner may cast it without paying its mana cost.',
         flavor: '"Here and gone like a fleeting breeze."',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/releasetothewind.jpg'
       },
       {
         name: 'River Darter',
@@ -582,7 +582,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Don\'t make splashes.  Make progress."\n--Tishana',
         power: '2',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/riverdarter.jpg'
       },
       {
         name: 'Riverwise Augur',
@@ -596,7 +596,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Time flows as the rivers do, toward an unknown sea.  The wise know to look downstream."',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/riverwiseaugur.jpg'
       },
       {
         name: 'Sailor of Means',
@@ -610,7 +610,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'The rising tide of Orazca\'s plunder lifted all ships.',
         power: '1',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/sailorofmeans.jpg'
       },
       {
         name: 'Sea Legs',
@@ -622,7 +622,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Flash\nEnchant creature\nEnchanted creature gets +0/+2 as long as it\'s a Pirate.  Otherwise, it gets -2/-0.',
         flavor: '"When the waves pick up, either you find your feet or you lose your lunch."',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/sealegs.jpg'
       },
       {
         name: 'Seafloor Oracle',
@@ -636,7 +636,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'Where the light falls dim and blue on broken ships, secrets lie unclaimed.',
         power: '2',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/seafloororacle.jpg'
       },
       {
         name: 'Secrets of the Golden City',
@@ -647,7 +647,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Ascend (If you control ten or more permanents, you have the city\'s blessing for the rest of the game.)\nDraw two cards.  If you have the city\'s blessing, draw three cards instead',
         flavor: 'Stolen knowledge can never be stolen back.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/secretsofthegoldencity.jpg'
       },
       {
         name: 'Silvergill Adept',
@@ -661,7 +661,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"If you keep to the shallows, you\'ll never learn the secrets of the depths."',
         power: '2',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/silvergilladept.jpg'
       },
       {
         name: 'Siren Reaver',
@@ -675,7 +675,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Prepare to be boarded."',
         power: '3',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/sirenreaver.jpg'
       },
       {
         name: 'Slippery Scoundrel',
@@ -689,7 +689,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"I\'d rather be caught red-handed than leave empty-handed!"',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/slipperyscoundrel.jpg'
       },
       {
         name: 'Soul of the Rapids',
@@ -703,7 +703,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'With Kumena in control of the Immortal Sun, the rapids rose from their riverbeds and the waterfalls took flight.',
         power: '3',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/souloftherapids.jpg'
       },
       {
         name: 'Sworn Guardian',
@@ -716,7 +716,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'For the River Heralds, the Immortal Sun is an object of terror and devastation.  The idea that anyone would retrieve it for their own use is utterly abhorrent.',
         power: '1',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/swornguardian.jpg'
       },
       {
         name: 'Timestream Navigator',
@@ -729,7 +729,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Ascend (If you control ten or more permanents, you have the city\'s blessing for the rest of the game.)\n{2UU}, {T}, Put Timestream Navigator on the bottom of its owner\'s library: Take an extra turn after this one.  Activate this ability only if you have the city\'s blessing.',
         power: '1',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/timestreamnavigator.jpg'
       },
       {
         name: 'Warkite Marauder',
@@ -742,7 +742,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Flying\nWhenever Warkite Marauder attacks, target creature defending player controls loses all abilities and has base power and toughness 0/1 until end of turn.',
         power: '2',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/warkitemarauder.jpg'
       },
       {
         name: 'Waterknot',
@@ -753,7 +753,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Common',
         effects: 'Enchant creature\nWhen Waterknot enters the battlefield, tap enchanted creature.\nEnchanted creature doesn\'t untap during its controller\'s untap step.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/waterknot.jpg'
       },
       {
         name: 'Arterial Flow',
@@ -764,7 +764,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'Each opponent discards two cards.  If you control a Vampire, each opponent loses 2 life and you gain 2 life.',
         flavor: '"It is impious to admit, but I do enjoy pirate blood.  Something in the salty tang of it, the spice of rebellion."',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/arterialflow.jpg'
       },
       {
         name: 'Canal Monitor',
@@ -777,7 +777,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'The first goblin tried to swim the canal.  The second built a raft.  The last and craftiest goblin launched herself from a firecannon and soared over the canal, trailing smoke.  All were eaten, but only one was cooked.',
         power: '5',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/canalmonitor.jpg'
       },
       {
         name: 'Champion of Dusk',
@@ -791,7 +791,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Drench these golden streets in the blood of our enemies."',
         power: '4',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/championofdusk.jpg'
       },
       {
         name: 'Dark Inquiry',
@@ -802,7 +802,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Target opponent reveals his or her hand.  You choose a nonland card from it.  Tnat player discards that card.',
         flavor: '"Your mind is no longer yours to waste."',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/darkinquiry.jpg'
       },
       {
         name: 'Dead Man\'s Chest',
@@ -813,7 +813,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Rare',
         effects: 'Enchant creature an opponent controls\nWhen enchanted creature dies, exile cards equal to its power from the top of its owner\'s library.  You may cast nonland cards from among them for as long as they remain exiled, and you may spend mana as though it were mana of any type to cast those spells.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/deadmanschest.jpg'
       },
       {
         name: 'Dinosaur Hunter',
@@ -827,7 +827,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Aye, the foul beast chomped me, but I got away.  You\'d best believe when I find it again, it won\'t get away so easy."',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/dinosaurhunter.jpg'
       },
       {
         name: 'Dire Fleet Poisoner',
@@ -840,7 +840,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Flash\nDeathtouch\nWhen Dire Fleet Poisoner enters the battlefield, target attacking Pirate gets +1/+1 and has deathtouch until end of turn.',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/direfleetpoisoner.jpg'
       },
       {
         name: 'Dusk Charger',
@@ -854,7 +854,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'Stories say demon blood runs in its veins, making it fearless and bloodthirsty.',
         power: '3',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/duskcharger.jpg'
       },
       {
         name: 'Dusk Legion Zealot',
@@ -866,7 +866,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'When Dusk Legion Zealot enters the battlefield, you draw a card and you lose 1 life.',
         flavor: 'Once they reached Orazca, the Legion\'s explorers ransacked tombs and temples, hunting for the Immortal Sun.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/dusklegionzealot.jpg'
       },
       {
         name: 'Fathom Fleet Boarder',
@@ -880,7 +880,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'Without frequent raids, orcs sometimes get bored and plunder their own ships.',
         power: '3',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/fathomfleetboarder.jpg'
       },
       {
         name: 'Forerunner of the Coalition',
@@ -893,7 +893,7 @@ exports.seed = function(knex, Promise) {
         effects: 'When Forerunner of the Coalition enters the battlefield, you may search your library for a Pirate card, reveal it, then shuffle your library, and put that card on top of it.\nWhenever another Pirate enters the battlefield under your control, each opponent loses 1 life.',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/forerunnerofthecoalition.jpg'
       },
       {
         name: 'Golden Demise',
@@ -903,7 +903,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Ascend (If you control ten or more permanents, you have the city\'s blessing for the rest of the game.)\nAll creatures get -2/-2 until end of turn.  If you have the city\'s blessing, instead only creatures your opponents control get -2/-2 until end of turn.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/goldendemise.jpg'
       },
       {
         name: 'Grasping Scoundrel',
@@ -917,7 +917,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"I can hear the plunder calling.  It asks for me by name."',
         power: '1',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/graspingscoundrel.jpg'
       },
       {
         name: 'Gruesome Fate',
@@ -928,7 +928,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Each opponent loses 1 life for each creature you control.',
         flavor: '"You were keen enough to sink your fangs into us, vampire!  And now you\'re afraid of a few little nibbles?"\nUdvil "Ratty" Ratlock',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/gruesomefate.jpg'
       },
       {
         name: 'Impale',
@@ -939,7 +939,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Destroy target creature.',
         flavor: 'Never let the glitter of gold distract you from the gleam of steel in the shadows.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/impale.jpg'
       },
       {
         name: 'Mastermind\'s Acquisition',
@@ -950,7 +950,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Rare',
         effects: 'Choose one -- \n\bSearch your library for a card, put it into your hand, then shuffle your library.\n\bChoose a card you own from outside the game and put it into your hand.',
         flavor: 'Another piece of a nefarious puzzle.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/mastermindsacquisition.jpg'
       },
       {
         name: 'Mausoleum Harpy',
@@ -963,7 +963,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Flying\nAscend (If you control ten or more permanents, you have the city\'s blessing for the rest of the game.)\nWhenever another creature you control dies, if you have the city\'s blessing, put a +1/+1 counter on Mausoleum Harpy.',
         power: '3',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/mausoleumharpy.jpg'
       },
       {
         name: 'Moment of Craving',
@@ -974,7 +974,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Target creature gets -2/-2 until end of turn.  You gain 2 life.',
         flavor: '"The time of condemnation is at hand.  Dusk washes over the world, and I consign you to eternal darkness!"',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/momentofcraving.jpg'
       },
       {
         name: 'Oathsworn Vampire',
@@ -988,7 +988,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"My conquistadors are never slain, merely laid to rest."\n--Queen Miralda the Pious',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/oathswornvampire.jpg'
       },
       {
         name: 'Pitiless Plunderer',
@@ -1002,7 +1002,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Shame to let good gold go to the grave."',
         power: '1',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/pitilessplunderer.jpg'
       },
       {
         name: 'Ravenous Chupacabra',
@@ -1016,7 +1016,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'Opening Orazca unleashed more horrors than just the Immortal Sun.',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/ravenouschupacabra.jpg'
       },
       {
         name: 'Reaver Ambush',
@@ -1027,7 +1027,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'Exile target creature with power 3 or less.',
         flavor: 'Onora knew with sudden, grim certainty he would never see the Great River again.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/reaverambush.jpg'
       },
       {
         name: 'Recover',
@@ -1038,7 +1038,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Return target creature card from your graveyard to your hand.\nDraw a card.',
         flavor: '"No more fear of death\'s oblivion--is this not the greatest treasure of all?"\n--Gurezan, Legion resurrectionist',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/recover.jpg'
       },
       {
         name: 'Sadistic Skymarcher',
@@ -1052,7 +1052,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"I will catch you, child of the sun.  I will drink your life and leave you a husk, discarded in the shadows."',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/sadisticskymarcher.jpg'
       },
       {
         name: 'Tetzimoc, Primal Death',
@@ -1065,7 +1065,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Deathtouch\n{B}, Reveal Tetzimoc from your hand: Put a prey counter on target creature.  Activate this ability only on your turn.\nWhen Tetzimoc enters the battlefield, destroy each creature your opponents control with a prey counter on it.',
         power: '6',
         toughness: '6',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/tetzimocprimaldeath.jpg'
       },
       {
         name: 'Tomb Robber',
@@ -1078,7 +1078,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Menace\n{1}, Discard a card: Tomb Robber explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)',
         power: '1',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/tombrobber.jpg'
       },
       {
         name: 'Twilight Prophet',
@@ -1091,7 +1091,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Flying\nAscend (If you control ten or more permanents, you have the city\'s blessing for the rest of the game.)\nAt the beginning of your upkeep, if you have the city\'s blessing, reveal the top card of your library and put it into your hand. Each opponent loses X life and you gain X life, where X is that card\'s converted mana cost.',
         power: '2',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/twilightprophet.jpg'
       },
       {
         name: 'Vampire Revenant',
@@ -1105,7 +1105,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"A thick fog obscures the port of Leor, but it\'s not thick enough to muffle the screams."\n--Admiral Beckett Brass',
         power: '3',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/vampirerevenant.jpg'
       },
       {
         name: 'Vona\'s Hunger',
@@ -1115,7 +1115,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Instant',
         rarity: 'Rare',
         effects: 'Ascend (If you control ten or more permanents, you have the city\'s blessing for the rest of the game.)\nEach opponent sacrifices a creature.  If you have the city\'s blessing, instead each opponent sacrifices half the creatures he or she controls, rounded up.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/vonashunger.jpg'
       },
       {
         name: 'Voracious Vampire',
@@ -1129,7 +1129,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'The purest devotion isn\'t the Blood Fast itself, but the craving that follows.',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/voraciousvampire.jpg'
       },
       {
         name: 'Blood Sun',
@@ -1140,7 +1140,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Rare',
         effects: 'When Blood Sun enters the battlefield, draw a card.\nAll lands lose all abilities except mana abilities.',
         flavor: 'As the struggle raged for control of the Immortal Sun, the world grew dark under a blood-red sky.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/bloodsun.jpg'
       },
       {
         name: 'Bombard',
@@ -1151,7 +1151,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Bombard deals 4 damage to target creature.',
         flavor: '"Want to sink a ship?  Blow a hole in the hull.  Want to kill a regisaur?  Same answer."\n--Captain Brandis Thorn',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/bombard.jpg'
       },
       {
         name: 'Brass\'s Bounty',
@@ -1162,7 +1162,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Rare',
         effects: 'For each land you control, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."',
         flavor: '"Why squabble for trinkets when we could be living large off all this gold?"\n--Admiral Beckett Brass',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/brasssbounty.jpg'
       },
       {
         name: 'Brazen Freebooter',
@@ -1176,7 +1176,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'Finders, keepers.',
         power: '3',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/brazenfreebooter.jpg'
       },
       {
         name: 'Buccaneer\'s Bravado',
@@ -1187,7 +1187,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Choose one --\n\tTarget creature gets +1/+1 and gains first strike until end of turn.\n\tTarget Pirate gets +1/+1 and gains double strike until end of turn.',
         flavor: 'Never underestimate the power of panache.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/buccaneersbravado.jpg'
       },
       {
         name: 'Charging Tuskodon',
@@ -1201,7 +1201,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'It doesn\'t hold grudges.  It runs them down and impales them.',
         power: '4',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/chargingtuskodon.jpg'
       },
       {
         name: 'Daring Buccaneer',
@@ -1215,7 +1215,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'No ancient lore ties the pirates of the Brazen Coalition to the Immortal Sun.  But it\'s a powerful ancient artifact in a city of gold--what\'s not to covet?',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/daringbuccaneer.jpg'
       },
       {
         name: 'Dire Fleet Daredevil',
@@ -1228,7 +1228,7 @@ exports.seed = function(knex, Promise) {
         effects: 'First strike\nWhen Dire Fleet Daredevil enters the battlefield, exile target instant or sorcery card from an opponent\'s graveyard.  You may cast that card this turn, and you may spend mana as though it were mana of any type to cast that card this turn.  If that card would be put into a graveyard this turn, exile it instead.',
         power: '2',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/direfleetdaredevil.jpg'
       },
       {
         name: 'Etali, Primal Storm',
@@ -1242,7 +1242,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'The storm rages and the earth breaks.',
         power: '6',
         toughness: '6',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/etaliprimalstorm.jpg'
       },
       {
         name: 'Fanatical Firebrand',
@@ -1256,7 +1256,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"The Brazen Coalition is a firecannon pointed at our enemies.  Goblins like him are the spark to its powder."\n--Admiral Beckett Brass',
         power: '1',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/fanaticalfirebrand.jpg'
       },
       {
         name: 'Forerunner of the Empire',
@@ -1269,7 +1269,7 @@ exports.seed = function(knex, Promise) {
         effects: 'When Forerunner of the Empire enters the battlefield, search your library for a Dinosaur card, reveal it, then shuffle your library and put that card on top of it.\nWhenever a Dinosaur enters the battlefield under your control, you may have Forerunner of the Empire deal 1 damage to each creature.',
         power: '1',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/forerunneroftheempire.jpg'
       },
       {
         name: 'Form of the Dinosaur',
@@ -1279,7 +1279,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'When Form of the Dinosaur enters the battlefield, your life total becomes 15.\nAt the beginning of your upkeep, Form of the Dinosaur deals 15 damage to target creature an opponent controls and that creature deals damage equal to its power to you.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/formofthedinosaur.jpg'
       },
       {
         name: 'Frilled Deathspitter',
@@ -1293,7 +1293,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'Nothing says trouble like a reedy hiss with a hint of liquid gurgle.',
         power: '3',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/frilleddeathspitter.jpg'
       },
       {
         name: 'Goblin Trailblazer',
@@ -1307,7 +1307,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Why are we following the goblin?  Can he even read that map?"\n--Daphne Vail, Diremore first mate',
         power: '2',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/goblintrailblazer.jpg'
       },
       {
         name: 'Mutiny',
@@ -1318,7 +1318,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Target creature an opponent controls deals damage equal to its power to another target creature that player controls.',
         flavor: 'Pirate captains rarely enjoy a peaceful retirement.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/mutiny.jpg'
       },
       {
         name: 'Needletooth Raptor',
@@ -1332,7 +1332,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'It hatches with its ferocity fully grown.',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/needletoothraptor.jpg'
       },
       {
         name: 'Orazca Raptor',
@@ -1345,7 +1345,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"If you come across a raptor in the city, stay perfectly still.  At least then you\'ll be well-rested when you die."\n--Captain Brandis Thorn',
         power: '3',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/orazcaraptor.jpg'
       },
       {
         name: 'Pirate\'s Pillage',
@@ -1356,7 +1356,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'As an additional cost to cast Pirate\'s Pillage, discard a card.\nDraw two cards and create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."',
         flavor: 'Goblins can carry their body weight in loot.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/piratespillage.jpg'
       },
       {
         name: 'Reckless Rage',
@@ -1367,7 +1367,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'Reckless Rage deals 4 damage to target creature you don\'t control and 2 damage to target creature you do control.',
         flavor: '"Hard to starboard!  Starb-- Abandon ship!  Abandon ship!"',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/recklessrage.jpg'
       },
       {
         name: 'Rekindling Phoenix',
@@ -1380,7 +1380,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Flying\nWhen Rekindling Phoenix dies, create a 0/1 red Elemental creature token with "At the beginning of your upkeep, sacrifice this creature and return target card named Rekindling Phoenix from your graveyard to the battlefield.  It gains haste until end of turn."',
         power: '4',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/rekindlingphoenix.jpg'
       },
       {
         name: 'See Red',
@@ -1391,7 +1391,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Uncommon',
         effects: 'Enchant creature\nEnchanted creature gets +2/+1 and has first strike.\nAt the beginning of your end step, if you didn\'t attack with a creature this turn, sacrifice See Red.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/seered.jpg'
       },
       {
         name: 'Shake the Foundations',
@@ -1402,7 +1402,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'Shake the Foundations deals 1 damage to each creature without flying.\nDraw a card.',
         flavor: 'A threefold calamity with a single will.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/shakethefoundations.jpg'
       },
       {
         name: 'Shatter',
@@ -1413,7 +1413,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Destroy target artifact.',
         flavor: 'Today it\'s a miracle of architecture, a marvel of stained glass, a symbol of the Legion\'s power.  Tomorrow, driftwood.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/shatter.jpg'
       },
       {
         name: 'Silverclad Ferocidons',
@@ -1427,7 +1427,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Control them?  No.  I clad them in armor and set them loose."\n--Yacha, Otepec huntmaster',
         power: '8',
         toughness: '5',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/silvercladferocidons.jpg'
       },
       {
         name: 'Stampeding Horncrest',
@@ -1441,7 +1441,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'When the golden city opened, the dinosaurs inside were eager to greet the new visitors.',
         power: '4',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/stampedinghorncrest.jpg'
       },
       {
         name: 'Storm Fleet Swashbuckler',
@@ -1455,7 +1455,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"A bolt to the eye, a blade to the neck.  That\'s the way to clear the deck!"',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/stormfleetswashbuckler.jpg'
       },
       {
         name: 'Sun-Collared Raptor',
@@ -1469,7 +1469,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"With Tilonalli\'s gifts, even the smallest of us can become great."\n--Huatli',
         power: '1',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/suncollaredraptor.jpg'
       },
       {
         name: 'Swaggering Corsair',
@@ -1483,7 +1483,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"I\'m about to make you famous.  From the golden city to High and Dry, they\'ll talk about how fast you died!"',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/swaggeringcorsair.jpg'
       },
       {
         name: 'Tilonalli\'s Crown',
@@ -1494,7 +1494,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Aura',
         rarity: 'Common',
         effects: 'Enchant creature\nWhen Tilonalli\'s Crown enters the battlefield, it deals 1 damage to enchanted creature.\nEnchanted creature gets +3/+0 and has trample.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/tilonalliscrown.jpg'
       },
       {
         name: 'Tilonalli\'s Summoner',
@@ -1507,7 +1507,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Ascend (If you control ten or more permanents, you have the city\'s blessing for the rest of the game.)\nWhenever Tilonalli\'s Summoner attacks, you may pay {XR}.  If you do, create X 1/1 red Elemental creature tokens that are tapped and attacking.  At the beginning of the next end step, sacrifice those tokens unless you have the city\'s blessing.',
         power: '1',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/tilonallissummoner.jpg'
       },
       {
         name: 'Aggressive Urge',
@@ -1518,7 +1518,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Target creature gets +1/+1 until end of turn.\nDraw a card.',
         flavor: '"Our lives, our homes, and all our history are at risk.  Do not speak to me of peace."',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/aggressiveurge.jpg'
       },
       {
         name: 'Cacophodon',
@@ -1532,7 +1532,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'When a cacophodon is angry, the whole jungle knows.',
         power: '2',
         toughness: '5',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/cacophodon.jpg'
       },
       {
         name: 'Cherished Hatchling',
@@ -1546,7 +1546,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'Despite its appearance, it\'s anything but defenseless.',
         power: '2',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/cherishedhatchling.jpg'
       },
       {
         name: 'Colossal Dreadmaw',
@@ -1560,7 +1560,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Remember when it was the most terrifying thing you\'d ever seen?"\n--Captain Lannery Storm',
         power: '6',
         toughness: '6',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/colossaldreadmaw.jpg'
       },
       {
         name: 'Crested Herdcaller',
@@ -1574,7 +1574,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Our survival, like theirs, depends on our ability to work together."\n--Huatli, to Tishana',
         power: '3',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/crestedherdcaller.jpg'
       },
       {
         name: 'Deeproot Elite',
@@ -1588,7 +1588,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"You think I stand alone?  I have the forest at my call, the waters at my back.  I outnumber you."',
         power: '1',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/deeprootelite.jpg'
       },
       {
         name: 'Enter the Unknown',
@@ -1598,7 +1598,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Sorcery',
         rarity: 'Uncommon',
         effects: 'Target creature you control explores. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on the creature, then put the card back or put it into your graveyard.)\nYou may play an additional land this turn.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/entertheunknown.jpg'
       },
       {
         name: 'Forerunner of the Heralds',
@@ -1611,7 +1611,7 @@ exports.seed = function(knex, Promise) {
         effects: 'When Forerunner of the Heralds enters the battlefield, search your library for a Merfolk card, reveal it, then shuffle your library and put that card on top of it.\nWhenever another Merfolk enters the battlefield under your control, put a +1/+1 counter on Forerunner of the Heralds',
         power: '3',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/forerunneroftheheralds.jpg'
       },
       {
         name: 'Ghalta, Primal Hunger',
@@ -1625,7 +1625,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'The earth walks, strongest of all.',
         power: '12',
         toughness: '12',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/ghaltaprimalhunger.jpg'
       },
       {
         name: 'Giltgrove Stalker',
@@ -1639,7 +1639,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"The only gold I need is the sheltering shimmer of the trees."',
         power: '2',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/giltgrovestalker.jpg'
       },
       {
         name: 'Hardy Veteran',
@@ -1653,7 +1653,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'For the Sun Empire, the Immortal Sun is a symbol of national identity.  When they reclaim it, the Empire will flourish once more.',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/hardyveteran.jpg'
       },
       {
         name: 'Hunt the Weak',
@@ -1664,7 +1664,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Put a +1/+1 counter on target creature you control.  Then that creature fights target creature you don\'t control. (Each deals damage equal to its power to the other.)',
         flavor: '"Death lizard approaching, cap\'n!"\n--Brint Doobin, last words',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/hunttheweak.jpg'
       },
       {
         name: 'Jade Bearer',
@@ -1678,7 +1678,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Sisora wore this, who defeated the tyrant of Azcanta, and before her Natena of Vuhana\'s band.  May it bring you their strength."',
         power: '1',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/jadebearer.jpg'
       },
       {
         name: 'Jadecraft Artisan',
@@ -1692,7 +1692,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"A blade is not fully forged until it is given."',
         power: '3',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/jadecraftartisan.jpg'
       },
       {
         name: 'Jadelight Ranger',
@@ -1705,7 +1705,7 @@ exports.seed = function(knex, Promise) {
         effects: 'When Jadelight Ranger enters the battlefield, it explores, then it explores again. (Reveal the top card of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.  Then repeat this process.)',
         power: '2',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/jadelightranger.jpg'
       },
       {
         name: 'Jungleborn Pioneer',
@@ -1719,7 +1719,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"We fought so long to hide this place.  Let us be the first to learn its wonders!"',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/junglebornpioneer.jpg'
       },
       {
         name: 'Knight of the Stampede',
@@ -1733,7 +1733,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"My whisper becomes a thousand roars."',
         power: '2',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/knightofthestampede.jpg'
       },
       {
         name: 'Naturalize',
@@ -1744,7 +1744,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Destroy target artifact or enchantment.',
         flavor: '"Better to let the sword go than to lose the arm with it."\n--Captain Lannery Storm',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/naturalize.jpg'
       },
       {
         name: 'Orazca Frillback',
@@ -1757,7 +1757,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'The frillbacks of Orazca soak up the sun on their tall spinal fins.  They look slow and sleepy--until they catch the scent of prey.',
         power: '4',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/orazcafrillback.jpg'
       },
       {
         name: 'Overgrown Armasaur',
@@ -1771,7 +1771,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'It embodies the riotous growth of the jungle, where creatures crowd upon creatures, where roots sprawl and vines swarm.',
         power: '4',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/overgrownarmasaur.jpg'
       },
       {
         name: 'Path to Discovery',
@@ -1781,7 +1781,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Enchantment',
         rarity: 'Rare',
         effects: 'Whenever a creature enters the battlefield under your control, it explores. (Reveal the top of your library.  Put that card into your hand if it\'s a land.  Otherwise, put a +1/+1 counter on the creature, then put the card back or put it into your graveyard.)',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/pathtodiscovery.jpg'
       },
       {
         name: 'Plummet',
@@ -1792,7 +1792,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Destroy target creature with flying.',
         flavor: '"Still, the pterodon chasing the clouds from its skies must bow to the great forest below."\n--Mahuiz, Sun Empire archer',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/plummet.jpg'
       },
       {
         name: 'Polyraptor',
@@ -1806,7 +1806,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'An innumerable pack is concealed in a single reflection.',
         power: '5',
         toughness: '5',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/polyraptor.jpg'
       },
       {
         name: 'Strength of the Pack',
@@ -1817,7 +1817,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'Put two +1/+1 counters on each creature you control.',
         flavor: 'The pack that ambushes, eviscerates, and devours together stays together.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/strengthofthepack.jpg'
       },
       {
         name: 'Swift Warden',
@@ -1831,7 +1831,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'A warning shout would take too long.',
         power: '3',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/swiftwarden.jpg'
       },
       {
         name: 'Tendershoot Dryad',
@@ -1844,7 +1844,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Ascend (If you control ten or more permanents, you get the city\'s blessing for the rest of the game.)\nAt the beginning of each upkeep, create a 1/1 green Saproling creature token.\nSaprolings you control have +2/+2 as long as you have the city\'s blessing.',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/tendershootdryad.jpg'
       },
       {
         name: 'Thrashing Brontodon',
@@ -1858,7 +1858,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'It cares more about preserving the herd\'s territory than about preserving itself.',
         power: '3',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/thrashingbrontodon.jpg'
       },
       {
         name: 'Thunderherd Migration',
@@ -1869,7 +1869,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'As an additional cost to cast Thunderherd Migration, reveal a Dinosaur card from your hand or pay {1}.\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.',
         flavor: 'The herds follow as new growth arrives.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/thunderherdmigration.jpg'
       },
       {
         name: 'Wayward Swordtooth',
@@ -1882,7 +1882,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Ascend (If you control ten or more permanents, you get the city\'s blessing for the rest of the game.)\nYou may play an additional land on each of your turns.\nWayward Swordtooth can\'t attack or block unless you have the city\'s blessing.',
         power: '5',
         toughness: '5',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/waywardswordtooth.jpg'
       },
       {
         name: 'World Shaper',
@@ -1896,7 +1896,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"The Great River will not be tamed."',
         power: '3',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/worldshaper.jpg'
       },
       {
         name: 'Angrath, the Flame-Chained',
@@ -1908,7 +1908,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Mythic',
         effects: '+1: Each opponent discards a card and loses 2 life.\n-3: Gain control of target creature until end of turn.  Untap it.  It gains haste until end of turn.  Sacrifice it at the beginning of the next end step if it has converted mana cost 3 or less.\n-8: Each opponent loses life equal to the number of cards in his or her graveyard.',
         loyalty: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/angraththeflamechained.jpg'
       },
       {
         name: 'Atzocan Seer',
@@ -1922,7 +1922,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'Streams of gold and bright feathers flash in the orb, visions of past and future.',
         power: '2',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/atzocanseer.jpg'
       },
       {
         name: 'Azor, the Lawbringer',
@@ -1935,7 +1935,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Flying\nWhen Azor, the Lawbringer enters the battlefield, each opponent can\'t cast instants or sorceries during that player\'s next turn.\nWhenever Azor attacks, you may pay {XWUU}.  If you do, you gain X life and draw X cards.',
         power: '6',
         toughness: '6',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/azorthelawbringer.jpg'
       },
       {
         name: 'Deadeye Brawler',
@@ -1948,7 +1948,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Deathtouch\nAscend (If you control ten or more permanents, you get the city\'s blessing for the rest of the game.)\nWhenever Deadeye Brawler deals combat damage to a player, if you have the city\'s blessing, draw a card.',
         power: '2',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/deadeyebrawler.jpg'
       },
       {
         name: 'Dire Fleet Neckbreaker',
@@ -1962,7 +1962,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'The buccaneers scaled the sides of the buildings as easily as they boarded enemy ships.',
         power: '3',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/direfleetneckbreaker.jpg'
       },
       {
         name: 'Elenda, the Dusk Rose',
@@ -1976,7 +1976,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'Her centuries-long search is ended.',
         power: '1',
         toughness: '1',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/elendatheduskrose.jpg'
       },
       {
         name: 'Hadana\'s Climb // Winged Temple of Orazca',
@@ -1985,9 +1985,9 @@ exports.seed = function(knex, Promise) {
         color: 'Simic (Green/Blue)',
         supertype: 'Legendary Enchantment // Legendary Land',
         rarity: 'Rare',
-        effects: 'At the beginning of combat on your turn, put a +1/+1 counter on target creature you control.  Then if that creature has three or more +1/+1 counters on it, transform Hadana\'s Climb. // (Transforms from Hadana\'s Climb)\n{T}: Add one mana of any color to your mana pool.\n{1GU}, {T}: Target creature you control gains flying and gets +X/+X until end of turn, where X is its power.',
+        effects: 'At the beginning of combat on your turn, put a +1/+1 counter on target creature you control.  Then if that creature has three or more +1/+1 counters on it, transform Hadana\'s Climb.\n//\n(Transforms from Hadana\'s Climb)\n{T}: Add one mana of any color to your mana pool.\n{1GU}, {T}: Target creature you control gains flying and gets +X/+X until end of turn, where X is its power.',
         flavor: 'Hadana seeks power in the service of peace.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/hadanasclimb.jpg // https://www.mythicspoiler.com/rix/cards/wingedtempleoforazca.jpg'
       },
       {
         name: 'Huatli, Radiant Champion',
@@ -1999,7 +1999,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Mythic',
         effects: '+1: Put a loyalty counter on Huatli, Radiant Champion for each creature you control.\n-1: Target creature gets +X/+X until end of turn, where X is the number of creatures you control.\n-8: You get an emblem with "Whenever a creature enters the battlefield under your control, you may draw a card."',
         loyalty: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/huatliradiantchampion.jpg'
       },
       {
         name: 'Journey to Eternity // Atzal, Cave of Eternity',
@@ -2011,7 +2011,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Rare',
         effects: 'Enchant creature you control\nWhen enchanted creature dies, return it to the battlefield under your control, then return Journey to Eternity to the battlefield transformed under your control. // (Transforms from Journey to Eternity)\n{T}: Add one mana of any color to your mana pool.\n{3BG}, {T}: Return target creature card from your graveyard to the battlefield.',
         flavor: 'Every journey has its inevitable end... // ...but every end is a new beginning.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/journeytoeternity.jpg // https://www.mythicspoiler.com/rix/cards/atzalcaveofeternity.jpg'
       },
       {
         name: 'Jungle Creeper',
@@ -2025,7 +2025,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"You cannot kill it, not for long.  It ripens where the ground is soaked with the blood of the slaughtered."\n--Atiuru, priest of the Verdant Sun',
         power: '3',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/junglecreeper.jpg'
       },
       {
         name: 'Kumena, Tyrant of Orazca',
@@ -2038,7 +2038,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Tap another untapped Merfolk you control: Kumena, Tyrant of Orazca can\'t be blocked this turn.\nTap three untapped Merfolk you control: Draw a card.\nTap five untapped Merfolk you control: Put a +1/+1 counter on each Merfolk you control.',
         power: '2',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/kumenatyrantoforazca.jpg'
       },
       {
         name: 'Legion Lieutenant',
@@ -2052,7 +2052,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"We long ago abandoned the things that make humans weak: friendship, marriage, family.  All that remains is the strength of our devotion."',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/legionlieutenant.jpg'
       },
       {
         name: 'Merfolk Mistbinder',
@@ -2066,7 +2066,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"The mist clothes us when we are bare, hides us when we are alone, and unites us when we are together."\n--Nirit of Pashona\'s band',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/merfolkmistbinder.jpg'
       },
       {
         name: 'Path of Mettle // Metzali, Tower of Triumph',
@@ -2076,7 +2076,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Enchantment // Legendary Land',
         rarity: 'Rare',
         effects: 'When Path of Mettle enters the battlefield, it deals 1 damage to each creature that doesn\'t have first strike, double strike, vigilance, or haste.\nWhenever you attack with at least two creatures that have first strike, double strike, vigilance, and/or haste, transform Path of Mettle.\n//\n(Transforms from Path of Mettle)\n{T}: Add one mana of any color to your mana pool.\n{1R}, {T}: Metzali, Tower of Triumph deals 2 damage to each opponent.\n{2W}, {T}: Choose a creature at random that attacked this turn.  Destroy that creature.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/pathofmettle.jpg // https://www.mythicspoiler.com/rix/cards/metzalitoweroftriumph.jpg'
       },
       {
         name: 'Profane Procession // Tomb of the Dusk Rose',
@@ -2087,7 +2087,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Rare',
         effects: '{3WB}: Exile target creature.  Then if there are three or more cards exiled with Profane Procession, transform it.\n//\n(Transforms from Profane Procession)\n{T}: Add one mana of any color to your mana pool.\n{2WB}, {T}: Put a creature card exiled with this permanent onto the battlefield under your control.',
         flavor: 'Vona sought a conqueror.  Mavren sought a savior.  Both found what they sought... // ...resting in the splendor of the dead.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/profaneprocession.jpg // https://www.mythicspoiler.com/rix/cards/tomboftheduskrose.jpg'
       },
       {
         name: 'Protean Raider',
@@ -2101,7 +2101,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'Imitation is the sincerest form of piracy.',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/proteanraider.jpg'
       },
       {
         name: 'Raging Regisaur',
@@ -2115,7 +2115,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'Its breath is a gale.  Its roar is a volcano.  Its anger tears soul from flesh.',
         power: '4',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/ragingregisaur.jpg'
       },
       {
         name: 'Relentless Raptor',
@@ -2129,7 +2129,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'As the battle for Orazca unfolded, the contenders discovered that others had already staked a claim.',
         power: '3',
         toughness: '3',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/relentlessraptor.jpg'
       },
       {
         name: 'Resplendent Griffin',
@@ -2142,7 +2142,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Flying\nAscend (If you control ten or more permanents, you get the city\'s blessing for the rest of the game.)\nWhenever Resplendent Griffin attacks, if you have the city\'s blessing, put a +1/+1 counter on it.',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/resplendentgriffin.jpg'
       },
       {
         name: 'Siegehorn Ceratops',
@@ -2156,7 +2156,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'To a siegehorn, there is no such thing as a dead end.',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/siegehornceratops.jpg'
       },
       {
         name: 'Storm Fleet Sprinter',
@@ -2170,7 +2170,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Charge like a red-hot cannonball straight to your target.  You slow down, you sink."\n--Captain Lannery Storm',
         power: '2',
         toughness: '2',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/stormfleetsprinter.jpg'
       },
       {
         name: 'Storm the Vault // Vault of Catlacan',
@@ -2181,7 +2181,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Rare',
         effects: 'Whenever one or more creatures you control deal combat damage to a player, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."\nAt the beginning of your end step, if you control five or more artifacts, transform Storm the Vault.\n//\n(Transforms from Storm the Vault)\n{T}: Add one mana of any color to your mana pool.\n{T}: Add {U} to your mana pool for each artifact you control.',
         flavor: 'Swimming in coins proved harder than they hoped, but dancing was a jingling delight.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/stormthevault.jpg // https://www.mythicspoiler.com/rix/cards/vaultofcatlacan.jpg'
       },
       {
         name: 'Zacama, Primal Calamity',
@@ -2194,7 +2194,7 @@ exports.seed = function(knex, Promise) {
         effects: 'Vigilance, reach, trample\nWhen Zacama, Primal Calamity enters the battlefield, if you cast it, untap all lands you control.\n{2R}: Zacama deals 3 damage to target creature.\n{2G}: Destroy target artifact or enchantment.\n{2W}: You gain 3 life.',
         power: '9',
         toughness: '9',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/zacamaprimalcalamity.jpg'
       },
       {
         name: 'Awakened Amalgam',
@@ -2208,7 +2208,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"The fools have done it."\n--Tishana',
         power: '*',
         toughness: '*',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/awakenedamalgam.jpg'
       },
       {
         name: 'Azor\'s Gateway // Sanctum of the Sun',
@@ -2219,7 +2219,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Mythic',
         effects: '{1}, {T}: Draw a card, then exile a card from your hand.  If cards with five different converted mana costs are exiled with Azor\'s Gateway, you gain 5 life, untap Azor\'s Gateway, and transform it.\n//\n(Transforms from Azor\'s Gateway)\n{T}: Add X mana of any one color to your mana pool, where X is your life total.',
         flavor: 'As soon as Jace laid eyes on the great sphinx\'s chamber, the shards of memory began sliding into place.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/azorsgateway.jpg // https://www.mythicspoiler.com/rix/cards/sanctumofthesun.jpg'
       },
       {
         name: 'Captain\'s Hook',
@@ -2230,7 +2230,7 @@ exports.seed = function(knex, Promise) {
         subtype: 'Equipment',
         rarity: 'Rare',
         effects: 'Equipped creature gets +2/+0, has menace, and is a Pirate in addition to its other creature types.\nWhenever Captain\'s Hook becomes unattached from a permanent, destroy that permanent.\nEquip {1}',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/captainshook.jpg'
       },
       {
         name: 'Gleaming Barrier',
@@ -2244,7 +2244,7 @@ exports.seed = function(knex, Promise) {
         flavor: '"Gold without freedom might as well be lead."\n--Angrath',
         power: '0',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/gleamingbarrier.jpg'
       },
       {
         name: 'Golden Guardian // Gold-Forge Garrison',
@@ -2258,7 +2258,7 @@ exports.seed = function(knex, Promise) {
         flavor: 'An army of living gold for the golden city.',
         power: '4',
         toughness: '4',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/goldenguardian.jpg // https://www.mythicspoiler.com/rix/cards/goldforgegarrison.jpg'
       },
       {
         name: 'The Immortal Sun',
@@ -2268,7 +2268,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Artifact',
         rarity: 'Mythic',
         effects: 'Players can\'t activate planeswalkers\' loyalty abilities.\nAt the beginning of your draw step, draw an additional card.\nSpells you cast cost {1} less to cast.\nCreatures you control get +1/+1.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/theimmortalsun.jpg'
       },
       {
         name: 'Orazca Relic',
@@ -2278,7 +2278,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Artifact',
         rarity: 'Common',
         effects: 'Ascend (If you control ten or more permanents, you get the city\'s blessing for the rest of the game.)\n{T}: Add {C} to your mana pool.\n{T}, Sacrifice Orazca Relic: You gain 3 life and draw a card.  Activate this ability only if you have the city\'s blessing.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/orazcarelic.jpg'
       },
       {
         name: 'Silent Gravestone',
@@ -2289,7 +2289,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Rare',
         effects: 'Cards in graveyards can\'t be the target of spells or abilities.\n{4}, {T}: Exile Silent Gravestone and all cards from all graveyards.  Draw a card.',
         flavor: 'Made to ward off the Grim Captain and silence the lure of undeath.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/silentgravestone.jpg'
       },
       {
         name: 'Strider Harness',
@@ -2301,7 +2301,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: 'Equipped creature gets +1/+1 and has haste.\nEquip {1} ({1}: Attach to target creature you control.  Equip only as a sorcery.)',
         flavor: '"Because the giant, implacable death lizard wasn\'t scary enough already."\n--Captain Brinely Rage',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/striderharness.jpg'
       },
       {
         name: 'Traveler\'s Amulet',
@@ -2312,7 +2312,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: '{1}, Sacrifice Traveler\'s Amulet: Search your library for a basic land card, reveal it, and put it into your hand, then shuffle your library.',
         flavor: '"The best kind of treasure is the kind that leads to more treasure!"\n--Captain Lannery Storm',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/travelersamulet.jpg'
       },
       {
         name: 'Arch of Orazca',
@@ -2322,7 +2322,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         rarity: 'Rare',
         effects: 'Ascend (If you control ten or more permanents, you get the city\'s blessing for the rest of the game.)\n{T}: Add {C} to your mana pool.\n{5}, {T}: Draw a card.  Activate this ability only if you have the city\'s blessing.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/archoforazca.jpg'
       },
       {
         name: 'Stone Quarry',
@@ -2333,7 +2333,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'Stone Quarry enters the battlefield tapped.\n{T}: Add {R} or {W} to your mana pool.',
         flavor: 'The Sun Empire\'s cities are built from the bones of the earth.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/stonequarry.jpg'
       },
       {
         name: 'Highland Lake',
@@ -2344,7 +2344,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'Highland Lake enters the battlefield tapped.\n{T}: Add {U} or {R} to your mana pool.',
         flavor: '"A place like this makes me wonder if there\'s more to life than blood and treasure... Nah."\n--Boyl Bucksalt, Storm Fleet swab',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/highlandlake.jpg'
       },
       {
         name: 'Foul Orchard',
@@ -2355,7 +2355,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'Foul Orchard enters the battlefield tapped.\n{T}: Add {B} or {G} to your mana pool.',
         flavor: 'The stench of rotting meat lures flies, goblins, and young raptors.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/foulorchard.jpg'
       },
       {
         name: 'Forsaken Sanctuary',
@@ -2366,7 +2366,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'Forsaken Sanctuary enters the battlefield tapped.\n{T}: Add {W} or {B} to your mana pool.',
         flavor: 'In the galleon\'s grand cathedral, conquistadors swore vows of faith.  In its wreckage, they swore vows of revenge.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/forsakensanctuary.jpg'
       },
       {
         name: 'Woodland Stream',
@@ -2377,7 +2377,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Uncommon',
         effects: 'Woodland Stream enters the battlefield tapped.\n{T}: Add {G} or {B} to your mana pool.',
         flavor: 'Countless streams flow into the nine rivers, and the nine rivers flow into the Great River.  The River Heralds guard them all.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/woodlandstream.jpg'
       },
       {
         name: 'Evolving Wilds',
@@ -2388,7 +2388,7 @@ exports.seed = function(knex, Promise) {
         rarity: 'Common',
         effects: '{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.',
         flavor: 'The Sun Empire bends nature--rivers, mountainsides, dinosaurs--to its unyielding will.',
-        art: 'https://www.mythicspoiler.com/rix/cards/.jpg'
+        art: 'https://www.mythicspoiler.com/rix/cards/evolvingwilds.jpg'
       }
     ]);
   });
