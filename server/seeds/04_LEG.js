@@ -5,520 +5,441 @@ exports.seed = function(knex, Promise) {
     // Inserts seed entries
     return knex('Card_List').insert([
       {
-        name: '',
+        name: 'Akron Legionnaire',
         set: 'Legends',
-        cost: '',
+        cost: '8',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Legionnaire',
+        effects: 'Other non-artifact creatures you control can\'t attack.',
+        power: '8',
+        toughness: '4',
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
-        name: '',
+        name: 'Alabaster Potion',
         set: 'Legends',
-        cost: '',
+        cost: '3+',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Instant',
+        effects: 'Choose one--\n\t* Target player gains X life.\n\t* Prevent the next X damage to target creature or player.',
+        flavor: '"Healing is a matter of time, but it is sometimes also a matter of opportunity."\n--D\'Avenant proverb',
+        art: 'http://mythicspoiler.com/leg/cards/alabasterpotion.jpg'
       },
       {
-        name: '',
+        name: 'Amrou Kithkin',
         set: 'Legends',
-        cost: '',
+        cost: '2',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Kithkin',
+        effects: 'This creature can\'t be blocked by creatures with power 3 or greater.',
+        flavor: 'Quick and agile, Amrou Kithkin can usually escape from even the most fearsome opponents.',
+        power: '1',
+        toughness: '1',
+        art: 'http://mythicspoiler.com/leg/cards/amroukithkin.jpg'
       },
       {
-        name: '',
+        name: 'Angelic Voices',
         set: 'Legends',
-        cost: '',
+        cost: '4',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchantment',
+        effects: 'As long as creatures you control are white or colorless, creatures you control get +1/+1.',
+        art: 'http://mythicspoiler.com/leg/cards/angelicvoices.jpg'
       },
       {
-        name: '',
+        name: 'Cleanse',
         set: 'Legends',
-        cost: '',
+        cost: '4',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Sorcery',
+        effects: 'Destroy all black creatures.',
+        flavor: 'The clouds broke and the sun\'s rays burst forth; each foul beast in its turn faltered, and was gone.',
+        art: 'http://mythicspoiler.com/leg/cards/cleanse.jpg'
       },
       {
-        name: '',
+        name: 'Clergy of the Holy Nimbus',
         set: 'Legends',
-        cost: '',
+        cost: '1',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Priest',
+        effects: 'Whenever Clergy of the Holy Nimbus would die, regenerate it unless an opponent pays {1}.',
+        power: '1',
+        toughness: '1',
+        art: 'http://mythicspoiler.com/leg/cards/clergyoftheholynimbus.jpg'
       },
       {
-        name: '',
+        name: 'D\'Avenant Archer',
         set: 'Legends',
-        cost: '',
+        cost: '3',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Archer',
+        effects: '{T}: D\'Avenant Archer deals 1 damage to target attacking or blocking creature.',
+        power: '1',
+        toughness: '2',
+        art: 'http://mythicspoiler.com/leg/cards/davenantarcher.jpg'
       },
       {
-        name: '',
+        name: 'Divine Intervention',
         set: 'Legends',
-        cost: '',
+        cost: '8',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchantment',
+        effects: 'Divine Intervention enters the battlefield with two divinity counters on it.\nAt the beginning of your upkeep, remove a divinity counter from Divine Intervention.  Then, if there are no divinity counters on Divine Intervention, the game ends and is considered a draw.',
+        art: 'http://mythicspoiler.com/leg/cards/divineintervention.jpg'
       },
       {
-        name: '',
+        name: 'Divine Offering',
         set: 'Legends',
-        cost: '',
+        cost: '2',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Instant',
+        effects: 'Destroy target artifact.  You gain life equal to its converted mana cost.',
+        flavor: 'D\'Haren stared at the twisted lump of metal that had been a prized artifact.  The fight was getting ugly.',
+        art: 'http://mythicspoiler.com/leg/cards/divineoffering.jpg'
       },
       {
-        name: '',
+        name: 'Divine Transformation',
         set: 'Legends',
-        cost: '',
+        cost: '4',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchant Creature',
+        effects: 'Enchanted creature gets +3/+3.',
+        flavor: 'Glory surged through her and radiance surrounded her.  All things were possible with the blessing of the Divine.',
+        art: 'http://mythicspoiler.com/leg/cards/divinetransformation.jpg'
       },
       {
-        name: '',
+        name: 'Elder Land Wurm',
         set: 'Legends',
-        cost: '',
+        cost: '7',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Wurm',
+        effects: 'Trample\nThis creature can\'t attack until it has blocked.',
+        flavor: 'Sometimes it\'s best to let sleeping dragons lie.',
+        power: '5',
+        toughness: '5',
+        art: 'http://mythicspoiler.com/leg/cards/elderlandwurm.jpg'
       },
       {
-        name: '',
+        name: 'Enchanted Being',
         set: 'Legends',
-        cost: '',
+        cost: '3',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Being',
+        effects: 'Prevent all damage dealt to Enchanted Being by enchanted creatures.',
+        power: '2',
+        toughness: '2',
+        art: 'http://mythicspoiler.com/leg/cards/enchantedbeing.jpg'
       },
       {
-        name: '',
+        name: 'Equinox',
         set: 'Legends',
-        cost: '',
+        cost: '1',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchant Land',
+        effects: 'Enchanted land has "{T}: Counter target spell that would destroy one or more of your lands."',
+        art: 'http://mythicspoiler.com/leg/cards/equinox.jpg'
       },
       {
-        name: '',
+        name: 'Fortified Area',
         set: 'Legends',
-        cost: '',
+        cost: '3',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchantment',
+        effects: 'Walls you control get +1/+0 and have banding.',
+        art: 'http://mythicspoiler.com/leg/cards/fortifiedarea.jpg'
       },
       {
-        name: '',
+        name: 'Glyph of Life',
         set: 'Legends',
-        cost: '',
+        cost: '1',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Instant',
+        effects: 'Until end of turn, whenever target Wall takes damage, you gain that much life.',
+        flavor: 'Any wall can be battered down, but at what cost?',
+        art: 'http://mythicspoiler.com/leg/cards/glyphoflife.jpg'
       },
       {
-        name: '',
+        name: 'Great Defender',
         set: 'Legends',
-        cost: '',
+        cost: '1',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Instant',
+        effects: 'Target creature gets +0/+X, where X is its converted mana cost.',
+        art: 'http://mythicspoiler.com/leg/cards/greatdefender.jpg'
       },
       {
-        name: '',
+        name: 'Great Wall',
         set: 'Legends',
-        cost: '',
+        cost: '3',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchantment',
+        effects: 'Creatures with plainswalk may be blocked as if they didn\'t have plainswalk.',
+        art: 'http://mythicspoiler.com/leg/cards/greatwall.jpg'
       },
       {
-        name: '',
+        name: 'Greater Realm of Preservation',
         set: 'Legends',
-        cost: '',
+        cost: '2',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchantment',
+        effects: '{1W}: Prevent all damage dealt to you from a black or red source.  If that source would deal damage to you multiple times in a turn, you must pay this cost each time to prevent the damage.',
+        art: 'http://mythicspoiler.com/leg/cards/greaterrealmofpreservation.jpg'
       },
       {
-        name: '',
+        name: 'Heaven\'s Gate',
         set: 'Legends',
-        cost: '',
+        cost: '1',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Instant',
+        effects: 'Change the color of one or more target creatures to white until end of turn.',
+        art: 'http://mythicspoiler.com/leg/cards/heavensgate.jpg'
       },
       {
-        name: '',
+        name: 'Holy Day',
         set: 'Legends',
-        cost: '',
+        cost: '1',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Instant',
+        effects: 'Prevent all combat damage that would be dealt this turn.',
+        flavor: '"The day of spirits; my soul\'s calm retreat / Which none disturb!"\n--Henry Vaughan, "Silex Scintillans"',
+        art: 'http://mythicspoiler.com/leg/cards/holyday.jpg'
       },
       {
-        name: '',
+        name: 'Indestructible Aura',
         set: 'Legends',
-        cost: '',
+        cost: '1',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Instant',
+        effects: 'Prevent all damage dealt to target creature until end of turn.',
+        flavor: 'Theodar strode the battle lines, snatching swords with his bare hands and casting them aside until all cowered before him.',
+        art: 'http://mythicspoiler.com/leg/cards/indestructibleaura.jpg'
       },
       {
-        name: '',
+        name: 'Infinite Authority',
         set: 'Legends',
-        cost: '',
+        cost: '3',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchant Creature',
+        effects: 'All creatures with toughness 3 or less that are blocking or blocked by enchanted creature are destroyed at end of combat.  At the beginning of each end step, put a +1/+1 counter on enchanted creature for each creature destroyed this way.',
+        art: 'http://mythicspoiler.com/leg/cards/infiniteauthority.jpg'
       },
       {
-        name: '',
+        name: 'Ivory Guardians',
         set: 'Legends',
-        cost: '',
+        cost: '6',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Guardians',
+        effects: 'Protection from red\nGuardians you control get +1/+1 if an opponent controls a red permanent.',
+        flavor: 'The elite guard of the Mesa High Priests, the Ivory Guardians, were created to protect the innocent and faithful.  Some say their actions are above the law.',
+        power: '3',
+        toughness: '3',
+        art: 'http://mythicspoiler.com/leg/cards/ivoryguardians.jpg'
       },
       {
-        name: '',
+        name: 'Keepers of the Faith',
         set: 'Legends',
-        cost: '',
+        cost: '3',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Keepers',
+        flavor: 'And then the Archangel Anthius spoke to them, saying, "Fear shall be vanquished by the Sword of Faith."',
+        power: '2',
+        toughness: '3',
+        art: 'http://mythicspoiler.com/leg/cards/keepersofthefaith.jpg'
       },
       {
-        name: '',
+        name: 'Kismet',
         set: 'Legends',
-        cost: '',
+        cost: '4',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchantment',
+        effects: 'Artifacts, creatures, and lands your opponents control enter the battlefield tapped.',
+        art: 'http://mythicspoiler.com/leg/cards/kismet.jpg'
       },
       {
-        name: '',
+        name: 'Land Tax',
         set: 'Legends',
-        cost: '',
+        cost: '1',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchantment',
+        effects: 'At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for up to three basic land cards and put them into your hand.  Then shuffle your library.',
+        art: 'http://mythicspoiler.com/leg/cards/landtax.jpg'
       },
       {
-        name: '',
+        name: 'Lifeblood',
         set: 'Legends',
-        cost: '',
+        cost: '4',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchantment',
+        effects: 'Whenever an opponent taps a Mountain, you gain 1 life.',
+        flavor: '"Foolish wizard!  As you tap the power of your lofty keep, so grows my strength."\n--Malvern Xelionos, Letters',
+        art: 'http://mythicspoiler.com/leg/cards/lifeblood.jpg'
       },
       {
-        name: '',
+        name: 'Moat',
         set: 'Legends',
-        cost: '',
+        cost: '4',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchantment',
+        effects: 'Creatures without flying can\'t attack.',
+        flavor: 'The purpose of any moat is to impede attack.  Some are filled with water, some with thistles.  Some are filled with things best left unseen.',
+        art: 'http://mythicspoiler.com/leg/cards/moat.jpg'
       },
       {
-        name: '',
+        name: 'Osai Vultures',
         set: 'Legends',
-        cost: '',
+        cost: '2',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Vultures',
+        effects: 'Flying\nAt the beginning of each end step, if a creature died this turn, put a +1/+1 counter on Osai Vultures.\nRemove two +1/+1 counters from Osai Vultures: Osai Vultures gets +1/+1 until end of turn.',
+        flavor: 'A sign of battle, the Vultures circle and wait for the victorious to depart.',
+        power: '1',
+        toughness: '1',
+        art: 'http://mythicspoiler.com/leg/cards/osaivultures.jpg'
       },
       {
-        name: '',
+        name: 'Petra Sphinx',
         set: 'Legends',
-        cost: '',
+        cost: '5',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Sphinx',
+        effects: '{T}: Target player chooses a card name, then reveals the top card of their library.  If that card matches the chosen name, that player puts it into their hand.  Otherwise, put that card into the graveyard.',
+        flavor: 'What walks on four legs in the morning, two legs in the afternoon, and three legs in the evening?',
+        power: '3',
+        toughness: '4',
+        art: 'http://mythicspoiler.com/leg/cards/petrasphinx.jpg'
       },
       {
-        name: '',
+        name: 'Presence of the Master',
         set: 'Legends',
-        cost: '',
+        cost: '4',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchantment',
+        effects: 'Counter all enchantment spells.',
+        art: 'http://mythicspoiler.com/leg/cards/presenceofthemaster.jpg'
       },
       {
-        name: '',
+        name: 'Rapid Fire',
         set: 'Legends',
-        cost: '',
+        cost: '4',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Instant',
+        effects: 'Target creature gains first strike until end of turn.  If that creature does not have rampage, it gains rampage 2 until end of turn.',
+        art: 'http://mythicspoiler.com/leg/cards/rapidfire.jpg'
       },
       {
-        name: '',
+        name: 'Remove Enchantments',
         set: 'Legends',
-        cost: '',
+        cost: '1',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Instant',
+        effects: 'Return all enchantments you control to your hand.  Destroy all other enchantments.',
+        art: 'http://mythicspoiler.com/leg/cards/removeenchantments.jpg'
       },
       {
-        name: '',
+        name: 'Righteous Avengers',
         set: 'Legends',
-        cost: '',
+        cost: '5',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Avengers',
+        effects: 'Plainswalk',
+        flavor: 'Few can withstand the wrath of the righteous.',
+        power: '3',
+        toughness: '1',
+        art: 'http://mythicspoiler.com/leg/cards/righteousavengers.jpg'
       },
       {
-        name: '',
+        name: 'Seeker',
         set: 'Legends',
-        cost: '',
+        cost: '4',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchant Creature',
+        effects: 'Enchanted creature can\'t be blocked except by white creatures or artifact creatures.',
+        art: 'http://mythicspoiler.com/leg/cards/seeker.jpg'
       },
       {
-        name: '',
+        name: 'Shield Wall',
         set: 'Legends',
-        cost: '',
+        cost: '2',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Instant',
+        effects: 'Creatures you control get +0/+2 until end of turn.',
+        art: 'http://mythicspoiler.com/leg/cards/shieldwall.jpg'
       },
       {
-        name: '',
+        name: 'Spirit Link',
         set: 'Legends',
-        cost: '',
+        cost: '1',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchant Creature',
+        effects: 'Enchanted creature has lifelink.',
+        art: 'http://mythicspoiler.com/leg/cards/spiritlink.jpg'
       },
       {
-        name: '',
+        name: 'Spiritual Sanctuary',
         set: 'Legends',
-        cost: '',
+        cost: '4',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Enchantment',
+        effects: 'All players who control a plains gain 1 life at the beginning of their upkeep.',
+        art: 'http://mythicspoiler.com/leg/cards/spiritualsanctuary.jpg'
       },
       {
-        name: '',
+        name: 'Thunder Spirit',
         set: 'Legends',
-        cost: '',
+        cost: '3',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Spirit',
+        effects: 'First strike, flying',
+        flavor: '"It was full of fire and smoke and light and... it drove between us and the Efrafans like a thousand thunderstorms with lightning."\n--Richard Adams, Watership Down',
+        power: '2',
+        toughness: '1',
+        art: 'http://mythicspoiler.com/leg/cards/thunderspirit.jpg'
       },
       {
-        name: '',
+        name: 'Tundra Wolves',
         set: 'Legends',
-        cost: '',
+        cost: '1',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Wolves',
+        effects: 'First strike',
+        flavor: 'I heard their eerie howling, the wolves calling their kindred across the frozen plains.',
+        power: '1',
+        toughness: '1',
+        art: 'http://mythicspoiler.com/leg/cards/tundrawolves.jpg'
       },
       {
-        name: '',
+        name: 'Visions',
         set: 'Legends',
-        cost: '',
+        cost: '1',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Sorcery',
+        effects: 'You may look at the top five cards of any library.  Then you may shuffle that library.',
+        flavor: '"Visions of glory, spare my aching sight, / Ye unborn ages, crowd not upon my soul!"\n--Thomas Grey, The Bard',
+        art: 'http://mythicspoiler.com/leg/cards/visions.jpg'
       },
       {
-        name: '',
+        name: 'Wall of Caltrops',
         set: 'Legends',
-        cost: '',
+        cost: '2',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Wall',
+        effects: 'If Wall of Caltrops and at least one other Wall block a creature and if there are no non-Wall creatures blocking that creature, Wall of Caltrops gains banding until end of turn.',
+        flavor: '"Ow!  Ow ow ow!  Oooh, ow, OW!"',
+        power: '2',
+        toughness: '1',
+        art: 'http://mythicspoiler.com/leg/cards/wallofcaltrops.jpg'
       },
       {
-        name: '',
+        name: 'Wall of Light',
         set: 'Legends',
-        cost: '',
+        cost: '3',
         color: 'White',
-        supertype: '',
-        effects: '',
-        flavor: '',
-        power: '',
-        toughness: '',
-        art: ''
+        supertype: 'Summon Wall',
+        effects: 'Protection from black',
+        flavor: 'As many attackers were dazzled by the wall\'s beauty as were halted by its force.',
+        power: '1',
+        toughness: '5',
+        art: 'http://mythicspoiler.com/leg/cards/walloflight.jpg'
       },
       {
         name: '',
@@ -530,7 +451,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -542,7 +463,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -554,7 +475,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -566,7 +487,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -578,7 +499,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -590,7 +511,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -602,7 +523,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -614,7 +535,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -626,7 +547,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -638,7 +559,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -650,7 +571,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -662,7 +583,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -674,7 +595,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -686,7 +607,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -698,7 +619,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -710,7 +631,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -722,7 +643,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -734,7 +655,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -746,7 +667,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -758,7 +679,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -770,7 +691,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -782,7 +703,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -794,7 +715,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -806,7 +727,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -818,7 +739,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -830,7 +751,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -842,7 +763,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -854,7 +775,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -866,7 +787,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -878,7 +799,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -890,7 +811,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -902,7 +823,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -914,7 +835,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -926,7 +847,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -938,7 +859,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -950,7 +871,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -962,7 +883,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -974,7 +895,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -986,7 +907,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -998,7 +919,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1010,7 +931,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1022,7 +943,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1034,7 +955,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1046,7 +967,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1058,7 +979,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1070,7 +991,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1082,7 +1003,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1094,7 +1015,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1106,7 +1027,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1118,7 +1039,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1130,7 +1051,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1142,7 +1063,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1154,7 +1075,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1166,7 +1087,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1178,7 +1099,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1190,7 +1111,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1202,7 +1123,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1214,7 +1135,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1226,7 +1147,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1238,7 +1159,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1250,7 +1171,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1262,7 +1183,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1274,7 +1195,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1286,7 +1207,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1298,7 +1219,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1310,7 +1231,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1322,7 +1243,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1334,7 +1255,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1346,7 +1267,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1358,7 +1279,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1370,7 +1291,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1382,7 +1303,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1394,7 +1315,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1406,7 +1327,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1418,7 +1339,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1430,7 +1351,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1442,7 +1363,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1454,7 +1375,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1466,7 +1387,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1478,7 +1399,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1490,7 +1411,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1502,7 +1423,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1514,7 +1435,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1526,7 +1447,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1538,7 +1459,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1550,7 +1471,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1562,7 +1483,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1574,7 +1495,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1586,7 +1507,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1598,7 +1519,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1610,7 +1531,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1622,7 +1543,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1634,7 +1555,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1646,7 +1567,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1658,7 +1579,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1670,7 +1591,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1682,7 +1603,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1694,7 +1615,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1706,7 +1627,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1718,7 +1639,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1730,7 +1651,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1742,7 +1663,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1754,7 +1675,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1766,7 +1687,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1778,7 +1699,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1790,7 +1711,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1802,7 +1723,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1814,7 +1735,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1826,7 +1747,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1838,7 +1759,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1850,7 +1771,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1862,7 +1783,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1874,7 +1795,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1886,7 +1807,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1898,7 +1819,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1910,7 +1831,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1922,7 +1843,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1934,7 +1855,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1946,7 +1867,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1958,7 +1879,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1970,7 +1891,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1982,7 +1903,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -1994,7 +1915,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2006,7 +1927,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2018,7 +1939,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2030,7 +1951,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2042,7 +1963,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2054,7 +1975,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2066,7 +1987,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2078,7 +1999,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2090,7 +2011,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2102,7 +2023,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2114,7 +2035,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2126,7 +2047,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2138,7 +2059,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2150,7 +2071,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2162,7 +2083,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2174,7 +2095,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2186,7 +2107,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2198,7 +2119,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2210,7 +2131,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2222,7 +2143,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2234,7 +2155,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2246,7 +2167,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2258,7 +2179,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2270,7 +2191,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2282,7 +2203,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2294,7 +2215,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2306,7 +2227,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2318,7 +2239,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2330,7 +2251,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2342,7 +2263,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2354,7 +2275,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2366,7 +2287,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2378,7 +2299,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2390,7 +2311,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2402,7 +2323,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2414,7 +2335,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2426,7 +2347,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2438,7 +2359,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2450,7 +2371,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2462,7 +2383,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2474,7 +2395,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2486,7 +2407,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2498,7 +2419,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2510,7 +2431,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2522,7 +2443,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2534,7 +2455,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2546,7 +2467,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2558,7 +2479,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2570,7 +2491,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2582,7 +2503,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2594,7 +2515,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2606,7 +2527,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2618,7 +2539,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2630,7 +2551,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2642,7 +2563,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2654,7 +2575,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2666,7 +2587,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2678,7 +2599,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2690,7 +2611,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2702,7 +2623,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2714,7 +2635,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2726,7 +2647,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2738,7 +2659,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2750,7 +2671,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2762,7 +2683,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2774,7 +2695,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2786,7 +2707,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2798,7 +2719,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2810,7 +2731,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2822,7 +2743,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2834,7 +2755,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2846,7 +2767,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2858,7 +2779,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2870,7 +2791,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2882,7 +2803,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2894,7 +2815,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2906,7 +2827,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2918,7 +2839,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2930,7 +2851,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2942,7 +2863,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2954,7 +2875,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2966,7 +2887,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2978,7 +2899,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -2990,7 +2911,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3002,7 +2923,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3014,7 +2935,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3026,7 +2947,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3038,7 +2959,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3050,7 +2971,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3062,7 +2983,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3074,7 +2995,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3086,7 +3007,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3098,7 +3019,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3110,7 +3031,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3122,7 +3043,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3134,7 +3055,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3146,7 +3067,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3158,7 +3079,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3170,7 +3091,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3182,7 +3103,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3194,7 +3115,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3206,7 +3127,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3218,7 +3139,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3230,7 +3151,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3242,7 +3163,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3254,7 +3175,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3266,7 +3187,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3278,7 +3199,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3290,7 +3211,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3302,7 +3223,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3314,7 +3235,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3326,7 +3247,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3338,7 +3259,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3350,7 +3271,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3362,7 +3283,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3374,7 +3295,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3386,7 +3307,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3398,7 +3319,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3410,7 +3331,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3422,7 +3343,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3434,7 +3355,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3446,7 +3367,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3458,7 +3379,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3470,7 +3391,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3482,7 +3403,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3494,7 +3415,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3506,7 +3427,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3518,7 +3439,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3530,7 +3451,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3542,7 +3463,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3554,7 +3475,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3566,7 +3487,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3578,7 +3499,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3590,7 +3511,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3602,7 +3523,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3614,7 +3535,7 @@ exports.seed = function(knex, Promise) {
         flavor: '',
         power: '',
         toughness: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3623,7 +3544,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         effects: '',
         flavor: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3632,7 +3553,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         effects: '',
         flavor: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3641,7 +3562,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Land',
         effects: '',
         flavor: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3650,7 +3571,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Land',
         effects: '',
         flavor: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3659,7 +3580,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         effects: '',
         flavor: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3668,7 +3589,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Land',
         effects: '',
         flavor: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3677,7 +3598,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         effects: '',
         flavor: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3686,7 +3607,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Land',
         effects: '',
         flavor: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3695,7 +3616,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Land',
         effects: '',
         flavor: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3704,7 +3625,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Land',
         effects: '',
         flavor: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       },
       {
         name: '',
@@ -3713,7 +3634,7 @@ exports.seed = function(knex, Promise) {
         supertype: 'Legendary Land',
         effects: '',
         flavor: '',
-        art: ''
+        art: 'http://mythicspoiler.com/leg/cards/akronlegionnaire.jpg'
       }
     ]);
   });
